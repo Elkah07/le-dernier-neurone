@@ -242,15 +242,24 @@ export default function Game() {
     </header>
 
     {screen === "home" && <section className="hero">
-      <img className="logo" src="/logo-full.png" alt="Le Dernier Neurone" />
-      <p>Prouve qu’il t’en reste au moins un.</p>
-      <button className="primary huge" onClick={() => setScreen("setup")}>JOUER</button>
-      <div className="modes">
-        <button onClick={() => setScreen("setup")}><b>◉ SOLO</b><span>Affronte 3 candidats</span></button>
-        <button onClick={() => setScreen("multi")}><b>⌁ PARTIE PRIVÉE</b><span>Joue sur plusieurs téléphones</span></button>
-        <button disabled><b>♛ TOURNOIS</b><span>La Guerre des Neurones</span></button>
+      <div className="brain-grid" aria-hidden="true"><i /><i /><i /><i /><i /><i /></div>
+      <div className="hero-copy">
+        <span className="show-label">LE QUIZ OÙ CHAQUE RÉPONSE COMPTE</span>
+        <img className="logo" src="/logo-full.png" alt="Le Dernier Neurone" />
+        <p>Il ne doit en rester qu’un.</p>
       </div>
-      <div className="pls"><b>CULTURE EN PLS</b> arrive bientôt — la culture pop sans pitié</div>
+      <div className="modes" aria-label="Choisir un mode de jeu">
+        <button className="mode-card solo-card" onClick={() => setScreen("setup")}>
+          <span className="mode-icon">◉</span><span className="mode-copy"><small>ENTRAÎNEMENT</small><b>SOLO</b><em>Affronte 3 neurones contrôlés par le jeu</em></span><strong>JOUER <i>→</i></strong>
+        </button>
+        <button className="mode-card private-card" onClick={() => setScreen("multi")}>
+          <span className="mode-badge">MODE PRINCIPAL</span><span className="mode-icon">⌁</span><span className="mode-copy"><small>2 À 12 JOUEURS</small><b>PARTIE PRIVÉE</b><em>Crée un salon ou rejoins tes amis avec un code</em></span><strong>COMMENCER <i>→</i></strong>
+        </button>
+        <button className="mode-card tournament-card" disabled>
+          <span className="mode-badge">BIENTÔT</span><span className="mode-icon">♛</span><span className="mode-copy"><small>COMPÉTITION</small><b>TOURNOIS</b><em>La Guerre des Neurones se prépare…</em></span><strong>VERROUILLÉ</strong>
+        </button>
+      </div>
+      <div className="pls"><span>NOUVEAU JEU</span><b>CULTURE EN PLS</b><em>La culture pop sans pitié</em><small>BIENTÔT</small></div>
     </section>}
 
     {screen === "multi" && <section className="panel multiplayer-panel">

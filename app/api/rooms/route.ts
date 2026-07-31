@@ -1,13 +1,34 @@
 import { and, asc, eq } from "drizzle-orm";
 import { getDb } from "../../../db";
-import { roomPlayers, rooms } from "../../../db/schema";
+import { gameAnswers, roomPlayers, rooms } from "../../../db/schema";
+
+const qualificationAnswers = [1, 1, 2, 1, 2, 1, 2, 1, 2, 3, 2, 0, 3, 1, 1, 1, 2, 1, 1, 0];
+const categoryAnswers: Record<string, number[]> = {
+  "Cinéma": [1, 2, 1, 1], Musique: [1, 0, 0, 1], Gaming: [1, 1, 1, 1],
+  Disney: [1, 0, 1, 1], Cuisine: [1, 1, 1, 0], "Années 2000": [0, 1, 2, 1],
+};
+
+function ranked<T extends { score: number; qualificationMs: number; joinedAt: string }>(players: T[]) {
+  return [...players].sort((a, b) => b.score - a.score || a.qualificationMs - b.qualificationMs || a.joinedAt.localeCompare(b.joinedAt));
+}
 
 async function getRoom(code: string) {
   const db = await getDb();
   const [room] = await db.select().from(rooms).where(eq(rooms.code, code.toUpperCase())).limit(1);
   if (!room) return null;
   const players = await db.select().from(roomPlayers).where(eq(roomPlayers.roomId, room.id)).orderBy(asc(roomPlayers.joinedAt));
-  return { ...room, players };
+  const qualification = ranked(players).slice(0, Math.min(3, players.length));
+  const finalists = [...qualification].sort((a, b) => b.categoryScore - a.categoryScore || b.score - a.score || a.qualificationMs - b.qualificationMs).slice(0, 2);
+  const activePool = room.phase.startsWith("final") || room.phase === "finished" ? finalists : qualification;
+  return {
+    ...room,
+    usedThemes: JSON.parse(room.usedThemes || "[]") as string[],
+    selectedCases: JSON.parse(room.selectedCases || "[]") as number[],
+    players,
+    qualifiedIds: qualification.map(player => player.id),
+    finalistIds: finalists.map(player => player.id),
+    activePlayerId: activePool.length ? activePool[room.turnIndex % activePool.length]?.id : null,
+  };
 }
 
 function makeCode() {
@@ -26,9 +47,15 @@ export async function GET(request: Request) {
   }
 }
 
+type ActionBody = {
+  action?: string; code?: string; name?: string; playerId?: string; color?: string;
+  questionIndex?: number; answerIndex?: number; elapsedMs?: number; estimate?: number;
+  theme?: string; caseIndex?: number;
+};
+
 export async function POST(request: Request) {
   try {
-    const body = await request.json() as { action?: string; code?: string; name?: string; playerId?: string; color?: string };
+    const body = await request.json() as ActionBody;
     const db = await getDb();
     const name = body.name?.trim().slice(0, 12).toUpperCase();
 
@@ -64,7 +91,7 @@ export async function POST(request: Request) {
     }
 
     if (!body.playerId) return Response.json({ error: "Joueur manquant" }, { status: 400 });
-    const player = room.players.find(p => p.id === body.playerId);
+    const player = room.players.find(item => item.id === body.playerId);
     if (!player) return Response.json({ error: "Joueur introuvable" }, { status: 404 });
 
     if (body.action === "ready") {
@@ -72,8 +99,72 @@ export async function POST(request: Request) {
     } else if (body.action === "start") {
       if (room.hostPlayerId !== player.id) return Response.json({ error: "Seul l’hôte peut lancer" }, { status: 403 });
       if (room.players.length < 2) return Response.json({ error: "Il faut au moins 2 joueurs" }, { status: 409 });
-      if (room.players.some(p => !p.ready)) return Response.json({ error: "Tous les joueurs ne sont pas prêts" }, { status: 409 });
-      await db.update(rooms).set({ status: "playing", startedAt: new Date().toISOString() }).where(eq(rooms.id, room.id));
+      if (room.players.some(item => !item.ready)) return Response.json({ error: "Tous les joueurs ne sont pas prêts" }, { status: 409 });
+      await db.batch([
+        db.update(rooms).set({ status: "playing", phase: "qualification", startedAt: new Date().toISOString(), phaseStartedAt: new Date().toISOString(), turnIndex: 0, round: 1, usedThemes: "[]", selectedCases: "[]", activeCase: null }).where(eq(rooms.id, room.id)),
+        db.update(roomPlayers).set({ score: 0, qualificationAnswered: 0, qualificationMs: 0, estimate: null, categoryScore: 0, categoryAnswered: 0, finalScore: 0 }).where(eq(roomPlayers.roomId, room.id)),
+      ]);
+    } else if (body.action === "qualification-answer") {
+      if (room.phase !== "qualification") return Response.json({ error: "Les qualifications sont terminées" }, { status: 409 });
+      const questionIndex = body.questionIndex ?? -1;
+      if (questionIndex !== player.qualificationAnswered || questionIndex < 0 || questionIndex >= qualificationAnswers.length) return Response.json({ error: "Réponse déjà reçue ou question invalide" }, { status: 409 });
+      const correct = body.answerIndex === qualificationAnswers[questionIndex];
+      await db.batch([
+        db.insert(gameAnswers).values({ id: crypto.randomUUID(), roomId: room.id, playerId: player.id, phase: "qualification", questionKey: String(questionIndex), answerIndex: body.answerIndex ?? -1, correct, responseMs: Math.max(0, body.elapsedMs || 0) }),
+        db.update(roomPlayers).set({ qualificationAnswered: questionIndex + 1, qualificationMs: player.qualificationMs + Math.max(0, body.elapsedMs || 0), score: player.score + (correct ? 1 : 0) }).where(eq(roomPlayers.id, player.id)),
+      ]);
+      const updated = await getRoom(code);
+      if (updated?.players.every(item => item.qualificationAnswered >= 20)) await db.update(rooms).set({ phase: "estimate", phaseStartedAt: new Date().toISOString() }).where(eq(rooms.id, room.id));
+    } else if (body.action === "estimate") {
+      if (room.phase !== "estimate" || !room.qualifiedIds.includes(player.id)) return Response.json({ error: "Estimation indisponible" }, { status: 409 });
+      await db.update(roomPlayers).set({ estimate: Math.max(0, Math.round(body.estimate || 0)) }).where(eq(roomPlayers.id, player.id));
+      const updated = await getRoom(code);
+      const qualified = updated?.players.filter(item => updated.qualifiedIds.includes(item.id)) || [];
+      if (qualified.length && qualified.every(item => item.estimate !== null)) {
+        const ordered = [...qualified].sort((a, b) => Math.abs((a.estimate || 0) - 384400) - Math.abs((b.estimate || 0) - 384400));
+        await db.update(rooms).set({ phase: "category-select", turnIndex: updated!.qualifiedIds.indexOf(ordered[0].id), round: 1, phaseStartedAt: new Date().toISOString() }).where(eq(rooms.id, room.id));
+      }
+    } else if (body.action === "choose-theme") {
+      if (room.phase !== "category-select" || room.activePlayerId !== player.id || !body.theme || !categoryAnswers[body.theme] || room.usedThemes.includes(body.theme)) return Response.json({ error: "Ce thème ne peut pas être choisi" }, { status: 409 });
+      await db.update(rooms).set({ phase: "category-playing", currentTheme: body.theme, usedThemes: JSON.stringify([...room.usedThemes, body.theme]), phaseStartedAt: new Date().toISOString() }).where(eq(rooms.id, room.id));
+    } else if (body.action === "category-answer") {
+      if (room.phase !== "category-playing" || room.activePlayerId !== player.id || !room.currentTheme) return Response.json({ error: "Ce n’est pas ton tour" }, { status: 409 });
+      const questionIndex = Math.max(0, body.questionIndex || 0);
+      const answerKey = `${room.turnIndex}-${questionIndex}`;
+      const [existing] = await db.select().from(gameAnswers).where(and(eq(gameAnswers.roomId, room.id), eq(gameAnswers.playerId, player.id), eq(gameAnswers.phase, "category"), eq(gameAnswers.questionKey, answerKey))).limit(1);
+      if (existing) return Response.json({ error: "Réponse déjà reçue" }, { status: 409 });
+      const answers = categoryAnswers[room.currentTheme];
+      const correct = body.answerIndex === answers[questionIndex % answers.length];
+      await db.batch([
+        db.insert(gameAnswers).values({ id: crypto.randomUUID(), roomId: room.id, playerId: player.id, phase: "category", questionKey: answerKey, answerIndex: body.answerIndex ?? -1, correct, responseMs: Math.max(0, body.elapsedMs || 0) }),
+        db.update(roomPlayers).set({ categoryAnswered: player.categoryAnswered + 1, categoryScore: player.categoryScore + (correct ? 1 : 0) }).where(eq(roomPlayers.id, player.id)),
+      ]);
+    } else if (body.action === "end-category") {
+      if (room.phase !== "category-playing" || room.activePlayerId !== player.id) return Response.json({ error: "Ce n’est pas ton tour" }, { status: 409 });
+      const nextTurn = room.turnIndex + 1;
+      const totalTurns = room.qualifiedIds.length * 2;
+      await db.update(rooms).set(nextTurn >= totalTurns
+        ? { phase: "final-intro", turnIndex: 0, round: 1, currentTheme: null, phaseStartedAt: new Date().toISOString() }
+        : { phase: "category-select", turnIndex: nextTurn, round: Math.floor(nextTurn / room.qualifiedIds.length) + 1, currentTheme: null, phaseStartedAt: new Date().toISOString() }
+      ).where(eq(rooms.id, room.id));
+    } else if (body.action === "start-final") {
+      if (room.phase !== "final-intro" || !room.finalistIds.includes(player.id)) return Response.json({ error: "Finale indisponible" }, { status: 409 });
+      await db.update(rooms).set({ phase: "final-pick", turnIndex: 0, phaseStartedAt: new Date().toISOString() }).where(eq(rooms.id, room.id));
+    } else if (body.action === "choose-case") {
+      const caseIndex = body.caseIndex ?? -1;
+      if (room.phase !== "final-pick" || room.activePlayerId !== player.id || caseIndex < 0 || caseIndex >= 16 || room.selectedCases.includes(caseIndex)) return Response.json({ error: "Cette case n’est pas disponible" }, { status: 409 });
+      await db.update(rooms).set({ phase: "final-answer", activeCase: caseIndex, selectedCases: JSON.stringify([...room.selectedCases, caseIndex]), phaseStartedAt: new Date().toISOString() }).where(eq(rooms.id, room.id));
+    } else if (body.action === "final-answer") {
+      if (room.phase !== "final-answer" || room.activePlayerId !== player.id || room.activeCase === null) return Response.json({ error: "Ce n’est pas ton tour" }, { status: 409 });
+      const questionIndex = (19 - room.turnIndex + 40) % 20;
+      const correct = body.answerIndex === qualificationAnswers[questionIndex];
+      const points = room.activeCase % 4 === 0 ? 3 : room.activeCase % 3 === 0 ? 2 : 1;
+      const nextTurn = room.turnIndex + 1;
+      await db.batch([
+        db.insert(gameAnswers).values({ id: crypto.randomUUID(), roomId: room.id, playerId: player.id, phase: "final", questionKey: String(room.turnIndex), answerIndex: body.answerIndex ?? -1, correct, responseMs: Math.max(0, body.elapsedMs || 0) }),
+        db.update(roomPlayers).set({ finalScore: player.finalScore + (correct ? points : 0) }).where(eq(roomPlayers.id, player.id)),
+        db.update(rooms).set({ phase: nextTurn >= 12 ? "finished" : "final-pick", turnIndex: nextTurn, activeCase: null, status: nextTurn >= 12 ? "finished" : "playing", phaseStartedAt: new Date().toISOString() }).where(eq(rooms.id, room.id)),
+      ]);
     } else if (body.action === "leave") {
       await db.delete(roomPlayers).where(and(eq(roomPlayers.id, player.id), eq(roomPlayers.roomId, room.id)));
     } else {

@@ -1,11 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import MultiplayerGame from "./multiplayer-game";
 
-type Screen = "home" | "setup" | "multi" | "createRoom" | "joinRoom" | "lobby" | "qualify" | "qualified" | "estimate" | "categories" | "speed" | "roundResult" | "finalIntro" | "final" | "victory" | "creator";
+type Screen = "home" | "setup" | "multi" | "createRoom" | "joinRoom" | "lobby" | "multiGame" | "qualify" | "qualified" | "estimate" | "categories" | "speed" | "roundResult" | "finalIntro" | "final" | "victory" | "creator";
 type Question = { q: string; choices: string[]; answer: number; category: string };
-type RoomPlayer = { id: string; name: string; color: string; ready: boolean; score: number };
-type RoomData = { id: string; code: string; status: string; hostPlayerId: string; players: RoomPlayer[] };
+type RoomPlayer = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number };
+type RoomData = { id: string; code: string; status: string; phase: string; hostPlayerId: string; round: number; turnIndex: number; currentTheme: string | null; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: RoomPlayer[] };
 
 const questions: Question[] = [
   { q: "Quelle planète est surnommée la planète rouge ?", choices: ["Vénus", "Mars", "Jupiter", "Mercure"], answer: 1, category: "Sciences" },
@@ -109,7 +110,7 @@ export default function Game() {
 
   useEffect(() => {
     if (screen !== "final" || finalTurn >= 12 || finalTurn % 2 === 0 || activeCase !== null) return;
-    setAiPicking(true);
+    const startTimer = window.setTimeout(() => setAiPicking(true), 0);
     const available = Array.from({ length: 16 }, (_, i) => i).filter(i => !cases.includes(i));
     const chosen = available[Math.floor(Math.random() * available.length)];
     const chooseTimer = window.setTimeout(() => {
@@ -125,7 +126,7 @@ export default function Game() {
       setFinalTurn(turn);
       if (turn === 12) window.setTimeout(() => setScreen("victory"), 450);
     }, 2100);
-    return () => { window.clearTimeout(chooseTimer); window.clearTimeout(answerTimer); };
+    return () => { window.clearTimeout(startTimer); window.clearTimeout(chooseTimer); window.clearTimeout(answerTimer); };
   }, [screen, finalTurn]);
 
   useEffect(() => {
@@ -135,11 +136,24 @@ export default function Game() {
       if (!response.ok) return;
       const data = await response.json() as { room: RoomData };
       setRoom(data.room);
-      if (data.room.status === "playing") { reset(); setScreen("qualify"); }
+      if (data.room.status !== "lobby") setScreen("multiGame");
     };
     const timer = window.setInterval(refresh, 1500);
     return () => window.clearInterval(timer);
   }, [screen, room?.code]);
+
+  useEffect(() => {
+    const savedCode = window.localStorage.getItem("ldn-room-code");
+    const savedPlayer = window.localStorage.getItem("ldn-player-id");
+    if (!savedCode || !savedPlayer) return;
+    fetch(`/api/rooms?code=${savedCode}`, { cache: "no-store" }).then(async response => {
+      if (!response.ok) return;
+      const data = await response.json() as { room: RoomData };
+      if (!data.room.players.some(player => player.id === savedPlayer)) return;
+      setRoom(data.room); setRoomCode(savedCode); setPlayerId(savedPlayer);
+      setScreen(data.room.status === "lobby" ? "lobby" : "multiGame");
+    }).catch(() => undefined);
+  }, []);
 
   async function roomAction(action: "create" | "join" | "ready" | "start") {
     setRoomLoading(true); setRoomError("");
@@ -148,10 +162,14 @@ export default function Game() {
       const data = await response.json() as { room?: RoomData; playerId?: string; error?: string };
       if (!response.ok || !data.room) throw new Error(data.error || "Impossible de rejoindre le salon");
       setRoom(data.room);
-      if (data.playerId) setPlayerId(data.playerId);
+      if (data.playerId) {
+        setPlayerId(data.playerId);
+        window.localStorage.setItem("ldn-player-id", data.playerId);
+        window.localStorage.setItem("ldn-room-code", data.room.code);
+      }
       setRoomCode(data.room.code);
       if (action === "create" || action === "join") setScreen("lobby");
-      if (data.room.status === "playing") { reset(); setScreen("qualify"); }
+      if (data.room.status !== "lobby") setScreen("multiGame");
     } catch (error) { setRoomError(error instanceof Error ? error.message : "Une erreur est survenue"); }
     finally { setRoomLoading(false); }
   }
@@ -196,7 +214,7 @@ export default function Game() {
   return <main className={`game ${screen === "home" ? "is-home" : ""}`}>
     <header>
       <button className="mini-brand" onClick={() => setScreen("home")}><img src="/app-icon.png" alt="" /><span>LE DERNIER NEURONE</span></button>
-      {screen !== "home" && <small>DÉMO SOLO</small>}
+      {screen !== "home" && <small>{room && ["lobby","multiGame"].includes(screen) ? "MULTIJOUEUR" : "DÉMO SOLO"}</small>}
       <button className="settings" onClick={() => setScreen("creator")}>⚙</button>
     </header>
 
@@ -245,6 +263,11 @@ export default function Game() {
         : <button className={room.players.find(p => p.id === playerId)?.ready ? "secondary ready-button" : "primary"} disabled={roomLoading} onClick={() => roomAction("ready")}>{room.players.find(p => p.id === playerId)?.ready ? "JE NE SUIS PLUS PRÊT" : "JE SUIS PRÊT"}</button>}
       <p className="waiting-note">{playerId === room.hostPlayerId ? "Le bouton s’active lorsque tout le monde est prêt." : "La partie démarrera automatiquement quand l’hôte la lancera."}</p>
     </section>}
+
+    {screen === "multiGame" && room && playerId && <MultiplayerGame initialRoom={room} playerId={playerId} onExit={() => {
+      window.localStorage.removeItem("ldn-room-code"); window.localStorage.removeItem("ldn-player-id");
+      setRoom(null); setPlayerId(""); reset(); setScreen("home");
+    }} />}
 
     {screen === "setup" && <section className="panel">
       <p className="eyebrow">PRÉPARE TON PUPITRE</p><h1>Ton candidat</h1>

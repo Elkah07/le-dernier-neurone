@@ -3,8 +3,14 @@
   "short_name": "Dernier Neurone",
   "description": "Prouve qu’il t’en reste au moins un.",
   "start_url": "/",
+  "scope": "/",
+  "id": "/",
   "display": "standalone",
   "background_color": "#03051b",
   "theme_color": "#080326",
-  "icons": [{"src":"/app-icon.png","sizes":"1024x1024","type":"image/png","purpose":"any maskable"}]
+  "icons": [
+    {"src":"/app-icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"/app-icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"/app-icon-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
 }

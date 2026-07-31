@@ -11,7 +11,13 @@ export const allQuestions: GameQuestion[] = bank.map(item => ({
   difficulty: item.difficulty,
 }));
 
-export const qualificationQuestions = allQuestions.slice(0, 20);
+function stableOrder(question: GameQuestion) {
+  let hash = 2166136261;
+  for (const character of question.id) hash = Math.imul(hash ^ character.charCodeAt(0), 16777619);
+  return hash >>> 0;
+}
+
+export const qualificationQuestions = [...allQuestions].sort((a, b) => stableOrder(a) - stableOrder(b)).slice(0, 20);
 
 const categoryMapping: Record<string, string> = {
   "Cinéma": "Cinéma",

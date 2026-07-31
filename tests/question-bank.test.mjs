@@ -19,3 +19,13 @@ test("tous les thèmes modernes demandés sont représentés", () => {
     assert.ok(bank.some(question => question.category === category), `thème manquant: ${category}`);
   }
 });
+
+test("les métadonnées éditoriales sont reconnues", () => {
+  const difficulties = new Set(["easy", "medium", "hard"]);
+  for (const question of bank) {
+    assert.ok(question.id && typeof question.id === "string");
+    assert.ok(question.category && typeof question.category === "string");
+    assert.ok(difficulties.has(question.difficulty), `difficulté inconnue: ${question.difficulty}`);
+    assert.ok(question.choices.every(choice => choice.trim().length > 0));
+  }
+});

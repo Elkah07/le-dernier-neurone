@@ -2,10 +2,11 @@
 
 import { useEffect, useState } from "react";
 import MultiplayerGame from "./multiplayer-game";
-import { qualificationQuestions, themeQuestions, type GameQuestion } from "./question-bank";
+import { allQuestions, qualificationQuestions, themeQuestions, type GameQuestion } from "./question-bank";
 
-type Screen = "home" | "setup" | "multi" | "createRoom" | "joinRoom" | "lobby" | "multiGame" | "qualify" | "qualified" | "estimate" | "categories" | "speed" | "roundResult" | "finalIntro" | "final" | "victory" | "creator";
+type Screen = "home" | "setup" | "multi" | "createRoom" | "joinRoom" | "lobby" | "multiGame" | "qualify" | "qualified" | "estimate" | "categories" | "speed" | "roundResult" | "finalIntro" | "final" | "victory" | "creator" | "questionAudit";
 type Question = GameQuestion;
+type QuestionReport = { questionId: string; reason: string; correction: string; createdAt: string };
 type RoomPlayer = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number };
 type RoomData = { id: string; code: string; status: string; phase: string; hostPlayerId: string; round: number; turnIndex: number; currentTheme: string | null; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: RoomPlayer[] };
 
@@ -104,6 +105,13 @@ export default function Game() {
   const [playerId, setPlayerId] = useState("");
   const [roomError, setRoomError] = useState("");
   const [roomLoading, setRoomLoading] = useState(false);
+  const [auditCategory, setAuditCategory] = useState("Tous les thèmes");
+  const [auditIndex, setAuditIndex] = useState(0);
+  const [reportReason, setReportReason] = useState("Mauvaises réponses incohérentes");
+  const [reportCorrection, setReportCorrection] = useState("");
+  const [questionReports, setQuestionReports] = useState<QuestionReport[]>([]);
+  const auditedQuestions = auditCategory === "Tous les thèmes" ? allQuestions : allQuestions.filter(question => question.category === auditCategory);
+  const auditedQuestion = auditedQuestions[Math.min(auditIndex, Math.max(0, auditedQuestions.length - 1))];
 
   const current = screen === "qualify" ? questions[index] : themes[theme]?.[index];
 
@@ -160,6 +168,30 @@ export default function Game() {
       setScreen(data.room.status === "lobby" ? "lobby" : "multiGame");
     }).catch(() => undefined);
   }, []);
+
+  useEffect(() => {
+    try {
+      const saved = window.localStorage.getItem("ldn-question-reports");
+      if (saved) setQuestionReports(JSON.parse(saved) as QuestionReport[]);
+    } catch { /* Le jeu reste utilisable si le stockage local est bloqué. */ }
+  }, []);
+
+  function saveQuestionReport() {
+    if (!auditedQuestion) return;
+    const next = [...questionReports.filter(report => report.questionId !== auditedQuestion.id), { questionId: auditedQuestion.id, reason: reportReason, correction: reportCorrection.trim(), createdAt: new Date().toISOString() }];
+    setQuestionReports(next);
+    window.localStorage.setItem("ldn-question-reports", JSON.stringify(next));
+    setReportCorrection("");
+    setAuditIndex(value => Math.min(value + 1, auditedQuestions.length - 1));
+  }
+
+  function exportQuestionReports() {
+    const payload = questionReports.map(report => ({ ...report, question: allQuestions.find(question => question.id === report.questionId) }));
+    const url = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" }));
+    const link = document.createElement("a");
+    link.href = url; link.download = "signalements-questions.json"; link.click();
+    URL.revokeObjectURL(url);
+  }
 
   async function roomAction(action: "create" | "join" | "ready" | "start") {
     setRoomLoading(true); setRoomError("");
@@ -355,7 +387,19 @@ export default function Game() {
       <p className="eyebrow">MODE CRÉATEUR</p><h1>Tester une étape</h1><p className="muted">Accès rapide à tous les écrans.</p>
       <div className="creator">{[["Qualifications","qualify"],["Classement","qualified"],["Estimation","estimate"],["Catégories","categories"],["Finalistes","finalIntro"],["Finale","final"],["Victoire","victory"]].map(([label,target]) =>
         <button key={target} onClick={() => { if(target==="qualify") reset(); setScreen(target as Screen); }}>{label}</button>)}</div>
+      <button className="primary" onClick={() => setScreen("questionAudit")}>CONTRÔLER LES 1 000 QUESTIONS</button>
+      <p className="muted">{questionReports.length} question{questionReports.length > 1 ? "s" : ""} signalée{questionReports.length > 1 ? "s" : ""} sur cet appareil.</p>
       <button className="secondary" onClick={() => setScreen("home")}>FERMER</button>
+    </section>}
+
+    {screen === "questionAudit" && auditedQuestion && <section className="wide audit-panel">
+      <p className="eyebrow">CONTRÔLE ÉDITORIAL</p><h1>Question {auditIndex + 1}/{auditedQuestions.length}</h1>
+      <div className="audit-toolbar"><select value={auditCategory} onChange={event => { setAuditCategory(event.target.value); setAuditIndex(0); }}><option>Tous les thèmes</option>{[...new Set(allQuestions.map(question => question.category))].sort().map(category => <option key={category}>{category}</option>)}</select><input aria-label="Numéro de question" type="number" min="1" max={auditedQuestions.length} value={auditIndex + 1} onChange={event => setAuditIndex(Math.max(0, Math.min(auditedQuestions.length - 1, Number(event.target.value) - 1)))} /></div>
+      <div className="audit-question"><small>{auditedQuestion.id} · {auditedQuestion.category} · {auditedQuestion.difficulty}</small><h2>{auditedQuestion.q}</h2><div className="audit-choices">{auditedQuestion.choices.map((choice, choiceIndex) => <div className={choiceIndex === auditedQuestion.answer ? "correct" : ""} key={choice}><b>{String.fromCharCode(65 + choiceIndex)}</b>{choice}{choiceIndex === auditedQuestion.answer && <span>RÉPONSE ACTUELLE</span>}</div>)}</div></div>
+      <div className="audit-actions"><button className="secondary" disabled={auditIndex === 0} onClick={() => setAuditIndex(value => value - 1)}>← PRÉCÉDENTE</button><button className="primary" onClick={() => setAuditIndex(value => Math.min(value + 1, auditedQuestions.length - 1))}>QUESTION OK · SUIVANTE</button></div>
+      <div className="report-box"><h2>Signaler cette question</h2><select value={reportReason} onChange={event => setReportReason(event.target.value)}><option>Mauvaises réponses incohérentes</option><option>Réponse actuelle incorrecte</option><option>Question ambiguë</option><option>Question datée ou évolutive</option><option>Doublon</option><option>Formulation à corriger</option><option>Mauvaise difficulté ou catégorie</option></select><textarea value={reportCorrection} onChange={event => setReportCorrection(event.target.value)} placeholder="Correction proposée ou explication (facultatif)" /><button className="danger-button" onClick={saveQuestionReport}>ENREGISTRER LE SIGNALEMENT</button></div>
+      {questionReports.length > 0 && <button className="secondary" onClick={exportQuestionReports}>EXPORTER LES {questionReports.length} SIGNALEMENTS</button>}
+      <button className="text-button" onClick={() => setScreen("creator")}>Retour au mode créateur</button>
     </section>}
   </main>;
 }

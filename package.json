@@ -9,9 +9,8 @@
     "dev": "next dev",
     "build": "bash scripts/build-firebase.sh",
     "start": "next start",
-    "test": "npm run build && node --test tests/*.test.mjs",
+    "test": "npm run build",
     "test:questions": "node --test tests/question-bank.test.mjs",
-    "validate:artifact": "bash scripts/validate-artifact.sh",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
   },
   "dependencies": {

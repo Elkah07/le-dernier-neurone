@@ -1,0 +1,24 @@
+AVANT DE COPIER CE PROJET, SUPPRIMER DE L'ANCIEN DEPOT :
+
+Dossiers :
+- .openai
+- app/api
+- build
+- db
+- dist
+- drizzle
+- examples
+- worker
+
+Fichiers :
+- drizzle.config.ts
+- vite.config.ts
+- wrangler.jsonc
+
+Ne pas supprimer :
+- .firebaserc
+- firebase.json
+- database.rules.json
+
+La solution la plus propre consiste a remplacer tout le contenu de l'ancien
+depot par le contenu de ce ZIP, en conservant uniquement le dossier .git.

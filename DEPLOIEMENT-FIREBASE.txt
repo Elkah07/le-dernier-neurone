@@ -1,0 +1,8 @@
+1. Copier le contenu de ce dossier a la racine du depot.
+2. Executer : npm install
+3. Executer : npm run build
+4. Verifier que dist/index.html existe.
+5. Executer : firebase deploy --only hosting,database
+
+Le build est volontairement statique : aucun forfait Blaze ni App Hosting
+n'est necessaire.

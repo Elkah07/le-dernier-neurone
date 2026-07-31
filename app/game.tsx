@@ -2,13 +2,18 @@
 
 import { useEffect, useState } from "react";
 import MultiplayerGame from "./multiplayer-game";
+import { qualificationQuestions, themeQuestions, type GameQuestion } from "./question-bank";
 
 type Screen = "home" | "setup" | "multi" | "createRoom" | "joinRoom" | "lobby" | "multiGame" | "qualify" | "qualified" | "estimate" | "categories" | "speed" | "roundResult" | "finalIntro" | "final" | "victory" | "creator";
-type Question = { q: string; choices: string[]; answer: number; category: string };
+type Question = GameQuestion;
 type RoomPlayer = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number };
 type RoomData = { id: string; code: string; status: string; phase: string; hostPlayerId: string; round: number; turnIndex: number; currentTheme: string | null; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: RoomPlayer[] };
 
-const questions: Question[] = [
+const questions = qualificationQuestions;
+const themes = themeQuestions;
+
+/* Ancienne mini-base conservée dans l'historique Git ; la base active est désormais centralisée.
+const legacyQuestions: Question[] = [
   { q: "Quelle planète est surnommée la planète rouge ?", choices: ["Vénus", "Mars", "Jupiter", "Mercure"], answer: 1, category: "Sciences" },
   { q: "Qui a réalisé le film Titanic ?", choices: ["Steven Spielberg", "James Cameron", "Ridley Scott", "Peter Jackson"], answer: 1, category: "Cinéma" },
   { q: "Dans quel jeu trouve-t-on le royaume d’Hyrule ?", choices: ["Final Fantasy", "Minecraft", "The Legend of Zelda", "Pokémon"], answer: 2, category: "Gaming" },
@@ -31,7 +36,7 @@ const questions: Question[] = [
   { q: "Quelle entreprise possède Twitch ?", choices: ["Amazon", "Apple", "Microsoft", "Meta"], answer: 0, category: "Web" },
 ];
 
-const themes: Record<string, Question[]> = {
+const legacyThemes: Record<string, Question[]> = {
   Cinéma: [
     { q: "Quel acteur incarne Jack Sparrow ?", choices: ["Brad Pitt", "Johnny Depp", "Tom Cruise", "Matt Damon"], answer: 1, category: "Cinéma" },
     { q: "Dans quelle saga trouve-t-on la Terre du Milieu ?", choices: ["Harry Potter", "Star Wars", "Le Seigneur des anneaux", "Narnia"], answer: 2, category: "Cinéma" },
@@ -69,6 +74,7 @@ const themes: Record<string, Question[]> = {
     { q: "Quelle console Nintendo est sortie en Europe en 2006 ?", choices: ["GameCube", "Wii", "Switch", "DS"], answer: 1, category: "Années 2000" },
   ],
 };
+*/
 
 function Answers({ question, onAnswer }: { question: Question; onAnswer: (i: number) => void }) {
   return <div className="answers">{question.choices.map((choice, i) =>
@@ -99,7 +105,7 @@ export default function Game() {
   const [roomError, setRoomError] = useState("");
   const [roomLoading, setRoomLoading] = useState(false);
 
-  const current = screen === "qualify" ? questions[index] : themes[theme]?.[index % 4];
+  const current = screen === "qualify" ? questions[index] : themes[theme]?.[index];
 
   useEffect(() => {
     if (!["qualify", "speed"].includes(screen)) return;
@@ -182,7 +188,7 @@ export default function Game() {
     if (screen === "qualify") {
       if (index === 19) setScreen("qualified"); else { setIndex(v => v + 1); setTime(10); }
     } else {
-      if (index === 7 || time <= 0) setScreen("roundResult"); else setIndex(v => v + 1);
+      if (time <= 0 || index >= (themes[theme]?.length || 1) - 1) setScreen("roundResult"); else setIndex(v => v + 1);
     }
   }
   function answer(i: number) {
@@ -304,7 +310,7 @@ export default function Game() {
       <p className="eyebrow">ÉPREUVE DES CATÉGORIES · TOUR {round}/2</p><h1>Choisis ton terrain</h1>
       <p className="muted">90 secondes. Un maximum de bonnes réponses. Chaque thème ne peut être joué qu’une fois.</p>
       <div className="themes">{Object.keys(themes).map((t,i) =>
-        <button disabled={used.includes(t)} onClick={() => chooseTheme(t)} key={t}><span>{["🎬","♫","🎮","✦","🍴","⌛"][i]}</span><b>{t}</b><small>{used.includes(t) ? "DÉJÀ JOUÉ" : "CHOISIR"}</small></button>)}
+        <button disabled={used.includes(t)} onClick={() => chooseTheme(t)} key={t}><span>{["🎬","♫","🎮","✦","◆","⌛","★","▶","▣","🍴"][i]}</span><b>{t}</b><small>{used.includes(t) ? "DÉJÀ JOUÉ" : "CHOISIR"}</small></button>)}
       </div>
     </section>}
 

@@ -1,12 +1,7 @@
 import { and, asc, eq } from "drizzle-orm";
 import { getDb } from "../../../db";
 import { gameAnswers, roomPlayers, rooms } from "../../../db/schema";
-
-const qualificationAnswers = [1, 1, 2, 1, 2, 1, 2, 1, 2, 3, 2, 0, 3, 1, 1, 1, 2, 1, 1, 0];
-const categoryAnswers: Record<string, number[]> = {
-  "Cinéma": [1, 2, 1, 1], Musique: [1, 0, 0, 1], Gaming: [1, 1, 1, 1],
-  Disney: [1, 0, 1, 1], Cuisine: [1, 1, 1, 0], "Années 2000": [0, 1, 2, 1],
-};
+import { qualificationQuestions, themeQuestions } from "../../question-bank";
 
 function ranked<T extends { score: number; qualificationMs: number; joinedAt: string }>(players: T[]) {
   return [...players].sort((a, b) => b.score - a.score || a.qualificationMs - b.qualificationMs || a.joinedAt.localeCompare(b.joinedAt));
@@ -107,8 +102,8 @@ export async function POST(request: Request) {
     } else if (body.action === "qualification-answer") {
       if (room.phase !== "qualification") return Response.json({ error: "Les qualifications sont terminées" }, { status: 409 });
       const questionIndex = body.questionIndex ?? -1;
-      if (questionIndex !== player.qualificationAnswered || questionIndex < 0 || questionIndex >= qualificationAnswers.length) return Response.json({ error: "Réponse déjà reçue ou question invalide" }, { status: 409 });
-      const correct = body.answerIndex === qualificationAnswers[questionIndex];
+      if (questionIndex !== player.qualificationAnswered || questionIndex < 0 || questionIndex >= qualificationQuestions.length) return Response.json({ error: "Réponse déjà reçue ou question invalide" }, { status: 409 });
+      const correct = body.answerIndex === qualificationQuestions[questionIndex].answer;
       await db.batch([
         db.insert(gameAnswers).values({ id: crypto.randomUUID(), roomId: room.id, playerId: player.id, phase: "qualification", questionKey: String(questionIndex), answerIndex: body.answerIndex ?? -1, correct, responseMs: Math.max(0, body.elapsedMs || 0) }),
         db.update(roomPlayers).set({ qualificationAnswered: questionIndex + 1, qualificationMs: player.qualificationMs + Math.max(0, body.elapsedMs || 0), score: player.score + (correct ? 1 : 0) }).where(eq(roomPlayers.id, player.id)),
@@ -125,7 +120,7 @@ export async function POST(request: Request) {
         await db.update(rooms).set({ phase: "category-select", turnIndex: updated!.qualifiedIds.indexOf(ordered[0].id), round: 1, phaseStartedAt: new Date().toISOString() }).where(eq(rooms.id, room.id));
       }
     } else if (body.action === "choose-theme") {
-      if (room.phase !== "category-select" || room.activePlayerId !== player.id || !body.theme || !categoryAnswers[body.theme] || room.usedThemes.includes(body.theme)) return Response.json({ error: "Ce thème ne peut pas être choisi" }, { status: 409 });
+      if (room.phase !== "category-select" || room.activePlayerId !== player.id || !body.theme || !themeQuestions[body.theme]?.length || room.usedThemes.includes(body.theme)) return Response.json({ error: "Ce thème ne peut pas être choisi" }, { status: 409 });
       await db.update(rooms).set({ phase: "category-playing", currentTheme: body.theme, usedThemes: JSON.stringify([...room.usedThemes, body.theme]), phaseStartedAt: new Date().toISOString() }).where(eq(rooms.id, room.id));
     } else if (body.action === "category-answer") {
       if (room.phase !== "category-playing" || room.activePlayerId !== player.id || !room.currentTheme) return Response.json({ error: "Ce n’est pas ton tour" }, { status: 409 });
@@ -133,8 +128,9 @@ export async function POST(request: Request) {
       const answerKey = `${room.turnIndex}-${questionIndex}`;
       const [existing] = await db.select().from(gameAnswers).where(and(eq(gameAnswers.roomId, room.id), eq(gameAnswers.playerId, player.id), eq(gameAnswers.phase, "category"), eq(gameAnswers.questionKey, answerKey))).limit(1);
       if (existing) return Response.json({ error: "Réponse déjà reçue" }, { status: 409 });
-      const answers = categoryAnswers[room.currentTheme];
-      const correct = body.answerIndex === answers[questionIndex % answers.length];
+      const questions = themeQuestions[room.currentTheme];
+      if (questionIndex >= questions.length) return Response.json({ error: "Toutes les questions de ce thème ont été jouées" }, { status: 409 });
+      const correct = body.answerIndex === questions[questionIndex].answer;
       await db.batch([
         db.insert(gameAnswers).values({ id: crypto.randomUUID(), roomId: room.id, playerId: player.id, phase: "category", questionKey: answerKey, answerIndex: body.answerIndex ?? -1, correct, responseMs: Math.max(0, body.elapsedMs || 0) }),
         db.update(roomPlayers).set({ categoryAnswered: player.categoryAnswered + 1, categoryScore: player.categoryScore + (correct ? 1 : 0) }).where(eq(roomPlayers.id, player.id)),
@@ -157,7 +153,7 @@ export async function POST(request: Request) {
     } else if (body.action === "final-answer") {
       if (room.phase !== "final-answer" || room.activePlayerId !== player.id || room.activeCase === null) return Response.json({ error: "Ce n’est pas ton tour" }, { status: 409 });
       const questionIndex = (19 - room.turnIndex + 40) % 20;
-      const correct = body.answerIndex === qualificationAnswers[questionIndex];
+      const correct = body.answerIndex === qualificationQuestions[questionIndex].answer;
       const points = room.activeCase % 4 === 0 ? 3 : room.activeCase % 3 === 0 ? 2 : 1;
       const nextTurn = room.turnIndex + 1;
       await db.batch([

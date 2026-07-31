@@ -3,12 +3,11 @@
 import { useEffect, useState } from "react";
 import MultiplayerGame from "./multiplayer-game";
 import { allQuestions, qualificationQuestions, themeQuestions, type GameQuestion } from "./question-bank";
+import { createRoom, getRoom, joinRoom, roomAction as updateRoom, subscribeRoom, type Room as RoomData } from "./firebase-room";
 
 type Screen = "home" | "setup" | "multi" | "createRoom" | "joinRoom" | "lobby" | "multiGame" | "qualify" | "qualified" | "estimate" | "categories" | "speed" | "roundResult" | "finalIntro" | "final" | "victory" | "creator" | "questionAudit";
 type Question = GameQuestion;
 type QuestionReport = { questionId: string; reason: string; correction: string; createdAt: string };
-type RoomPlayer = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number };
-type RoomData = { id: string; code: string; status: string; phase: string; hostPlayerId: string; round: number; turnIndex: number; currentTheme: string | null; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: RoomPlayer[] };
 
 const questions = qualificationQuestions;
 const themes = themeQuestions;
@@ -109,7 +108,11 @@ export default function Game() {
   const [auditIndex, setAuditIndex] = useState(0);
   const [reportReason, setReportReason] = useState("Mauvaises réponses incohérentes");
   const [reportCorrection, setReportCorrection] = useState("");
-  const [questionReports, setQuestionReports] = useState<QuestionReport[]>([]);
+  const [questionReports, setQuestionReports] = useState<QuestionReport[]>(() => {
+    if (typeof window === "undefined") return [];
+    try { return JSON.parse(window.localStorage.getItem("ldn-question-reports") || "[]") as QuestionReport[]; }
+    catch { return []; }
+  });
   const auditedQuestions = auditCategory === "Tous les thèmes" ? allQuestions : allQuestions.filter(question => question.category === auditCategory);
   const auditedQuestion = auditedQuestions[Math.min(auditIndex, Math.max(0, auditedQuestions.length - 1))];
 
@@ -145,35 +148,16 @@ export default function Game() {
 
   useEffect(() => {
     if (screen !== "lobby" || !room?.code) return;
-    const refresh = async () => {
-      const response = await fetch(`/api/rooms?code=${room.code}`, { cache: "no-store" });
-      if (!response.ok) return;
-      const data = await response.json() as { room: RoomData };
-      setRoom(data.room);
-      if (data.room.status !== "lobby") setScreen("multiGame");
-    };
-    const timer = window.setInterval(refresh, 1500);
-    return () => window.clearInterval(timer);
+    let unsubscribe=()=>{};
+    subscribeRoom(room.code, next=>{ if(!next)return; setRoom(next); if(next.status!=="lobby")setScreen("multiGame"); }).then(stop=>{unsubscribe=stop}).catch(()=>setRoomError("Connexion Firebase impossible"));
+    return () => unsubscribe();
   }, [screen, room?.code]);
 
   useEffect(() => {
     const savedCode = window.localStorage.getItem("ldn-room-code");
     const savedPlayer = window.localStorage.getItem("ldn-player-id");
     if (!savedCode || !savedPlayer) return;
-    fetch(`/api/rooms?code=${savedCode}`, { cache: "no-store" }).then(async response => {
-      if (!response.ok) return;
-      const data = await response.json() as { room: RoomData };
-      if (!data.room.players.some(player => player.id === savedPlayer)) return;
-      setRoom(data.room); setRoomCode(savedCode); setPlayerId(savedPlayer);
-      setScreen(data.room.status === "lobby" ? "lobby" : "multiGame");
-    }).catch(() => undefined);
-  }, []);
-
-  useEffect(() => {
-    try {
-      const saved = window.localStorage.getItem("ldn-question-reports");
-      if (saved) setQuestionReports(JSON.parse(saved) as QuestionReport[]);
-    } catch { /* Le jeu reste utilisable si le stockage local est bloqué. */ }
+    getRoom(savedCode).then(savedRoom=>{ if(!savedRoom?.players.some(player=>player.id===savedPlayer))return; setRoom(savedRoom);setRoomCode(savedCode);setPlayerId(savedPlayer);setScreen(savedRoom.status==="lobby"?"lobby":"multiGame"); }).catch(()=>undefined);
   }, []);
 
   function saveQuestionReport() {
@@ -196,9 +180,7 @@ export default function Game() {
   async function roomAction(action: "create" | "join" | "ready" | "start") {
     setRoomLoading(true); setRoomError("");
     try {
-      const response = await fetch("/api/rooms", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ action, code: roomCode || room?.code, name, playerId }) });
-      const data = await response.json() as { room?: RoomData; playerId?: string; error?: string };
-      if (!response.ok || !data.room) throw new Error(data.error || "Impossible de rejoindre le salon");
+      const data = action === "create" ? await createRoom(name) : action === "join" ? await joinRoom(roomCode,name) : { room: await updateRoom(room!.code,playerId,action), playerId };
       setRoom(data.room);
       if (data.playerId) {
         setPlayerId(data.playerId);
@@ -224,7 +206,10 @@ export default function Game() {
     }
   }
   function answer(i: number) {
-    if (i === current.answer) screen === "qualify" ? setScore(v => v + 1) : setSpeedScore(v => v + 1);
+    if (i === current.answer) {
+      if (screen === "qualify") setScore(v => v + 1);
+      else setSpeedScore(v => v + 1);
+    }
     next();
   }
   function chooseTheme(value: string) {

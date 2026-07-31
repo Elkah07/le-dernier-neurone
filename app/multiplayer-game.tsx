@@ -2,9 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { qualificationQuestions, themeQuestions, type GameQuestion } from "./question-bank";
-
-type Player = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number };
-type Room = { code: string; phase: string; round: number; turnIndex: number; currentTheme: string | null; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: Player[] };
+import { roomAction, subscribeRoom, type Room } from "./firebase-room";
 
 function Answers({ question, disabled, onAnswer }: { question: GameQuestion; disabled?: boolean; onAnswer: (i: number) => void }) {
   return <div className="answers">{question.choices.map((choice, i) => <button disabled={disabled} key={choice} onClick={() => onAnswer(i)}><span>{String.fromCharCode(65 + i)}</span>{choice}</button>)}</div>;
@@ -14,7 +12,6 @@ export default function MultiplayerGame({ initialRoom, playerId, onExit }: { ini
   const [room, setRoom] = useState(initialRoom);
   const [seconds, setSeconds] = useState(10);
   const [estimate, setEstimate] = useState("");
-  const [categoryQuestion, setCategoryQuestion] = useState(0);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const me = room.players.find(player => player.id === playerId)!;
@@ -24,27 +21,19 @@ export default function MultiplayerGame({ initialRoom, playerId, onExit }: { ini
   const finalist = room.finalistIds.includes(playerId);
   const ranking = useMemo(() => [...room.players].sort((a,b) => b.score-a.score || a.qualificationMs-b.qualificationMs), [room.players]);
 
-  async function refresh() {
-    const response = await fetch(`/api/rooms?code=${room.code}`, { cache: "no-store" });
-    if (response.ok) setRoom((await response.json() as { room: Room }).room);
-  }
   async function action(actionName: string, payload: Record<string, unknown> = {}) {
     if (busy) return;
     setBusy(true); setError("");
     try {
-      const response = await fetch("/api/rooms", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ action: actionName, code: room.code, playerId, ...payload }) });
-      const data = await response.json() as { room?: Room; error?: string };
-      if (!response.ok || !data.room) throw new Error(data.error || "Action impossible");
-      setRoom(data.room);
+      setRoom(await roomAction(room.code, playerId, actionName, payload as Parameters<typeof roomAction>[3]));
     } catch (reason) { setError(reason instanceof Error ? reason.message : "Erreur réseau"); }
     finally { setBusy(false); }
   }
 
-  useEffect(() => { const timer = window.setInterval(refresh, 1000); return () => window.clearInterval(timer); }, [room.code]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { let unsubscribe=()=>{}; subscribeRoom(room.code, value=>{if(value)setRoom(value)}).then(stop=>{unsubscribe=stop}).catch(()=>setError("Connexion Firebase impossible")); return () => unsubscribe(); }, [room.code]);
   useEffect(() => {
     const timer = window.setTimeout(() => {
       setSeconds(room.phase === "category-playing" ? 90 : 10);
-      if (room.phase === "category-playing") setCategoryQuestion(0);
     }, 0);
     return () => window.clearTimeout(timer);
   }, [room.phase, room.turnIndex, room.currentTheme]);
@@ -88,9 +77,9 @@ export default function MultiplayerGame({ initialRoom, playerId, onExit }: { ini
     <div className="themes">{Object.keys(themeQuestions).map((theme,i)=><button disabled={!isActive||room.usedThemes.includes(theme)||busy} onClick={()=>action("choose-theme",{theme})} key={theme}><span>{["🎬","♫","🎮","✦","◆","⌛","★","▶","▣","🍴"][i]}</span><b>{theme}</b><small>{room.usedThemes.includes(theme)?"DÉJÀ JOUÉ":isActive?"CHOISIR":"INDISPONIBLE"}</small></button>)}</div>{error&&<div className="room-error">{error}</div>}</section>;
 
   if (room.phase === "category-playing") {
-    const list=themeQuestions[room.currentTheme || "Cinéma"]; const exhausted=categoryQuestion>=list.length; const question=list[Math.min(categoryQuestion,list.length-1)];
+    const list=themeQuestions[room.currentTheme || "Cinéma"]; const exhausted=room.currentQuestionIndex>=list.length; const question=list[Math.min(room.currentQuestionIndex,list.length-1)];
     return <section className="quiz"><div className="round"><span>{room.currentTheme?.toUpperCase()}</span><b>TOUR {room.round}/2</b></div><div className="clock">{seconds}<small>SEC</small></div>
-      {isActive ? exhausted ? <div className="question"><small>THÈME TERMINÉ</small><h2>Toutes les questions ont été jouées.</h2><button className="primary" disabled={busy} onClick={()=>action("end-category")}>TERMINER LE TOUR</button></div> : <div className="question speed"><h2>{question.q}</h2><Answers disabled={busy} question={question} onAnswer={answerIndex=>{action("category-answer",{questionIndex:categoryQuestion,answerIndex,elapsedMs:0});setCategoryQuestion(value=>value+1);}}/><button className="pass" disabled={busy} onClick={()=>setCategoryQuestion(value=>value+1)}>PASSER ↗</button></div>
+      {isActive ? exhausted ? <div className="question"><small>THÈME TERMINÉ</small><h2>Toutes les questions ont été jouées.</h2><button className="primary" disabled={busy} onClick={()=>action("end-category")}>TERMINER LE TOUR</button></div> : <div className="question speed"><h2>{question.q}</h2><Answers disabled={busy} question={question} onAnswer={answerIndex=>action("category-answer",{questionIndex:room.currentQuestionIndex,answerIndex,elapsedMs:0})}/><button className="pass" disabled={busy} onClick={()=>action("category-pass")}>PASSER ↗</button></div>
       : <div className="question"><small>EN DIRECT</small><h2>{active?.name} joue la catégorie {room.currentTheme}</h2><p>Son score se met à jour sur tous les téléphones.</p></div>}
       <div className="live"><b>{active?.name}</b><span>{active?.categoryScore || 0} bonnes réponses</span></div>{error&&<div className="room-error">{error}</div>}</section>;
   }

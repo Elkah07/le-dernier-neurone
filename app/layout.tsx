@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import RegisterServiceWorker from "./register-service-worker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,15 +17,15 @@ export const metadata: Metadata = {
   title: "Le Dernier Neurone",
   description: "Prouve qu’il t’en reste au moins un.",
   manifest: "/manifest.webmanifest",
-  other: {
-    "codex-preview": "development",
-  },
+  appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Dernier Neurone" },
   icons: {
     icon: "/app-icon.png",
     shortcut: "/app-icon.png",
     apple: "/app-icon.png",
   },
 };
+
+export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#080326" };
 
 export default function RootLayout({
   children,
@@ -36,7 +37,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        {children}<RegisterServiceWorker />
       </body>
     </html>
   );

@@ -69,12 +69,21 @@ export async function createRoom(name: string) {
 export async function joinRoom(code: string, name: string) {
   await ensureAuth();
   const normalizedCode=code.trim().toUpperCase(); const player=makePlayer(name,"#22d3ee"); let failure="";
+  if (!player.name) throw new Error("Pseudo obligatoire");
+
+  // A Realtime Database transaction can initially receive `null` while the
+  // client cache is still empty, even when the room already exists remotely.
+  // Prime the cache with a server read before starting the transaction so a
+  // valid room is not incorrectly reported as missing on a second device.
+  const roomRef=ref(database,`rooms/${normalizedCode}`);
+  const existing=await get(roomRef);
+  if (!existing.exists()) throw new Error("Salon introuvable");
+
   const result=await runTransaction(ref(database,`rooms/${normalizedCode}`), value => {
     if (!value) { failure="Salon introuvable"; return; }
     const room=normalize(value as Room);
     if (room.status!=="lobby") { failure="La partie a déjà commencé"; return; }
     if (room.players.length>=12) { failure="Le salon est complet"; return; }
-    if (!player.name) { failure="Pseudo obligatoire"; return; }
     room.players.push(player); return normalize(room);
   },{applyLocally:false});
   if (!result.committed) throw new Error(failure || "Impossible de rejoindre le salon");

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import MultiplayerGame from "./multiplayer-game";
 import { allQuestions, qualificationQuestions, themeQuestions, type GameQuestion } from "./question-bank";
 import { createRoom, getRoom, joinRoom, roomAction as updateRoom, subscribeRoom, type Room as RoomData } from "./firebase-room";
@@ -84,6 +84,9 @@ function Answers({ question, onAnswer }: { question: Question; onAnswer: (i: num
 
 export default function Game() {
   const [screen, setScreen] = useState<Screen>("home");
+  const screenRef = useRef<Screen>("home");
+  const isHandlingPhoneBack = useRef(false);
+  const navigationReady = useRef(false);
   const [name, setName] = useState("KATHIE");
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
@@ -117,6 +120,44 @@ export default function Game() {
   const auditedQuestion = auditedQuestions[Math.min(auditIndex, Math.max(0, auditedQuestions.length - 1))];
 
   const current = screen === "qualify" ? questions[index] : themes[theme]?.[index];
+
+  useEffect(() => {
+    screenRef.current = screen;
+
+    if (!navigationReady.current) {
+      window.history.replaceState({ ...window.history.state, ldnScreen: screen }, "");
+      navigationReady.current = true;
+      return;
+    }
+
+    if (isHandlingPhoneBack.current) {
+      isHandlingPhoneBack.current = false;
+      return;
+    }
+
+    window.history.pushState({ ...window.history.state, ldnScreen: screen }, "");
+  }, [screen]);
+
+  useEffect(() => {
+    function handlePhoneBack(event: PopStateEvent) {
+      const previousScreen = event.state?.ldnScreen as Screen | undefined;
+
+      if (previousScreen) {
+        isHandlingPhoneBack.current = true;
+        setScreen(previousScreen);
+        return;
+      }
+
+      if (screenRef.current !== "home") {
+        isHandlingPhoneBack.current = true;
+        window.history.pushState({ ...window.history.state, ldnScreen: "home" }, "");
+        setScreen("home");
+      }
+    }
+
+    window.addEventListener("popstate", handlePhoneBack);
+    return () => window.removeEventListener("popstate", handlePhoneBack);
+  }, []);
 
   useEffect(() => {
     if (!["qualify", "speed"].includes(screen)) return;
@@ -242,24 +283,15 @@ export default function Game() {
     </header>
 
     {screen === "home" && <section className="hero">
-      <div className="brain-grid" aria-hidden="true"><i /><i /><i /><i /><i /><i /></div>
-      <div className="hero-copy">
-        <span className="show-label">LE QUIZ OÙ CHAQUE RÉPONSE COMPTE</span>
-        <img className="logo" src="/logo-full.png" alt="Le Dernier Neurone" />
-        <p>Il ne doit en rester qu’un.</p>
+      <img className="logo" src="/logo-full.png" alt="Le Dernier Neurone" />
+      <p>Prouve qu’il t’en reste au moins un.</p>
+      <button className="primary huge" onClick={() => setScreen("setup")}>JOUER</button>
+      <div className="modes">
+        <button onClick={() => setScreen("setup")}><b>◉ SOLO</b><span>Affronte 3 candidats</span></button>
+        <button onClick={() => setScreen("multi")}><b>⌁ PARTIE PRIVÉE</b><span>Joue sur plusieurs téléphones</span></button>
+        <button disabled><b>♛ TOURNOIS</b><span>La Guerre des Neurones</span></button>
       </div>
-      <div className="modes" aria-label="Choisir un mode de jeu">
-        <button className="mode-card solo-card" onClick={() => setScreen("setup")}>
-          <span className="mode-icon">◉</span><span className="mode-copy"><small>ENTRAÎNEMENT</small><b>SOLO</b><em>Affronte 3 neurones contrôlés par le jeu</em></span><strong>JOUER <i>→</i></strong>
-        </button>
-        <button className="mode-card private-card" onClick={() => setScreen("multi")}>
-          <span className="mode-badge">MODE PRINCIPAL</span><span className="mode-icon">⌁</span><span className="mode-copy"><small>2 À 12 JOUEURS</small><b>PARTIE PRIVÉE</b><em>Crée un salon ou rejoins tes amis avec un code</em></span><strong>COMMENCER <i>→</i></strong>
-        </button>
-        <button className="mode-card tournament-card" disabled>
-          <span className="mode-badge">BIENTÔT</span><span className="mode-icon">♛</span><span className="mode-copy"><small>COMPÉTITION</small><b>TOURNOIS</b><em>La Guerre des Neurones se prépare…</em></span><strong>VERROUILLÉ</strong>
-        </button>
-      </div>
-      <div className="pls"><span>NOUVEAU JEU</span><b>CULTURE EN PLS</b><em>La culture pop sans pitié</em><small>BIENTÔT</small></div>
+      <div className="pls"><b>CULTURE EN PLS</b> arrive bientôt — la culture pop sans pitié</div>
     </section>}
 
     {screen === "multi" && <section className="panel multiplayer-panel">

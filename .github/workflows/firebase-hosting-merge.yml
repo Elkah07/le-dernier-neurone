@@ -36,10 +36,6 @@ jobs:
         run: npm run build
 
       - name: Publier sur Firebase Hosting
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LE_DERNIER_NEURONE }}
-          channelId: live
-          projectId: le-dernier-neurone
-
+        run: npx firebase-tools deploy --only hosting,database --project le-dernier-neurone --token "$FIREBASE_TOKEN" --non-interactive
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

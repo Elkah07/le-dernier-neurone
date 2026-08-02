@@ -2,7 +2,7 @@
 
 import { initializeApp, getApps } from "firebase/app";
 import { getAuth, signInAnonymously } from "firebase/auth";
-import { getDatabase, get, onValue, ref, runTransaction } from "firebase/database";
+import { getDatabase, get, onValue, ref, runTransaction, set } from "firebase/database";
 import { qualificationQuestions, themeQuestions } from "./question-bank";
 
 export type Player = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number; joinedAt: string };
@@ -39,7 +39,12 @@ function makePlayer(name: string, color: string, ready = false): Player {
 }
 
 function normalize(room: Room): Room {
-  room.players ||= [];
+  // Firebase turns an array into an object as soon as a player is stored under
+  // a stable id. Accept both shapes so old rooms and new rooms remain usable.
+  const rawPlayers = room.players as unknown;
+  room.players = Array.isArray(rawPlayers)
+    ? rawPlayers.filter(Boolean)
+    : Object.values((rawPlayers || {}) as Record<string, Player>);
   room.usedThemes ||= [];
   room.selectedCases ||= [];
   room.answerKeys ||= {};
@@ -68,26 +73,28 @@ export async function createRoom(name: string) {
 
 export async function joinRoom(code: string, name: string) {
   await ensureAuth();
-  const normalizedCode=code.trim().toUpperCase(); const player=makePlayer(name,"#22d3ee"); let failure="";
+  const normalizedCode=code.replace(/\s/g,"").toUpperCase(); const player=makePlayer(name,"#22d3ee");
   if (!player.name) throw new Error("Pseudo obligatoire");
+  if (!/^[A-HJ-NP-Z2-9]{6}$/.test(normalizedCode)) throw new Error("Code de salon invalide");
 
-  // A Realtime Database transaction can initially receive `null` while the
-  // client cache is still empty, even when the room already exists remotely.
-  // Prime the cache with a server read before starting the transaction so a
-  // valid room is not incorrectly reported as missing on a second device.
   const roomRef=ref(database,`rooms/${normalizedCode}`);
   const existing=await get(roomRef);
   if (!existing.exists()) throw new Error("Salon introuvable");
+  const room=normalize(existing.val() as Room);
+  if (room.status!=="lobby") throw new Error("La partie a déjà commencé");
+  if (room.players.length>=12) throw new Error("Le salon est complet");
 
-  const result=await runTransaction(ref(database,`rooms/${normalizedCode}`), value => {
-    if (!value) { failure="Salon introuvable"; return; }
-    const room=normalize(value as Room);
-    if (room.status!=="lobby") { failure="La partie a déjà commencé"; return; }
-    if (room.players.length>=12) { failure="Le salon est complet"; return; }
-    room.players.push(player); return normalize(room);
-  },{applyLocally:false});
-  if (!result.committed) throw new Error(failure || "Impossible de rejoindre le salon");
-  return { room:normalize(result.snapshot.val() as Room), playerId:player.id };
+  // Do not transact the whole room here. On a device with an empty local
+  // cache, Realtime Database can invoke that transaction with `null` and abort
+  // a perfectly valid join. A player has a unique id, so writing only that
+  // child is atomic and cannot overwrite another player joining at the same
+  // time.
+  await set(ref(database,`rooms/${normalizedCode}/players/${player.id}`),player);
+  const joined=await get(roomRef);
+  if (!joined.exists()) throw new Error("Le salon n’est plus disponible");
+  const joinedRoom=normalize(joined.val() as Room);
+  if (!joinedRoom.players.some(candidate=>candidate.id===player.id)) throw new Error("Impossible de rejoindre le salon");
+  return { room:joinedRoom, playerId:player.id };
 }
 
 export async function getRoom(code: string) {

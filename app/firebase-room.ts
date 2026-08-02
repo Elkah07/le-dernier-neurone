@@ -2,7 +2,7 @@
 
 import { initializeApp, getApps } from "firebase/app";
 import { getAuth, signInAnonymously } from "firebase/auth";
-import { getDatabase, get, onValue, ref, runTransaction, set } from "firebase/database";
+import { getDatabase, get, goOnline, onValue, ref, runTransaction, set } from "firebase/database";
 import { qualificationQuestions, themeQuestions } from "./question-bank";
 
 export type Player = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number; joinedAt: string };
@@ -39,8 +39,6 @@ function makePlayer(name: string, color: string, ready = false): Player {
 }
 
 function normalize(room: Room): Room {
-  // Firebase turns an array into an object as soon as a player is stored under
-  // a stable id. Accept both shapes so old rooms and new rooms remain usable.
   const rawPlayers = room.players as unknown;
   room.players = Array.isArray(rawPlayers)
     ? rawPlayers.filter(Boolean)
@@ -73,27 +71,29 @@ export async function createRoom(name: string) {
 
 export async function joinRoom(code: string, name: string) {
   await ensureAuth();
-  const normalizedCode=code.replace(/\s/g,"").toUpperCase(); const player=makePlayer(name,"#22d3ee");
+  const normalizedCode=code.normalize("NFKC").toUpperCase().replace(/[^A-Z0-9]/g,"");
+  const player=makePlayer(name,"#22d3ee");
   if (!player.name) throw new Error("Pseudo obligatoire");
-  if (!/^[A-HJ-NP-Z2-9]{6}$/.test(normalizedCode)) throw new Error("Code de salon invalide");
+  if (!/^[A-HJ-NP-Z2-9]{6}$/.test(normalizedCode)) throw new Error(`Code invalide (${normalizedCode || "vide"})`);
 
+  goOnline(database);
   const roomRef=ref(database,`rooms/${normalizedCode}`);
-  const existing=await get(roomRef);
-  if (!existing.exists()) throw new Error("Salon introuvable");
+  let existing = await get(roomRef);
+  if (!existing.exists()) {
+    await new Promise(resolve => window.setTimeout(resolve, 700));
+    existing = await get(roomRef);
+  }
+  if (!existing.exists()) throw new Error(`Salon ${normalizedCode} introuvable — vérifie le code affiché sur le téléphone de l’hôte`);
+
   const room=normalize(existing.val() as Room);
   if (room.status!=="lobby") throw new Error("La partie a déjà commencé");
   if (room.players.length>=12) throw new Error("Le salon est complet");
 
-  // Do not transact the whole room here. On a device with an empty local
-  // cache, Realtime Database can invoke that transaction with `null` and abort
-  // a perfectly valid join. A player has a unique id, so writing only that
-  // child is atomic and cannot overwrite another player joining at the same
-  // time.
   await set(ref(database,`rooms/${normalizedCode}/players/${player.id}`),player);
   const joined=await get(roomRef);
-  if (!joined.exists()) throw new Error("Le salon n’est plus disponible");
+  if (!joined.exists()) throw new Error(`Le salon ${normalizedCode} n’est plus disponible`);
   const joinedRoom=normalize(joined.val() as Room);
-  if (!joinedRoom.players.some(candidate=>candidate.id===player.id)) throw new Error("Impossible de rejoindre le salon");
+  if (!joinedRoom.players.some(candidate=>candidate.id===player.id)) throw new Error("Firebase n’a pas enregistré le joueur");
   return { room:joinedRoom, playerId:player.id };
 }
 

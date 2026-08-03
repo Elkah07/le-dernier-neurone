@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { qualificationQuestions, themeQuestions, type GameQuestion } from "./question-bank";
-import { roomAction, subscribeRoom, type Room } from "./firebase-room";
+import { themeQuestions, type GameQuestion } from "./question-bank";
+import { roomAction, roomFinalQuestion, roomQualificationQuestion, roomThemeQuestion, subscribeRoom, type Room } from "./firebase-room";
 
 function Answers({ question, disabled, onAnswer }: { question: GameQuestion; disabled?: boolean; onAnswer: (i: number) => void }) {
   return <div className="answers">{question.choices.map((choice, i) => <button disabled={disabled} key={choice} onClick={() => onAnswer(i)}><span>{String.fromCharCode(65 + i)}</span>{choice}</button>)}</div>;
@@ -49,6 +49,7 @@ export default function MultiplayerGame({ initialRoom, playerId, onExit }: { ini
     if (!["qualification","category-playing","final-answer"].includes(room.phase)) return;
     if (seconds <= 0) {
       const timer = window.setTimeout(() => {
+        if (busy) return;
         if (room.phase === "qualification" && me.qualificationAnswered < 20) action("qualification-answer", { questionIndex: me.qualificationAnswered, answerIndex: -1, elapsedMs: 10000 });
         if (room.phase === "category-playing") action("end-category");
         if (room.phase === "final-answer") action("final-answer", { answerIndex: -1, elapsedMs: 10000 });
@@ -57,13 +58,13 @@ export default function MultiplayerGame({ initialRoom, playerId, onExit }: { ini
     }
     const timer = window.setTimeout(() => setSeconds(value => value - 1), 1000);
     return () => window.clearTimeout(timer);
-  }, [seconds, room.phase, room.turnIndex, me?.qualificationAnswered, isActive]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [seconds, room.phase, room.turnIndex, me?.qualificationAnswered, isActive, busy]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!me) return <section className="panel"><h1>Session introuvable</h1><button className="primary" onClick={onExit}>RETOUR</button></section>;
 
   if (room.phase === "qualification") {
     const done = me.qualificationAnswered >= 20;
-    const question = qualificationQuestions[Math.min(me.qualificationAnswered, 19)];
+    const question = roomQualificationQuestion(room, Math.min(me.qualificationAnswered, 19));
     return <section className="quiz"><div className="round"><span>QUALIFICATIONS · EN LIGNE</span><b>QUESTION {Math.min(me.qualificationAnswered + 1, 20)}/20</b></div>
       {!done && <div className="timer">{seconds}</div>}
       {done ? <div className="question"><small>RÉPONSES ENVOYÉES</small><h2>En attente des autres neurones…</h2><p>{me.score}/20 bonnes réponses</p></div>
@@ -79,7 +80,7 @@ export default function MultiplayerGame({ initialRoom, playerId, onExit }: { ini
     <div className="themes">{Object.keys(themeQuestions).map((theme,i)=><button disabled={!isActive||room.usedThemes.includes(theme)||busy} onClick={()=>action("choose-theme",{theme})} key={theme}><span>{["🎬","♫","🎮","✦","◆","⌛","★","▶","▣","🍴"][i]}</span><b>{theme}</b><small>{room.usedThemes.includes(theme)?"DÉJÀ JOUÉ":isActive?"CHOISIR":"INDISPONIBLE"}</small></button>)}</div>{error&&<div className="room-error">{error}</div>}</section>;
 
   if (room.phase === "category-playing") {
-    const list=themeQuestions[room.currentTheme || "Cinéma"]; const exhausted=room.currentQuestionIndex>=list.length; const question=list[Math.min(room.currentQuestionIndex,list.length-1)];
+    const selectedTheme=room.currentTheme || "Cinéma"; const list=themeQuestions[selectedTheme]; const exhausted=room.currentQuestionIndex>=list.length; const question=roomThemeQuestion(room,selectedTheme,Math.min(room.currentQuestionIndex,list.length-1))!;
     return <section className="quiz"><div className="round"><span>{room.currentTheme?.toUpperCase()}</span><b>TOUR {room.round}/2</b></div><div className="clock">{seconds}<small>SEC</small></div>
       {isActive ? exhausted ? <div className="question"><small>THÈME TERMINÉ</small><h2>Toutes les questions ont été jouées.</h2><button className="primary" disabled={busy} onClick={()=>action("end-category")}>TERMINER LE TOUR</button></div> : <div className="question speed"><h2>{question.q}</h2><Answers disabled={busy} question={question} onAnswer={answerIndex=>action("category-answer",{questionIndex:room.currentQuestionIndex,answerIndex,elapsedMs:0})}/><button className="pass" disabled={busy} onClick={()=>action("category-pass")}>PASSER ↗</button></div>
       : <div className="question"><small>EN DIRECT</small><h2>{active?.name} joue la catégorie {room.currentTheme}</h2><p>Son score se met à jour sur tous les téléphones.</p></div>}
@@ -92,7 +93,7 @@ export default function MultiplayerGame({ initialRoom, playerId, onExit }: { ini
   }
 
   if (["final-pick","final-answer"].includes(room.phase)) {
-    const finalists=room.players.filter(player=>room.finalistIds.includes(player.id)); const q=qualificationQuestions[(19-room.turnIndex+40)%20];
+    const finalists=room.players.filter(player=>room.finalistIds.includes(player.id)); const q=roomFinalQuestion(room, room.turnIndex%12);
     return <section className="wide center"><div className="scores"><div>{finalists[0]?.name} <b>{finalists[0]?.finalScore}</b></div><span>FINALE · {room.turnIndex}/12</span><div>{finalists[1]?.name} <b>{finalists[1]?.finalScore}</b></div></div>
       <div className={`turn-banner ${isActive?"your-turn":"ai-turn"}`}><span>{isActive?"À TON TOUR":`AU TOUR DE ${active?.name}`}</span><b>{room.phase==="final-pick"?"Choix d’une case disponible":"10 secondes pour répondre"}</b></div>
       {room.phase==="final-pick"?<div className="cases">{Array.from({length:16},(_,i)=><button disabled={!isActive||room.selectedCases.includes(i)||busy} className={`${i%4===0?"mystery":""} ${room.selectedCases.includes(i)?"taken":""}`} key={i} onClick={()=>action("choose-case",{caseIndex:i})}>{room.selectedCases.includes(i)?<><b>PRISE</b><small>INDISPONIBLE</small></>:i%4===0?"?":<><span>{["🎬","🌍","♫","🎮","🍴","✦"][i%6]}</span><small>{i%3===0?"2 PTS":"1 PT"}</small></>}</button>)}</div>

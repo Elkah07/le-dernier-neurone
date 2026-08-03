@@ -3,10 +3,10 @@
 import { initializeApp, getApps } from "firebase/app";
 import { getAuth, signInAnonymously } from "firebase/auth";
 import { getDatabase, get, onValue, ref, runTransaction } from "firebase/database";
-import { qualificationQuestions, themeQuestions } from "./question-bank";
+import { allQuestions, qualificationQuestions, themeQuestions } from "./question-bank";
 
 export type Player = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number; joinedAt: string };
-export type Room = { id: string; code: string; status: string; phase: string; hostPlayerId: string; round: number; turnIndex: number; currentTheme: string | null; currentQuestionIndex: number; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: Player[]; answerKeys?: Record<string, boolean> };
+export type Room = { id: string; code: string; status: string; phase: string; hostPlayerId: string; round: number; turnIndex: number; currentTheme: string | null; currentQuestionIndex: number; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: Player[]; answerKeys?: Record<string, boolean>; qualificationQuestionIds?: string[]; finalQuestionIds?: string[]; themeQuestionStarts?: Record<string, number> };
 
 const firebaseConfig = {
   apiKey: "AIzaSyBSSUy5ee9ntIK0-NGlGsnK4RAW31S8bxA",
@@ -38,8 +38,39 @@ function makePlayer(name: string, color: string, ready = false): Player {
   return { id: crypto.randomUUID(), name: name.trim().slice(0, 12).toUpperCase(), color, ready, score: 0, qualificationAnswered: 0, qualificationMs: 0, estimate: null, categoryScore: 0, categoryAnswered: 0, finalScore: 0, joinedAt: new Date().toISOString() };
 }
 
+function shuffledQuestionIds(count: number, excluded: string[] = []) {
+  const excludedIds = new Set(excluded);
+  const ids = allQuestions.filter(question => !excludedIds.has(question.id)).map(question => question.id);
+  for (let index = ids.length - 1; index > 0; index--) {
+    const other = Math.floor(Math.random() * (index + 1));
+    [ids[index], ids[other]] = [ids[other], ids[index]];
+  }
+  return ids.slice(0, count);
+}
+
+export function roomQualificationQuestion(room: Room, index: number) {
+  const id = room.qualificationQuestionIds?.[index];
+  return allQuestions.find(question => question.id === id) || qualificationQuestions[index % qualificationQuestions.length];
+}
+
+export function roomFinalQuestion(room: Room, index: number) {
+  const id = room.finalQuestionIds?.[index];
+  return allQuestions.find(question => question.id === id) || qualificationQuestions[index % qualificationQuestions.length];
+}
+
+export function roomThemeQuestion(room: Room, theme: string, index: number) {
+  const list = themeQuestions[theme] || [];
+  const start = room.themeQuestionStarts?.[theme] || 0;
+  return list.length ? list[(start + index) % list.length] : undefined;
+}
+
+function randomThemeStarts() {
+  return Object.fromEntries(Object.entries(themeQuestions).map(([theme, list]) => [theme, Math.floor(Math.random() * Math.max(1, list.length))]));
+}
+
 function normalize(room: Room): Room {
   room.players ||= [];
+  room.players.forEach(player => { if (player.estimate === undefined) player.estimate = null; });
   room.usedThemes ||= [];
   room.selectedCases ||= [];
   room.answerKeys ||= {};
@@ -59,7 +90,8 @@ export async function createRoom(name: string) {
   if (!name.trim()) throw new Error("Pseudo obligatoire");
   for (let attempt=0; attempt<8; attempt++) {
     const code=makeCode(); const player=makePlayer(name,"#8b5cf6",true);
-    const room: Room = normalize({ id: crypto.randomUUID(), code, status:"lobby", phase:"lobby", hostPlayerId:player.id, round:1, turnIndex:0, currentTheme:null, currentQuestionIndex:0, phaseStartedAt:null, usedThemes:[], selectedCases:[], activeCase:null, activePlayerId:null, qualifiedIds:[], finalistIds:[], players:[player], answerKeys:{} });
+    const qualificationQuestionIds = shuffledQuestionIds(20);
+    const room: Room = normalize({ id: crypto.randomUUID(), code, status:"lobby", phase:"lobby", hostPlayerId:player.id, round:1, turnIndex:0, currentTheme:null, currentQuestionIndex:0, phaseStartedAt:null, usedThemes:[], selectedCases:[], activeCase:null, activePlayerId:null, qualifiedIds:[], finalistIds:[], players:[player], answerKeys:{}, qualificationQuestionIds, finalQuestionIds:shuffledQuestionIds(12, qualificationQuestionIds), themeQuestionStarts:randomThemeStarts() });
     const result=await runTransaction(ref(database,`rooms/${code}`), current => current === null ? room : undefined, { applyLocally:false });
     if (result.committed) return { room, playerId:player.id };
   }
@@ -128,7 +160,7 @@ export async function roomAction(code: string, playerId: string, action: string,
     } else if (action==="qualification-answer") {
       const i=payload.questionIndex??-1; if(room.phase!=="qualification") return fail("Les qualifications sont terminées");
       if(i!==player.qualificationAnswered||i<0||i>=20) return fail("Réponse déjà reçue ou question invalide");
-      player.qualificationAnswered++; player.qualificationMs+=Math.max(0,payload.elapsedMs||0); if(payload.answerIndex===qualificationQuestions[i].answer) player.score++;
+      player.qualificationAnswered++; player.qualificationMs+=Math.max(0,payload.elapsedMs||0); if(payload.answerIndex===roomQualificationQuestion(room,i).answer) player.score++;
       if(room.players.length > 0 && room.players.every(p=>p.qualificationAnswered>=20)) { room.phase="estimate"; room.phaseStartedAt=new Date().toISOString(); }
     } else if(action==="estimate") {
       if(room.phase!=="estimate"||!room.qualifiedIds.includes(player.id)) return fail("Estimation indisponible");
@@ -140,9 +172,9 @@ export async function roomAction(code: string, playerId: string, action: string,
       room.phase="category-playing"; room.currentTheme=payload.theme; room.currentQuestionIndex=0; room.usedThemes.push(payload.theme); room.phaseStartedAt=new Date().toISOString();
     } else if(action==="category-answer") {
       if(room.phase!=="category-playing"||room.activePlayerId!==player.id||!room.currentTheme) return fail("Ce n’est pas ton tour");
-      const i=payload.questionIndex??-1; const key=`category:${room.turnIndex}:${player.id}:${i}`; const list=themeQuestions[room.currentTheme];
-      if(i!==room.currentQuestionIndex||i<0||i>=list.length) return fail("Question invalide"); if(room.answerKeys![key]) return fail("Réponse déjà reçue"); room.answerKeys![key]=true;
-      player.categoryAnswered++; if(payload.answerIndex===list[i].answer) player.categoryScore++; room.currentQuestionIndex++;
+      const i=payload.questionIndex??-1; const key=`category:${room.turnIndex}:${player.id}:${i}`; const question=roomThemeQuestion(room,room.currentTheme,i);
+      if(i!==room.currentQuestionIndex||i<0||!question) return fail("Question invalide"); if(room.answerKeys![key]) return fail("Réponse déjà reçue"); room.answerKeys![key]=true;
+      player.categoryAnswered++; if(payload.answerIndex===question.answer) player.categoryScore++; room.currentQuestionIndex++;
     } else if(action==="category-pass") {
       if(room.phase!=="category-playing"||room.activePlayerId!==player.id||!room.currentTheme) return fail("Ce n’est pas ton tour");
       if(room.currentQuestionIndex>=themeQuestions[room.currentTheme].length) return fail("Toutes les questions ont été jouées"); room.currentQuestionIndex++;
@@ -156,7 +188,7 @@ export async function roomAction(code: string, playerId: string, action: string,
       const i=payload.caseIndex??-1;if(room.phase!=="final-pick"||room.activePlayerId!==player.id||i<0||i>=16||room.selectedCases.includes(i)) return fail("Cette case n’est pas disponible");room.phase="final-answer";room.activeCase=i;room.selectedCases.push(i);room.phaseStartedAt=new Date().toISOString();
     } else if(action==="final-answer") {
       if(room.phase!=="final-answer"||room.activePlayerId!==player.id||room.activeCase===null) return fail("Ce n’est pas ton tour");
-      const i=(19-room.turnIndex+40)%20,points=room.activeCase%4===0?3:room.activeCase%3===0?2:1;if(payload.answerIndex===qualificationQuestions[i].answer)player.finalScore+=points;
+      const i=room.turnIndex%12,points=room.activeCase%4===0?3:room.activeCase%3===0?2:1;if(payload.answerIndex===roomFinalQuestion(room,i).answer)player.finalScore+=points;
       room.turnIndex++;room.activeCase=null;room.phaseStartedAt=new Date().toISOString();if(room.turnIndex>=12){room.phase="finished";room.status="finished";}else room.phase="final-pick";
     } else if(action==="kick") {
       if(room.hostPlayerId!==player.id) return fail("Seul l’hôte peut exclure un joueur");

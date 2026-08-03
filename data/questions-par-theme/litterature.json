@@ -1,0 +1,338 @@
+[
+  {
+    "id": "archive-0616",
+    "question": "Combien de livres composent \"A la recherche du temps perdu\" de Proust ?",
+    "choices": [
+      "1789",
+      "1914",
+      "1945",
+      "7"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0601",
+    "question": "Comment s'appelle le loup dans \"Le Roman de Renart\" ?",
+    "choices": [
+      "Arsène Lupin",
+      "Ysengrin",
+      "Mario",
+      "Simba"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0604",
+    "question": "D'après le titre du roman d'Alexandre Dumas, combien y a-t-il de mousquetaires ?",
+    "choices": [
+      "10",
+      "3",
+      "100",
+      "365"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0597",
+    "question": "Dans le roman \"Vingt Mille Lieues sous les mers\" de Jules Verne, comment s'appelle le capitaine du Nautilus ?",
+    "choices": [
+      "Juliette",
+      "Central Perk",
+      "Pikachu",
+      "Capitaine Nemo"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0611",
+    "question": "Dans le titre d'un célèbre roman de Stendhal, quelle couleur est associée au \"Rouge\" ?",
+    "choices": [
+      "Marron",
+      "Orange",
+      "Violet",
+      "Le noir"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0608",
+    "question": "Dans quel roman de cape et d'épée parle-t-on de la \"botte de Nevers\" ?",
+    "choices": [
+      "Le Parrain",
+      "The Crown",
+      "Le Bossu",
+      "La Casa de Papel"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0614",
+    "question": "Dans quel roman de Choderlos de Laclos suit-on les manigances de Mme de Merteuil et de Valmont ?",
+    "choices": [
+      "Le Petit Prince",
+      "Les Dents de la mer",
+      "Les Liaisons dangereuses",
+      "The Crown"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0600",
+    "question": "Dans quel roman de Victor Hugo trouve-t-on les personnages de Cosette et Jean Valjean ?",
+    "choices": [
+      "Les Misérables",
+      "The Crown",
+      "Star Wars",
+      "Titanic"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0599",
+    "question": "De quel roman d'Albert Camus Meursault est-il le personnage principal ?",
+    "choices": [
+      "Thriller",
+      "Titanic",
+      "La Joconde",
+      "L'Etranger"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0598",
+    "question": "Par quel livre se termine le Nouveau Testament ?",
+    "choices": [
+      "Thriller",
+      "The Crown",
+      "Star Wars",
+      "L'Apocalypse"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0605",
+    "question": "Quel auteur a mis la \"tirade du nez\" dans une de ses pièces de théâtre ?",
+    "choices": [
+      "Vanessa Paradis",
+      "Catherine Deneuve",
+      "Alfred Hitchcock",
+      "Edmond Rostand"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0610",
+    "question": "Quel auteur norvégien a écrit un roman sur l'histoire de la philosophie intitulé \"Le Monde de Sophie\" ?",
+    "choices": [
+      "Jostein Gaarder",
+      "Marion Cotillard",
+      "Tom Hanks",
+      "Audrey Tautou"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0607",
+    "question": "Quel nom de famille porte Lucrèce dans une pièce de Victor Hugo ?",
+    "choices": [
+      "Peter Parker",
+      "Scotland Yard",
+      "Alexandre",
+      "Borgia"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0609",
+    "question": "Qui a écrit la pièce de théâtre \"Ruy Blas\", publiée en 1838 ?",
+    "choices": [
+      "Victor Hugo",
+      "Audrey Tautou",
+      "Vanessa Paradis",
+      "Charles de Gaulle"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0612",
+    "question": "Qui a écrit le roman \"Notre-Dame de Paris\" ?",
+    "choices": [
+      "Brad Pitt",
+      "Victor Hugo",
+      "Bénabar",
+      "Pablo Picasso"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0603",
+    "question": "Qui est l'auteur de \"la Critique de la raison pure\" ?",
+    "choices": [
+      "Mozart",
+      "Charles de Gaulle",
+      "Jean Reno",
+      "Emmanuel Kant"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0606",
+    "question": "Qui est l'auteur de la pièce : \"le Jeu de l'amour et du hasard\" ?",
+    "choices": [
+      "Marivaux",
+      "Jean Reno",
+      "Louis Pasteur",
+      "Bénabar"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0602",
+    "question": "Qui est l'auteur de la pièce \"Les Fausses Confidences\" en 1737 ?",
+    "choices": [
+      "Agatha Christie",
+      "Marivaux",
+      "Catherine Deneuve",
+      "Johnny Depp"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0617",
+    "question": "Qui est l'auteur de la pièce comique \"Un fil à la patte\" ?",
+    "choices": [
+      "Georges Feydeau",
+      "Pablo Picasso",
+      "Vanessa Paradis",
+      "Alfred Hitchcock"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0613",
+    "question": "Qui est l'auteur des \"Contes de ma mère l'Oye\" publiés en 1697 ?",
+    "choices": [
+      "Meryl Streep",
+      "Tina Turner",
+      "Victor Hugo",
+      "Charles Perrault"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0615",
+    "question": "Qui est l'auteur du roman intitulé \"Madame Bovary\" ?",
+    "choices": [
+      "Bénabar",
+      "Gustave Flaubert",
+      "Alain Delon",
+      "Napoléon Bonaparte"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  }
+]

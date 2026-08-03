@@ -1,0 +1,354 @@
+[
+  {
+    "id": "modern-028",
+    "question": "Comment appelle-t-on la miniature d’une vidéo YouTube ?",
+    "choices": [
+      "Une vignette",
+      "Un calque",
+      "Un bandeau",
+      "Une story"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-web-006",
+    "question": "Comment appelle-t-on le lancement programmé d'une vidéo YouTube avec un chat en direct ?",
+    "choices": [
+      "Une Première",
+      "Un Short",
+      "Un Raid",
+      "Un Replay"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-web-010",
+    "question": "Comment appelle-t-on le texte automatique affiché sous une vidéo pour retranscrire la parole ?",
+    "choices": [
+      "Les sous-titres",
+      "Les balises",
+      "Les crédits",
+      "Les chapitres"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-web-003",
+    "question": "Comment appelle-t-on une collaboration diffusée simultanément par plusieurs streamers ?",
+    "choices": [
+      "Un multistream",
+      "Un podcast",
+      "Un montage",
+      "Une première"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-022",
+    "question": "Comment appelle-t-on une diffusion vidéo réalisée en direct sur Internet ?",
+    "choices": [
+      "Un podcast",
+      "Un stream",
+      "Un thread",
+      "Un vlog"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-056",
+    "question": "Comment appelle-t-on une vidéo racontant une journée ou une expérience personnelle ?",
+    "choices": [
+      "Un vlog",
+      "Un trailer",
+      "Un tutoriel",
+      "Un podcast"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-027",
+    "question": "Que signifie le V de VOD ?",
+    "choices": [
+      "Virtual",
+      "Video",
+      "Visual",
+      "Verified"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-026",
+    "question": "Quel accessoire permet à un créateur de capter sa voix ?",
+    "choices": [
+      "Un routeur",
+      "Un microphone",
+      "Un projecteur",
+      "Un stabilisateur"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-web-007",
+    "question": "Quel appareil convertit le signal d'une console pour l'afficher dans un logiciel de streaming ?",
+    "choices": [
+      "Une carte d'acquisition",
+      "Un routeur",
+      "Un disque dur",
+      "Un amplificateur"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-023",
+    "question": "Quel bouton de YouTube permet de suivre régulièrement une chaîne ?",
+    "choices": [
+      "S’abonner",
+      "Archiver",
+      "Épingler",
+      "Héberger"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-web-009",
+    "question": "Quel format audio ou vidéo est diffusé en épisodes et peut être suivi par abonnement ?",
+    "choices": [
+      "Un podcast",
+      "Un bandeau",
+      "Un filigrane",
+      "Un codec"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-057",
+    "question": "Quel indicateur compte le nombre de fois qu’une vidéo a été regardée ?",
+    "choices": [
+      "Les vues",
+      "Les tags",
+      "Les onglets",
+      "Les calques"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-web-004",
+    "question": "Quel logiciel libre est souvent utilisé pour diffuser en direct sur Twitch ?",
+    "choices": [
+      "OBS Studio",
+      "VLC",
+      "Audacity",
+      "Blender"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-054",
+    "question": "Quel métier consiste notamment à assembler les plans d’une vidéo ?",
+    "choices": [
+      "Monteur vidéo",
+      "Streamer",
+      "Modérateur",
+      "Community manager"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-024",
+    "question": "Quel terme désigne une courte vidéo verticale publiée sur YouTube ?",
+    "choices": [
+      "Story",
+      "Short",
+      "Clip",
+      "Snap"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-web-005",
+    "question": "Quel terme désigne une image ou animation utilisée pour exprimer une réaction dans un chat Twitch ?",
+    "choices": [
+      "Une emote",
+      "Un filtre",
+      "Un calque",
+      "Un widget"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-021",
+    "question": "Quelle entreprise possède la plateforme Twitch ?",
+    "choices": [
+      "Amazon",
+      "Apple",
+      "Microsoft",
+      "Meta"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-025",
+    "question": "Sur Twitch, comment appelle-t-on la personne qui diffuse en direct ?",
+    "choices": [
+      "Un streamer",
+      "Un monteur",
+      "Un moddeur",
+      "Un podcasteur"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-web-008",
+    "question": "Sur Twitch, comment s'appelle l'action d'envoyer ses spectateurs vers une autre chaîne ?",
+    "choices": [
+      "Un raid",
+      "Un repost",
+      "Un duo",
+      "Un hébergement web"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-web-002",
+    "question": "Sur Twitch, quel espace permet aux spectateurs d'écrire pendant un direct ?",
+    "choices": [
+      "Le chat",
+      "La timeline",
+      "Le mur",
+      "Le forum"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-055",
+    "question": "Sur Twitch, quel rôle aide à faire respecter les règles du chat ?",
+    "choices": [
+      "Modérateur",
+      "Monteur",
+      "Abonné",
+      "Spectateur"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-web-001",
+    "question": "Sur YouTube, comment appelle-t-on la personne qui gère une chaîne ?",
+    "choices": [
+      "Un créateur de contenu",
+      "Un hébergeur",
+      "Un navigateur",
+      "Un fournisseur d'accès"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  }
+]

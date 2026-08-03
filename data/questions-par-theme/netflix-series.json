@@ -1,0 +1,1074 @@
+[
+  {
+    "id": "archive-0768",
+    "question": "A quel âge n'est-on pas sérieux selon un poème d'Arthur Rimbaud ?",
+    "choices": [
+      "17 ans",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0770",
+    "question": "Combien valait Steve Austin dans une célèbre série télévisée ?",
+    "choices": [
+      "100",
+      "365",
+      "1789",
+      "3 milliards"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-series-007",
+    "question": "Comment s'appelle la ville de la série Riverdale ?",
+    "choices": [
+      "Riverdale",
+      "Sunnydale",
+      "Smallville",
+      "Stars Hollow"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-series-004",
+    "question": "Comment se nomme l'avocat joué par Bob Odenkirk dans Better Call Saul ?",
+    "choices": [
+      "Saul Goodman",
+      "Harvey Specter",
+      "Matt Murdock",
+      "Jack McCoy"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-045",
+    "question": "Dans Bridgerton, quelle chroniqueuse anonyme commente la haute société ?",
+    "choices": [
+      "Lady Whistledown",
+      "Lady Danbury",
+      "Violet Bridgerton",
+      "La reine Charlotte"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-series-001",
+    "question": "Dans Dexter, quel métier exerce Dexter Morgan ?",
+    "choices": [
+      "Expert en traces de sang",
+      "Avocat",
+      "Journaliste",
+      "Médecin légiste"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-042",
+    "question": "Dans Friends, comment s’appelle le café fréquenté par les personnages ?",
+    "choices": [
+      "Central Perk",
+      "Monk’s Café",
+      "Luke’s",
+      "Café Nervosa"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-series-009",
+    "question": "Dans How I Met Your Mother, qui raconte l'histoire à ses enfants ?",
+    "choices": [
+      "Ted Mosby",
+      "Barney Stinson",
+      "Marshall Eriksen",
+      "Robin Scherbatsky"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-062",
+    "question": "Dans La Casa de Papel, quel nom de ville porte le chef des braqueurs sur le terrain ?",
+    "choices": [
+      "Berlin",
+      "Denver",
+      "Oslo",
+      "Helsinki"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0741",
+    "question": "Dans la série \"Friends\", comment s'appelle le café où se réunissent les personnages ?",
+    "choices": [
+      "Buzz",
+      "Nemo",
+      "Olaf",
+      "Central Perk"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0740",
+    "question": "Dans la série de dessins animés, quel animal essaye d'attraper le Bip Bip ?",
+    "choices": [
+      "La baleine",
+      "Un coyote",
+      "Le chat",
+      "Le bœuf"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-series-006",
+    "question": "Dans Lost, quel moyen de transport s'écrase sur l'île ?",
+    "choices": [
+      "Un avion",
+      "Un bateau",
+      "Un hélicoptère",
+      "Un train"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-038",
+    "question": "Dans Mercredi, quel est le nom de famille de l’héroïne ?",
+    "choices": [
+      "Munster",
+      "Addams",
+      "Spellman",
+      "Hargreeves"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0756",
+    "question": "Dans quelle série a-t-on pu voir Y. Bleeth, D. Charvet et C. Electra ?",
+    "choices": [
+      "La Boum",
+      "Koh-Lanta",
+      "Alerte à Malibu",
+      "Friends"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0758",
+    "question": "Dans quelle série de bande dessinée croise-t-on les dénommés Phil Defer et Billy The Kid ?",
+    "choices": [
+      "Lucky Luke",
+      "Les Dents de la mer",
+      "Le Cluedo",
+      "Hamlet"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0748",
+    "question": "Dans quelle série des années 1970 y a-t-il un personnage nommé Fonzie ?",
+    "choices": [
+      "Les Dents de la mer",
+      "Happy Days",
+      "Titanic",
+      "Harry Potter"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0777",
+    "question": "Dans quelle série Eriq La Salle a-t-il incarné le rôle du docteur Benton ?",
+    "choices": [
+      "La Joconde",
+      "Harry Potter",
+      "Breaking Bad",
+      "Urgences"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0749",
+    "question": "Dans quelle série Gérard Klein a-t-il incarné Victor Novak ?",
+    "choices": [
+      "Thriller",
+      "L'Instit",
+      "Breaking Bad",
+      "Intouchables"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-064",
+    "question": "Dans quelle série rencontre-t-on les familles Stark et Lannister ?",
+    "choices": [
+      "Vikings",
+      "Game of Thrones",
+      "The Witcher",
+      "The Last Kingdom"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0774",
+    "question": "Dans quelle série Sydney Bristow est-elle agent double pour le SD-6 et la CIA ?",
+    "choices": [
+      "Le Seigneur des anneaux",
+      "Alias",
+      "The Crown",
+      "Star Wars"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0764",
+    "question": "Dans quelle série télévisée a-t-on découvert George Clooney dans le rôle du docteur Ross ?",
+    "choices": [
+      "Thriller",
+      "Urgences",
+      "Les Dents de la mer",
+      "La Boum"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0757",
+    "question": "Dans quelle série télévisée Jarod essaye-t-il d'échapper au \"Centre\" ?",
+    "choices": [
+      "La Casa de Papel",
+      "Germinal",
+      "Le Caméléon",
+      "Imagine"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0765",
+    "question": "Dans quelle série télévisée Jennifer Garner incarne-t-elle Sydney Bristow ?",
+    "choices": [
+      "Breaking Bad",
+      "Alias",
+      "The Crown",
+      "Imagine"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0779",
+    "question": "Dans quelle série télévisée les héros se retrouvent-ils au café Central Perk ?",
+    "choices": [
+      "Bohemian Rhapsody",
+      "Friends",
+      "La Boum",
+      "Germinal"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0759",
+    "question": "Dans quelle série télévisée Noah Wyle a-t-il incarné le Dr John Carter ?",
+    "choices": [
+      "Urgences",
+      "Pulp Fiction",
+      "Le Cluedo",
+      "Thriller"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0773",
+    "question": "Dans quelle série télévisée parodique Alain Chabat incarnait-il le capitaine Lamar ?",
+    "choices": [
+      "Pulp Fiction",
+      "Le Roi Lion",
+      "Objectif Nul",
+      "La Joconde"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0743",
+    "question": "Dans quelle série télévisée pouvait-on voir \"Cri Cri d'amour\" jouer de la batterie et aller à la cafèt' ?",
+    "choices": [
+      "La Joconde",
+      "La Boum",
+      "Hélène et les Garçons",
+      "Thriller"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0780",
+    "question": "Dans quelle série télévisée W. Miller a-t-il un plan tatoué sur le corps ?",
+    "choices": [
+      "Prison Break",
+      "Harry Potter",
+      "Germinal",
+      "Imagine"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0742",
+    "question": "Dans quelle ville se situe l'action de la série \"NYPD Blue\" ?",
+    "choices": [
+      "New York",
+      "Le Mexique",
+      "La mer Méditerranée",
+      "Le Japon"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-040",
+    "question": "Dans Squid Game, de quel pays vient la série ?",
+    "choices": [
+      "Japon",
+      "Corée du Sud",
+      "Chine",
+      "Thaïlande"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-036",
+    "question": "Dans Stranger Things, comment se nomme la ville des héros ?",
+    "choices": [
+      "Hawkins",
+      "Riverdale",
+      "Sunnydale",
+      "Hill Valley"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-series-003",
+    "question": "Dans The Walking Dead, quel métier exerçait Rick Grimes ?",
+    "choices": [
+      "Shérif adjoint",
+      "Médecin",
+      "Pompier",
+      "Militaire"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0762",
+    "question": "De quelle couleur est \"Le Frelon\" dans le titre d'une série des années 1960 ?",
+    "choices": [
+      "Bleu",
+      "Doré",
+      "Gris",
+      "Vert"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0755",
+    "question": "De quelle série culte Monsieur Spock est-il l'un des héros ?",
+    "choices": [
+      "Le Seigneur des anneaux",
+      "Star Trek",
+      "Harry Potter",
+      "Bohemian Rhapsody"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0754",
+    "question": "De quelle série culte Rachel, Joey , Monica, Chandler, Phoebe et Ross sont-ils les héros ?",
+    "choices": [
+      "Germinal",
+      "La Casa de Papel",
+      "Friends",
+      "Le Roi Lion"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0752",
+    "question": "De quelle série télévisée Jim Phelps est-il l'un des héros ?",
+    "choices": [
+      "Le Petit Prince",
+      "Koh-Lanta",
+      "Mission :impossible",
+      "Thriller"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0781",
+    "question": "De quelle série télévisée Robert Dacier est-il le personnage central ?",
+    "choices": [
+      "Carmen",
+      "L'Homme de fer",
+      "La Boum",
+      "Le Petit Prince"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0751",
+    "question": "Pour quelle série télévisée, \"La vérité\" est-elle \"ailleurs\" ?",
+    "choices": [
+      "Le Seigneur des anneaux",
+      "Koh-Lanta",
+      "Les Dents de la mer",
+      "X-Files"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0750",
+    "question": "Quel animal est prénommé Elvis dans la série \"Deux Flics à Miami\" ?",
+    "choices": [
+      "Le chat",
+      "Le bœuf",
+      "Le lion",
+      "Un alligator"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0776",
+    "question": "Quel animal est Scoubidou dans la série de dessins animés du même nom ?",
+    "choices": [
+      "Un chien",
+      "La baleine",
+      "La tortue",
+      "Le perroquet"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0769",
+    "question": "Quel animal est Skippy dans la série télévisée des années 60 ?",
+    "choices": [
+      "Le chien",
+      "Le hibou",
+      "Le lapin",
+      "Un kangourou"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-041",
+    "question": "Quel gentleman cambrioleur inspire la série française Lupin ?",
+    "choices": [
+      "Arsène Lupin",
+      "Fantômas",
+      "Vidocq",
+      "Rouletabille"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-061",
+    "question": "Quel métier exerce le personnage principal de The Witcher ?",
+    "choices": [
+      "Sorcier",
+      "Sorceleur",
+      "Chevalier",
+      "Alchimiste"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0746",
+    "question": "Quel nom d'île précède \"Police d'Etat\" dans le titre d'une série policière ?",
+    "choices": [
+      "Pikachu",
+      "Hawaï",
+      "Juliette",
+      "Alexandre"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-series-010",
+    "question": "Quel surnom porte le personnage principal de The Mandalorian ?",
+    "choices": [
+      "Mando",
+      "Boba",
+      "Rex",
+      "Solo"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0775",
+    "question": "Quelle année est associée au mot Cosmos dans le titre d'1 série télé ?",
+    "choices": [
+      "1999",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-043",
+    "question": "Quelle famille possède des pouvoirs dans Umbrella Academy ?",
+    "choices": [
+      "Les Shelby",
+      "Les Hargreeves",
+      "Les Addams",
+      "Les Bridgerton"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0753",
+    "question": "Quelle série américaine se déroule dans la ville de Fairview ?",
+    "choices": [
+      "Thriller",
+      "Desperate Housewives",
+      "La Boum",
+      "Le Petit Prince"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-039",
+    "question": "Quelle série met en scène la famille royale britannique au fil des décennies ?",
+    "choices": [
+      "The Crown",
+      "Bridgerton",
+      "The Royals",
+      "Victoria"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-series-005",
+    "question": "Quelle série met en scène le docteur Gregory House ?",
+    "choices": [
+      "Dr House",
+      "Grey's Anatomy",
+      "The Good Doctor",
+      "Urgences"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-063",
+    "question": "Quelle série met en scène les frères Michael Scofield et Lincoln Burrows ?",
+    "choices": [
+      "Prison Break",
+      "Lost",
+      "Heroes",
+      "Dexter"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0760",
+    "question": "Quelle série met en scène les officiers à moto Jon Baker et Francis Poncherello ?",
+    "choices": [
+      "Le Cluedo",
+      "Breaking Bad",
+      "Chips",
+      "Intouchables"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0747",
+    "question": "Quelle série mettait en scène un dessinateur, père de quatre enfants ?",
+    "choices": [
+      "Les Dents de la mer",
+      "Thriller",
+      "Germinal",
+      "Papa Poule"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-series-002",
+    "question": "Quelle série suit la famille Shelby à Birmingham ?",
+    "choices": [
+      "Peaky Blinders",
+      "Sons of Anarchy",
+      "Boardwalk Empire",
+      "The Crown"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-044",
+    "question": "Quelle série suit le professeur de chimie Walter White ?",
+    "choices": [
+      "Dexter",
+      "Breaking Bad",
+      "Better Call Saul",
+      "Ozark"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-037",
+    "question": "Quelle série suit un groupe de braqueurs portant des combinaisons rouges ?",
+    "choices": [
+      "Lupin",
+      "La Casa de Papel",
+      "Ozark",
+      "Narcos"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-series-008",
+    "question": "Quelle série suit un groupe de survivants après le crash du vol Oceanic 815 ?",
+    "choices": [
+      "Lost",
+      "Manifest",
+      "Yellowjackets",
+      "The 100"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0782",
+    "question": "Quelle série télévisée a pour héros un chef de la mafia prénommé Tony ?",
+    "choices": [
+      "Bohemian Rhapsody",
+      "La Joconde",
+      "Les Soprano",
+      "Titanic"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0766",
+    "question": "Quelle série télévisée a réuni Yasmine Bleeth, David Charvet et Carmen Electra ?",
+    "choices": [
+      "Imagine",
+      "Alerte à Malibu",
+      "Le Seigneur des anneaux",
+      "Koh-Lanta"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0763",
+    "question": "Quelle série télévisée avait Eliot Ness pour personnage principal ?",
+    "choices": [
+      "Les Incorruptibles",
+      "Le Cluedo",
+      "Le Parrain",
+      "Pulp Fiction"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0744",
+    "question": "Quelle série télévisée se déroule dans les murs du Cook County Hospital ?",
+    "choices": [
+      "Le Parrain",
+      "Pulp Fiction",
+      "Urgences",
+      "La Boum"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0767",
+    "question": "Quelle série télévisée se déroule dans Wisteria Lane ?",
+    "choices": [
+      "The Crown",
+      "Star Wars",
+      "Desperate Housewives",
+      "La Casa de Papel"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0778",
+    "question": "Qui est surnommé \"les bons tuyaux\" dans la série \"Starsky et Hutch\" ?",
+    "choices": [
+      "Steven Spielberg",
+      "Charles de Gaulle",
+      "Jodie Foster",
+      "Huggy"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0771",
+    "question": "Qui incarne le docteur Derek Shepherd dans la série \"Grey's Anatomy\" ?",
+    "choices": [
+      "Sophie Marceau",
+      "Patrick Dempsey",
+      "Alfred Hitchcock",
+      "Jean Dujardin"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0772",
+    "question": "Qui jouait le rôle de Marc dans la série télévisée \"Marc et Sophie\" ?",
+    "choices": [
+      "Bénabar",
+      "Gérard Rinaldi",
+      "Alfred Hitchcock",
+      "Tom Hanks"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0745",
+    "question": "Qui prête sa voix à Tony Curtis dans la série \"Amicalement vôtre\" ?",
+    "choices": [
+      "Michel Roux",
+      "Pablo Picasso",
+      "Alain Delon",
+      "Claude Monet"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0761",
+    "question": "Qui sont Zeus et Apollon dans la série télévisée \"Magnum\" ?",
+    "choices": [
+      "Des chiens",
+      "Charles de Gaulle",
+      "Marie Curie",
+      "Audrey Tautou"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  }
+]

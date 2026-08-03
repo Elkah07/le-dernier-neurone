@@ -1,0 +1,386 @@
+[
+  {
+    "id": "modern-047",
+    "question": "Dans Animal Crossing, quel animal est Tom Nook ?",
+    "choices": [
+      "Un renard",
+      "Un tanuki",
+      "Un chat",
+      "Un hibou"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-006",
+    "question": "Dans Les Sims, comment s’appelle la monnaie ?",
+    "choices": [
+      "Clochettes",
+      "Simflouz",
+      "Crédits",
+      "Rubis"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-gaming-003",
+    "question": "Dans Mario Kart, quel objet rend temporairement invincible ?",
+    "choices": [
+      "L'étoile",
+      "La carapace verte",
+      "La banane",
+      "Le champignon"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-004",
+    "question": "Dans Minecraft, quel monstre vert explose près du joueur ?",
+    "choices": [
+      "Zombie",
+      "Creeper",
+      "Enderman",
+      "Slime"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-gaming-005",
+    "question": "Dans Portal, comment se nomme l'intelligence artificielle antagoniste ?",
+    "choices": [
+      "GLaDOS",
+      "Cortana",
+      "EDI",
+      "SHODAN"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-gaming-007",
+    "question": "Dans quel jeu affronte-t-on des créatures appelées Clickers ?",
+    "choices": [
+      "The Last of Us",
+      "Resident Evil",
+      "Dead Space",
+      "Dying Light"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-049",
+    "question": "Dans quel jeu construit-on avec des briques cubiques ?",
+    "choices": [
+      "Minecraft",
+      "Fall Guys",
+      "Rocket League",
+      "Splatoon"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-gaming-009",
+    "question": "Dans quel jeu de combat trouve-t-on Scorpion et Sub-Zero ?",
+    "choices": [
+      "Mortal Kombat",
+      "Street Fighter",
+      "Tekken",
+      "SoulCalibur"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-gaming-001",
+    "question": "Dans quelle saga de jeux vidéo trouve-t-on le personnage de Kratos ?",
+    "choices": [
+      "God of War",
+      "Halo",
+      "Uncharted",
+      "Mass Effect"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-008",
+    "question": "Dans quelle saga incarne-t-on souvent l’Assassin face aux Templiers ?",
+    "choices": [
+      "Far Cry",
+      "Assassin’s Creed",
+      "Uncharted",
+      "Watch Dogs"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-001",
+    "question": "Dans quelle saga trouve-t-on le royaume d’Hyrule ?",
+    "choices": [
+      "Final Fantasy",
+      "Minecraft",
+      "The Legend of Zelda",
+      "Pokémon"
+    ],
+    "answer": 2,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-gaming-008",
+    "question": "Quel est le nom de la princesse que Link cherche souvent à sauver ?",
+    "choices": [
+      "Zelda",
+      "Peach",
+      "Daisy",
+      "Rosalina"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-003",
+    "question": "Quel hérisson bleu est la mascotte de Sega ?",
+    "choices": [
+      "Crash",
+      "Sonic",
+      "Spyro",
+      "Rayman"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-007",
+    "question": "Quel jeu de Battle Royale est développé par Epic Games ?",
+    "choices": [
+      "Fortnite",
+      "Valorant",
+      "Overwatch",
+      "Apex Legends"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-gaming-010",
+    "question": "Quel jeu de gestion permet de construire des parcs remplis de dinosaures ?",
+    "choices": [
+      "Jurassic World Evolution",
+      "Planet Zoo",
+      "Cities: Skylines",
+      "Two Point Hospital"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-gaming-004",
+    "question": "Quel jeu met en scène l'archéologue Nathan Drake ?",
+    "choices": [
+      "Uncharted",
+      "Tomb Raider",
+      "Far Cry",
+      "Just Cause"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-048",
+    "question": "Quel personnage de Nintendo est le frère de Mario ?",
+    "choices": [
+      "Wario",
+      "Luigi",
+      "Yoshi",
+      "Toad"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-009",
+    "question": "Quel plombier moustachu porte généralement une casquette rouge ?",
+    "choices": [
+      "Luigi",
+      "Wario",
+      "Mario",
+      "Toad"
+    ],
+    "answer": 2,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-002",
+    "question": "Quel studio a créé la série Mario ?",
+    "choices": [
+      "Sega",
+      "Nintendo",
+      "Sony",
+      "Capcom"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-gaming-002",
+    "question": "Quel studio développe principalement la série Grand Theft Auto ?",
+    "choices": [
+      "Rockstar Games",
+      "Naughty Dog",
+      "Valve",
+      "BioWare"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-046",
+    "question": "Quel studio est à l’origine de la série The Last of Us ?",
+    "choices": [
+      "Naughty Dog",
+      "Ubisoft",
+      "Rockstar Games",
+      "Bethesda"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-010",
+    "question": "Quelle console portable de Nintendo possède deux écrans ?",
+    "choices": [
+      "PSP",
+      "Nintendo DS",
+      "Game Gear",
+      "Switch Lite"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-005",
+    "question": "Quelle créature jaune accompagne Sacha dans Pokémon ?",
+    "choices": [
+      "Kirby",
+      "Pikachu",
+      "Sonic",
+      "Yoshi"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-gaming-006",
+    "question": "Quelle entreprise a créé la console Dreamcast ?",
+    "choices": [
+      "Sega",
+      "Nintendo",
+      "Sony",
+      "Atari"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  }
+]

@@ -1,0 +1,1762 @@
+[
+  {
+    "id": "archive-0691",
+    "question": "A combien de jeux Olympiques Philippe Candeloro a-t-il gagné des médailles ?",
+    "choices": [
+      "1789",
+      "1914",
+      "1945",
+      "2"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0654",
+    "question": "Au football, combien de cartons jaunes un joueur peut-il recevoir au maximum?",
+    "choices": [
+      "2",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0708",
+    "question": "Au football, combien de temps dure chacune des deux périodes de la prolongation ?",
+    "choices": [
+      "15 minutes",
+      "1789",
+      "1914",
+      "1945"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0675",
+    "question": "Au rugby, combien de points un essai rapporte-t-il ?",
+    "choices": [
+      "5",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0650",
+    "question": "Au rugby, combien de points un essai transformé rapporte-t-il ?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "7"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0639",
+    "question": "Au tennis, combien de jeux au minimum sont disputés au cours d'un set ?",
+    "choices": [
+      "6",
+      "100",
+      "365",
+      "1 000"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0711",
+    "question": "Aux Etats-Unis, quel sport est concerné par le \"Super Bowl\" ?",
+    "choices": [
+      "Le basket-ball",
+      "La gymnastique",
+      "Le cyclisme",
+      "Football américain"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0697",
+    "question": "Aux jeux Olympiques, de combien de spécialités est composé le décathlon ?",
+    "choices": [
+      "10",
+      "0",
+      "1",
+      "2"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0695",
+    "question": "Combien d'années séparent deux Coupes du monde de football ?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0652",
+    "question": "Combien de figurines de footballeurs y a-t-il au total sur un Baby-foot ?",
+    "choices": [
+      "22",
+      "1 000",
+      "100",
+      "365"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0620",
+    "question": "Combien de roues comporte un tricycle ?",
+    "choices": [
+      "3 roues",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0623",
+    "question": "Combien y a-t-il de joueurs sur le terrain lors d'un match de football ?",
+    "choices": [
+      "10",
+      "12",
+      "15",
+      "22"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0678",
+    "question": "Combien y a-t-il de juges de touche sur un terrain de football ?",
+    "choices": [
+      "1 000",
+      "0",
+      "1",
+      "2"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0657",
+    "question": "Dans quel club le footballeur Dominique Rocheteau s'illustra-t-il entre 1972 et 1980 ?",
+    "choices": [
+      "Netflix",
+      "L'AS Saint-Etienne",
+      "L’OTAN",
+      "L’UNESCO"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0712",
+    "question": "Dans quel sport Abdelatif Benazzi s'est-il illustré ?",
+    "choices": [
+      "La natation",
+      "L’escrime",
+      "Le rugby",
+      "La boxe"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0669",
+    "question": "Dans quel sport Anna Kournikova s'est-elle illustrée ?",
+    "choices": [
+      "La natation",
+      "Le rugby",
+      "Le tennis",
+      "Le basket-ball"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0686",
+    "question": "Dans quel sport Daniel Costantini entraîna-t-il l'équipe de France ?",
+    "choices": [
+      "La natation",
+      "Le handball",
+      "La boxe",
+      "Le golf"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0719",
+    "question": "Dans quel sport dispute-t-on La Flèche wallonne ?",
+    "choices": [
+      "L’athlétisme",
+      "La boxe",
+      "Le cyclisme",
+      "Le handball"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0671",
+    "question": "Dans quel sport dispute-t-on le Super Bowl ?",
+    "choices": [
+      "La natation",
+      "Le rugby",
+      "Le tennis",
+      "Football américain"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0636",
+    "question": "Dans quel sport Emilie Le Pennec fut-elle championne olympique ?",
+    "choices": [
+      "Gymnastique",
+      "Le badminton",
+      "L’équitation",
+      "Le tennis"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0663",
+    "question": "Dans quel sport G. Peizerat et M. Anissina ont-ils été sacrés champions olympiques ?",
+    "choices": [
+      "Le patinage",
+      "La boxe",
+      "Le golf",
+      "L’aviron"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0704",
+    "question": "Dans quel sport Hana Mandlikova s'est-elle illustrée ?",
+    "choices": [
+      "Le badminton",
+      "Le basket-ball",
+      "La gymnastique",
+      "Le tennis"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0676",
+    "question": "Dans quel sport Jacques Secrétin s'est-il illustré ?",
+    "choices": [
+      "La natation",
+      "Le ski",
+      "La gymnastique",
+      "Le tennis de table"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0656",
+    "question": "Dans quel sport Joakim Noah, le fils de Yannick Noah, s'illustre-t-il ?",
+    "choices": [
+      "La boxe",
+      "Le rugby",
+      "Le cyclisme",
+      "Le basket-ball"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0651",
+    "question": "Dans quel sport Kim Clijsters s'est-elle illustrée ?",
+    "choices": [
+      "L’aviron",
+      "Le tennis",
+      "Le patinage artistique",
+      "La natation"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0698",
+    "question": "Dans quel sport l'Américain Andy Roddick s'illustre-t-il ?",
+    "choices": [
+      "Le ski",
+      "Le tennis",
+      "L’aviron",
+      "Le cyclisme"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0707",
+    "question": "Dans quel sport l'Américain Michael Phelps s'illustre-t-il ?",
+    "choices": [
+      "Le hockey sur glace",
+      "La natation",
+      "L’équitation",
+      "L’athlétisme"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0638",
+    "question": "Dans quel sport l'Espagnol Steve Ballesteros s'est-il illustré ?",
+    "choices": [
+      "Le golf",
+      "L’athlétisme",
+      "Le cyclisme",
+      "Le handball"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0706",
+    "question": "Dans quel sport la Française Carole Merle s'est-elle illustrée ?",
+    "choices": [
+      "Le patinage artistique",
+      "Le ski",
+      "Le rugby",
+      "L’athlétisme"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0727",
+    "question": "Dans quel sport la Française Christine Arron s'illustre-t-elle ?",
+    "choices": [
+      "Le handball",
+      "L'athlétisme",
+      "Le badminton",
+      "Le cyclisme"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0630",
+    "question": "Dans quel sport la Française Christine Caron s'est-elle illustrée ?",
+    "choices": [
+      "La natation",
+      "Le handball",
+      "Le patinage artistique",
+      "L’escrime"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0699",
+    "question": "Dans quel sport la Française Isabelle Autissier s'est-elle illustrée ?",
+    "choices": [
+      "La voile",
+      "Le basket-ball",
+      "La natation",
+      "Le badminton"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0642",
+    "question": "Dans quel sport la Française Muriel Hurtis s'illustre-t-elle ?",
+    "choices": [
+      "L'athlétisme",
+      "La boxe",
+      "Le golf",
+      "Le judo"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0709",
+    "question": "Dans quel sport la Russe Maria Sharapova s'illustre-t-elle ?",
+    "choices": [
+      "Le volley-ball",
+      "Le tennis",
+      "L’aviron",
+      "La natation"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0667",
+    "question": "Dans quel sport le Britannique David Coulthard s'illustre-t-il ?",
+    "choices": [
+      "Le cyclisme",
+      "La Formule 1",
+      "Le basket-ball",
+      "La gymnastique"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0718",
+    "question": "Dans quel sport le Britannique Lewis Hamilton s'illustre-t-il ?",
+    "choices": [
+      "Le cyclisme",
+      "La Formule 1",
+      "La boxe",
+      "Le patinage artistique"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0710",
+    "question": "Dans quel sport le Français Arnaud Boetsch s'est-il illustré ?",
+    "choices": [
+      "Le hockey sur glace",
+      "L’athlétisme",
+      "Le tennis",
+      "L’escrime"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0722",
+    "question": "Dans quel sport le Français Brice Guyart a-t-il été champion olympique ?",
+    "choices": [
+      "L'escrime",
+      "Le rugby",
+      "Le basket-ball",
+      "La gymnastique"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0723",
+    "question": "Dans quel sport le Français Christophe Moreau s'illustre-t-il ?",
+    "choices": [
+      "Le rugby",
+      "La natation",
+      "Le cyclisme",
+      "Le badminton"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0685",
+    "question": "Dans quel sport le Français Francis Joyon s'illustre-t-il ?",
+    "choices": [
+      "La voile",
+      "Le cyclisme",
+      "Le rugby",
+      "Le patinage artistique"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0653",
+    "question": "Dans quel sport le Français Jackson Richardson a-t-il été le meilleur joueur du monde ?",
+    "choices": [
+      "Le tennis",
+      "Le volley-ball",
+      "Le rugby",
+      "Le handball"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0692",
+    "question": "Dans quel sport le Français Richard Dacoury s'est-il illustré ?",
+    "choices": [
+      "Le badminton",
+      "L’équitation",
+      "Le basket-ball",
+      "Le volley-ball"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0664",
+    "question": "Dans quel sport le Français Sébastien Chabal s'illustre-t-il ?",
+    "choices": [
+      "L’aviron",
+      "L’escrime",
+      "Le rugby",
+      "Le patinage artistique"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0715",
+    "question": "Dans quel sport le Français Sébastien Grosjean s'illustre-t-il ?",
+    "choices": [
+      "Le cyclisme",
+      "Le basket-ball",
+      "La gymnastique",
+      "Le tennis"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0619",
+    "question": "Dans quel sport le Français Stéphan Caron s'est-il illustré ?",
+    "choices": [
+      "Le ski",
+      "Le golf",
+      "Le volley-ball",
+      "La natation"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0680",
+    "question": "Dans quel sport le Français Titouan Lamazou s'est-il illustré ?",
+    "choices": [
+      "Le cyclisme",
+      "La voile",
+      "Le basket-ball",
+      "La gymnastique"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0690",
+    "question": "Dans quel sport les frères Yves et Marc Pajot se sont-ils illustrés ?",
+    "choices": [
+      "Le patinage artistique",
+      "Le handball",
+      "L’équitation",
+      "La voile"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0622",
+    "question": "Dans quel sport O. J. Simpson est- il devenu une star aux Etats-Unis ?",
+    "choices": [
+      "Football américain",
+      "L’escrime",
+      "L’aviron",
+      "La natation"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0665",
+    "question": "Dans quel sport Olivier Panis s'est-il illustré entre 1994 et 2004 ?",
+    "choices": [
+      "La natation",
+      "L’aviron",
+      "Le tennis",
+      "La Formule 1"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0643",
+    "question": "Dans quel sport olympique frappe-t-on un volant avec une raquette ?",
+    "choices": [
+      "Le badminton",
+      "La boxe",
+      "Le rugby",
+      "L’escrime"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0648",
+    "question": "Dans quel sport parle-t-on de salchow et de double axels ?",
+    "choices": [
+      "Le tennis",
+      "Le handball",
+      "Le football",
+      "Patinage artistique"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0646",
+    "question": "Dans quel sport Pascal Olmeta s'est-il illustré en professionnel de 82 à 99 ?",
+    "choices": [
+      "L’aviron",
+      "L’équitation",
+      "Le handball",
+      "Le football"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0629",
+    "question": "Dans quel sport peut-on effectuer un parcours 18 trous ?",
+    "choices": [
+      "Le football",
+      "Le golf",
+      "Le badminton",
+      "Le handball"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0677",
+    "question": "Dans quel sport peut-on jouer pilier, demi d'ouverture ou trois-quarts ?",
+    "choices": [
+      "La natation",
+      "Le rugby",
+      "Le patinage artistique",
+      "L’aviron"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0716",
+    "question": "Dans quel sport Pierre Albaladejo s'est-il illustré ?",
+    "choices": [
+      "L’escrime",
+      "Le badminton",
+      "La natation",
+      "Le rugby"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0720",
+    "question": "Dans quel sport pratique-t-on \"l'arraché\" et \"l'épaulé jeté\" ?",
+    "choices": [
+      "La natation",
+      "Le patinage artistique",
+      "Haltérophilie",
+      "L’escrime"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0661",
+    "question": "Dans quel sport s'est illustré le Français Tariq Abdul-Wahad ?",
+    "choices": [
+      "L’aviron",
+      "Le patinage artistique",
+      "L’escrime",
+      "Basket-ball"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0702",
+    "question": "Dans quel sport s'est illustrée Chris Evert ?",
+    "choices": [
+      "Le tennis",
+      "La boxe",
+      "Le golf",
+      "Le judo"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0674",
+    "question": "Dans quel sport s'est illustrée l'Argentine Gabriela Sabatini ?",
+    "choices": [
+      "L’équitation",
+      "Le tennis",
+      "La natation",
+      "L’athlétisme"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0640",
+    "question": "Dans quel sport s'est illustrée l'Espagnole Arantxa Sanchez ?",
+    "choices": [
+      "Le rugby",
+      "La natation",
+      "Le tennis",
+      "Le cyclisme"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0672",
+    "question": "Dans quel sport s'est illustrée la Française Laure Péquegnot ?",
+    "choices": [
+      "L’escrime",
+      "Le ski",
+      "Le cyclisme",
+      "Le handball"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0725",
+    "question": "Dans quel sport s'est illustrée la Française Régine Cavagnoud ?",
+    "choices": [
+      "La natation",
+      "Le rugby",
+      "Le ski",
+      "L’athlétisme"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0682",
+    "question": "Dans quel sport s'est illustrée Lindsay Davenport ?",
+    "choices": [
+      "Le basket-ball",
+      "La gymnastique",
+      "Le hockey sur glace",
+      "Le tennis"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0684",
+    "question": "Dans quel sport s'est illustrée Martina Navratilova ?",
+    "choices": [
+      "Le volley-ball",
+      "Le rugby",
+      "Le tennis",
+      "Tennis"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0673",
+    "question": "Dans quel sport s'illustre l'international français Frédéric Michalak ?",
+    "choices": [
+      "Le rugby",
+      "Le football",
+      "Le volley-ball",
+      "Le hockey sur glace"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0621",
+    "question": "Dans quel sport Tony Estanguet gagne-t-il une médaille d'or aux JO d'Athènes ?",
+    "choices": [
+      "Le tennis",
+      "L’athlétisme",
+      "Le canoë-kayak",
+      "La boxe"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0618",
+    "question": "De quel sport Jean-François Lamour fut-il champion olympique ?",
+    "choices": [
+      "L’équitation",
+      "L’athlétisme",
+      "L’aviron",
+      "L'escrime"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0626",
+    "question": "De quel sport l'Américain A. Roddick est-il un des meilleurs joueurs ?",
+    "choices": [
+      "Le basket-ball",
+      "Le patinage artistique",
+      "Le tennis",
+      "L’équitation"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0637",
+    "question": "De quel sport l'Américain Jake La Motta a-t-il été champion du monde en 1949 ?",
+    "choices": [
+      "Le volley-ball",
+      "Le badminton",
+      "La boxe",
+      "Le football"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0679",
+    "question": "De quel sport le Français Djamel Bouras a-t-il été champion olympique ?",
+    "choices": [
+      "Le golf",
+      "Le judo",
+      "Le badminton",
+      "Le handball"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0681",
+    "question": "De quel sport le funboard est-il la version la plus acrobatique ?",
+    "choices": [
+      "La planche à voile",
+      "Le handball",
+      "Le football",
+      "L’escrime"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0721",
+    "question": "De quel sport le keirin est-il une épreuve olympique ?",
+    "choices": [
+      "Le cyclisme",
+      "Le basket-ball",
+      "La gymnastique",
+      "Le hockey sur glace"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0717",
+    "question": "De quel sport le Russe N. Davydenko est-il l'un des meilleurs joueurs ?",
+    "choices": [
+      "Le tennis",
+      "L’athlétisme",
+      "La boxe",
+      "Le golf"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0724",
+    "question": "De quel sport le Serbe Novak Djokovic est-il l'un des meilleurs joueurs ?",
+    "choices": [
+      "Le handball",
+      "Le tennis",
+      "L’escrime",
+      "Le hockey sur glace"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0668",
+    "question": "De quel sport Michael Jordan est-il considéré comme le meilleur joueur de tous les temps ?",
+    "choices": [
+      "Le basket-ball",
+      "La gymnastique",
+      "Le basket, le basket-ball",
+      "Le cyclisme"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0683",
+    "question": "De quel sport Thierry Rey a-t-il été champion olympique ?",
+    "choices": [
+      "Le handball",
+      "Le judo",
+      "Le basket-ball",
+      "La gymnastique"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0634",
+    "question": "De quelle couleur est le fond du drapeau olympique ?",
+    "choices": [
+      "Turquoise",
+      "Marron",
+      "Blanc",
+      "Argenté"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0701",
+    "question": "En 1985, de quel jeu Garry Kasparov a-t-il été champion du monde à l'âge de 22 ans ?",
+    "choices": [
+      "Le flipper",
+      "Les échecs",
+      "Pokémon",
+      "Les Sims"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0689",
+    "question": "En rugby, quelle équipe a remporté le tournoi des VI Nations 2007 ?",
+    "choices": [
+      "L’UNESCO",
+      "L’ONU",
+      "La France",
+      "La Croix-Rouge"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0662",
+    "question": "En sport, quel nom désigne la tranche d'âge entre benjamins et cadets ?",
+    "choices": [
+      "Minimes",
+      "Perceval",
+      "Central Perk",
+      "Scotland Yard"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0713",
+    "question": "Quel club un golfeur utilise-t-il sur le green ?",
+    "choices": [
+      "La FIFA",
+      "Nintendo",
+      "La Croix-Rouge",
+      "Un putter"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0645",
+    "question": "Quel nom d'origine anglaise désigne les avants d'une équipe de rugby ?",
+    "choices": [
+      "Arsène Lupin",
+      "Le pack",
+      "Arthur",
+      "Gotham"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0688",
+    "question": "Quel nom porte chacun des deux angles supérieurs d'un but de football ?",
+    "choices": [
+      "Charlotte",
+      "Pikachu",
+      "Lucarne",
+      "Walter White"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0703",
+    "question": "Quel nom porte la surface de cordage d'une raquette de tennis ?",
+    "choices": [
+      "Springfield",
+      "Hawkins",
+      "Le tamis",
+      "Central Perk"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0641",
+    "question": "Quel nom porte le cageot servant au transport des huîtres ?",
+    "choices": [
+      "Hawkins",
+      "Perceval",
+      "La Méduse",
+      "La bourriche"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0700",
+    "question": "Quel sport a permis à Jean-Philippe Gatien de remporter deux médailles aux JO ?",
+    "choices": [
+      "Le hockey sur glace",
+      "Le tennis de table",
+      "Le badminton",
+      "Le ski"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0696",
+    "question": "Quel sport a permis à Malia Metella de décrocher une médaille olympique ?",
+    "choices": [
+      "La natation",
+      "L’aviron",
+      "L’escrime",
+      "La boxe"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0693",
+    "question": "Quel sport a valu à C. Dominici plus de 60 sélections en équipe de France ?",
+    "choices": [
+      "Le patinage artistique",
+      "Le handball",
+      "Le rugby",
+      "Le cyclisme"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0655",
+    "question": "Quel sport appelle-t-on \"soccer\" aux Etats-Unis ?",
+    "choices": [
+      "Le patinage artistique",
+      "Le cyclisme",
+      "Le football",
+      "L’escrime"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0632",
+    "question": "Quel sport associe-t-on au \"Quinze de France\" ?",
+    "choices": [
+      "Le tennis",
+      "Le hockey sur glace",
+      "Le rugby",
+      "Le volley-ball"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0633",
+    "question": "Quel sport Didier Pironi a-t-il pratiqué en professionnel de 78 à 82 ?",
+    "choices": [
+      "Le rugby",
+      "Le handball",
+      "La Formule 1",
+      "Le cyclisme"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0694",
+    "question": "Quel sport est associé au célèbre \"Allez les petits !\" de R. Couderc ?",
+    "choices": [
+      "La boxe",
+      "Le golf",
+      "Le judo",
+      "Le rugby"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0631",
+    "question": "Quel sport est concerné par le prix d'Amérique ?",
+    "choices": [
+      "Le hockey sur glace",
+      "Le basket-ball",
+      "La gymnastique",
+      "L'équitation"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0628",
+    "question": "Quel sport est dérivé de la \"savate\" ?",
+    "choices": [
+      "Le ski",
+      "Le rugby",
+      "La boxe française",
+      "Le volley-ball"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0647",
+    "question": "Quel sport Harry Potter pratique-t-il sur son balai volant ?",
+    "choices": [
+      "Le tennis",
+      "Le quidditch",
+      "Le volley-ball",
+      "Le ski"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0635",
+    "question": "Quel sport Jacques Lafitte a-t-il pratiqué en professionnel de 74 à 86 ?",
+    "choices": [
+      "La formule 1",
+      "Le ski",
+      "Le volley-ball",
+      "La natation"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0658",
+    "question": "Quel sport Jean Alesi a-t-il pratiqué en professionnel de 1989 à 2001 ?",
+    "choices": [
+      "La formule 1",
+      "La boxe",
+      "Le golf",
+      "La natation"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0670",
+    "question": "Quel sport olympique a un nom qui signifie \"voie de la souplesse\" ?",
+    "choices": [
+      "Le judo",
+      "L’escrime",
+      "Le badminton",
+      "L’équitation"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0660",
+    "question": "Quel sport olympique comporte une discipline dite gréco-romaine ?",
+    "choices": [
+      "La lutte",
+      "Le badminton",
+      "Le ski",
+      "Le cyclisme"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0624",
+    "question": "Quel sport olympique comprend une course de ski de fond entrecoupée de tirs à la carabine ?",
+    "choices": [
+      "Le rugby",
+      "L’équitation",
+      "Le handball",
+      "Le biathlon"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0659",
+    "question": "Quel sport olympique compte parmi ses disciplines le cheval-d'arçons ?",
+    "choices": [
+      "La gymnastique",
+      "Le badminton",
+      "Le cyclisme",
+      "Le rugby"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0666",
+    "question": "Quel sport olympique consiste à faire glisser des pierres sur de la glace ?",
+    "choices": [
+      "Le cyclisme",
+      "Le curling",
+      "Le handball",
+      "L’escrime"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0625",
+    "question": "Quel sport olympique peut-être acrobatique, de fond ou alpin ?",
+    "choices": [
+      "Le ski",
+      "L’escrime",
+      "Le badminton",
+      "L’équitation"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0644",
+    "question": "Quel sport pratique en professionnel Ralf Schumacher, le frère de Michael ?",
+    "choices": [
+      "La natation",
+      "La Formule 1",
+      "Le basket-ball",
+      "La gymnastique"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0687",
+    "question": "Quel sport pratiquent ensemble les 4 amis d'\"Un éléphant ça trompe...\" ?",
+    "choices": [
+      "L’aviron",
+      "Le tennis",
+      "Le golf",
+      "Le judo"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0705",
+    "question": "Quel sport vaut à C. Dominici plus de 50 sélections en équipe de France ?",
+    "choices": [
+      "Le hockey sur glace",
+      "Le patinage artistique",
+      "Le rugby",
+      "La natation"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0627",
+    "question": "Quel sport vaut à D. Yachvili plus de 30 sélections en équipe de France ?",
+    "choices": [
+      "L’aviron",
+      "Le volley-ball",
+      "Le rugby",
+      "L’escrime"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0726",
+    "question": "Quel titre le patineur Brian Joubert a-t-il décroché le 25 janvier 2007 ?",
+    "choices": [
+      "Intouchables",
+      "La Casa de Papel",
+      "Le Petit Prince",
+      "Champion d'Europe"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0649",
+    "question": "Quelle équipe nationale de football surnomme-t-on \"la Squadra Azzura\" ?",
+    "choices": [
+      "Nintendo",
+      "La Croix-Rouge",
+      "L'Italie",
+      "L’OTAN"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0714",
+    "question": "Qui fut champion du monde de Formule 1 en 1975, 1977 et 1984 ?",
+    "choices": [
+      "Niki Lauda",
+      "David Bowie",
+      "Jodie Foster",
+      "Édith Piaf"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  }
+]

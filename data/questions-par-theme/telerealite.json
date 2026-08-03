@@ -1,0 +1,322 @@
+[
+  {
+    "id": "new-tv-001",
+    "question": "Dans Koh-Lanta, quel objet symbolise l'immunité individuelle ?",
+    "choices": [
+      "Un totem",
+      "Un flambeau",
+      "Une boussole",
+      "Un collier"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-tv-010",
+    "question": "Dans L'amour est dans le pré, quel est le métier des participants principaux ?",
+    "choices": [
+      "Agriculteur",
+      "Cuisinier",
+      "Comédien",
+      "Médecin"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-tv-007",
+    "question": "Dans Les Traîtres, quel groupe cherche à éliminer les joueurs loyaux ?",
+    "choices": [
+      "Les traîtres",
+      "Les aventuriers",
+      "Les coachs",
+      "Les jurés"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-tv-005",
+    "question": "Dans Pékin Express, quel objet permet traditionnellement d'arrêter une voiture ?",
+    "choices": [
+      "Un pouce en carton",
+      "Un totem",
+      "Une rose",
+      "Un masque"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-033",
+    "question": "Dans quelle émission culinaire des cuisiniers professionnels s’affrontent-ils ?",
+    "choices": [
+      "Top Chef",
+      "Le Meilleur Pâtissier",
+      "Cauchemar en cuisine",
+      "Objectif Top Chef"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-029",
+    "question": "Dans quelle émission des aventuriers participent-ils à des épreuves sur une île ?",
+    "choices": [
+      "The Voice",
+      "Koh-Lanta",
+      "Top Chef",
+      "Pékin Express"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-030",
+    "question": "Dans quelle émission des candidats vivent-ils dans une maison en protégeant un secret ?",
+    "choices": [
+      "Secret Story",
+      "Loft Story",
+      "Star Academy",
+      "Les Traîtres"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-035",
+    "question": "Dans quelle émission des célébrités doivent-elles démasquer des traîtres ?",
+    "choices": [
+      "Fort Boyard",
+      "Les Traîtres",
+      "Mask Singer",
+      "District Z"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-060",
+    "question": "Dans quelle émission des couples se rencontrent-ils pour la première fois à leur mariage ?",
+    "choices": [
+      "Mariés au premier regard",
+      "Love Island",
+      "Bachelor",
+      "L’amour est dans le pré"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-058",
+    "question": "Dans quelle émission des voyageurs font-ils la course avec un budget très limité ?",
+    "choices": [
+      "Pékin Express",
+      "Koh-Lanta",
+      "The Voice",
+      "Top Chef"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-tv-003",
+    "question": "Dans The Voice, quel geste permet à un coach de choisir un talent pendant les auditions ?",
+    "choices": [
+      "Se retourner",
+      "Lever un drapeau",
+      "Sonner une cloche",
+      "Allumer une bougie"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-tv-006",
+    "question": "Quel programme met des célébrités en compétition sur une piste de danse ?",
+    "choices": [
+      "Danse avec les stars",
+      "Mask Singer",
+      "Star Academy",
+      "Dream Team"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-tv-009",
+    "question": "Quel type de talent est principalement recherché dans Nouvelle Star ?",
+    "choices": [
+      "Le chant",
+      "La cuisine",
+      "La danse",
+      "La magie"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-032",
+    "question": "Quelle émission de rencontre se déroule autour de prétendants et d’agriculteurs ?",
+    "choices": [
+      "Mariés au premier regard",
+      "L’amour est dans le pré",
+      "Bachelor",
+      "Love Island"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-059",
+    "question": "Quelle émission demande à des célébrités de chanter sous un costume ?",
+    "choices": [
+      "Mask Singer",
+      "Danse avec les stars",
+      "Les Traîtres",
+      "Dream Team"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-034",
+    "question": "Quelle émission enfermait des candidats dans un loft filmé en permanence ?",
+    "choices": [
+      "Loft Story",
+      "Koh-Lanta",
+      "Popstars",
+      "Dilemme"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-tv-002",
+    "question": "Quelle émission fait s'affronter des pâtissiers amateurs ?",
+    "choices": [
+      "Le Meilleur Pâtissier",
+      "Top Chef",
+      "MasterChef",
+      "La Meilleure Boulangerie"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-tv-008",
+    "question": "Quelle émission française a popularisé le confessionnal dans une maison surveillée ?",
+    "choices": [
+      "Loft Story",
+      "Fort Boyard",
+      "Intervilles",
+      "Popstars"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-031",
+    "question": "Quelle émission française met en compétition de jeunes chanteurs dans un château ?",
+    "choices": [
+      "Nouvelle Star",
+      "Star Academy",
+      "Popstars",
+      "The Artist"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-tv-004",
+    "question": "Quelle émission suit des candidats dans une villa à la recherche de l'amour ?",
+    "choices": [
+      "Love Island",
+      "Pékin Express",
+      "Top Chef",
+      "The Voice"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  }
+]

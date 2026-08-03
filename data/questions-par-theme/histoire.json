@@ -1,0 +1,354 @@
+[
+  {
+    "id": "archive-0739",
+    "question": "Combien de Napoléon ont été empereurs ?",
+    "choices": [
+      "10",
+      "2",
+      "100",
+      "365"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-history-001",
+    "question": "En quelle année débute la Révolution française ?",
+    "choices": [
+      "1789",
+      "1776",
+      "1815",
+      "1848"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0729",
+    "question": "En quelle année François 1er a-t-il remporté la bataille de Marignan ?",
+    "choices": [
+      "10",
+      "12",
+      "15",
+      "1515"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-history-002",
+    "question": "Quel empereur français est vaincu à Waterloo ?",
+    "choices": [
+      "Napoléon Ier",
+      "Charlemagne",
+      "Napoléon III",
+      "Louis-Napoléon"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-history-004",
+    "question": "Quel mur est tombé en novembre 1989 ?",
+    "choices": [
+      "Le mur de Berlin",
+      "Le mur d'Hadrien",
+      "La Grande Muraille",
+      "Le mur des Lamentations"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-history-007",
+    "question": "Quel navigateur atteint les Antilles en 1492 ?",
+    "choices": [
+      "Christophe Colomb",
+      "Vasco de Gama",
+      "Fernand de Magellan",
+      "James Cook"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0734",
+    "question": "Quel nom porte la hache de guerre qu'utilisaient les Francs ?",
+    "choices": [
+      "La francisque",
+      "Buzz",
+      "Nemo",
+      "Olaf"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0730",
+    "question": "Quel personnage historique a-t-on surnommé la Pucelle d'Orléans ?",
+    "choices": [
+      "Jeanne d'Arc",
+      "David Bowie",
+      "Pablo Picasso",
+      "Marion Cotillard"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0732",
+    "question": "Quel personnage historique était appelé \"La Pucelle d'Orléans\" ?",
+    "choices": [
+      "Marie Curie",
+      "Édith Piaf",
+      "Vanessa Paradis",
+      "Jeanne d'Arc"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-history-005",
+    "question": "Quel peuple de l'Antiquité utilisait des hiéroglyphes ?",
+    "choices": [
+      "Les Égyptiens",
+      "Les Romains",
+      "Les Vikings",
+      "Les Gaulois"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0736",
+    "question": "Quel prénom portait le roi de France qui était surnommé le Hutin ?",
+    "choices": [
+      "Louis",
+      "Mario",
+      "Simba",
+      "Sonic"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-history-008",
+    "question": "Quel roi de France était surnommé le Roi-Soleil ?",
+    "choices": [
+      "Louis XIV",
+      "Louis XVI",
+      "François Ier",
+      "Henri IV"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-history-010",
+    "question": "Quel traité signé en 1919 règle notamment la paix avec l'Allemagne après la Première Guerre mondiale ?",
+    "choices": [
+      "Le traité de Versailles",
+      "Le traité de Rome",
+      "Le traité de Maastricht",
+      "Le traité de Tordesillas"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-history-009",
+    "question": "Quelle cité antique a été ensevelie par l'éruption du Vésuve en 79 ?",
+    "choices": [
+      "Pompéi",
+      "Athènes",
+      "Sparte",
+      "Carthage"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-history-003",
+    "question": "Quelle civilisation a construit le Machu Picchu ?",
+    "choices": [
+      "Les Incas",
+      "Les Mayas",
+      "Les Aztèques",
+      "Les Olmèques"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-history-006",
+    "question": "Quelle reine de France a été guillotinée en 1793 ?",
+    "choices": [
+      "Marie-Antoinette",
+      "Catherine de Médicis",
+      "Anne d'Autriche",
+      "Marie de Médicis"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0738",
+    "question": "Qui a animé \"La Marche du siècle\" de 1987 à 1994 ?",
+    "choices": [
+      "Napoléon Bonaparte",
+      "Alain Delon",
+      "Jean-Marie Cavada",
+      "Jean Dujardin"
+    ],
+    "answer": 2,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0728",
+    "question": "Qui a assassiné le révolutionnaire Jean-Paul Marat dans sa baignoire ?",
+    "choices": [
+      "Jean Dujardin",
+      "Émile Zola",
+      "Alfred Hitchcock",
+      "Charlotte Corday"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0731",
+    "question": "Qui a créé la compagnie de danse \"Le Ballet du XXe siècle\" ?",
+    "choices": [
+      "Maurice Béjart",
+      "Sophie Marceau",
+      "Louis Pasteur",
+      "Claude Monet"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0735",
+    "question": "Qui a écrit \"Le Malade imaginaire\" au 17e siècle ?",
+    "choices": [
+      "Molière (Jean-Baptiste Poquelin)",
+      "Bénabar",
+      "Jodie Foster",
+      "Marie Curie"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0737",
+    "question": "Qui était surnommé \"l'Incorruptible\" sous la Révolution ?",
+    "choices": [
+      "Robespierre",
+      "Marie Curie",
+      "Sophie Marceau",
+      "Jean Reno"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0733",
+    "question": "Qui fut empereur d'Occident de 800 à 814 ?",
+    "choices": [
+      "Audrey Tautou",
+      "Napoléon Bonaparte",
+      "Steven Spielberg",
+      "Charlemagne"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  }
+]

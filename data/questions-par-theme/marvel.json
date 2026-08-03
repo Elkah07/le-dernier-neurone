@@ -1,0 +1,386 @@
+[
+  {
+    "id": "new-marvel-007",
+    "question": "Comment s'appelle l'intelligence artificielle créée par Tony Stark et Bruce Banner ?",
+    "choices": [
+      "Ultron",
+      "Jarvis",
+      "Friday",
+      "Vision"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-marvel-003",
+    "question": "Comment se nomme la sœur de Gamora ?",
+    "choices": [
+      "Nebula",
+      "Mantis",
+      "Shuri",
+      "Yelena"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-marvel-005",
+    "question": "Dans quelle nation fictive se trouve le royaume de Black Panther ?",
+    "choices": [
+      "Le Wakanda",
+      "La Sokovie",
+      "Latveria",
+      "Genosha"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-014",
+    "question": "De quel métal sont faites les griffes de Wolverine ?",
+    "choices": [
+      "Vibranium",
+      "Adamantium",
+      "Titane",
+      "Uru"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-050",
+    "question": "Quel acteur incarne Iron Man dans l’univers cinématographique Marvel ?",
+    "choices": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-020",
+    "question": "Quel ennemi cherche à réunir les Pierres d’Infinité ?",
+    "choices": [
+      "Ultron",
+      "Thanos",
+      "Ronan",
+      "Red Skull"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-marvel-010",
+    "question": "Quel est le prénom de la sœur de Natasha Romanoff ?",
+    "choices": [
+      "Yelena",
+      "Wanda",
+      "Peggy",
+      "Carol"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-016",
+    "question": "Quel est le prénom de la sœur de T’Challa dans Black Panther ?",
+    "choices": [
+      "Nakia",
+      "Okoye",
+      "Shuri",
+      "Ramonda"
+    ],
+    "answer": 2,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-012",
+    "question": "Quel est le véritable nom d’Iron Man ?",
+    "choices": [
+      "Bruce Banner",
+      "Tony Stark",
+      "Steve Rogers",
+      "Peter Parker"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-marvel-001",
+    "question": "Quel est le véritable nom de Black Panther ?",
+    "choices": [
+      "T'Challa",
+      "M'Baku",
+      "N'Jadaka",
+      "T'Chaka"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-marvel-006",
+    "question": "Quel Gardien de la Galaxie ressemble à un raton laveur ?",
+    "choices": [
+      "Rocket",
+      "Groot",
+      "Drax",
+      "Star-Lord"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-019",
+    "question": "Quel groupe réunit notamment Iron Man, Thor et Captain America ?",
+    "choices": [
+      "Les Éternels",
+      "Les Avengers",
+      "Les Gardiens",
+      "Les Défenseurs"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-013",
+    "question": "Quel héros devient vert lorsqu’il se transforme ?",
+    "choices": [
+      "Hulk",
+      "Thor",
+      "Loki",
+      "Vision"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-marvel-002",
+    "question": "Quel héros Marvel manie le marteau Mjolnir ?",
+    "choices": [
+      "Thor",
+      "Hawkeye",
+      "Doctor Strange",
+      "Falcon"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-053",
+    "question": "Quel héros Marvel peut rétrécir grâce à des particules Pym ?",
+    "choices": [
+      "Ant-Man",
+      "Falcon",
+      "Hawkeye",
+      "Daredevil"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-011",
+    "question": "Quel héros Marvel utilise un bouclier en vibranium ?",
+    "choices": [
+      "Thor",
+      "Iron Man",
+      "Captain America",
+      "Hawkeye"
+    ],
+    "answer": 2,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-marvel-008",
+    "question": "Quel héros utilise un arc comme arme principale ?",
+    "choices": [
+      "Hawkeye",
+      "Falcon",
+      "Ant-Man",
+      "War Machine"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-marvel-004",
+    "question": "Quel métier exerce Stephen Strange avant de devenir sorcier ?",
+    "choices": [
+      "Chirurgien",
+      "Avocat",
+      "Physicien",
+      "Journaliste"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-051",
+    "question": "Quel personnage est le frère adoptif de Thor ?",
+    "choices": [
+      "Loki",
+      "Thanos",
+      "Vision",
+      "Bucky"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-015",
+    "question": "Quel personnage Marvel est le dieu nordique du tonnerre ?",
+    "choices": [
+      "Loki",
+      "Thor",
+      "Odin",
+      "Heimdall"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-marvel-009",
+    "question": "Quel personnage répète souvent « Je s'appelle Groot » en français ?",
+    "choices": [
+      "Groot",
+      "Rocket",
+      "Drax",
+      "Korg"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-017",
+    "question": "Quel super-héros est aussi Peter Parker ?",
+    "choices": [
+      "Daredevil",
+      "Spider-Man",
+      "Ant-Man",
+      "Star-Lord"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-052",
+    "question": "Quelle héroïne Marvel se nomme Carol Danvers ?",
+    "choices": [
+      "Black Widow",
+      "Captain Marvel",
+      "Wasp",
+      "Gamora"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "modern-018",
+    "question": "Quelle Pierre d’Infinité se trouve sur le front de Vision ?",
+    "choices": [
+      "Temps",
+      "Espace",
+      "Esprit",
+      "Réalité"
+    ],
+    "answer": 2,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  }
+]

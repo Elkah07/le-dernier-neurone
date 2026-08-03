@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "archive-0025",
+    "question": "A quel numéro habite l'assassin, selon le titre d'un film de Clouzot ?",
+    "choices": [
+      "10",
+      "12",
+      "15",
+      "21"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0005",
+    "question": "Au cinéma, quel animal est Horton dans le dessin animé de 2008 qui porte son nom ?",
+    "choices": [
+      "L’aigle",
+      "Le kangourou",
+      "L’éléphant",
+      "Un éléphant"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0050",
+    "question": "Combien d'épisodes comporte la saga cinématographique : \"Star Wars\" ?",
+    "choices": [
+      "6",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0166",
+    "question": "Combien d'épisodes de la saga \"Matrix\" ont été réalisés pour le cinéma ?",
+    "choices": [
+      "100",
+      "365",
+      "1789",
+      "3"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0007",
+    "question": "Combien d'oscars le film \"West Side Story\" a-t-il remportés en 1962 ?",
+    "choices": [
+      "10",
+      "12",
+      "100",
+      "365"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0150",
+    "question": "Combien de fois Mark Hamill a-t-il incarné Luke Skywalker au cinéma ?",
+    "choices": [
+      "1 000",
+      "3",
+      "100",
+      "365"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0071",
+    "question": "Combien de fois Roger Moore a-t-il incarné James Bond au cinéma ?",
+    "choices": [
+      "7",
+      "1789",
+      "1914",
+      "1945"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0149",
+    "question": "Combien de volets comporte la saga \"X-Men\" au cinéma ?",
+    "choices": [
+      "1 000",
+      "3",
+      "10",
+      "12"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0051",
+    "question": "Combien y a-t-il de \"salopards\" dans 1 film avec C. Bronson et Lee Marvin ?",
+    "choices": [
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0028",
+    "question": "Comment s'appelle \"la douce\" d'après le titre d'un film de Billy Wilder ?",
+    "choices": [
+      "Irma",
+      "Gontran",
+      "Valmont",
+      "Camille"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0117",
+    "question": "Comment s'appelle l'héroïne du film \"Autant en emporte le vent\" incarnée par Vivien Leigh en 1939 ?",
+    "choices": [
+      "Springfield",
+      "Central Perk",
+      "Scarlett O'Hara",
+      "Alexandre"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0121",
+    "question": "Comment s'appelle le personnage interprété par Michel Blanc dans le film \"Les bronzés font du ski\" de Patrice Leconte ?",
+    "choices": [
+      "Jean-Claude (Dusse)",
+      "Mario",
+      "Charlotte",
+      "Perceval"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0106",
+    "question": "Comment se nomme le célèbre portrait de Mona Lisa réalisé par Léonard de Vinci ?",
+    "choices": [
+      "La Joconde",
+      "La Méduse",
+      "Springfield",
+      "Arthur"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0023",
+    "question": "D'après un film avec Bruce Willis, combien de singes compte l'armée ?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "12"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0065",
+    "question": "Dans la série des films \"La Panthère rose\", comment s'appelle le personnage interprété notamment par Peter Sellers ?",
+    "choices": [
+      "Alexandre",
+      "Walter White",
+      "Arsène Lupin",
+      "L'inspecteur Clouseau"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0154",
+    "question": "Dans le film \"Bambou\" de Didier Bourdon, quel animal est Bambou ?",
+    "choices": [
+      "Le manchot",
+      "Le renard",
+      "Le requin",
+      "Une chienne (un cocker)"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0128",
+    "question": "Dans le film de 1933, comment s'appelle le singe géant qui enlève Ann et sème la panique à New York ?",
+    "choices": [
+      "Sherlock Holmes",
+      "Camille",
+      "Hawkins",
+      "King Kong"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0003",
+    "question": "Dans quel film avec Bruce Willis un petit garçon dit-il voir des gens qui sont morts ?",
+    "choices": [
+      "Le Parrain",
+      "Pulp Fiction",
+      "Le Petit Prince",
+      "Sixième Sens"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0030",
+    "question": "Dans quel film D. Bourdon et B. Campan essayent-ils d'arrêter de fumer ?",
+    "choices": [
+      "The Crown",
+      "Star Wars",
+      "La Boum",
+      "Le Pari"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0153",
+    "question": "Dans quel film de 1939 a-t-on pu entendre \"Over the Rainbow\" pour la première fois ?",
+    "choices": [
+      "Pulp Fiction",
+      "Le Roi Lion",
+      "La Joconde",
+      "Le Magicien d'Oz"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0129",
+    "question": "Dans quel film de 2004 des élèves répètent-ils une pièce de Marivaux ?",
+    "choices": [
+      "L'Esquive",
+      "Imagine",
+      "Le Parrain",
+      "Thriller"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0081",
+    "question": "Dans quel film de Gérard Oury peut-on entendre : \"Comment Salomon, vous êtes juif ?\"",
+    "choices": [
+      "Les Aventures de Rabbi Jacob (Rabbi",
+      "Titanic",
+      "Koh-Lanta",
+      "Thriller"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0061",
+    "question": "Dans quel film de S. Spielberg Tom Hanks est-il bloqué dans un aéroport ?",
+    "choices": [
+      "Les Dents de la mer",
+      "Le Terminal",
+      "Friends",
+      "La Boum"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0135",
+    "question": "Dans quel film de S. Spielberg un vélo vole-t-il devant la Lune ?",
+    "choices": [
+      "E.T.",
+      "Carmen",
+      "Hamlet",
+      "Le Petit Prince"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0115",
+    "question": "Dans quel film de Stanley Kubrick Jack Nicholson poursuit-il sa femme avec une hache ?",
+    "choices": [
+      "Pulp Fiction",
+      "Le Parrain",
+      "Bohemian Rhapsody",
+      "\"Shining\" ou \"The Shining\""
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0075",
+    "question": "Dans quel film Dustin Hoffman a-t-il une liaison avec Mrs. Robinson ?",
+    "choices": [
+      "Friends",
+      "Carmen",
+      "Le Lauréat",
+      "Hamlet"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0018",
+    "question": "Dans quel film Dustin Hoffman se déguise-t-il en femme ?",
+    "choices": [
+      "The Crown",
+      "Star Wars",
+      "Tootsie",
+      "La Boum"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0114",
+    "question": "Dans quel film Louis de Funès est-il plongé dans une cuve de chewing-gum ?",
+    "choices": [
+      "Rabbi Jacob",
+      "La Casa de Papel",
+      "Le Parrain",
+      "Pulp Fiction"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0124",
+    "question": "Dans quel film Louis de Funès et Bourvil chantent \"Tea for two\" dans un bain turc ?",
+    "choices": [
+      "La Grande Vadrouille",
+      "Thriller",
+      "Le Seigneur des anneaux",
+      "Le Parrain"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0002",
+    "question": "Dans quel film musical de 1962 les Jets affrontent-ils les Sharks ?",
+    "choices": [
+      "Thriller",
+      "West Side Story",
+      "The Crown",
+      "Star Wars"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0068",
+    "question": "Dans quel film sorti en 1973 Louis de Funès incarne-t-il Victor Pivert ?",
+    "choices": [
+      "Imagine",
+      "Les Aventures de Rabbi Jacob",
+      "The Crown",
+      "Star Wars"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0142",
+    "question": "Dans quel film Tom Hanks joue-t-il un enfant de 12 ans qui en paraît 30 ?",
+    "choices": [
+      "Big",
+      "Bohemian Rhapsody",
+      "Intouchables",
+      "Le Roi Lion"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0177",
+    "question": "Dans quel film V. Paradis sert-elle de cible à un lanceur de couteaux ?",
+    "choices": [
+      "Fille sur le pont",
+      "The Crown",
+      "Star Wars",
+      "Le Cluedo"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0103",
+    "question": "Dans quel film, intitulé \"Brillantine\" au Québec, retrouve-t-on John Travolta et Olivia Newton-John ?",
+    "choices": [
+      "Le Cluedo",
+      "Les Dents de la mer",
+      "Grease",
+      "Hamlet"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0070",
+    "question": "Dans quel pays est née la comédienne Cristiana Reali ?",
+    "choices": [
+      "Le Brésil",
+      "Le Canada",
+      "Paris",
+      "Tokyo"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0004",
+    "question": "Dans quel pays l'actrice Cécile de France est-elle née ?",
+    "choices": [
+      "La Belgique",
+      "La Corse",
+      "La Grèce",
+      "L’Espagne"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0178",
+    "question": "Dans quel pays se déroule l'action du film \"Lost in Translation\" ?",
+    "choices": [
+      "Japon",
+      "Paris",
+      "Tokyo",
+      "L’océan Pacifique"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0157",
+    "question": "Dans quelle chanson C. Aznavour nous invite-t-il à \"voir les magiciens\" ?",
+    "choices": [
+      "Les Comédiens",
+      "Intouchables",
+      "Les Dents de la mer",
+      "Bohemian Rhapsody"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0027",
+    "question": "Dans quelle ville peut-on visiter l'église de la Sagrada Familia réalisée par Gaudi ?",
+    "choices": [
+      "La Suisse",
+      "Barcelone",
+      "L’Argentine",
+      "Le Japon"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0080",
+    "question": "De quel jeu Paul Newman est-il un expert dans le film \"L'Arnaqueur\" ?",
+    "choices": [
+      "Pokémon",
+      "Sonic",
+      "Le billard",
+      "Le poker"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0001",
+    "question": "De quelle couleur est le lapin Roger Rabbit dans le film de 1988 ?",
+    "choices": [
+      "Argenté",
+      "Turquoise",
+      "Beige",
+      "Blanc"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0111",
+    "question": "En 1970, quel film réunit pour la première fois à l'écran Alain Delon et Jean-Paul Belmondo ?",
+    "choices": [
+      "Borsalino",
+      "Imagine",
+      "La Casa de Papel",
+      "Les Dents de la mer"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0034",
+    "question": "En 1973, dans quel film d'Edouard Molinaro Jacques Brel et Lino Ventura étaient-ils partenaires ?",
+    "choices": [
+      "Bohemian Rhapsody",
+      "La Casa de Papel",
+      "L'Emmerdeur",
+      "Imagine"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0064",
+    "question": "En 1976, dans quel film un boxeur lance-t-il un cri d'amour à Adrian ?",
+    "choices": [
+      "Harry Potter",
+      "Thriller",
+      "Rocky",
+      "Breaking Bad"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0102",
+    "question": "En 1980 au cinéma, dans quelle ville se situe \"la maison du diable\" ?",
+    "choices": [
+      "L’Australie",
+      "Les Alpes",
+      "Amityville",
+      "L’océan Atlantique"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0176",
+    "question": "En 1982, dans quel film Harrison Ford chasse-t-il les \"répliquants\" ?",
+    "choices": [
+      "Blade Runner",
+      "Pulp Fiction",
+      "Le Petit Prince",
+      "Imagine"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0136",
+    "question": "En 1986, quel film est la suite de \"A la poursuite du diamant vert\" ?",
+    "choices": [
+      "La Boum",
+      "Le Diamant du Nil",
+      "Intouchables",
+      "Le Seigneur des anneaux"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0147",
+    "question": "En 1993, dans quel film Bill Murray revit-il toujours la même journée ?",
+    "choices": [
+      "Germinal",
+      "Pulp Fiction",
+      "Le Parrain",
+      "Un jour sans fin"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0060",
+    "question": "En 1997, dans quel film S. Weaver ressuscite-t-elle grâce au clonage ?",
+    "choices": [
+      "Imagine",
+      "Alien 4",
+      "Thriller",
+      "Germinal"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0035",
+    "question": "En 1998, dans quel film Bruce Willis doit-il détruire un astéroïde ?",
+    "choices": [
+      "The Crown",
+      "Star Wars",
+      "Bohemian Rhapsody",
+      "Armageddon"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0022",
+    "question": "En 1999, dans quel film Morpheus est-il persuadé que Neo est \"L'Elu\" ?",
+    "choices": [
+      "Hamlet",
+      "Matrix",
+      "La Casa de Papel",
+      "Bohemian Rhapsody"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0014",
+    "question": "En 2005, quel film raconte les débuts d'un superhéros, incarné par Christian Bale ?",
+    "choices": [
+      "Koh-Lanta",
+      "Pulp Fiction",
+      "Titanic",
+      "Batman Begins"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0158",
+    "question": "En 2006 au cinéma, de quel pays est originaire \"Borat\" ?",
+    "choices": [
+      "L’Inde",
+      "L’Espagne",
+      "L’Australie",
+      "Kazakhstan"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0171",
+    "question": "En 2007, quel film de Martin Scorsese reçoit l'oscar du meilleur film ?",
+    "choices": [
+      "Le Petit Prince",
+      "Les Infiltrés",
+      "Bohemian Rhapsody",
+      "Pulp Fiction"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0066",
+    "question": "En 2007, quel film de Michael Moore dénonce le système de santé aux USA ?",
+    "choices": [
+      "Le Seigneur des anneaux",
+      "Le Parrain",
+      "Sicko",
+      "Intouchables"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0122",
+    "question": "En 2009, quel film d'animation a pour sous-titre : \"Le Temps des dinosaures\" ?",
+    "choices": [
+      "Breaking Bad",
+      "Friends",
+      "Le Parrain",
+      "L'âge de glace 3"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0017",
+    "question": "En 2009, quel film de Lucien Jean-Baptiste raconte les aventures d'une famille antillaise qui découvre les joies du ski ?",
+    "choices": [
+      "Titanic",
+      "Germinal",
+      "Breaking Bad",
+      "La Première Etoile"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0084",
+    "question": "Quel acteur a incarné à cinq reprises l'inspecteur Harry au cinéma ?",
+    "choices": [
+      "Napoléon Bonaparte",
+      "Clint Eastwood",
+      "Louis Pasteur",
+      "Steven Spielberg"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0180",
+    "question": "Quel acteur a incarné James Bond dans les films \"Demain ne meurt jamais\" et \"Meurs un autre jour\" ?",
+    "choices": [
+      "Louis de Funès",
+      "Pierce Brosnan",
+      "Louis Pasteur",
+      "Tom Hanks"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0167",
+    "question": "Quel acteur a le pouvoir de voir deux minutes de son avenir dans \"Next\" ?",
+    "choices": [
+      "Sophie Marceau",
+      "Nicolas Cage",
+      "Meryl Streep",
+      "Marion Cotillard"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0074",
+    "question": "Quel acteur américain a été révélé par la série TV \"Le Prince de Bel-Air\" et incarné Mohammed Ali au cinéma en 2001 ?",
+    "choices": [
+      "Victor Hugo",
+      "Johnny Depp",
+      "Will Smith",
+      "Meryl Streep"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0044",
+    "question": "Quel acteur américain s'échoue sur une île déserte dans le film de 2000 \"Seul au monde\" ?",
+    "choices": [
+      "Marie Curie",
+      "Tom Hanks",
+      "Jean Reno",
+      "Louis Pasteur"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0046",
+    "question": "Quel acteur américain, roi du kung-fu, est le héros des films \"La Fureur du Dragon\", \"Opération Dragon\" et \"Big boss\" ?",
+    "choices": [
+      "Jodie Foster",
+      "Alain Delon",
+      "Bruce Lee",
+      "Louis Pasteur"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0144",
+    "question": "Quel acteur conduit 4 fois le \"Taxi\" dans les films produits par L. Besson?",
+    "choices": [
+      "Napoléon Bonaparte",
+      "David Bowie",
+      "Louis de Funès",
+      "Samy Naceri"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0062",
+    "question": "Quel acteur conduit le \"Taxi\" produit par Luc Besson en 1998, 2000 et 2003 ?",
+    "choices": [
+      "Samy Naceri",
+      "Tina Turner",
+      "Victor Hugo",
+      "Meryl Streep"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0169",
+    "question": "Quel acteur est Patrick Chirac dans le fim \"Camping\" ?",
+    "choices": [
+      "Franck Dubosc",
+      "Vanessa Paradis",
+      "Tina Turner",
+      "Pablo Picasso"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0013",
+    "question": "Quel acteur français interprète Blaze dans le film \"La Folie des grandeurs\" ?",
+    "choices": [
+      "Yves Montand",
+      "Catherine Deneuve",
+      "Mozart",
+      "Marie Curie"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0120",
+    "question": "Quel acteur H. Berry drague-t-elle sur le Net dans \"Dangereuse Séduction\" ?",
+    "choices": [
+      "Alain Delon",
+      "Pablo Picasso",
+      "Mozart",
+      "Bruce Willis"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0099",
+    "question": "Quel acteur incarne \"Chouchou\" aux côtés d'Alain Chabat dans un film sorti en 2003 ?",
+    "choices": [
+      "Gad Elmaleh",
+      "Jean Reno",
+      "Émile Zola",
+      "Catherine Deneuve"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0029",
+    "question": "Quel acteur incarne Bill dans les \"Kill Bill\" de Quentin Tarantino ?",
+    "choices": [
+      "Sophie Marceau",
+      "David Carradine",
+      "Marie Curie",
+      "Jean Reno"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0053",
+    "question": "Quel acteur incarne le général Maximus, héros du film \"Gladiator\" en 2000 ?",
+    "choices": [
+      "Édith Piaf",
+      "Catherine Deneuve",
+      "Marion Cotillard",
+      "Russell Crowe"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0173",
+    "question": "Quel acteur incarne le guerrier Conan dans le film \"Conan le Barbare\" ?",
+    "choices": [
+      "A. Schwarzenegger",
+      "Brad Pitt",
+      "Émile Zola",
+      "Pablo Picasso"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0126",
+    "question": "Quel acteur incarne le rôle-titre dans \"Ben-Hur\" de William Wyler ?",
+    "choices": [
+      "Charlton Heston",
+      "Sophie Marceau",
+      "Louis Pasteur",
+      "Bénabar"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0141",
+    "question": "Quel acteur jouait \"César\" dans la trilogie de Marcel Pagnol ?",
+    "choices": [
+      "Raimu",
+      "Édith Piaf",
+      "Louis Pasteur",
+      "Catherine Deneuve"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0010",
+    "question": "Quel acteur jouait le rôle titre de la série : \"L'homme qui tombe à pic\" ?",
+    "choices": [
+      "Mozart",
+      "Lee Majors",
+      "Alfred Hitchcock",
+      "Sophie Marceau"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0137",
+    "question": "Quel acteur joue le comte Godefroy de Montmirail dans le film \"Les Visiteurs\" sorti en 1993 ?",
+    "choices": [
+      "Napoléon Bonaparte",
+      "Bénabar",
+      "Jean Reno",
+      "Agatha Christie"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0089",
+    "question": "Quel acteur joue le rôle de Gaylord Furniker dans le film \"Mon beau-père et moi\" ?",
+    "choices": [
+      "Meryl Streep",
+      "Tina Turner",
+      "Ben Stiller",
+      "Pablo Picasso"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0085",
+    "question": "Quel acteur joue le rôle-titre du film \"Cry-Baby\" en 1990 ?",
+    "choices": [
+      "Jean Dujardin",
+      "Johnny Depp",
+      "Jean Reno",
+      "Agatha Christie"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0086",
+    "question": "Quel acteur partageait l'affiche avec Edward Norton dans \"Fight Club\" ?",
+    "choices": [
+      "Alain Delon",
+      "Brad Pitt",
+      "Louis de Funès",
+      "Jodie Foster"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0105",
+    "question": "Quel acteur prénommé John a \"La Fièvre du Samedi soir\" dans un film sorti en 1977 ?",
+    "choices": [
+      "Johnny Depp",
+      "Louis de Funès",
+      "Édith Piaf",
+      "John Travolta"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0113",
+    "question": "Quel animal est \"Crin-Blanc\" dans le film de 1952 ?",
+    "choices": [
+      "Le chat",
+      "Le bœuf",
+      "Le lion",
+      "Un cheval"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0143",
+    "question": "Quel animal est le héros du film \"La Marche de l'empereur\" ?",
+    "choices": [
+      "La tortue",
+      "Le chat",
+      "Le bœuf",
+      "Le manchot"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0107",
+    "question": "Quel chanteur français a prêté sa voix au personnage grincheux de Carl dans le film d'animation \"Là-haut\" ?",
+    "choices": [
+      "Audrey Tautou",
+      "Charles Aznavour",
+      "Tom Hanks",
+      "Agatha Christie"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0108",
+    "question": "Quel chanteur populaire interprète \"le Cinéma d'Audiard\" ?",
+    "choices": [
+      "Bénabar",
+      "Michel Sardou",
+      "Marion Cotillard",
+      "Édith Piaf"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0076",
+    "question": "Quel chanteur réalise le film \"Charlotte for Ever\" en 1986 ?",
+    "choices": [
+      "Jodie Foster",
+      "Tom Hanks",
+      "David Bowie",
+      "Serge Gainsbourg"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0026",
+    "question": "Quel film a révélé Sophie Marceau au grand public en 1980 ?",
+    "choices": [
+      "Le Roi Lion",
+      "Germinal",
+      "La Boum",
+      "La Casa de Papel"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0095",
+    "question": "Quel film a valu à Richard Bohringer le césar du meilleur acteur en 1988 ?",
+    "choices": [
+      "Le Grand Chemin",
+      "Star Wars",
+      "Le Cluedo",
+      "Thriller"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0140",
+    "question": "Quel film d'Ang Lee raconte une histoire d'amour entre deux cow-boys ?",
+    "choices": [
+      "Brokeback Mountain",
+      "La Boum",
+      "Breaking Bad",
+      "Intouchables"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0164",
+    "question": "Quel film d'animation a pour héros Woody le cow-boy et Buzz l'éclair ?",
+    "choices": [
+      "La Boum",
+      "Toy Story",
+      "Le Cluedo",
+      "La Casa de Papel"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0163",
+    "question": "Quel film de 2004 est inspiré de \"La Cage aux rossignols\" avec Noël-Noël ?",
+    "choices": [
+      "Titanic",
+      "Les Choristes",
+      "Le Roi Lion",
+      "La Casa de Papel"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0031",
+    "question": "Quel film de Luc Besson a pour titre le nom d'une navette spatiale ?",
+    "choices": [
+      "The Crown",
+      "Star Wars",
+      "Le Cluedo",
+      "Atlantis"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0041",
+    "question": "Quel film de Luc Besson a valu à Christophe Lambert le césar du meilleur acteur ?",
+    "choices": [
+      "The Crown",
+      "Star Wars",
+      "Germinal",
+      "Subway"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0077",
+    "question": "Quel film de Quentin Tarantino met en scène les personnages de Mr. White et Mr. Orange ?",
+    "choices": [
+      "Pulp Fiction",
+      "Le Parrain",
+      "Reservoir Dogs",
+      "Imagine"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0083",
+    "question": "Quel film de Steven Spielberg sorti en 1993 met en scène des dinosaures ?",
+    "choices": [
+      "Imagine",
+      "Jurassic Park",
+      "Pulp Fiction",
+      "Harry Potter"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0160",
+    "question": "Quel film français a été rebaptisé \"La Vie en rose\" dans sa version anglaise ?",
+    "choices": [
+      "La Môme",
+      "Le Parrain",
+      "Carmen",
+      "Hamlet"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0012",
+    "question": "Quel film sorti en 2008 réunit Kad Merad et Dany Boon ?",
+    "choices": [
+      "Le Petit Prince",
+      "Bienvenue chez les Ch'tis",
+      "Bohemian Rhapsody",
+      "Friends"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0101",
+    "question": "Quel numéro du Quai des Orfèvres est le titre d'un film d'Olivier Marchal ?",
+    "choices": [
+      "36",
+      "1789",
+      "1914",
+      "1945"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0033",
+    "question": "Quel réalisateur a révélé Sandrine Bonnaire dans \"A nos amours\" ?",
+    "choices": [
+      "Alfred Hitchcock",
+      "Claude Monet",
+      "Maurice Pialat",
+      "Audrey Tautou"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0038",
+    "question": "Quel réalisateur raconte ses souvenirs d'enfance dans \"Amarcord\", en 1974 ?",
+    "choices": [
+      "Louis Pasteur",
+      "Federico Fellini",
+      "David Bowie",
+      "Meryl Streep"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0082",
+    "question": "Quel roman de C. Dickens a été adapté au cinéma en 2005 par R. Polanski ?",
+    "choices": [
+      "Koh-Lanta",
+      "Le Roi Lion",
+      "Oliver Twist",
+      "La Casa de Papel"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0093",
+    "question": "Quel titre de noblesse est associé au nom de Münchhausen au cinéma ?",
+    "choices": [
+      "La Boum",
+      "Baron",
+      "The Crown",
+      "Star Wars"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0168",
+    "question": "Quelle actrice a été \"Une femme d'honneur\" sur TF1 entre 1996 et 2007 ?",
+    "choices": [
+      "Bénabar",
+      "David Bowie",
+      "Jean Dujardin",
+      "Corinne Touzet"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0048",
+    "question": "Quelle actrice a interprété \"le Démon de midi\" sur scène, puis au cinéma ?",
+    "choices": [
+      "Michèle Bernier",
+      "Audrey Tautou",
+      "Sophie Marceau",
+      "Charles de Gaulle"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0006",
+    "question": "Quelle actrice américaine a épousé le prince Rainier III de Monaco en 1956 ?",
+    "choices": [
+      "David Bowie",
+      "Brad Pitt",
+      "Steven Spielberg",
+      "Grace Kelly"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0165",
+    "question": "Quelle actrice américaine a-t-on surnommée \"la Divine\" ?",
+    "choices": [
+      "Charles de Gaulle",
+      "Louis Pasteur",
+      "Greta Garbo",
+      "Marie Curie"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0175",
+    "question": "Quelle actrice américaine s'amuse en voyant sa jupe blanche se soulever dans \"Sept ans de réflexion\" ?",
+    "choices": [
+      "Tom Hanks",
+      "Marilyn Monroe",
+      "Émile Zola",
+      "Mozart"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0155",
+    "question": "Quelle actrice Bill Murray parvient-il à séduire dans \"Un jour sans fin\" ?",
+    "choices": [
+      "Bénabar",
+      "Andie MacDowell",
+      "Mozart",
+      "Marie Curie"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0130",
+    "question": "Quelle actrice espagnole a remporté un Oscar pour son rôle dans le film \"Vicky Cristina Barcelona\" ?",
+    "choices": [
+      "Penélope Cruz",
+      "Charles de Gaulle",
+      "Marie Curie",
+      "Jodie Foster"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0016",
+    "question": "Quelle actrice est l'épouse du prince Emmanuel-Philibert de Savoie ?",
+    "choices": [
+      "Steven Spielberg",
+      "Claude Monet",
+      "Clotilde Courau",
+      "Charles de Gaulle"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0069",
+    "question": "Quelle actrice est la mère de Chiara Mastroianni ?",
+    "choices": [
+      "Catherine Deneuve",
+      "Pablo Picasso",
+      "Marion Cotillard",
+      "Meryl Streep"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0174",
+    "question": "Quelle actrice et réalisatrice est la soeur aînée d'Isild Le Besco ?",
+    "choices": [
+      "Sophie Marceau",
+      "Mozart",
+      "Maïwenn",
+      "Marion Cotillard"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0112",
+    "question": "Quelle actrice fétiche d'Alain Resnais a joué dans \"Smoking / No Smoking\" ?",
+    "choices": [
+      "Louis Pasteur",
+      "Claude Monet",
+      "Sabine Azéma",
+      "David Bowie"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0151",
+    "question": "Quelle actrice formait le trio comique \"Les Filles\" avec Michèle Bernier et Isabelle de Botton ?",
+    "choices": [
+      "Mimie Mathy",
+      "Marie Curie",
+      "Tom Hanks",
+      "Steven Spielberg"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0148",
+    "question": "Quelle actrice française a reçu l'Oscar de la meilleure actrice à Hollywood en 1960 ?",
+    "choices": [
+      "Simone Signoret",
+      "David Bowie",
+      "Sophie Marceau",
+      "Marion Cotillard"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0134",
+    "question": "Quelle actrice française a reçu un Oscar en 1997 pour son rôle dans \"Le Patient anglais\" ?",
+    "choices": [
+      "Juliette Binoche",
+      "Tina Turner",
+      "Victor Hugo",
+      "Louis Pasteur"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0123",
+    "question": "Quelle actrice française incarne la princesse Isabelle dans \"Braveheart\" ?",
+    "choices": [
+      "Sophie Marceau",
+      "Alain Delon",
+      "Jean Reno",
+      "Meryl Streep"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0109",
+    "question": "Quelle actrice fut \"La Comtesse aux pieds nus\" pour le réalisateur Joseph L. Mankiewicz ?",
+    "choices": [
+      "Mozart",
+      "Jean Dujardin",
+      "Louis de Funès",
+      "Ava Gardner"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0056",
+    "question": "Quelle actrice incarne Ally McBeal, avocate travaillant chez Cage & Fish ?",
+    "choices": [
+      "Tom Hanks",
+      "Bénabar",
+      "Steven Spielberg",
+      "Calista Flockhart"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0063",
+    "question": "Quelle actrice incarne Irina Spalko, la méchante dans le dernier \"Indiana Jones\" ?",
+    "choices": [
+      "Cate Blanchett",
+      "Mozart",
+      "Johnny Depp",
+      "Claude Monet"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0110",
+    "question": "Quelle actrice incarne l'héroïne Ellen Ripley dans la saga \"Alien\" ?",
+    "choices": [
+      "Tom Hanks",
+      "Louis de Funès",
+      "Napoléon Bonaparte",
+      "Sigourney Weaver"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0078",
+    "question": "Quelle actrice incarne la femme de Kad Merad dans \"Bienvenue chez les Ch'tis\" ?",
+    "choices": [
+      "Zoé Félix",
+      "Audrey Tautou",
+      "Sophie Marceau",
+      "Mozart"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0092",
+    "question": "Quelle actrice incarne Mary dans le film \"Mary à tout prix\" ?",
+    "choices": [
+      "Édith Piaf",
+      "Louis Pasteur",
+      "Steven Spielberg",
+      "Cameron Diaz"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0118",
+    "question": "Quelle actrice interprète Delphine aux côtés de Françoise Dorléac dans \"Les Demoiselles de Rochefort\" ?",
+    "choices": [
+      "Marion Cotillard",
+      "Claude Monet",
+      "Sophie Marceau",
+      "Catherine Deneuve"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0090",
+    "question": "Quelle actrice interprète Julie Lescaut dans la série télévisée du même nom ?",
+    "choices": [
+      "Édith Piaf",
+      "Johnny Depp",
+      "Brad Pitt",
+      "Véronique Genest"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0058",
+    "question": "Quelle actrice joue Cléopâtre dans le film \"Astérix et Obélix : mission Cléopâtre\" ?",
+    "choices": [
+      "Jean Dujardin",
+      "Charles de Gaulle",
+      "Agatha Christie",
+      "Monica Bellucci"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0131",
+    "question": "Quelle actrice simule un orgasme au restaurant dans le film \"Quand Harry rencontre Sally\" ?",
+    "choices": [
+      "Jean Dujardin",
+      "Marie Curie",
+      "Meg Ryan",
+      "Charles de Gaulle"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0019",
+    "question": "Quelle actrice Tom Cruise a-t-il épousée le 18 novembre 2006 ?",
+    "choices": [
+      "Émile Zola",
+      "Tina Turner",
+      "Jean Reno",
+      "Katie Holmes"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0100",
+    "question": "Quelle profession exerce Romain Duris dans le film \"Les Poupées russes\" ?",
+    "choices": [
+      "Boulanger",
+      "Architecte",
+      "Scénariste",
+      "Écrivain"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0024",
+    "question": "Quelle ville précède \"mon amour\" dans le titre d'un film d'Alain Resnais ?",
+    "choices": [
+      "L’Australie",
+      "Londres",
+      "Paris",
+      "Hiroshima"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0021",
+    "question": "Qui a composé \"Requiem pour un con\", la chanson du film \"Le Pacha\" ?",
+    "choices": [
+      "David Bowie",
+      "Serge Gainsbourg",
+      "Charles de Gaulle",
+      "Alfred Hitchcock"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0088",
+    "question": "Qui a écrit, réalisé et interprété \"Bernie\" au cinéma en 1996 ?",
+    "choices": [
+      "Émile Zola",
+      "Catherine Deneuve",
+      "Tom Hanks",
+      "Albert Dupontel"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0045",
+    "question": "Qui a incarné \"Iznogoud\" au cinéma en 2005 ?",
+    "choices": [
+      "Sophie Marceau",
+      "Mozart",
+      "Michaël Youn",
+      "Johnny Depp"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0096",
+    "question": "Qui a incarné Lara Croft deux fois au cinéma en 2001 et 2003 ?",
+    "choices": [
+      "Alfred Hitchcock",
+      "Meryl Streep",
+      "Bénabar",
+      "Angelina Jolie"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0161",
+    "question": "Qui a inscrit \"N'y allez pas, c'est une merde\" sur l'affiche de son film ?",
+    "choices": [
+      "Audrey Tautou",
+      "Alain Delon",
+      "Laurent Baffie",
+      "Marion Cotillard"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0132",
+    "question": "Qui a réalisé \"les Valseuses\" en 1974 ?",
+    "choices": [
+      "Bertrand Blier",
+      "Bénabar",
+      "Édith Piaf",
+      "Tom Hanks"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0104",
+    "question": "Qui a réalisé \"Vivement dimanche !\" en 1983 ?",
+    "choices": [
+      "François Truffaut",
+      "Émile Zola",
+      "Pablo Picasso",
+      "Jodie Foster"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0032",
+    "question": "Qui a réalisé le film \"Shining\" en 1980 ?",
+    "choices": [
+      "Stanley Kubrick",
+      "Tina Turner",
+      "Édith Piaf",
+      "Jodie Foster"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0015",
+    "question": "Qui a réalisé les films \"Les Temps modernes\" et \"Le Dictateur\" ?",
+    "choices": [
+      "Bénabar",
+      "Édith Piaf",
+      "Catherine Deneuve",
+      "Charlie Chaplin (Charles Spencer, dit)"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0020",
+    "question": "Qui a reçu le césar de la meilleure actrice grâce au \"Petit Lieutenant\" ?",
+    "choices": [
+      "Jean Dujardin",
+      "Marion Cotillard",
+      "Nathalie Baye",
+      "Meryl Streep"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0073",
+    "question": "Qui est \"Pouic Pouic\" dans le film joué par Louis de Funès en 1963 ?",
+    "choices": [
+      "Un poulet",
+      "Tina Turner",
+      "Victor Hugo",
+      "Audrey Tautou"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0040",
+    "question": "Qui est à la fois l'auteur du livre et le réalisateur du film \"Podium\" ?",
+    "choices": [
+      "Yann Moix",
+      "Meryl Streep",
+      "Alain Delon",
+      "Bénabar"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0037",
+    "question": "Qui est l'auteur de \"Shining\", adapté au cinéma par Stanley Kubrick ?",
+    "choices": [
+      "Claude Monet",
+      "Johnny Depp",
+      "Stephen King",
+      "Brad Pitt"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0119",
+    "question": "Qui est la mère de l'actrice Lou Doillon ?",
+    "choices": [
+      "Jane Birkin",
+      "Alain Delon",
+      "Jodie Foster",
+      "Catherine Deneuve"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0097",
+    "question": "Qui est le réalisateur du film \"Birdy\" en 1985 ?",
+    "choices": [
+      "Édith Piaf",
+      "Jean Reno",
+      "Alfred Hitchcock",
+      "Alan Parker"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0162",
+    "question": "Qui fut \"le Fugitif\" au cinéma en 1993 ?",
+    "choices": [
+      "Brad Pitt",
+      "Bénabar",
+      "Harrison Ford",
+      "Sophie Marceau"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0009",
+    "question": "Qui fut \"Manon des sources\" dans le film de Claude Berri en 1986 ?",
+    "choices": [
+      "Emmanuelle Béart",
+      "Catherine Deneuve",
+      "Marie Curie",
+      "Édith Piaf"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0127",
+    "question": "Qui fut \"Monsieur Klein\" au cinéma sous la direction de Joseph Losey ?",
+    "choices": [
+      "Steven Spielberg",
+      "Napoléon Bonaparte",
+      "Pablo Picasso",
+      "Alain Delon"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0072",
+    "question": "Qui incarne \"Le Guignolo\" dans le film de Georges Lautner sorti en 1980 ?",
+    "choices": [
+      "Jean-Paul Belmondo",
+      "Napoléon Bonaparte",
+      "Louis de Funès",
+      "Alain Delon"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0116",
+    "question": "Qui incarne Falbala dans le film de Claude Zidi, \"Astérix et Obélix contre César\" ?",
+    "choices": [
+      "Louis de Funès",
+      "Laetitia Casta",
+      "Claude Monet",
+      "Vanessa Paradis"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0067",
+    "question": "Qui incarne l'espoir du football Tibor Kovacs dans le film \"3 Zéros\" ?",
+    "choices": [
+      "Pablo Picasso",
+      "Lorànt Deutsch",
+      "Tom Hanks",
+      "Napoléon Bonaparte"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0079",
+    "question": "Qui incarne le docteur Jivago en 1966 au cinéma ?",
+    "choices": [
+      "Pablo Picasso",
+      "Marie Curie",
+      "Catherine Deneuve",
+      "Omar Sharif"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0042",
+    "question": "Qui incarne le tueur à gages, héros du film \"Collateral\" en 2004 ?",
+    "choices": [
+      "Tom Cruise",
+      "Sophie Marceau",
+      "Tina Turner",
+      "Victor Hugo"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0170",
+    "question": "Qui incarne Mary Jane Watson dans les 3 volets de \"Spider-Man\" au cinéma ?",
+    "choices": [
+      "Sophie Marceau",
+      "Vanessa Paradis",
+      "Catherine Deneuve",
+      "Kirsten Dunst"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0139",
+    "question": "Qui incarne monsieur Arnaud dans un film de Claude Sautet en 1995 ?",
+    "choices": [
+      "Napoléon Bonaparte",
+      "Catherine Deneuve",
+      "Michel Serrault",
+      "Claude Monet"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0125",
+    "question": "Qui interprétait \"Harry, un ami qui vous veut du bien\" au cinéma ?",
+    "choices": [
+      "Émile Zola",
+      "Bénabar",
+      "Louis de Funès",
+      "Sergi Lopez"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0146",
+    "question": "Qui interprétait le rôle du père d'Indiana Jones dans le film de Steven Spielberg \"Indiana Jones et la dernière croisade\" ?",
+    "choices": [
+      "Claude Monet",
+      "Meryl Streep",
+      "Sean Connery",
+      "David Bowie"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0057",
+    "question": "Qui interprète l'inspecteur Lavardin dans deux films de Claude Chabrol ?",
+    "choices": [
+      "Catherine Deneuve",
+      "Alfred Hitchcock",
+      "Émile Zola",
+      "Jean Poiret"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0156",
+    "question": "Qui interprète la chanson du film \"Who's That Girl\", en 1987 ?",
+    "choices": [
+      "Madonna",
+      "Alain Delon",
+      "Jodie Foster",
+      "Audrey Tautou"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0043",
+    "question": "Qui interprète le Joker dans le film \"Batman\" réalisé par Tim Burton ?",
+    "choices": [
+      "Tina Turner",
+      "Victor Hugo",
+      "Johnny Depp",
+      "Jack Nicholson"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0052",
+    "question": "Qui interprète le rôle titre du film \"Monsieur Ibrahim et les fleurs du Coran\" ?",
+    "choices": [
+      "Tom Hanks",
+      "Omar Sharif",
+      "Marion Cotillard",
+      "Pablo Picasso"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0055",
+    "question": "Qui interprète Mona Bergeron dans le film \"Sans toit ni loi\" en 1985 ?",
+    "choices": [
+      "Steven Spielberg",
+      "Louis de Funès",
+      "Brad Pitt",
+      "Sandrine Bonnaire"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0098",
+    "question": "Qui Josiane Balasko séduit-elle dans le film \"Gazon maudit\" ?",
+    "choices": [
+      "Marie Curie",
+      "Victoria Abril",
+      "Claude Monet",
+      "Bénabar"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0059",
+    "question": "Qui joue l'actrice séquestrée par A. Banderas dans \"Attache-moi !\" ?",
+    "choices": [
+      "Alain Delon",
+      "Brad Pitt",
+      "Jean Dujardin",
+      "Victoria Abril"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0094",
+    "question": "Qui joue Le Bombé dans le film \"La Soupe aux choux\" ?",
+    "choices": [
+      "Marie Curie",
+      "Claude Monet",
+      "Jean Carmet",
+      "Audrey Tautou"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0133",
+    "question": "Qui joue le fermier Aymé Pigrenet dans le film \"Je vous trouve très beau\" ?",
+    "choices": [
+      "Alfred Hitchcock",
+      "Michel Blanc",
+      "Tina Turner",
+      "Victor Hugo"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0172",
+    "question": "Qui joue Leeloo, l'héroïne du film de Luc Besson \"Le Cinquième Elément\" ?",
+    "choices": [
+      "Tom Hanks",
+      "Catherine Deneuve",
+      "Steven Spielberg",
+      "Milla Jovovich"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0138",
+    "question": "Qui joue un motard schizophrène \"Fou d'Irène\" au cinéma en 2000 ?",
+    "choices": [
+      "Jim Carrey",
+      "Jean Reno",
+      "Agatha Christie",
+      "Audrey Tautou"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0145",
+    "question": "Qui permet à P. Torreton de décrocher un césar pour \"Capitaine Conan\" ?",
+    "choices": [
+      "Agatha Christie",
+      "Bertrand Tavernier",
+      "Pablo Picasso",
+      "Claude Monet"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0159",
+    "question": "Qui réalise \"Père et fils\", où Bruno Putzulu est le fils de Ph. Noiret ?",
+    "choices": [
+      "Sophie Marceau",
+      "Michel Boujenah",
+      "Napoléon Bonaparte",
+      "Jean Dujardin"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0152",
+    "question": "Qui réalise et joue le rôle principal de \"Pale Rider\", le cavalier solitaire ?",
+    "choices": [
+      "Clint Eastwood",
+      "Vanessa Paradis",
+      "Alfred Hitchcock",
+      "Tina Turner"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0011",
+    "question": "Qui reçoit le césar de la meilleure actrice pour \"La Vie rêvée des anges\"?",
+    "choices": [
+      "Claude Monet",
+      "Audrey Tautou",
+      "Sophie Marceau",
+      "Elodie Bouchez"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0054",
+    "question": "Qui se fait engager comme serveuse dans le film \"Fauteuils d'orchestre\" ?",
+    "choices": [
+      "David Bowie",
+      "Mozart",
+      "Cécile de France",
+      "Édith Piaf"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0179",
+    "question": "Qui vend sa maison en viager à Michel Galabru dans un film de 1971 ?",
+    "choices": [
+      "Michel Serrault",
+      "Brad Pitt",
+      "Audrey Tautou",
+      "Marion Cotillard"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0091",
+    "question": "Selon le titre d'un film de 1946, combien de fois le facteur sonne-t-il?",
+    "choices": [
+      "1789",
+      "1914",
+      "1 000",
+      "2"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0036",
+    "question": "Selon le titre d'un film de Stanley Kubrick, quel fruit est \"mécanique\" ?",
+    "choices": [
+      "La pomme",
+      "La pomme de terre",
+      "L'orange",
+      "La fraise"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0049",
+    "question": "Sous quel nom la comédienne Catherine Dorléac est-elle plus connue ?",
+    "choices": [
+      "Buzz",
+      "Nemo",
+      "Catherine Deneuve",
+      "Arsène Lupin"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0008",
+    "question": "Sous quel nom le comédien Fernand Contandin est-il passé à la postérité ?",
+    "choices": [
+      "Victor",
+      "La Méduse",
+      "Sherlock Holmes",
+      "Fernandel"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0087",
+    "question": "Sous quel titre français connaît-on le film \"Vertigo\" d'Alfred Hitchcock ?",
+    "choices": [
+      "La Boum",
+      "The Crown",
+      "Star Wars",
+      "Sueurs froides"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0039",
+    "question": "Sous quel titre français le film \"Sunset Boulevard\" est-il plus connu ?",
+    "choices": [
+      "Imagine",
+      "Thriller",
+      "Bd du Crépuscule",
+      "Les Dents de la mer"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0047",
+    "question": "Traditionnellement, dans quelle boisson trempe-t-on le pain pour réaliser du pain perdu ?",
+    "choices": [
+      "Le café",
+      "Le bœuf",
+      "Le lait",
+      "La carotte"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  }
+]

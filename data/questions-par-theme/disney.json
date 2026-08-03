@@ -1,0 +1,354 @@
+[
+  {
+    "id": "archive-0832",
+    "question": "Combien de doigts Mickey a-t-il à chaque main ?",
+    "choices": [
+      "4",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0830",
+    "question": "Combien Donald et Daisy ont-ils d'enfants ?",
+    "choices": [
+      "1789",
+      "1914",
+      "1 000",
+      "Aucun"
+    ],
+    "answer": 3,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0837",
+    "question": "Comment s'appelle l'inventeur farfelu qui est l'ami de Donald ?",
+    "choices": [
+      "Géo Trouvetou",
+      "Gontran",
+      "Valmont",
+      "Camille"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-disney-008",
+    "question": "Comment s'appelle la méchante des 101 Dalmatiens ?",
+    "choices": [
+      "Cruella d'Enfer",
+      "Maléfique",
+      "Ursula",
+      "Madame Mim"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0838",
+    "question": "Comment s'appelle la princesse dont l'ogre Shrek est amoureux ?",
+    "choices": [
+      "Springfield",
+      "Alexandre",
+      "Fiona",
+      "Central Perk"
+    ],
+    "answer": 2,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-disney-001",
+    "question": "Comment s'appelle le caméléon de Raiponce ?",
+    "choices": [
+      "Pascal",
+      "Polochon",
+      "Sven",
+      "Meeko"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0834",
+    "question": "Comment s'appelle le chien de Mickey ?",
+    "choices": [
+      "Pluto",
+      "Buzz",
+      "Peter Parker",
+      "Pikachu"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-disney-005",
+    "question": "Comment s'appelle le restaurant du film Ratatouille ?",
+    "choices": [
+      "Chez Gusteau",
+      "La Ratatouille",
+      "Le Petit Chef",
+      "Chez Rémy"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-disney-007",
+    "question": "Dans Aladdin, quel animal est Abu ?",
+    "choices": [
+      "Un singe",
+      "Un tigre",
+      "Un perroquet",
+      "Un éléphant"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-disney-009",
+    "question": "Dans Coco, quel instrument Miguel souhaite-t-il jouer ?",
+    "choices": [
+      "La guitare",
+      "Le violon",
+      "La trompette",
+      "Le piano"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-disney-004",
+    "question": "Dans Encanto, quel est le don de Luisa ?",
+    "choices": [
+      "Une force surhumaine",
+      "Parler aux animaux",
+      "Contrôler la météo",
+      "Soigner avec la cuisine"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0835",
+    "question": "Dans l'univers de Walt Disney, quel animal est Clarabelle ?",
+    "choices": [
+      "Une vache",
+      "Le manchot",
+      "Le perroquet",
+      "Le crocodile"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0839",
+    "question": "Dans le conte des frères Grimm, combien de nains entourent Blanche-Neige ?",
+    "choices": [
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0833",
+    "question": "Dans quelle ville Riri, Fifi et Loulou habitent-ils avec leur oncle ?",
+    "choices": [
+      "Les Alpes",
+      "L’Argentine",
+      "Paris",
+      "Donaldville"
+    ],
+    "answer": 3,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-disney-002",
+    "question": "Dans Vaiana, quel demi-dieu accompagne l'héroïne ?",
+    "choices": [
+      "Maui",
+      "Hercule",
+      "Zeus",
+      "Hadès"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0829",
+    "question": "Quel animal est Cléo dans le \"Pinocchio\" de Walt Disney ?",
+    "choices": [
+      "Un poisson",
+      "Le kangourou",
+      "Le cheval",
+      "Le cochon"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0836",
+    "question": "Quel animal est Nouf-Nouf dans un dessin animé de Walt Disney ?",
+    "choices": [
+      "Le chien",
+      "Le hibou",
+      "Le lapin",
+      "Un cochon"
+    ],
+    "answer": 3,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-disney-003",
+    "question": "Quel est le nom du père de Simba ?",
+    "choices": [
+      "Mufasa",
+      "Scar",
+      "Rafiki",
+      "Zazu"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0828",
+    "question": "Quel nom démoniaque porte le méchant chat dans \"Cendrillon\" ?",
+    "choices": [
+      "Mannix",
+      "Mufasa",
+      "Lucifer",
+      "Walter White"
+    ],
+    "answer": 2,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-disney-010",
+    "question": "Quel objet perd Cendrillon en quittant le bal ?",
+    "choices": [
+      "Une pantoufle de verre",
+      "Un diadème",
+      "Un gant",
+      "Un collier"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "new-disney-006",
+    "question": "Quel personnage de La Reine des neiges rêve de découvrir l'été ?",
+    "choices": [
+      "Olaf",
+      "Sven",
+      "Kristoff",
+      "Hans"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Le Dernier Neurone",
+    "review": "editorial",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0831",
+    "question": "Qui a écrit \"Cendrillon\" en 1697 ?",
+    "choices": [
+      "Mozart",
+      "Claude Monet",
+      "Louis de Funès",
+      "Charles Perrault"
+    ],
+    "answer": 3,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "stable-filtered",
+    "validation": "a_valider"
+  }
+]

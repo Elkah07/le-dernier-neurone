@@ -6,7 +6,7 @@ import { getDatabase, get, onValue, ref, runTransaction } from "firebase/databas
 import { allQuestions, qualificationQuestions, themeQuestions } from "./question-bank";
 
 export type Player = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number; joinedAt: string };
-export type Room = { id: string; code: string; status: string; phase: string; hostPlayerId: string; round: number; turnIndex: number; currentTheme: string | null; currentQuestionIndex: number; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: Player[]; answerKeys?: Record<string, boolean>; qualificationQuestionIds?: string[]; finalQuestionIds?: string[]; themeQuestionStarts?: Record<string, number> };
+export type Room = { id: string; code: string; status: string; phase: string; hostPlayerId: string; round: number; turnIndex: number; currentTheme: string | null; currentQuestionIndex: number; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: Player[]; answerKeys?: Record<string, boolean>; estimateSubmissions?: Record<string, number>; qualificationQuestionIds?: string[]; finalQuestionIds?: string[]; themeQuestionStarts?: Record<string, number> };
 
 const firebaseConfig = {
   apiKey: "AIzaSyBSSUy5ee9ntIK0-NGlGsnK4RAW31S8bxA",
@@ -74,6 +74,7 @@ function normalize(room: Room): Room {
   room.usedThemes ||= [];
   room.selectedCases ||= [];
   room.answerKeys ||= {};
+  room.estimateSubmissions ||= {};
   room.currentQuestionIndex ||= 0;
   const ranked = [...room.players].sort((a,b) => b.score-a.score || a.qualificationMs-b.qualificationMs || a.joinedAt.localeCompare(b.joinedAt));
   const qualified = ranked.slice(0, Math.min(3, ranked.length));
@@ -91,7 +92,7 @@ export async function createRoom(name: string) {
   for (let attempt=0; attempt<8; attempt++) {
     const code=makeCode(); const player=makePlayer(name,"#8b5cf6",true);
     const qualificationQuestionIds = shuffledQuestionIds(20);
-    const room: Room = normalize({ id: crypto.randomUUID(), code, status:"lobby", phase:"lobby", hostPlayerId:player.id, round:1, turnIndex:0, currentTheme:null, currentQuestionIndex:0, phaseStartedAt:null, usedThemes:[], selectedCases:[], activeCase:null, activePlayerId:null, qualifiedIds:[], finalistIds:[], players:[player], answerKeys:{}, qualificationQuestionIds, finalQuestionIds:shuffledQuestionIds(12, qualificationQuestionIds), themeQuestionStarts:randomThemeStarts() });
+    const room: Room = normalize({ id: crypto.randomUUID(), code, status:"lobby", phase:"lobby", hostPlayerId:player.id, round:1, turnIndex:0, currentTheme:null, currentQuestionIndex:0, phaseStartedAt:null, usedThemes:[], selectedCases:[], activeCase:null, activePlayerId:null, qualifiedIds:[], finalistIds:[], players:[player], answerKeys:{}, estimateSubmissions:{}, qualificationQuestionIds, finalQuestionIds:shuffledQuestionIds(12, qualificationQuestionIds), themeQuestionStarts:randomThemeStarts() });
     const result=await runTransaction(ref(database,`rooms/${code}`), current => current === null ? room : undefined, { applyLocally:false });
     if (result.committed) return { room, playerId:player.id };
   }
@@ -155,7 +156,7 @@ export async function roomAction(code: string, playerId: string, action: string,
       if (room.hostPlayerId!==player.id) return fail("Seul l’hôte peut lancer");
       if (room.players.length<2) return fail("Il faut au moins 2 joueurs");
       if (room.players.some(p=>!p.ready)) return fail("Tous les joueurs ne sont pas prêts");
-      Object.assign(room,{status:"playing",phase:"qualification",turnIndex:0,round:1,usedThemes:[],selectedCases:[],activeCase:null,answerKeys:{},phaseStartedAt:new Date().toISOString()});
+      Object.assign(room,{status:"playing",phase:"qualification",turnIndex:0,round:1,usedThemes:[],selectedCases:[],activeCase:null,answerKeys:{},estimateSubmissions:{},phaseStartedAt:new Date().toISOString()});
       room.players.forEach(p=>Object.assign(p,{score:0,qualificationAnswered:0,qualificationMs:0,estimate:null,categoryScore:0,categoryAnswered:0,finalScore:0}));
     } else if (action==="qualification-answer") {
       const i=payload.questionIndex??-1; if(room.phase!=="qualification") return fail("Les qualifications sont terminées");
@@ -165,8 +166,14 @@ export async function roomAction(code: string, playerId: string, action: string,
     } else if(action==="estimate") {
       if(room.phase!=="estimate"||!room.qualifiedIds.includes(player.id)) return fail("Estimation indisponible");
       player.estimate=Math.max(0,Math.round(payload.estimate||0));
+      room.estimateSubmissions![player.id]=player.estimate;
       const qualified=room.players.filter(p=>room.qualifiedIds.includes(p.id));
-      if(qualified.every(p=>p.estimate!==null)){ const ordered=[...qualified].sort((a,b)=>Math.abs((a.estimate||0)-384400)-Math.abs((b.estimate||0)-384400)); room.phase="category-select"; room.turnIndex=room.qualifiedIds.indexOf(ordered[0].id); room.phaseStartedAt=new Date().toISOString(); }
+      if(qualified.every(p=>Object.prototype.hasOwnProperty.call(room.estimateSubmissions,p.id))){ const ordered=[...qualified].sort((a,b)=>Math.abs(room.estimateSubmissions![a.id]-384400)-Math.abs(room.estimateSubmissions![b.id]-384400)); room.phase="category-select"; room.turnIndex=room.qualifiedIds.indexOf(ordered[0].id); room.phaseStartedAt=new Date().toISOString(); }
+    } else if(action==="sync-estimate") {
+      if(room.phase!=="estimate") return room;
+      const qualified=room.players.filter(p=>room.qualifiedIds.includes(p.id));
+      for(const candidate of qualified) if(candidate.estimate!==null && candidate.estimate!==undefined) room.estimateSubmissions![candidate.id]=candidate.estimate;
+      if(qualified.length>0 && qualified.every(candidate=>Object.prototype.hasOwnProperty.call(room.estimateSubmissions,candidate.id))){ const ordered=[...qualified].sort((a,b)=>Math.abs(room.estimateSubmissions![a.id]-384400)-Math.abs(room.estimateSubmissions![b.id]-384400)); room.phase="category-select"; room.turnIndex=room.qualifiedIds.indexOf(ordered[0].id); room.phaseStartedAt=new Date().toISOString(); }
     } else if(action==="choose-theme") {
       if(room.phase!=="category-select"||room.activePlayerId!==player.id||!payload.theme||!themeQuestions[payload.theme]?.length||room.usedThemes.includes(payload.theme)) return fail("Ce thème ne peut pas être choisi");
       room.phase="category-playing"; room.currentTheme=payload.theme; room.currentQuestionIndex=0; room.usedThemes.push(payload.theme); room.phaseStartedAt=new Date().toISOString();

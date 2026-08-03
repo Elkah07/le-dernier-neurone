@@ -45,6 +45,11 @@ export default function MultiplayerGame({ initialRoom, playerId, onExit }: { ini
     return () => window.clearTimeout(timer);
   }, [room.phase, me?.qualificationAnswered]);
   useEffect(() => {
+    if (room.phase !== "estimate" || me?.estimate === null || me?.estimate === undefined || busy) return;
+    const timer = window.setTimeout(() => action("sync-estimate"), 1200);
+    return () => window.clearTimeout(timer);
+  }, [room.phase, room.estimateSubmissions, me?.estimate, busy]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => {
     if (!isActive && room.phase !== "qualification") return;
     if (!["qualification","category-playing","final-answer"].includes(room.phase)) return;
     if (seconds <= 0) {

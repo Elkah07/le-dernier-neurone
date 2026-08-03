@@ -60,12 +60,27 @@ export function roomFinalQuestion(room: Room, index: number) {
 
 export function roomThemeQuestion(room: Room, theme: string, index: number) {
   const list = themeQuestions[theme] || [];
-  const start = room.themeQuestionStarts?.[theme] || 0;
+  // Firebase Realtime Database forbids `.`, `#`, `$`, `/`, `[` and `]` in
+  // object keys. Theme names are display labels (for example
+  // "Années 90/2000"), so store their offsets under a safe technical key.
+  // Keep the display-name fallback for compatibility with any older room.
+  const start = room.themeQuestionStarts?.[firebaseThemeKey(theme)]
+    ?? room.themeQuestionStarts?.[theme]
+    ?? 0;
   return list.length ? list[(start + index) % list.length] : undefined;
 }
 
+function firebaseThemeKey(theme: string) {
+  return theme
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function randomThemeStarts() {
-  return Object.fromEntries(Object.entries(themeQuestions).map(([theme, list]) => [theme, Math.floor(Math.random() * Math.max(1, list.length))]));
+  return Object.fromEntries(Object.entries(themeQuestions).map(([theme, list]) => [firebaseThemeKey(theme), Math.floor(Math.random() * Math.max(1, list.length))]));
 }
 
 function normalize(room: Room): Room {

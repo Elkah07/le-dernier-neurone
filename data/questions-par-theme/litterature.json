@@ -494,5 +494,565 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0159",
+    "question": "A quel écrivain doit-on les \"Mémoires d'outre-tombe\" ?",
+    "choices": [
+      "Marc Levy",
+      "François Mauriac",
+      "Guy de Maupassant",
+      "Chateaubriand"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0160",
+    "question": "Qui a écrit \"Cendrillon\" en 1697 ?",
+    "choices": [
+      "Charles Perrault",
+      "Bernard Werber",
+      "Guy de Maupassant",
+      "Paul Verlaine"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0161",
+    "question": "Avec quel écrivain Thomas Narcejac a-t-il formé un duo littéraire ?",
+    "choices": [
+      "Pierre Boileau",
+      "Paul Verlaine",
+      "Émile Zola",
+      "Charles Baudelaire"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0162",
+    "question": "En 2003, quel écrivain est l'auteur de \"L'Empire des loups\" ?",
+    "choices": [
+      "Georges Feydeau",
+      "Albert Camus",
+      "J.-C. Grangé",
+      "Paul Verlaine"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0163",
+    "question": "Sur un échiquier, quelle pièce est la voisine de droite de votre reine ?",
+    "choices": [
+      "Le roi",
+      "Cyrano de Bergerac",
+      "Le pion",
+      "La Cage aux folles"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0164",
+    "question": "A quel poète du XVe siècle doit-on la \"Ballade des dames du temps jadis\" ?",
+    "choices": [
+      "Marc Levy",
+      "Charles Baudelaire",
+      "Jean-Paul Sartre",
+      "François Villon"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0165",
+    "question": "A quel écrivain doit-on le roman \"Thérèse Desqueyroux\" ?",
+    "choices": [
+      "François Mauriac",
+      "Marc Levy",
+      "Paul Verlaine",
+      "Georges Feydeau"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0166",
+    "question": "Dans quelle pièce entend-on \"O rage ! ô désespoir ! ô vieillesse ennemie\" ?",
+    "choices": [
+      "Le Misanthrope",
+      "Un fou",
+      "Cyrano de Bergerac",
+      "Le Cid"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0167",
+    "question": "A quel auteur à succès doit-on le roman \"Et si c'était vrai...\" paru en 2000 ?",
+    "choices": [
+      "Guy de Maupassant",
+      "François Mauriac",
+      "Marc Levy",
+      "Victor Hugo"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0168",
+    "question": "Quel poète et écrivain, né en 1896, était prénommé Antonin ?",
+    "choices": [
+      "Georges Feydeau",
+      "Artaud",
+      "Guy de Maupassant",
+      "Marc Levy"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0169",
+    "question": "Quel écrivain obtient le Goncourt pour \"L'Exposition coloniale\" en 1988 ?",
+    "choices": [
+      "Erik Orsenna",
+      "François Mauriac",
+      "Victor Hugo",
+      "Dan Brown"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0170",
+    "question": "A quel auteur de contes doit-on \"La Reine des neiges\" en 1844 ?",
+    "choices": [
+      "Andersen",
+      "Guy de Maupassant",
+      "Charles Baudelaire",
+      "François Mauriac"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0171",
+    "question": "Quelle pièce d'un jeu d'échecs peut se transformer en reine ?",
+    "choices": [
+      "Le pion",
+      "Le Misanthrope",
+      "Cyrano de Bergerac",
+      "Le Cid"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0172",
+    "question": "A quel écrivain tchèque doit-on \"La Métamorphose\", en 1915 ?",
+    "choices": [
+      "Charles Baudelaire",
+      "François Mauriac",
+      "Jean-Paul Sartre",
+      "Franz Kafka"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0173",
+    "question": "A quel écrivain doit-on la plupart des chansons de Stephan Eicher ?",
+    "choices": [
+      "Philippe Djian",
+      "Georges Feydeau",
+      "Guy de Maupassant",
+      "Dan Brown"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0174",
+    "question": "A quel écrivain doit-on le personnage de la duchesse de Guermantes ?",
+    "choices": [
+      "Charles Baudelaire",
+      "Jean-Paul Sartre",
+      "Paul Verlaine",
+      "Marcel Proust"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0175",
+    "question": "A quel écrivain doit-on \"Plateforme\" et \"les Particules élémentaires\" ?",
+    "choices": [
+      "Michel Houellebecq",
+      "Guy de Maupassant",
+      "Dan Brown",
+      "Émile Zola"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0176",
+    "question": "Quel poète a écrit : \"Là, tout n'est qu'ordre et beauté, luxe, calme et volupté\" ?",
+    "choices": [
+      "Marc Levy",
+      "Charles Baudelaire",
+      "Bernard Werber",
+      "Victor Hugo"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0177",
+    "question": "Quel poète est cité dans \"Je suis venu te dire que je m'en vais\" ?",
+    "choices": [
+      "Bernard Werber",
+      "Paul Verlaine",
+      "Guy de Maupassant",
+      "Dan Brown"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0178",
+    "question": "Quelle pièce de Molière est également appelée \"le Festin de pierre\" ?",
+    "choices": [
+      "Dom Juan",
+      "Le Cid",
+      "Le Misanthrope",
+      "Cyrano de Bergerac"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0179",
+    "question": "Quel écrivain est l'auteur de la plupart des chansons de Stephan Eicher ?",
+    "choices": [
+      "Victor Hugo",
+      "Paul Verlaine",
+      "Philippe Djian",
+      "Georges Feydeau"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0180",
+    "question": "A quel auteur européen doit-on le roman \"Don Quichotte\" ?",
+    "choices": [
+      "Guy de Maupassant",
+      "Cervantès",
+      "Bernard Werber",
+      "François Mauriac"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0181",
+    "question": "Sur un échiquier, quelle pièce est la voisine de droite du roi ?",
+    "choices": [
+      "Un fou",
+      "Le Misanthrope",
+      "Le pion",
+      "La Cage aux folles"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0182",
+    "question": "A quel écrivain doit-on \"Splendeurs et misères des courtisanes\" ?",
+    "choices": [
+      "Charles Baudelaire",
+      "Dan Brown",
+      "Honoré de Balzac",
+      "Marc Levy"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0183",
+    "question": "En 2000, quel écrivain est l'auteur du \"Concile de pierre\" ?",
+    "choices": [
+      "Guy de Maupassant",
+      "Marc Levy",
+      "J.-C. Grangé",
+      "Albert Camus"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0184",
+    "question": "A quel auteur doit-on \"Le Dahlia noir\" adapté au cinéma par Brian De Palma ?",
+    "choices": [
+      "Jean-Paul Sartre",
+      "Georges Feydeau",
+      "Victor Hugo",
+      "James Ellroy"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0185",
+    "question": "Quel écrivain romantique est l'auteur des \"Caprices de Marianne\" ?",
+    "choices": [
+      "Émile Zola",
+      "Alfred de Musset",
+      "François Mauriac",
+      "Victor Hugo"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0186",
+    "question": "De quelle pièce de Molière Alceste et Célimène sont-ils les protagonistes ?",
+    "choices": [
+      "Le pion",
+      "Le Misanthrope",
+      "Cyrano de Bergerac",
+      "Le roi"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0187",
+    "question": "A quel écrivain doit-on la pièce : \"L'important d'être constant\" ?",
+    "choices": [
+      "Georges Feydeau",
+      "Albert Camus",
+      "Émile Zola",
+      "Oscar Wilde"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0188",
+    "question": "A quel auteur américain doit-on les pièces : \"Un Tramway nommé Désir\" et \"La Chatte sur un toit brûlant\" ?",
+    "choices": [
+      "François Mauriac",
+      "Bernard Werber",
+      "Marc Levy",
+      "Tennessee Williams"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0189",
+    "question": "En 1669, à quel auteur doit-on \"Britannicus\" ?",
+    "choices": [
+      "Racine",
+      "Victor Hugo",
+      "Guy de Maupassant",
+      "Dan Brown"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0190",
+    "question": "En 2007, à quel écrivain doit-on le roman \"Forteresse digitale\" ?",
+    "choices": [
+      "Dan Brown",
+      "Paul Verlaine",
+      "Émile Zola",
+      "Bernard Werber"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0191",
+    "question": "Aux échecs, quelle pièce peut bénéficier d'une promotion ?",
+    "choices": [
+      "Le pion",
+      "Un fou",
+      "Le Cid",
+      "La Cage aux folles"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0192",
+    "question": "A quel auteur doit-on le best-seller : \"Le Papillon des étoiles\" ?",
+    "choices": [
+      "Guy de Maupassant",
+      "François Mauriac",
+      "Bernard Werber",
+      "Émile Zola"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0193",
+    "question": "En 1870, qui a écrit le poème \"Ma bohème\" ?",
+    "choices": [
+      "Rimbaud",
+      "Paul Verlaine",
+      "Charles Baudelaire",
+      "Georges Feydeau"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
   }
 ]

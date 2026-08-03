@@ -1918,5 +1918,117 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0194",
+    "question": "Au tennis, combien de jeux au minimum sont disputés au cours d'un set ?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0195",
+    "question": "Combien existe-t-il de sortes de lancers en athlétisme ?",
+    "choices": [
+      "3",
+      "2",
+      "5",
+      "4"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0196",
+    "question": "Dans quel sport Tony Estanguet gagne-t-il une médaille d'or aux JO d'Athènes ?",
+    "choices": [
+      "Le cyclisme",
+      "Le canoë-kayak",
+      "Le tennis",
+      "Le judo"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0197",
+    "question": "Quel sport Jacques Lafitte a-t-il pratiqué en professionnel de 74 à 86 ?",
+    "choices": [
+      "Le rugby",
+      "Le handball",
+      "La formule 1",
+      "La natation"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0198",
+    "question": "Combien d'épreuves d'athlétisme comporte l'heptathlon ?",
+    "choices": [
+      "6épreuves",
+      "8épreuves",
+      "5épreuves",
+      "7 épreuves"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0199",
+    "question": "Dans quel sport l'Américaine Marion Jones s'est-elle illustrée ?",
+    "choices": [
+      "La natation",
+      "Athlétisme",
+      "Le tennis",
+      "La boxe"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0200",
+    "question": "Au football, combien de cartons jaunes un joueur peut-il recevoir au maximum?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
   }
 ]

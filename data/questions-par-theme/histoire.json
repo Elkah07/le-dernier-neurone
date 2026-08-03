@@ -510,5 +510,133 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0151",
+    "question": "Traditionnellement, à partir de quel siècle commence l'Ancien Régime ?",
+    "choices": [
+      "XVIIe siècle",
+      "XVe siècle",
+      "XVIe siècle",
+      "XIVe siècle"
+    ],
+    "answer": 2,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0152",
+    "question": "Lors de quel siècle l'écrivain George Sand a-t-elle vécu ?",
+    "choices": [
+      "Le XIXe siècle",
+      "XVIIIe siècle",
+      "XXe siècle",
+      "XVIIe siècle"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0153",
+    "question": "Lors de quel siècle l'Académie française a-t-elle été créée par Richelieu ?",
+    "choices": [
+      "XVIIe siècle",
+      "XVe siècle",
+      "XVIe siècle",
+      "XVIIIe siècle"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0154",
+    "question": "Lors de quel siècle l'écrivain russe Dostoïevski a-t-il vécu ?",
+    "choices": [
+      "XVIIe siècle",
+      "XIXe",
+      "XVIIIe siècle",
+      "XXe siècle"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0155",
+    "question": "Lors de quel siècle Léonard de Vinci a-t-il peint \"La Joconde\" ?",
+    "choices": [
+      "XIVe siècle",
+      "XVIIe siècle",
+      "XVe siècle",
+      "XVIe siècle"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0156",
+    "question": "Lors de quel siècle Karl Marx a-t-il vécu ?",
+    "choices": [
+      "XVIIIe siècle",
+      "XXe siècle",
+      "XIXe",
+      "XVIIe siècle"
+    ],
+    "answer": 2,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0157",
+    "question": "Lors de quel siècle Simone de Beauvoir a-t-elle vécu ?",
+    "choices": [
+      "XXe",
+      "XIXe siècle",
+      "XXIe siècle",
+      "XVIIIe siècle"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0158",
+    "question": "Lors de quel siècle la première croisade s'est-elle déroulée ?",
+    "choices": [
+      "XIe siècle",
+      "IXe siècle",
+      "XIIe siècle",
+      "Xe siècle"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
   }
 ]

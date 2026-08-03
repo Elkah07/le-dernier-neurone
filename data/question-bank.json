@@ -4592,6 +4592,806 @@
     "validation": "valide"
   },
   {
+    "id": "grand-quiz-v12-0001",
+    "question": "A quel réalisateur scandinave doit-on le film \"Breaking the Waves\" en 1996 ?",
+    "choices": [
+      "Louis Malle",
+      "Alfred Hitchcock",
+      "Lars von Trier",
+      "Oliver Stone"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0002",
+    "question": "Dans le film \"Le Petit Nicolas\" quelle actrice incarne la mère de Nicolas ?",
+    "choices": [
+      "Sandra Bullock",
+      "Valérie Lemercier",
+      "Sophie Marceau",
+      "Meryl Streep"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0003",
+    "question": "Quel acteur incarne un écrivain alcoolique dans le film \"Barfly\" ?",
+    "choices": [
+      "Kad Merad",
+      "Mickey Rourke",
+      "Alain Delon",
+      "Brad Pitt"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0004",
+    "question": "A quelle actrice Dario Moreno rend-il hommage en 1961 ?",
+    "choices": [
+      "Catherine Deneuve",
+      "Brigitte Bardot",
+      "Bette Davis",
+      "Valérie Lemercier"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0005",
+    "question": "Dans quel pays l'acteur Jean-Claude Van Damme est-il né?",
+    "choices": [
+      "Le Maroc",
+      "L’Espagne",
+      "La Belgique",
+      "L’Allemagne"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0006",
+    "question": "En 2008, dans le film \"Astérix aux jeux Olympiques\", quel acteur interprète César ?",
+    "choices": [
+      "Samuel Le Bihan",
+      "Alain Delon",
+      "Jean Dujardin",
+      "Kad Merad"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0007",
+    "question": "En 1988, de quelle actrice Alain Souchon célèbre-t-il la beauté ?",
+    "choices": [
+      "Nathalie Baye",
+      "Bette Davis",
+      "Sophie Marceau",
+      "Ava Gardner"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0008",
+    "question": "Quel comédien est la vedette de \"Jet Set\" et du \"Pacte des loups\" ?",
+    "choices": [
+      "Robert Redford",
+      "Jean Gabin",
+      "Kad Merad",
+      "Samuel Le Bihan"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0009",
+    "question": "En 1995, dans le film \"Desperado\", quel acteur incarne El Mariachi ?",
+    "choices": [
+      "Christian Clavier",
+      "Antonio Banderas",
+      "Alain Delon",
+      "Gérard Depardieu"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0010",
+    "question": "Dans le film \"LOL\", quelle actrice joue Anne, la mère de Lola ?",
+    "choices": [
+      "Julia Roberts",
+      "Bette Davis",
+      "Sandra Bullock",
+      "Sophie Marceau"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0011",
+    "question": "Quel comédien divorce de Meryl Streep dans le film \"Kramer contre Kramer\" ?",
+    "choices": [
+      "Samuel Le Bihan",
+      "Dustin Hoffman",
+      "Robert Redford",
+      "Brad Pitt"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0012",
+    "question": "En 1976, dans \"Vol au-dessus d'un nid de coucou\", qui joue McMurphy ?",
+    "choices": [
+      "Robert Redford",
+      "Jack Nicholson",
+      "Kad Merad",
+      "Dustin Hoffman"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0013",
+    "question": "Avec quel comédien Olivier Baroux forme-t-il un célèbre duo comique ?",
+    "choices": [
+      "Gérard Depardieu",
+      "Kad Merad",
+      "Jean Gabin",
+      "Christian Clavier"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0014",
+    "question": "En 2001, qui joue le rôle de Daniel Clever, le patron de Bridget Jones ?",
+    "choices": [
+      "Hugh Grant",
+      "Gérard Depardieu",
+      "Tom Hanks",
+      "Christian Clavier"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0015",
+    "question": "Au cinéma, à quel acteur Clovis Cornillac a-t-il succédé dans le rôle d'Astérix ?",
+    "choices": [
+      "Dustin Hoffman",
+      "Alain Delon",
+      "Christian Clavier",
+      "Gérard Depardieu"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0016",
+    "question": "Qui incarne \"le Guignolo\" devant la caméra de Georges Lautner en 1980 ?",
+    "choices": [
+      "Tom Hanks",
+      "Robert Redford",
+      "Jean-Paul Belmondo",
+      "Antonio Banderas"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0017",
+    "question": "En 1967, quelle comédienne est \"Belle de jour\" dans le film de Luis Buñuel ?",
+    "choices": [
+      "Meryl Streep",
+      "Ava Gardner",
+      "Catherine Deneuve",
+      "Marion Cotillard"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0018",
+    "question": "Dans \"Adieu poulet\", qui incarne le commissaire, patron de P. Dewaere ?",
+    "choices": [
+      "Christian Clavier",
+      "Lino Ventura",
+      "Samuel Le Bihan",
+      "Kad Merad"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0019",
+    "question": "Quel comédien interprète \"Maintenant je sais\" en 1974 ?",
+    "choices": [
+      "Jean Gabin",
+      "Tom Hanks",
+      "Robert Redford",
+      "Brad Pitt"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0020",
+    "question": "Quelle actrice mythique est l'héroïne du film \"Bus Stop\" en 1956 ?",
+    "choices": [
+      "Valérie Lemercier",
+      "Marion Cotillard",
+      "Marilyn Monroe",
+      "Ava Gardner"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0021",
+    "question": "Dans \"Astérix et Obélix : Mission Cléopâtre\", qui incarne Numérobis ?",
+    "choices": [
+      "Jamel Debbouze",
+      "Robert Redford",
+      "Alain Delon",
+      "Jean Dujardin"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0022",
+    "question": "Aux yeux de quelle actrice Kim Carnes rend-elle hommage en 1981 ?",
+    "choices": [
+      "Bette Davis",
+      "Meryl Streep",
+      "Valérie Lemercier",
+      "Ava Gardner"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0023",
+    "question": "Qui joue la fiancée de James Stewart dans \"Fenêtre sur cour\" en 1955 ?",
+    "choices": [
+      "Antonio Banderas",
+      "Dustin Hoffman",
+      "Grace Kelly",
+      "Samuel Le Bihan"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0024",
+    "question": "En 1952, qui joue Manda, l'amoureux de \"Casque d'or\" ?",
+    "choices": [
+      "Dustin Hoffman",
+      "Christian Clavier",
+      "Serge Reggiani",
+      "Samuel Le Bihan"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0025",
+    "question": "Qui incarne le moine dans la version de \"L'Auberge rouge\" de 1951 ?",
+    "choices": [
+      "Christian Clavier",
+      "Robert Redford",
+      "Jean Dujardin",
+      "Fernandel"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0026",
+    "question": "A quel réalisateur doit-on \"Le Péril jeune\", en 1995 ?",
+    "choices": [
+      "Cédric Klapisch",
+      "Martin Scorsese",
+      "Pedro Almodóvar",
+      "Stanley Kubrick"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0027",
+    "question": "En 2002, qui incarne un gagnant du Loto dans le film \"Ah ! si j'étais riche\" ?",
+    "choices": [
+      "Robert Redford",
+      "Antonio Banderas",
+      "J.-P. Darroussin",
+      "Gérard Depardieu"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0028",
+    "question": "Combien d'épisodes de la saga \"Matrix\" ont été réalisés pour le cinéma ?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0029",
+    "question": "De quelle actrice Liza Minelli est-elle la fille ?",
+    "choices": [
+      "Sandra Bullock",
+      "Marilyn Monroe",
+      "Judy Garland",
+      "Catherine Deneuve"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0030",
+    "question": "En 1931, quel acteur incarne la créature de \"Frankenstein\" au cinéma ?",
+    "choices": [
+      "Tom Hanks",
+      "Brad Pitt",
+      "Samuel Le Bihan",
+      "Christopher Lee"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0031",
+    "question": "Dans le film \"les Poupées russes\" de C. Klapisch, qui incarne Xavier ?",
+    "choices": [
+      "Romain Duris",
+      "Samuel Le Bihan",
+      "Tom Hanks",
+      "Jean Gabin"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0032",
+    "question": "En 1994, quel acteur joue l'amant d'Antonio Banderas dans le film \"Philadelphia\" ?",
+    "choices": [
+      "Tom Hanks",
+      "Robert Redford",
+      "Dustin Hoffman",
+      "Kad Merad"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0033",
+    "question": "En 2008, quel acteur a incarné Mesrine dans une saga réalisée par Jean-François Richet ?",
+    "choices": [
+      "Gérard Depardieu",
+      "Jean Dujardin",
+      "Vincent Cassel",
+      "Tom Hanks"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0034",
+    "question": "En 1994, quelle comédienne embrasse un séropositif lors du Sidaction ?",
+    "choices": [
+      "Marilyn Monroe",
+      "Clémentine Célarié",
+      "Meryl Streep",
+      "Ava Gardner"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0035",
+    "question": "En 2007, quel acteur remporte le césar du meilleur réalisateur ?",
+    "choices": [
+      "Tom Hanks",
+      "Alain Delon",
+      "Jean Dujardin",
+      "Guillaume Canet"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0036",
+    "question": "Dans le film \"Disco\", quelle actrice incarne le professeur de danse classique ?",
+    "choices": [
+      "Bette Davis",
+      "Meryl Streep",
+      "Sophie Marceau",
+      "Emmanuelle Béart"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0037",
+    "question": "Qui joue l'actrice séquestrée par Antonio Banderas dans le film \"Attache-moi !\" ?",
+    "choices": [
+      "Brad Pitt",
+      "Victoria Abril",
+      "Gérard Depardieu",
+      "Dustin Hoffman"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0038",
+    "question": "Dans le film \"Le Viager\", quel acteur vend sa maison ?",
+    "choices": [
+      "Tom Hanks",
+      "Michel Serrault",
+      "Gérard Depardieu",
+      "Samuel Le Bihan"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0039",
+    "question": "Qui joue le rôle de Franck, le tendre cuisinier d'\"Ensemble, c'est tout\" ?",
+    "choices": [
+      "Dustin Hoffman",
+      "Jean Gabin",
+      "Guillaume Canet",
+      "Christian Clavier"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0040",
+    "question": "Qui joue Butch Cassidy dans le film \"Butch Cassidy et le Kid\" en 1970 ?",
+    "choices": [
+      "Robert Redford",
+      "Alain Delon",
+      "Antonio Banderas",
+      "Paul Newman"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0041",
+    "question": "A quel réalisateur doit-on le film \"Tout sur ma mère\" en 1999 ?",
+    "choices": [
+      "Steven Spielberg",
+      "Stanley Kubrick",
+      "Pedro Almodovar",
+      "Alfred Hitchcock"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0042",
+    "question": "En 1989 et 1992, quel acteur a endossé le costume de Batman au cinéma, pour le réalisateur Tim Burton ?",
+    "choices": [
+      "Robert Redford",
+      "Jean Dujardin",
+      "Kad Merad",
+      "Michael Keaton"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0043",
+    "question": "A quel réalisateur japonais doit-on le film \"Dersou Ouzala\" en 1975 ?",
+    "choices": [
+      "Oliver Stone",
+      "Akira Kurosawa",
+      "Lars von Trier",
+      "Steven Spielberg"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0044",
+    "question": "De quel comédien François Mitterrand était-il le beau-frère ?",
+    "choices": [
+      "Samuel Le Bihan",
+      "Jean Dujardin",
+      "Roger Hanin",
+      "Gérard Depardieu"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0045",
+    "question": "De quel acteur américain, à l'affiche du film \"Minority Report\", la petite Suri est-elle la fille ?",
+    "choices": [
+      "Jean Dujardin",
+      "Tom Hanks",
+      "Tom Cruise",
+      "Robert Redford"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0046",
+    "question": "De quel comédien Madeleine Renaud était-elle l'épouse ?",
+    "choices": [
+      "Dustin Hoffman",
+      "Christian Clavier",
+      "Jean-Louis Barrault",
+      "Brad Pitt"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0047",
+    "question": "En 1960, qui incarne le Bossu dans le film d'André Hunnebelle ?",
+    "choices": [
+      "Gérard Depardieu",
+      "Jean Marais",
+      "Jean Dujardin",
+      "Kad Merad"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0048",
+    "question": "Au cinéma, quel acteur américain incarne Hancock, un superhéros très impopulaire ?",
+    "choices": [
+      "Tom Hanks",
+      "Will Smith",
+      "Robert Redford",
+      "Jean Dujardin"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0049",
+    "question": "A quel réalisateur doit-on le film \"The Player\" en 1992 ?",
+    "choices": [
+      "Martin Scorsese",
+      "Louis Malle",
+      "Robert Altman",
+      "Cédric Klapisch"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0050",
+    "question": "Qui incarne le plongeur Jacques Mayol dans \"Le Grand Bleu\" de Luc Besson ?",
+    "choices": [
+      "Jean-Marc Barr",
+      "Kad Merad",
+      "Jean Gabin",
+      "Christian Clavier"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
     "id": "archive-0803",
     "question": "À quel fromage de chèvre AOC le nom de Chavignol est-il associé ?",
     "choices": [
@@ -9648,6 +10448,806 @@
     "validation": "valide"
   },
   {
+    "id": "grand-quiz-v12-0101",
+    "question": "Sur quel continent les populations berbères vivent-elles majoritairement ?",
+    "choices": [
+      "L’Amérique du Nord",
+      "L’Asie",
+      "L’Amérique du Sud",
+      "L'Afrique"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0102",
+    "question": "Dans quel fleuve la Drôme se jette-t-elle ?",
+    "choices": [
+      "Le Rhône",
+      "La Tamise",
+      "La Garonne",
+      "Le Nil"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0103",
+    "question": "Dans quelle ville d'Ile-de-France est situé le pavillon de chasse la Lanterne ?",
+    "choices": [
+      "Versailles",
+      "Bruxelles",
+      "Budapest",
+      "Toulouse"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0104",
+    "question": "A la présidence de quel pays Ingrid Bétancourt était-elle candidate ?",
+    "choices": [
+      "L’Égypte",
+      "La Colombie",
+      "La France",
+      "La Hongrie"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0105",
+    "question": "Quelle ville donne son nom à Diane, la favorite du roi Henri II ?",
+    "choices": [
+      "Prague",
+      "Bruxelles",
+      "Paris",
+      "Poitiers"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0106",
+    "question": "De quelle ville la confiserie appelée bergamote est-elle une spécialité ?",
+    "choices": [
+      "Toulouse",
+      "Nancy",
+      "Rome",
+      "Lisbonne"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0107",
+    "question": "Dans quelle ville d'Angleterre, au célèbre club de football, les habitants sont-ils appelés les Mancuniens ?",
+    "choices": [
+      "Londres",
+      "Budapest",
+      "Manchester",
+      "Vienne"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0108",
+    "question": "De quel pays viennent les Magyars ?",
+    "choices": [
+      "Le Maroc",
+      "La Hongrie",
+      "L’Allemagne",
+      "Le Brésil"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0109",
+    "question": "Sur quel continent les montagnes de l'Atlas sont-elles situées ?",
+    "choices": [
+      "L’Amérique du Nord",
+      "L’Océanie",
+      "L'Afrique",
+      "L’Europe"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0110",
+    "question": "Dans quelle ville Tom Hanks passe-t-il des \"nuits blanches\" avec Meg Ryan ?",
+    "choices": [
+      "Toulouse",
+      "Madrid",
+      "Seattle",
+      "Bruxelles"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0111",
+    "question": "Dans quel pays se situe l'Annapurna ?",
+    "choices": [
+      "L’Égypte",
+      "Le Japon",
+      "Le Népal",
+      "L’Italie"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0112",
+    "question": "Sur quel continent vivent les petits porcs sauvages appelés pécaris ?",
+    "choices": [
+      "L’Amérique du Sud",
+      "L’Asie",
+      "L’Amérique du Nord",
+      "L'Amérique"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0113",
+    "question": "Dans quel pays, autre que la France, le Doubs coule-t-il ?",
+    "choices": [
+      "L’Italie",
+      "La Hongrie",
+      "Le Népal",
+      "La Suisse"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0114",
+    "question": "Dans la trilogie de Marcel Pagnol, de quelle ville est originaire M. Brun ?",
+    "choices": [
+      "Madrid",
+      "Paris",
+      "Seattle",
+      "Lyon"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0115",
+    "question": "Dans quel océan le fleuve Niger se jette-t-il ?",
+    "choices": [
+      "L'océan Atlantique",
+      "L’océan Austral",
+      "L’océan Indien",
+      "L’océan Pacifique"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0116",
+    "question": "De quel pays l'Angola était-il une colonie jusqu'en 1975 ?",
+    "choices": [
+      "Le Brésil",
+      "Le Japon",
+      "L’Italie",
+      "Le Portugal"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0117",
+    "question": "Sur quel fleuve la \"Canonnière\" de Steve McQueen navigue-t-elle ?",
+    "choices": [
+      "Le Yang-Tsé",
+      "Le Mississippi",
+      "Le Nil",
+      "Le Rhin"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0118",
+    "question": "Dans quel pays se situe le circuit automobile du Nürburgring ?",
+    "choices": [
+      "Le Japon",
+      "L’Italie",
+      "L'Allemagne",
+      "La Colombie"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0119",
+    "question": "Dans quelle ville trouve-t-on le célèbre stade Azteca ?",
+    "choices": [
+      "Mexico",
+      "Lyon",
+      "Berlin",
+      "Bruxelles"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0120",
+    "question": "Quelle ville turque a eu pour nom Byzance puis Constantinople ?",
+    "choices": [
+      "Londres",
+      "Prague",
+      "Lyon",
+      "Istanbul"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0121",
+    "question": "Combien de pays différents sont désignés par le terme Benelux ?",
+    "choices": [
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0122",
+    "question": "Dans quel pays se trouvent les ruines de la ville de Troie ?",
+    "choices": [
+      "Turquie",
+      "La Colombie",
+      "L’Argentine",
+      "Le Portugal"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0123",
+    "question": "Dans quelle capitale européenne se situe la villa Borghèse ?",
+    "choices": [
+      "Rome",
+      "Lyon",
+      "Manchester",
+      "Paris"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0124",
+    "question": "Quel pays Felipe González a-t-il dirigé de 1982 à 1996 ?",
+    "choices": [
+      "L'Espagne",
+      "Le Brésil",
+      "La Hongrie",
+      "L’Argentine"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0125",
+    "question": "Quel pays a pour équipe nationale de football les Lions de l'Atlas ?",
+    "choices": [
+      "La Colombie",
+      "Le Maroc",
+      "La France",
+      "L’Espagne"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0126",
+    "question": "Dans quel pays est située la centrale nucléaire de Tchernobyl ?",
+    "choices": [
+      "La Suisse",
+      "L'Ukraine",
+      "La Colombie",
+      "Le Canada"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0127",
+    "question": "A l'origine, quelle ville française produisait la toile denim servant à confectionner les jeans ?",
+    "choices": [
+      "Vienne",
+      "Londres",
+      "Nîmes",
+      "Lyon"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0128",
+    "question": "Dans quelle ville vivent les Blésois ?",
+    "choices": [
+      "Londres",
+      "Blois",
+      "Lyon",
+      "Madrid"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0129",
+    "question": "De quel pays les yakitoris, les makis et les sashimis sont-ils des spécialités culinaires ?",
+    "choices": [
+      "Le Japon",
+      "Le Canada",
+      "La Hongrie",
+      "L’Argentine"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0130",
+    "question": "Dans quelle ville italienne peut-on flâner sur la place Saint-Marc, devant la basilique du même nom ?",
+    "choices": [
+      "Vienne",
+      "Venise",
+      "Toulouse",
+      "Marseille"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0131",
+    "question": "Dans quelle mer la Somme se jette-t-elle ?",
+    "choices": [
+      "La mer Rouge",
+      "La mer du Nord",
+      "La Manche",
+      "La mer Méditerranée"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0132",
+    "question": "De quel pays le Sénégal était-il une colonie avant son indépendance en 1960 ?",
+    "choices": [
+      "La France",
+      "L’Égypte",
+      "L’Argentine",
+      "Le Portugal"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0133",
+    "question": "De quelle ville étaient les bourgeois qui se livrèrent à Edouard III ?",
+    "choices": [
+      "Manchester",
+      "Lyon",
+      "Prague",
+      "Calais"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0134",
+    "question": "Quel fleuve arrose la ville de Lyon ?",
+    "choices": [
+      "La Tamise",
+      "La Garonne",
+      "Le Rhône",
+      "Le Rhin"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0135",
+    "question": "De quel pays les parents de Charles Aznavour étaient-ils originaires ?",
+    "choices": [
+      "La Hongrie",
+      "La Belgique",
+      "L'Arménie",
+      "La Suisse"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0136",
+    "question": "Combien de pays de l'ex- Tchécoslovaquie font partie de l'UE ?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0137",
+    "question": "De quel fleuve la Marne est-elle un des principaux affluents ?",
+    "choices": [
+      "La Seine",
+      "La Tamise",
+      "La Garonne",
+      "Le Nil"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0138",
+    "question": "De quel pays les parents de Serge Gainsbourg étaient-ils originaires ?",
+    "choices": [
+      "Le Japon",
+      "La Russie",
+      "L’Allemagne",
+      "L’Argentine"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0139",
+    "question": "A quel pays l'île de Bali appartient-elle ?",
+    "choices": [
+      "La France",
+      "Le Japon",
+      "L'Indonésie",
+      "La Belgique"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0140",
+    "question": "De quel pays européen la Lombardie est-elle l'une des principales régions ?",
+    "choices": [
+      "Le Japon",
+      "L'Italie",
+      "Le Maroc",
+      "L’Argentine"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0141",
+    "question": "Dans quelle ville française se trouve le siège du Conseil de l'Europe ?",
+    "choices": [
+      "Lyon",
+      "Strasbourg",
+      "Vienne",
+      "Londres"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0142",
+    "question": "Quelle ville Danyel Gérard associe-t-il au Tennessee dans son titre de 1964 ?",
+    "choices": [
+      "Memphis",
+      "Manchester",
+      "Londres",
+      "Lyon"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0143",
+    "question": "De quel continent le paon bleu est-il originaire ?",
+    "choices": [
+      "L’Afrique",
+      "L’Océanie",
+      "L’Amérique du Nord",
+      "L'Asie"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0144",
+    "question": "Dans quel océan se trouve l'archipel d'Hawaï ?",
+    "choices": [
+      "Océan Pacifique",
+      "L’océan Atlantique",
+      "L’océan Indien",
+      "L’océan Austral"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0145",
+    "question": "Dans quel fleuve se jette le Cher ?",
+    "choices": [
+      "La Garonne",
+      "Le Rhône",
+      "Le Nil",
+      "La Loire"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0146",
+    "question": "Dans quel pays se situe le barrage d'Assouan ?",
+    "choices": [
+      "La France",
+      "L'Egypte",
+      "La Suisse",
+      "Le Japon"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0147",
+    "question": "Dans quel océan le fleuve Zambèze se jette-t-il ?",
+    "choices": [
+      "L’océan Atlantique",
+      "L’océan Pacifique",
+      "L'océan Indien",
+      "L’océan Arctique"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0148",
+    "question": "Dans quel pays d'Europe coule le Tibre ?",
+    "choices": [
+      "L’Espagne",
+      "L'Italie",
+      "L’Argentine",
+      "Le Canada"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0149",
+    "question": "Dans quel fleuve français le Tarn se jette-t-il ?",
+    "choices": [
+      "La Loire",
+      "Le Danube",
+      "La Garonne",
+      "Le Yang-Tsé"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0150",
+    "question": "Dans quel pays africain se passe le 2e tome des aventures de Tintin ?",
+    "choices": [
+      "L’Égypte",
+      "Le Maroc",
+      "Le Népal",
+      "Le Congo"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
     "id": "archive-0739",
     "question": "Combien de Napoléon ont été empereurs ?",
     "choices": [
@@ -10160,6 +11760,134 @@
     "validation": "valide"
   },
   {
+    "id": "grand-quiz-v12-0151",
+    "question": "Traditionnellement, à partir de quel siècle commence l'Ancien Régime ?",
+    "choices": [
+      "XVIIe siècle",
+      "XVe siècle",
+      "XVIe siècle",
+      "XIVe siècle"
+    ],
+    "answer": 2,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0152",
+    "question": "Lors de quel siècle l'écrivain George Sand a-t-elle vécu ?",
+    "choices": [
+      "Le XIXe siècle",
+      "XVIIIe siècle",
+      "XXe siècle",
+      "XVIIe siècle"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0153",
+    "question": "Lors de quel siècle l'Académie française a-t-elle été créée par Richelieu ?",
+    "choices": [
+      "XVIIe siècle",
+      "XVe siècle",
+      "XVIe siècle",
+      "XVIIIe siècle"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0154",
+    "question": "Lors de quel siècle l'écrivain russe Dostoïevski a-t-il vécu ?",
+    "choices": [
+      "XVIIe siècle",
+      "XIXe",
+      "XVIIIe siècle",
+      "XXe siècle"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0155",
+    "question": "Lors de quel siècle Léonard de Vinci a-t-il peint \"La Joconde\" ?",
+    "choices": [
+      "XIVe siècle",
+      "XVIIe siècle",
+      "XVe siècle",
+      "XVIe siècle"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0156",
+    "question": "Lors de quel siècle Karl Marx a-t-il vécu ?",
+    "choices": [
+      "XVIIIe siècle",
+      "XXe siècle",
+      "XIXe",
+      "XVIIe siècle"
+    ],
+    "answer": 2,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0157",
+    "question": "Lors de quel siècle Simone de Beauvoir a-t-elle vécu ?",
+    "choices": [
+      "XXe",
+      "XIXe siècle",
+      "XXIe siècle",
+      "XVIIIe siècle"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0158",
+    "question": "Lors de quel siècle la première croisade s'est-elle déroulée ?",
+    "choices": [
+      "XIe siècle",
+      "IXe siècle",
+      "XIIe siècle",
+      "Xe siècle"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
     "id": "archive-0616",
     "question": "Combien de livres composent \"À la recherche du temps perdu\" de Proust ?",
     "choices": [
@@ -10653,6 +12381,566 @@
     "difficulty": "easy",
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0159",
+    "question": "A quel écrivain doit-on les \"Mémoires d'outre-tombe\" ?",
+    "choices": [
+      "Marc Levy",
+      "François Mauriac",
+      "Guy de Maupassant",
+      "Chateaubriand"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0160",
+    "question": "Qui a écrit \"Cendrillon\" en 1697 ?",
+    "choices": [
+      "Charles Perrault",
+      "Bernard Werber",
+      "Guy de Maupassant",
+      "Paul Verlaine"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0161",
+    "question": "Avec quel écrivain Thomas Narcejac a-t-il formé un duo littéraire ?",
+    "choices": [
+      "Pierre Boileau",
+      "Paul Verlaine",
+      "Émile Zola",
+      "Charles Baudelaire"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0162",
+    "question": "En 2003, quel écrivain est l'auteur de \"L'Empire des loups\" ?",
+    "choices": [
+      "Georges Feydeau",
+      "Albert Camus",
+      "J.-C. Grangé",
+      "Paul Verlaine"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0163",
+    "question": "Sur un échiquier, quelle pièce est la voisine de droite de votre reine ?",
+    "choices": [
+      "Le roi",
+      "Cyrano de Bergerac",
+      "Le pion",
+      "La Cage aux folles"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0164",
+    "question": "A quel poète du XVe siècle doit-on la \"Ballade des dames du temps jadis\" ?",
+    "choices": [
+      "Marc Levy",
+      "Charles Baudelaire",
+      "Jean-Paul Sartre",
+      "François Villon"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0165",
+    "question": "A quel écrivain doit-on le roman \"Thérèse Desqueyroux\" ?",
+    "choices": [
+      "François Mauriac",
+      "Marc Levy",
+      "Paul Verlaine",
+      "Georges Feydeau"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0166",
+    "question": "Dans quelle pièce entend-on \"O rage ! ô désespoir ! ô vieillesse ennemie\" ?",
+    "choices": [
+      "Le Misanthrope",
+      "Un fou",
+      "Cyrano de Bergerac",
+      "Le Cid"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0167",
+    "question": "A quel auteur à succès doit-on le roman \"Et si c'était vrai...\" paru en 2000 ?",
+    "choices": [
+      "Guy de Maupassant",
+      "François Mauriac",
+      "Marc Levy",
+      "Victor Hugo"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0168",
+    "question": "Quel poète et écrivain, né en 1896, était prénommé Antonin ?",
+    "choices": [
+      "Georges Feydeau",
+      "Artaud",
+      "Guy de Maupassant",
+      "Marc Levy"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0169",
+    "question": "Quel écrivain obtient le Goncourt pour \"L'Exposition coloniale\" en 1988 ?",
+    "choices": [
+      "Erik Orsenna",
+      "François Mauriac",
+      "Victor Hugo",
+      "Dan Brown"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0170",
+    "question": "A quel auteur de contes doit-on \"La Reine des neiges\" en 1844 ?",
+    "choices": [
+      "Andersen",
+      "Guy de Maupassant",
+      "Charles Baudelaire",
+      "François Mauriac"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0171",
+    "question": "Quelle pièce d'un jeu d'échecs peut se transformer en reine ?",
+    "choices": [
+      "Le pion",
+      "Le Misanthrope",
+      "Cyrano de Bergerac",
+      "Le Cid"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0172",
+    "question": "A quel écrivain tchèque doit-on \"La Métamorphose\", en 1915 ?",
+    "choices": [
+      "Charles Baudelaire",
+      "François Mauriac",
+      "Jean-Paul Sartre",
+      "Franz Kafka"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0173",
+    "question": "A quel écrivain doit-on la plupart des chansons de Stephan Eicher ?",
+    "choices": [
+      "Philippe Djian",
+      "Georges Feydeau",
+      "Guy de Maupassant",
+      "Dan Brown"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0174",
+    "question": "A quel écrivain doit-on le personnage de la duchesse de Guermantes ?",
+    "choices": [
+      "Charles Baudelaire",
+      "Jean-Paul Sartre",
+      "Paul Verlaine",
+      "Marcel Proust"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0175",
+    "question": "A quel écrivain doit-on \"Plateforme\" et \"les Particules élémentaires\" ?",
+    "choices": [
+      "Michel Houellebecq",
+      "Guy de Maupassant",
+      "Dan Brown",
+      "Émile Zola"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0176",
+    "question": "Quel poète a écrit : \"Là, tout n'est qu'ordre et beauté, luxe, calme et volupté\" ?",
+    "choices": [
+      "Marc Levy",
+      "Charles Baudelaire",
+      "Bernard Werber",
+      "Victor Hugo"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0177",
+    "question": "Quel poète est cité dans \"Je suis venu te dire que je m'en vais\" ?",
+    "choices": [
+      "Bernard Werber",
+      "Paul Verlaine",
+      "Guy de Maupassant",
+      "Dan Brown"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0178",
+    "question": "Quelle pièce de Molière est également appelée \"le Festin de pierre\" ?",
+    "choices": [
+      "Dom Juan",
+      "Le Cid",
+      "Le Misanthrope",
+      "Cyrano de Bergerac"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0179",
+    "question": "Quel écrivain est l'auteur de la plupart des chansons de Stephan Eicher ?",
+    "choices": [
+      "Victor Hugo",
+      "Paul Verlaine",
+      "Philippe Djian",
+      "Georges Feydeau"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0180",
+    "question": "A quel auteur européen doit-on le roman \"Don Quichotte\" ?",
+    "choices": [
+      "Guy de Maupassant",
+      "Cervantès",
+      "Bernard Werber",
+      "François Mauriac"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0181",
+    "question": "Sur un échiquier, quelle pièce est la voisine de droite du roi ?",
+    "choices": [
+      "Un fou",
+      "Le Misanthrope",
+      "Le pion",
+      "La Cage aux folles"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0182",
+    "question": "A quel écrivain doit-on \"Splendeurs et misères des courtisanes\" ?",
+    "choices": [
+      "Charles Baudelaire",
+      "Dan Brown",
+      "Honoré de Balzac",
+      "Marc Levy"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0183",
+    "question": "En 2000, quel écrivain est l'auteur du \"Concile de pierre\" ?",
+    "choices": [
+      "Guy de Maupassant",
+      "Marc Levy",
+      "J.-C. Grangé",
+      "Albert Camus"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0184",
+    "question": "A quel auteur doit-on \"Le Dahlia noir\" adapté au cinéma par Brian De Palma ?",
+    "choices": [
+      "Jean-Paul Sartre",
+      "Georges Feydeau",
+      "Victor Hugo",
+      "James Ellroy"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0185",
+    "question": "Quel écrivain romantique est l'auteur des \"Caprices de Marianne\" ?",
+    "choices": [
+      "Émile Zola",
+      "Alfred de Musset",
+      "François Mauriac",
+      "Victor Hugo"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0186",
+    "question": "De quelle pièce de Molière Alceste et Célimène sont-ils les protagonistes ?",
+    "choices": [
+      "Le pion",
+      "Le Misanthrope",
+      "Cyrano de Bergerac",
+      "Le roi"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0187",
+    "question": "A quel écrivain doit-on la pièce : \"L'important d'être constant\" ?",
+    "choices": [
+      "Georges Feydeau",
+      "Albert Camus",
+      "Émile Zola",
+      "Oscar Wilde"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0188",
+    "question": "A quel auteur américain doit-on les pièces : \"Un Tramway nommé Désir\" et \"La Chatte sur un toit brûlant\" ?",
+    "choices": [
+      "François Mauriac",
+      "Bernard Werber",
+      "Marc Levy",
+      "Tennessee Williams"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0189",
+    "question": "En 1669, à quel auteur doit-on \"Britannicus\" ?",
+    "choices": [
+      "Racine",
+      "Victor Hugo",
+      "Guy de Maupassant",
+      "Dan Brown"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0190",
+    "question": "En 2007, à quel écrivain doit-on le roman \"Forteresse digitale\" ?",
+    "choices": [
+      "Dan Brown",
+      "Paul Verlaine",
+      "Émile Zola",
+      "Bernard Werber"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0191",
+    "question": "Aux échecs, quelle pièce peut bénéficier d'une promotion ?",
+    "choices": [
+      "Le pion",
+      "Un fou",
+      "Le Cid",
+      "La Cage aux folles"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0192",
+    "question": "A quel auteur doit-on le best-seller : \"Le Papillon des étoiles\" ?",
+    "choices": [
+      "Guy de Maupassant",
+      "François Mauriac",
+      "Bernard Werber",
+      "Émile Zola"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0193",
+    "question": "En 1870, qui a écrit le poème \"Ma bohème\" ?",
+    "choices": [
+      "Rimbaud",
+      "Paul Verlaine",
+      "Charles Baudelaire",
+      "Georges Feydeau"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
     "validation": "valide"
   },
   {
@@ -14640,6 +16928,806 @@
     "validation": "valide"
   },
   {
+    "id": "grand-quiz-v12-0051",
+    "question": "Sans quelle chanteuse Laurent Voulzy passe-t-il ses nuits en 1986 ?",
+    "choices": [
+      "Mariah Carey",
+      "Vanessa Paradis",
+      "Jakie Quartz",
+      "Kim Wilde"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0052",
+    "question": "Quelle chanteuse britannique connaît un succès international avec le titre \"Babooshka\" en 1980 ?",
+    "choices": [
+      "Mariah Carey",
+      "Kate Bush",
+      "Jeanne Mas",
+      "Axelle Red"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0053",
+    "question": "En 1988, quelle chanteuse fait un tube avec \"Talkin' Bout a Revolution\" ?",
+    "choices": [
+      "Patricia Kaas",
+      "Jeanne Mas",
+      "Mariah Carey",
+      "Tracy Chapman"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0054",
+    "question": "Qui chante : \"Je suis un missionnaire de la drague\" dans \"Matchistador\" ?",
+    "choices": [
+      "M",
+      "Michel Jonasz",
+      "Jean-Jacques Goldman",
+      "Carlos"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0055",
+    "question": "A quel chanteur doit-on le tube \"Les Jolies Colonies de vacances\", sorti en 1966 ?",
+    "choices": [
+      "Michel Polnareff",
+      "Pierre Perret",
+      "Gilbert Montagné",
+      "Paul Simon"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0056",
+    "question": "Quel chanteur français s'est affiché fesses nues pour un concert à l'Olympia en 1972 ?",
+    "choices": [
+      "Alain Bashung",
+      "Michel Polnareff",
+      "Pierre Perret",
+      "Johnny Hallyday"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0057",
+    "question": "De quel chanteur Françoise Dolto était-elle la mère ?",
+    "choices": [
+      "Carlos",
+      "Johnny Hallyday",
+      "Michel Jonasz",
+      "Alain Souchon"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0058",
+    "question": "En musique, combien de noires une ronde vaut-elle ?",
+    "choices": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0059",
+    "question": "En 1976, qui interprète \"Don't Go Breaking My Heart\" avec Kiki Dee ?",
+    "choices": [
+      "Étienne Daho",
+      "Michel Polnareff",
+      "Gilbert Montagné",
+      "Elton John"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0060",
+    "question": "De quel pays d'Europe sont originaires les membres du groupe The Corrs ?",
+    "choices": [
+      "Le Portugal",
+      "Irlande",
+      "La Suisse",
+      "La Belgique"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0061",
+    "question": "Qui chante \"dans Paris à vélo on dépasse les autos\" en 1972 ?",
+    "choices": [
+      "Alain Souchon",
+      "Joe Dassin",
+      "Laurent Voulzy",
+      "Pierre Perret"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0062",
+    "question": "Qui chante \"Rock'n'dollars (Donnez-moi madame s'il vous plaît)\" en 1975 ?",
+    "choices": [
+      "Laurent Voulzy",
+      "Jean-Jacques Goldman",
+      "William Sheller",
+      "Alain Souchon"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0063",
+    "question": "En 1993, à quel chanteur doit-on la reprise de \"Mon manège à moi\" ?",
+    "choices": [
+      "Etienne Daho",
+      "Alain Bashung",
+      "Paul Simon",
+      "Pierre Perret"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0064",
+    "question": "Qui interprète la chanson \"Kili Watch\" en 1960 ?",
+    "choices": [
+      "Laurent Voulzy",
+      "Johnny Hallyday",
+      "Alain Bashung",
+      "Jean-Jacques Goldman"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0065",
+    "question": "Qui chante \"Toutes les mamas\" en 1989 ?",
+    "choices": [
+      "Johnny Hallyday",
+      "Laurent Voulzy",
+      "Gilbert Montagné",
+      "Maurane"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0066",
+    "question": "Qui chante \"Je n'ai que mon âme\", en 2001 ?",
+    "choices": [
+      "Alain Souchon",
+      "Michel Jonasz",
+      "Natasha St Pier",
+      "Michel Polnareff"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0067",
+    "question": "Jusqu'à combien Ricky Martin compte-t-il dans sa chanson \"Maria\" ?",
+    "choices": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0068",
+    "question": "Qui interprète Zaza Napoli dans \"la Cage aux folles\" ?",
+    "choices": [
+      "Carlos",
+      "Laurent Voulzy",
+      "Paul Simon",
+      "Michel Serrault"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0069",
+    "question": "De quel chanteur Tom Novembre est-il le frère ?",
+    "choices": [
+      "Alain Souchon",
+      "Michel Jonasz",
+      "Étienne Daho",
+      "CharlElie Couture"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0070",
+    "question": "Quelle chanteuse interprète \"Les derniers seront les premiers\" en 95 ?",
+    "choices": [
+      "Kate Bush",
+      "Céline Dion",
+      "Tracy Chapman",
+      "Patricia Kaas"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0071",
+    "question": "Dans quelle chanson de 1991 les Inconnus s'appellent-ils Urssaf, Cancras et... ?",
+    "choices": [
+      "Etoile des neiges",
+      "Rap tout",
+      "Chanson populaire",
+      "Je vais t'aimer"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0072",
+    "question": "Dans quelle chanson Alain Bashung a-t-il crevé l'oreiller ?",
+    "choices": [
+      "Le Poinçonneur des Lilas",
+      "Vertige de l'amour",
+      "L'Hymne à l'amour",
+      "L'Oreille cassée"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0073",
+    "question": "En 1983, quelle chanteuse connaît le succès avec \"Mise au point\" ?",
+    "choices": [
+      "Jakie Quartz",
+      "Brigitte Bardot",
+      "Tracy Chapman",
+      "Axelle Red"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0074",
+    "question": "A quel chanteur français doit-on le tube en anglais \"The Fool\", en 1971 ?",
+    "choices": [
+      "Gilbert Montagné",
+      "Paul Simon",
+      "Alain Souchon",
+      "Michel Polnareff"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0075",
+    "question": "Quel chanteur à lunettes est indissociable d'Alain Souchon ?",
+    "choices": [
+      "Gilbert Montagné",
+      "Paul Simon",
+      "Jean-Jacques Goldman",
+      "Laurent Voulzy"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0076",
+    "question": "Quelle chanteuse interprète le titre \"Tandem\" en 1990 ?",
+    "choices": [
+      "Céline Dion",
+      "Vanessa Paradis",
+      "Liane Foly",
+      "Jakie Quartz"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0077",
+    "question": "Qui chante \"Mrs. Robinson\" en 1967 ?",
+    "choices": [
+      "Jean-Jacques Goldman",
+      "Johnny Hallyday",
+      "Alain Bashung",
+      "Simon & Garfunkel"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0078",
+    "question": "Qui interprète le curé dans \"Mon curé chez les nudistes\" en 1982 ?",
+    "choices": [
+      "Pierre Perret",
+      "Paul Préboist",
+      "Laurent Voulzy",
+      "Alain Souchon"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0079",
+    "question": "Quelle chanteuse interprète le titre \"A tâtons\" en 1996 ?",
+    "choices": [
+      "Axelle Red",
+      "Patricia Kaas",
+      "Kate Bush",
+      "Vanessa Paradis"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0080",
+    "question": "Quel chanteur a longtemps formé un duo avec Art Garfunkel ?",
+    "choices": [
+      "Michel Polnareff",
+      "Paul Simon",
+      "Alain Bashung",
+      "Johnny Hallyday"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0081",
+    "question": "En 1987, à quelle chanteuse doit-on le tube : \"La Isla bonita\" ?",
+    "choices": [
+      "Jakie Quartz",
+      "Tracy Chapman",
+      "Brigitte Bardot",
+      "Madonna"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0082",
+    "question": "Dans quelle chanson de Serge Gainsbourg peut-on entendre: \"J'fais des trous, des p'tits trous, encore des p'tits trous\" ?",
+    "choices": [
+      "L'Hymne à l'amour",
+      "Chanson populaire",
+      "Rap tout",
+      "Le Poinçonneur des Lilas"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0083",
+    "question": "Quelle chanteuse de jazz noire américaine, disparue en 1959, était surnommée \"Lady Day\" ?",
+    "choices": [
+      "Jeanne Mas",
+      "Liane Foly",
+      "Kim Wilde",
+      "Billie Holiday"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0084",
+    "question": "Qui chante \"Enfants de tous pays\" en 1963 ?",
+    "choices": [
+      "Paul Simon",
+      "Michel Polnareff",
+      "Enrico Macias",
+      "Pierre Perret"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0085",
+    "question": "Qui chante : \"Bon anniversaire, petit trentenaire\" dans sa chanson de 2001 ?",
+    "choices": [
+      "Paul Simon",
+      "Bénabar",
+      "Jean-Jacques Goldman",
+      "Michel Polnareff"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0086",
+    "question": "Qui interprète la chanson \"Oh ! Ma jolie Sarah\" en 1971 ?",
+    "choices": [
+      "Pierre Perret",
+      "Paul Simon",
+      "Alain Bashung",
+      "Johnny Hallyday"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0087",
+    "question": "En 1984, quelle chanteuse a connu le succès avec le tube \"Like A Virgin\" ?",
+    "choices": [
+      "Kim Wilde",
+      "Kate Bush",
+      "Madonna",
+      "Brigitte Bardot"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0088",
+    "question": "Qui chante \"Parce qu'on sait jamais\" en 2007 ?",
+    "choices": [
+      "Gilbert Montagné",
+      "Christophe Maé",
+      "Alain Bashung",
+      "Étienne Daho"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0089",
+    "question": "Dans quelle chanson A. Souchon marche-t-il \"le long d'la ligne de ch'min d'fer\" ?",
+    "choices": [
+      "Désenchantée",
+      "La Mer",
+      "Allô maman bobo",
+      "L'Hymne à l'amour"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0090",
+    "question": "A quel chanteur français doit-on le tube \"High\" en 1988 ?",
+    "choices": [
+      "David Hallyday",
+      "Michel Polnareff",
+      "Pierre Perret",
+      "Alain Souchon"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0091",
+    "question": "En 1978, dans quelle chanson Serge Lama veut-il \"du Prosper youpla, youpla, boum\" ?",
+    "choices": [
+      "Femme, femme, femme",
+      "Etoile des neiges",
+      "La Mer",
+      "Le mouchoir"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0092",
+    "question": "Dans quelle chanson E. Piaf est-elle prête à se \"teindre en blonde\" ?",
+    "choices": [
+      "Reviens",
+      "Rap tout",
+      "L'Hymne à l'amour",
+      "Chanson populaire"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0093",
+    "question": "En 2003, avec quelle chanteuse Kareen Antonn interprète-t-elle \"Si demain\" ?",
+    "choices": [
+      "Bonnie Tyler",
+      "Axelle Red",
+      "Jeanne Mas",
+      "Vanessa Paradis"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0094",
+    "question": "A quel chanteur américain doit-on les tubes \"Purple Rain\" et \"Kiss\" ?",
+    "choices": [
+      "Jean-Jacques Goldman",
+      "Prince",
+      "Paul Simon",
+      "Alain Souchon"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0095",
+    "question": "Quel chanteur italien fait un succès avec \"Gloria\" en 1979 ?",
+    "choices": [
+      "Paul Simon",
+      "Michel Polnareff",
+      "Umberto Tozzi",
+      "Pierre Perret"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0096",
+    "question": "En 1972, quel chanteur immortalise le tube \"Qui saura\" ?",
+    "choices": [
+      "Michel Polnareff",
+      "Mike Brant",
+      "Carlos",
+      "Étienne Daho"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0097",
+    "question": "Quelle chanteuse a remporté le Concours Eurovision de la Chanson en 1988 avec le titre \"Ne partez pas sans moi\" ?",
+    "choices": [
+      "Jakie Quartz",
+      "Tracy Chapman",
+      "Céline Dion",
+      "Jeanne Mas"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0098",
+    "question": "En 2009, quel chanteur a reçu la Victoire de l'artiste interprète masculin de l'année ?",
+    "choices": [
+      "Michel Polnareff",
+      "Étienne Daho",
+      "Alain Bashung",
+      "Carlos"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0099",
+    "question": "En 1942, qui chante \"Que reste-t-il de nos amours\" ?",
+    "choices": [
+      "Pierre Perret",
+      "Michel Jonasz",
+      "Charles Trenet",
+      "Michel Polnareff"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0100",
+    "question": "A quel chanteur-voyageur doit-on le tube des années 60 \"Les Elucubrations\" ?",
+    "choices": [
+      "Pierre Perret",
+      "Carlos",
+      "Antoine",
+      "Jean-Jacques Goldman"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
     "id": "archive-0768",
     "question": "A quel âge n'est-on pas sérieux selon un poème d'Arthur Rimbaud ?",
     "choices": [
@@ -15869,6 +18957,86 @@
     "difficulty": "medium",
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0201",
+    "question": "Quel interprète de James Bond jouait le détective Remington Steele à la télévision ?",
+    "choices": [
+      "Dustin Hoffman",
+      "Pierce Brosnan",
+      "Robert Redford",
+      "Jean Gabin"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0202",
+    "question": "Quel comédien incarne Danny Wilde dans la série \"Amicalement vôtre\" ?",
+    "choices": [
+      "Jean Dujardin",
+      "Dustin Hoffman",
+      "Alain Delon",
+      "Tony Curtis"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0203",
+    "question": "Quel comédien incarne Columbo dans la série télévisée du même nom ?",
+    "choices": [
+      "Tom Hanks",
+      "Antonio Banderas",
+      "Peter Falk",
+      "Brad Pitt"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0204",
+    "question": "Quel comédien était le héros de la série \"Destination danger\" ?",
+    "choices": [
+      "Christian Clavier",
+      "Gérard Depardieu",
+      "Patrick McGoohan",
+      "Tom Hanks"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0205",
+    "question": "Quel comédien incarne Brett Sinclair dans la série \"Amicalement vôtre\" ?",
+    "choices": [
+      "Jean Gabin",
+      "Kad Merad",
+      "Roger Moore",
+      "Christian Clavier"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
     "validation": "valide"
   },
   {
@@ -19645,6 +22813,118 @@
     "difficulty": "easy",
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0194",
+    "question": "Au tennis, combien de jeux au minimum sont disputés au cours d'un set ?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0195",
+    "question": "Combien existe-t-il de sortes de lancers en athlétisme ?",
+    "choices": [
+      "3",
+      "2",
+      "5",
+      "4"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0196",
+    "question": "Dans quel sport Tony Estanguet gagne-t-il une médaille d'or aux JO d'Athènes ?",
+    "choices": [
+      "Le cyclisme",
+      "Le canoë-kayak",
+      "Le tennis",
+      "Le judo"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0197",
+    "question": "Quel sport Jacques Lafitte a-t-il pratiqué en professionnel de 74 à 86 ?",
+    "choices": [
+      "Le rugby",
+      "Le handball",
+      "La formule 1",
+      "La natation"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0198",
+    "question": "Combien d'épreuves d'athlétisme comporte l'heptathlon ?",
+    "choices": [
+      "6épreuves",
+      "8épreuves",
+      "5épreuves",
+      "7 épreuves"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0199",
+    "question": "Dans quel sport l'Américaine Marion Jones s'est-elle illustrée ?",
+    "choices": [
+      "La natation",
+      "Athlétisme",
+      "Le tennis",
+      "La boxe"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0200",
+    "question": "Au football, combien de cartons jaunes un joueur peut-il recevoir au maximum?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
     "validation": "valide"
   },
   {

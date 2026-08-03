@@ -1230,5 +1230,85 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0201",
+    "question": "Quel interprète de James Bond jouait le détective Remington Steele à la télévision ?",
+    "choices": [
+      "Dustin Hoffman",
+      "Pierce Brosnan",
+      "Robert Redford",
+      "Jean Gabin"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0202",
+    "question": "Quel comédien incarne Danny Wilde dans la série \"Amicalement vôtre\" ?",
+    "choices": [
+      "Jean Dujardin",
+      "Dustin Hoffman",
+      "Alain Delon",
+      "Tony Curtis"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0203",
+    "question": "Quel comédien incarne Columbo dans la série télévisée du même nom ?",
+    "choices": [
+      "Tom Hanks",
+      "Antonio Banderas",
+      "Peter Falk",
+      "Brad Pitt"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0204",
+    "question": "Quel comédien était le héros de la série \"Destination danger\" ?",
+    "choices": [
+      "Christian Clavier",
+      "Gérard Depardieu",
+      "Patrick McGoohan",
+      "Tom Hanks"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0205",
+    "question": "Quel comédien incarne Brett Sinclair dans la série \"Amicalement vôtre\" ?",
+    "choices": [
+      "Jean Gabin",
+      "Kad Merad",
+      "Roger Moore",
+      "Christian Clavier"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
   }
 ]

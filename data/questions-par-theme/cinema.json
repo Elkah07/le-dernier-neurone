@@ -3038,5 +3038,805 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0001",
+    "question": "A quel réalisateur scandinave doit-on le film \"Breaking the Waves\" en 1996 ?",
+    "choices": [
+      "Louis Malle",
+      "Alfred Hitchcock",
+      "Lars von Trier",
+      "Oliver Stone"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0002",
+    "question": "Dans le film \"Le Petit Nicolas\" quelle actrice incarne la mère de Nicolas ?",
+    "choices": [
+      "Sandra Bullock",
+      "Valérie Lemercier",
+      "Sophie Marceau",
+      "Meryl Streep"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0003",
+    "question": "Quel acteur incarne un écrivain alcoolique dans le film \"Barfly\" ?",
+    "choices": [
+      "Kad Merad",
+      "Mickey Rourke",
+      "Alain Delon",
+      "Brad Pitt"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0004",
+    "question": "A quelle actrice Dario Moreno rend-il hommage en 1961 ?",
+    "choices": [
+      "Catherine Deneuve",
+      "Brigitte Bardot",
+      "Bette Davis",
+      "Valérie Lemercier"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0005",
+    "question": "Dans quel pays l'acteur Jean-Claude Van Damme est-il né?",
+    "choices": [
+      "Le Maroc",
+      "L’Espagne",
+      "La Belgique",
+      "L’Allemagne"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0006",
+    "question": "En 2008, dans le film \"Astérix aux jeux Olympiques\", quel acteur interprète César ?",
+    "choices": [
+      "Samuel Le Bihan",
+      "Alain Delon",
+      "Jean Dujardin",
+      "Kad Merad"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0007",
+    "question": "En 1988, de quelle actrice Alain Souchon célèbre-t-il la beauté ?",
+    "choices": [
+      "Nathalie Baye",
+      "Bette Davis",
+      "Sophie Marceau",
+      "Ava Gardner"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0008",
+    "question": "Quel comédien est la vedette de \"Jet Set\" et du \"Pacte des loups\" ?",
+    "choices": [
+      "Robert Redford",
+      "Jean Gabin",
+      "Kad Merad",
+      "Samuel Le Bihan"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0009",
+    "question": "En 1995, dans le film \"Desperado\", quel acteur incarne El Mariachi ?",
+    "choices": [
+      "Christian Clavier",
+      "Antonio Banderas",
+      "Alain Delon",
+      "Gérard Depardieu"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0010",
+    "question": "Dans le film \"LOL\", quelle actrice joue Anne, la mère de Lola ?",
+    "choices": [
+      "Julia Roberts",
+      "Bette Davis",
+      "Sandra Bullock",
+      "Sophie Marceau"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0011",
+    "question": "Quel comédien divorce de Meryl Streep dans le film \"Kramer contre Kramer\" ?",
+    "choices": [
+      "Samuel Le Bihan",
+      "Dustin Hoffman",
+      "Robert Redford",
+      "Brad Pitt"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0012",
+    "question": "En 1976, dans \"Vol au-dessus d'un nid de coucou\", qui joue McMurphy ?",
+    "choices": [
+      "Robert Redford",
+      "Jack Nicholson",
+      "Kad Merad",
+      "Dustin Hoffman"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0013",
+    "question": "Avec quel comédien Olivier Baroux forme-t-il un célèbre duo comique ?",
+    "choices": [
+      "Gérard Depardieu",
+      "Kad Merad",
+      "Jean Gabin",
+      "Christian Clavier"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0014",
+    "question": "En 2001, qui joue le rôle de Daniel Clever, le patron de Bridget Jones ?",
+    "choices": [
+      "Hugh Grant",
+      "Gérard Depardieu",
+      "Tom Hanks",
+      "Christian Clavier"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0015",
+    "question": "Au cinéma, à quel acteur Clovis Cornillac a-t-il succédé dans le rôle d'Astérix ?",
+    "choices": [
+      "Dustin Hoffman",
+      "Alain Delon",
+      "Christian Clavier",
+      "Gérard Depardieu"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0016",
+    "question": "Qui incarne \"le Guignolo\" devant la caméra de Georges Lautner en 1980 ?",
+    "choices": [
+      "Tom Hanks",
+      "Robert Redford",
+      "Jean-Paul Belmondo",
+      "Antonio Banderas"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0017",
+    "question": "En 1967, quelle comédienne est \"Belle de jour\" dans le film de Luis Buñuel ?",
+    "choices": [
+      "Meryl Streep",
+      "Ava Gardner",
+      "Catherine Deneuve",
+      "Marion Cotillard"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0018",
+    "question": "Dans \"Adieu poulet\", qui incarne le commissaire, patron de P. Dewaere ?",
+    "choices": [
+      "Christian Clavier",
+      "Lino Ventura",
+      "Samuel Le Bihan",
+      "Kad Merad"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0019",
+    "question": "Quel comédien interprète \"Maintenant je sais\" en 1974 ?",
+    "choices": [
+      "Jean Gabin",
+      "Tom Hanks",
+      "Robert Redford",
+      "Brad Pitt"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0020",
+    "question": "Quelle actrice mythique est l'héroïne du film \"Bus Stop\" en 1956 ?",
+    "choices": [
+      "Valérie Lemercier",
+      "Marion Cotillard",
+      "Marilyn Monroe",
+      "Ava Gardner"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0021",
+    "question": "Dans \"Astérix et Obélix : Mission Cléopâtre\", qui incarne Numérobis ?",
+    "choices": [
+      "Jamel Debbouze",
+      "Robert Redford",
+      "Alain Delon",
+      "Jean Dujardin"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0022",
+    "question": "Aux yeux de quelle actrice Kim Carnes rend-elle hommage en 1981 ?",
+    "choices": [
+      "Bette Davis",
+      "Meryl Streep",
+      "Valérie Lemercier",
+      "Ava Gardner"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0023",
+    "question": "Qui joue la fiancée de James Stewart dans \"Fenêtre sur cour\" en 1955 ?",
+    "choices": [
+      "Antonio Banderas",
+      "Dustin Hoffman",
+      "Grace Kelly",
+      "Samuel Le Bihan"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0024",
+    "question": "En 1952, qui joue Manda, l'amoureux de \"Casque d'or\" ?",
+    "choices": [
+      "Dustin Hoffman",
+      "Christian Clavier",
+      "Serge Reggiani",
+      "Samuel Le Bihan"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0025",
+    "question": "Qui incarne le moine dans la version de \"L'Auberge rouge\" de 1951 ?",
+    "choices": [
+      "Christian Clavier",
+      "Robert Redford",
+      "Jean Dujardin",
+      "Fernandel"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0026",
+    "question": "A quel réalisateur doit-on \"Le Péril jeune\", en 1995 ?",
+    "choices": [
+      "Cédric Klapisch",
+      "Martin Scorsese",
+      "Pedro Almodóvar",
+      "Stanley Kubrick"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0027",
+    "question": "En 2002, qui incarne un gagnant du Loto dans le film \"Ah ! si j'étais riche\" ?",
+    "choices": [
+      "Robert Redford",
+      "Antonio Banderas",
+      "J.-P. Darroussin",
+      "Gérard Depardieu"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0028",
+    "question": "Combien d'épisodes de la saga \"Matrix\" ont été réalisés pour le cinéma ?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0029",
+    "question": "De quelle actrice Liza Minelli est-elle la fille ?",
+    "choices": [
+      "Sandra Bullock",
+      "Marilyn Monroe",
+      "Judy Garland",
+      "Catherine Deneuve"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0030",
+    "question": "En 1931, quel acteur incarne la créature de \"Frankenstein\" au cinéma ?",
+    "choices": [
+      "Tom Hanks",
+      "Brad Pitt",
+      "Samuel Le Bihan",
+      "Christopher Lee"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0031",
+    "question": "Dans le film \"les Poupées russes\" de C. Klapisch, qui incarne Xavier ?",
+    "choices": [
+      "Romain Duris",
+      "Samuel Le Bihan",
+      "Tom Hanks",
+      "Jean Gabin"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0032",
+    "question": "En 1994, quel acteur joue l'amant d'Antonio Banderas dans le film \"Philadelphia\" ?",
+    "choices": [
+      "Tom Hanks",
+      "Robert Redford",
+      "Dustin Hoffman",
+      "Kad Merad"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0033",
+    "question": "En 2008, quel acteur a incarné Mesrine dans une saga réalisée par Jean-François Richet ?",
+    "choices": [
+      "Gérard Depardieu",
+      "Jean Dujardin",
+      "Vincent Cassel",
+      "Tom Hanks"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0034",
+    "question": "En 1994, quelle comédienne embrasse un séropositif lors du Sidaction ?",
+    "choices": [
+      "Marilyn Monroe",
+      "Clémentine Célarié",
+      "Meryl Streep",
+      "Ava Gardner"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0035",
+    "question": "En 2007, quel acteur remporte le césar du meilleur réalisateur ?",
+    "choices": [
+      "Tom Hanks",
+      "Alain Delon",
+      "Jean Dujardin",
+      "Guillaume Canet"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0036",
+    "question": "Dans le film \"Disco\", quelle actrice incarne le professeur de danse classique ?",
+    "choices": [
+      "Bette Davis",
+      "Meryl Streep",
+      "Sophie Marceau",
+      "Emmanuelle Béart"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0037",
+    "question": "Qui joue l'actrice séquestrée par Antonio Banderas dans le film \"Attache-moi !\" ?",
+    "choices": [
+      "Brad Pitt",
+      "Victoria Abril",
+      "Gérard Depardieu",
+      "Dustin Hoffman"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0038",
+    "question": "Dans le film \"Le Viager\", quel acteur vend sa maison ?",
+    "choices": [
+      "Tom Hanks",
+      "Michel Serrault",
+      "Gérard Depardieu",
+      "Samuel Le Bihan"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0039",
+    "question": "Qui joue le rôle de Franck, le tendre cuisinier d'\"Ensemble, c'est tout\" ?",
+    "choices": [
+      "Dustin Hoffman",
+      "Jean Gabin",
+      "Guillaume Canet",
+      "Christian Clavier"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0040",
+    "question": "Qui joue Butch Cassidy dans le film \"Butch Cassidy et le Kid\" en 1970 ?",
+    "choices": [
+      "Robert Redford",
+      "Alain Delon",
+      "Antonio Banderas",
+      "Paul Newman"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0041",
+    "question": "A quel réalisateur doit-on le film \"Tout sur ma mère\" en 1999 ?",
+    "choices": [
+      "Steven Spielberg",
+      "Stanley Kubrick",
+      "Pedro Almodovar",
+      "Alfred Hitchcock"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0042",
+    "question": "En 1989 et 1992, quel acteur a endossé le costume de Batman au cinéma, pour le réalisateur Tim Burton ?",
+    "choices": [
+      "Robert Redford",
+      "Jean Dujardin",
+      "Kad Merad",
+      "Michael Keaton"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0043",
+    "question": "A quel réalisateur japonais doit-on le film \"Dersou Ouzala\" en 1975 ?",
+    "choices": [
+      "Oliver Stone",
+      "Akira Kurosawa",
+      "Lars von Trier",
+      "Steven Spielberg"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0044",
+    "question": "De quel comédien François Mitterrand était-il le beau-frère ?",
+    "choices": [
+      "Samuel Le Bihan",
+      "Jean Dujardin",
+      "Roger Hanin",
+      "Gérard Depardieu"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0045",
+    "question": "De quel acteur américain, à l'affiche du film \"Minority Report\", la petite Suri est-elle la fille ?",
+    "choices": [
+      "Jean Dujardin",
+      "Tom Hanks",
+      "Tom Cruise",
+      "Robert Redford"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0046",
+    "question": "De quel comédien Madeleine Renaud était-elle l'épouse ?",
+    "choices": [
+      "Dustin Hoffman",
+      "Christian Clavier",
+      "Jean-Louis Barrault",
+      "Brad Pitt"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0047",
+    "question": "En 1960, qui incarne le Bossu dans le film d'André Hunnebelle ?",
+    "choices": [
+      "Gérard Depardieu",
+      "Jean Marais",
+      "Jean Dujardin",
+      "Kad Merad"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0048",
+    "question": "Au cinéma, quel acteur américain incarne Hancock, un superhéros très impopulaire ?",
+    "choices": [
+      "Tom Hanks",
+      "Will Smith",
+      "Robert Redford",
+      "Jean Dujardin"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0049",
+    "question": "A quel réalisateur doit-on le film \"The Player\" en 1992 ?",
+    "choices": [
+      "Martin Scorsese",
+      "Louis Malle",
+      "Robert Altman",
+      "Cédric Klapisch"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0050",
+    "question": "Qui incarne le plongeur Jacques Mayol dans \"Le Grand Bleu\" de Luc Besson ?",
+    "choices": [
+      "Jean-Marc Barr",
+      "Kad Merad",
+      "Jean Gabin",
+      "Christian Clavier"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
   }
 ]

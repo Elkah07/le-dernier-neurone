@@ -3438,5 +3438,805 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0051",
+    "question": "Sans quelle chanteuse Laurent Voulzy passe-t-il ses nuits en 1986 ?",
+    "choices": [
+      "Mariah Carey",
+      "Vanessa Paradis",
+      "Jakie Quartz",
+      "Kim Wilde"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0052",
+    "question": "Quelle chanteuse britannique connaît un succès international avec le titre \"Babooshka\" en 1980 ?",
+    "choices": [
+      "Mariah Carey",
+      "Kate Bush",
+      "Jeanne Mas",
+      "Axelle Red"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0053",
+    "question": "En 1988, quelle chanteuse fait un tube avec \"Talkin' Bout a Revolution\" ?",
+    "choices": [
+      "Patricia Kaas",
+      "Jeanne Mas",
+      "Mariah Carey",
+      "Tracy Chapman"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0054",
+    "question": "Qui chante : \"Je suis un missionnaire de la drague\" dans \"Matchistador\" ?",
+    "choices": [
+      "M",
+      "Michel Jonasz",
+      "Jean-Jacques Goldman",
+      "Carlos"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0055",
+    "question": "A quel chanteur doit-on le tube \"Les Jolies Colonies de vacances\", sorti en 1966 ?",
+    "choices": [
+      "Michel Polnareff",
+      "Pierre Perret",
+      "Gilbert Montagné",
+      "Paul Simon"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0056",
+    "question": "Quel chanteur français s'est affiché fesses nues pour un concert à l'Olympia en 1972 ?",
+    "choices": [
+      "Alain Bashung",
+      "Michel Polnareff",
+      "Pierre Perret",
+      "Johnny Hallyday"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0057",
+    "question": "De quel chanteur Françoise Dolto était-elle la mère ?",
+    "choices": [
+      "Carlos",
+      "Johnny Hallyday",
+      "Michel Jonasz",
+      "Alain Souchon"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0058",
+    "question": "En musique, combien de noires une ronde vaut-elle ?",
+    "choices": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0059",
+    "question": "En 1976, qui interprète \"Don't Go Breaking My Heart\" avec Kiki Dee ?",
+    "choices": [
+      "Étienne Daho",
+      "Michel Polnareff",
+      "Gilbert Montagné",
+      "Elton John"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0060",
+    "question": "De quel pays d'Europe sont originaires les membres du groupe The Corrs ?",
+    "choices": [
+      "Le Portugal",
+      "Irlande",
+      "La Suisse",
+      "La Belgique"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0061",
+    "question": "Qui chante \"dans Paris à vélo on dépasse les autos\" en 1972 ?",
+    "choices": [
+      "Alain Souchon",
+      "Joe Dassin",
+      "Laurent Voulzy",
+      "Pierre Perret"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0062",
+    "question": "Qui chante \"Rock'n'dollars (Donnez-moi madame s'il vous plaît)\" en 1975 ?",
+    "choices": [
+      "Laurent Voulzy",
+      "Jean-Jacques Goldman",
+      "William Sheller",
+      "Alain Souchon"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0063",
+    "question": "En 1993, à quel chanteur doit-on la reprise de \"Mon manège à moi\" ?",
+    "choices": [
+      "Etienne Daho",
+      "Alain Bashung",
+      "Paul Simon",
+      "Pierre Perret"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0064",
+    "question": "Qui interprète la chanson \"Kili Watch\" en 1960 ?",
+    "choices": [
+      "Laurent Voulzy",
+      "Johnny Hallyday",
+      "Alain Bashung",
+      "Jean-Jacques Goldman"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0065",
+    "question": "Qui chante \"Toutes les mamas\" en 1989 ?",
+    "choices": [
+      "Johnny Hallyday",
+      "Laurent Voulzy",
+      "Gilbert Montagné",
+      "Maurane"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0066",
+    "question": "Qui chante \"Je n'ai que mon âme\", en 2001 ?",
+    "choices": [
+      "Alain Souchon",
+      "Michel Jonasz",
+      "Natasha St Pier",
+      "Michel Polnareff"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0067",
+    "question": "Jusqu'à combien Ricky Martin compte-t-il dans sa chanson \"Maria\" ?",
+    "choices": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0068",
+    "question": "Qui interprète Zaza Napoli dans \"la Cage aux folles\" ?",
+    "choices": [
+      "Carlos",
+      "Laurent Voulzy",
+      "Paul Simon",
+      "Michel Serrault"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0069",
+    "question": "De quel chanteur Tom Novembre est-il le frère ?",
+    "choices": [
+      "Alain Souchon",
+      "Michel Jonasz",
+      "Étienne Daho",
+      "CharlElie Couture"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0070",
+    "question": "Quelle chanteuse interprète \"Les derniers seront les premiers\" en 95 ?",
+    "choices": [
+      "Kate Bush",
+      "Céline Dion",
+      "Tracy Chapman",
+      "Patricia Kaas"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0071",
+    "question": "Dans quelle chanson de 1991 les Inconnus s'appellent-ils Urssaf, Cancras et... ?",
+    "choices": [
+      "Etoile des neiges",
+      "Rap tout",
+      "Chanson populaire",
+      "Je vais t'aimer"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0072",
+    "question": "Dans quelle chanson Alain Bashung a-t-il crevé l'oreiller ?",
+    "choices": [
+      "Le Poinçonneur des Lilas",
+      "Vertige de l'amour",
+      "L'Hymne à l'amour",
+      "L'Oreille cassée"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0073",
+    "question": "En 1983, quelle chanteuse connaît le succès avec \"Mise au point\" ?",
+    "choices": [
+      "Jakie Quartz",
+      "Brigitte Bardot",
+      "Tracy Chapman",
+      "Axelle Red"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0074",
+    "question": "A quel chanteur français doit-on le tube en anglais \"The Fool\", en 1971 ?",
+    "choices": [
+      "Gilbert Montagné",
+      "Paul Simon",
+      "Alain Souchon",
+      "Michel Polnareff"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0075",
+    "question": "Quel chanteur à lunettes est indissociable d'Alain Souchon ?",
+    "choices": [
+      "Gilbert Montagné",
+      "Paul Simon",
+      "Jean-Jacques Goldman",
+      "Laurent Voulzy"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0076",
+    "question": "Quelle chanteuse interprète le titre \"Tandem\" en 1990 ?",
+    "choices": [
+      "Céline Dion",
+      "Vanessa Paradis",
+      "Liane Foly",
+      "Jakie Quartz"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0077",
+    "question": "Qui chante \"Mrs. Robinson\" en 1967 ?",
+    "choices": [
+      "Jean-Jacques Goldman",
+      "Johnny Hallyday",
+      "Alain Bashung",
+      "Simon & Garfunkel"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0078",
+    "question": "Qui interprète le curé dans \"Mon curé chez les nudistes\" en 1982 ?",
+    "choices": [
+      "Pierre Perret",
+      "Paul Préboist",
+      "Laurent Voulzy",
+      "Alain Souchon"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0079",
+    "question": "Quelle chanteuse interprète le titre \"A tâtons\" en 1996 ?",
+    "choices": [
+      "Axelle Red",
+      "Patricia Kaas",
+      "Kate Bush",
+      "Vanessa Paradis"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0080",
+    "question": "Quel chanteur a longtemps formé un duo avec Art Garfunkel ?",
+    "choices": [
+      "Michel Polnareff",
+      "Paul Simon",
+      "Alain Bashung",
+      "Johnny Hallyday"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0081",
+    "question": "En 1987, à quelle chanteuse doit-on le tube : \"La Isla bonita\" ?",
+    "choices": [
+      "Jakie Quartz",
+      "Tracy Chapman",
+      "Brigitte Bardot",
+      "Madonna"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0082",
+    "question": "Dans quelle chanson de Serge Gainsbourg peut-on entendre: \"J'fais des trous, des p'tits trous, encore des p'tits trous\" ?",
+    "choices": [
+      "L'Hymne à l'amour",
+      "Chanson populaire",
+      "Rap tout",
+      "Le Poinçonneur des Lilas"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0083",
+    "question": "Quelle chanteuse de jazz noire américaine, disparue en 1959, était surnommée \"Lady Day\" ?",
+    "choices": [
+      "Jeanne Mas",
+      "Liane Foly",
+      "Kim Wilde",
+      "Billie Holiday"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0084",
+    "question": "Qui chante \"Enfants de tous pays\" en 1963 ?",
+    "choices": [
+      "Paul Simon",
+      "Michel Polnareff",
+      "Enrico Macias",
+      "Pierre Perret"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0085",
+    "question": "Qui chante : \"Bon anniversaire, petit trentenaire\" dans sa chanson de 2001 ?",
+    "choices": [
+      "Paul Simon",
+      "Bénabar",
+      "Jean-Jacques Goldman",
+      "Michel Polnareff"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0086",
+    "question": "Qui interprète la chanson \"Oh ! Ma jolie Sarah\" en 1971 ?",
+    "choices": [
+      "Pierre Perret",
+      "Paul Simon",
+      "Alain Bashung",
+      "Johnny Hallyday"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0087",
+    "question": "En 1984, quelle chanteuse a connu le succès avec le tube \"Like A Virgin\" ?",
+    "choices": [
+      "Kim Wilde",
+      "Kate Bush",
+      "Madonna",
+      "Brigitte Bardot"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0088",
+    "question": "Qui chante \"Parce qu'on sait jamais\" en 2007 ?",
+    "choices": [
+      "Gilbert Montagné",
+      "Christophe Maé",
+      "Alain Bashung",
+      "Étienne Daho"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0089",
+    "question": "Dans quelle chanson A. Souchon marche-t-il \"le long d'la ligne de ch'min d'fer\" ?",
+    "choices": [
+      "Désenchantée",
+      "La Mer",
+      "Allô maman bobo",
+      "L'Hymne à l'amour"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0090",
+    "question": "A quel chanteur français doit-on le tube \"High\" en 1988 ?",
+    "choices": [
+      "David Hallyday",
+      "Michel Polnareff",
+      "Pierre Perret",
+      "Alain Souchon"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0091",
+    "question": "En 1978, dans quelle chanson Serge Lama veut-il \"du Prosper youpla, youpla, boum\" ?",
+    "choices": [
+      "Femme, femme, femme",
+      "Etoile des neiges",
+      "La Mer",
+      "Le mouchoir"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0092",
+    "question": "Dans quelle chanson E. Piaf est-elle prête à se \"teindre en blonde\" ?",
+    "choices": [
+      "Reviens",
+      "Rap tout",
+      "L'Hymne à l'amour",
+      "Chanson populaire"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0093",
+    "question": "En 2003, avec quelle chanteuse Kareen Antonn interprète-t-elle \"Si demain\" ?",
+    "choices": [
+      "Bonnie Tyler",
+      "Axelle Red",
+      "Jeanne Mas",
+      "Vanessa Paradis"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0094",
+    "question": "A quel chanteur américain doit-on les tubes \"Purple Rain\" et \"Kiss\" ?",
+    "choices": [
+      "Jean-Jacques Goldman",
+      "Prince",
+      "Paul Simon",
+      "Alain Souchon"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0095",
+    "question": "Quel chanteur italien fait un succès avec \"Gloria\" en 1979 ?",
+    "choices": [
+      "Paul Simon",
+      "Michel Polnareff",
+      "Umberto Tozzi",
+      "Pierre Perret"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0096",
+    "question": "En 1972, quel chanteur immortalise le tube \"Qui saura\" ?",
+    "choices": [
+      "Michel Polnareff",
+      "Mike Brant",
+      "Carlos",
+      "Étienne Daho"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0097",
+    "question": "Quelle chanteuse a remporté le Concours Eurovision de la Chanson en 1988 avec le titre \"Ne partez pas sans moi\" ?",
+    "choices": [
+      "Jakie Quartz",
+      "Tracy Chapman",
+      "Céline Dion",
+      "Jeanne Mas"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0098",
+    "question": "En 2009, quel chanteur a reçu la Victoire de l'artiste interprète masculin de l'année ?",
+    "choices": [
+      "Michel Polnareff",
+      "Étienne Daho",
+      "Alain Bashung",
+      "Carlos"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0099",
+    "question": "En 1942, qui chante \"Que reste-t-il de nos amours\" ?",
+    "choices": [
+      "Pierre Perret",
+      "Michel Jonasz",
+      "Charles Trenet",
+      "Michel Polnareff"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0100",
+    "question": "A quel chanteur-voyageur doit-on le tube des années 60 \"Les Elucubrations\" ?",
+    "choices": [
+      "Pierre Perret",
+      "Carlos",
+      "Antoine",
+      "Jean-Jacques Goldman"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
   }
 ]

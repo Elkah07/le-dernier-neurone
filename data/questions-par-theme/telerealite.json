@@ -878,5 +878,245 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-001",
+    "question": "Quelle candidate de Loft Story est devenue célèbre avec Jean-Édouard dans la piscine ?",
+    "choices": [
+      "Laure",
+      "Julie",
+      "Kenza",
+      "Loana"
+    ],
+    "answer": 3,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-002",
+    "question": "Dans Secret Story, qui prononçait « Ici la Voix » ?",
+    "choices": [
+      "La Voix",
+      "Benjamin Castaldi",
+      "Le maître du jeu",
+      "Le public"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-003",
+    "question": "Quelle émission a révélé Jenifer au grand public ?",
+    "choices": [
+      "Graines de star",
+      "Star Academy",
+      "Popstars",
+      "Nouvelle Star"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-004",
+    "question": "Quel candidat des Anges est connu pour l’expression « Allô, quoi ! » avec Nabilla ?",
+    "choices": [
+      "Ayem Nour",
+      "Aurélie Dotremont",
+      "Nabilla elle-même",
+      "Amélie Neten"
+    ],
+    "answer": 2,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-005",
+    "question": "Dans Koh-Lanta, comment s’appelle le conseil où un candidat est éliminé ?",
+    "choices": [
+      "La cérémonie",
+      "Le verdict",
+      "La table ronde",
+      "Le conseil"
+    ],
+    "answer": 3,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-006",
+    "question": "Quelle émission de rencontres marie des inconnus selon leur compatibilité ?",
+    "choices": [
+      "Mariés au premier regard",
+      "L’amour est aveugle",
+      "Le Bachelor",
+      "La Villa des cœurs brisés"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-007",
+    "question": "Quel animateur a longtemps présenté Secret Story sur TF1 ?",
+    "choices": [
+      "Christophe Dechavanne",
+      "Benjamin Castaldi",
+      "Denis Brogniart",
+      "Nikos Aliagas"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-008",
+    "question": "Quelle émission opposait les clans des Marseillais et du Reste du Monde ?",
+    "choices": [
+      "Les Cinquante",
+      "La Bataille des couples",
+      "Les Apprentis Aventuriers",
+      "Les Marseillais vs le Reste du Monde"
+    ],
+    "answer": 2,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-009",
+    "question": "Dans L’amour est dans le pré, quel est le métier des candidats principaux ?",
+    "choices": [
+      "Restaurateur",
+      "Artisan",
+      "Agent immobilier",
+      "Agriculteur"
+    ],
+    "answer": 3,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-010",
+    "question": "Quelle émission musicale a formé le groupe L5 ?",
+    "choices": [
+      "Popstars",
+      "Star Academy",
+      "Nouvelle Star",
+      "X Factor"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-011",
+    "question": "Quel objet les candidats de Pékin Express portent-ils comme symbole de la course ?",
+    "choices": [
+      "Un bracelet noir",
+      "Un sac à dos rouge",
+      "Un foulard jaune",
+      "Une valise bleue"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-012",
+    "question": "Quelle candidate est associée à la phrase « Il faut sachez que » ?",
+    "choices": [
+      "Loana Petrucciani",
+      "Milla Jasmine",
+      "Amélie Neten",
+      "Nabilla Benattia"
+    ],
+    "answer": 2,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-013",
+    "question": "Quelle émission enfermait des candidats dans un loft filmé en continu dès 2001 ?",
+    "choices": [
+      "Nice People",
+      "Dilemme",
+      "Carré ViiiP",
+      "Loft Story"
+    ],
+    "answer": 3,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-014",
+    "question": "Dans Les Traîtres, que cherchent à identifier les joueurs loyaux ?",
+    "choices": [
+      "Les traîtres",
+      "Les immunisés",
+      "Les bannis",
+      "Les maîtres du jeu"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-telerealite-015",
+    "question": "Quelle émission suit des célibataires dans une villa avec des prétendants ?",
+    "choices": [
+      "Pékin Express",
+      "La Villa des cœurs brisés",
+      "Top Chef",
+      "Les Reines du shopping"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

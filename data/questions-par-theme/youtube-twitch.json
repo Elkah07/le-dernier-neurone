@@ -910,5 +910,245 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-001",
+    "question": "Quelle créatrice française publie traditionnellement les Vlogs d’août ?",
+    "choices": [
+      "EnjoyPhoenix",
+      "Natoo",
+      "Sananas",
+      "Léna Situations"
+    ],
+    "answer": 3,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-002",
+    "question": "Quel vidéaste français a créé le Z Event avec Dach ?",
+    "choices": [
+      "ZeratoR",
+      "Squeezie",
+      "Gotaga",
+      "Domingo"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-003",
+    "question": "Quel créateur est connu pour ses vidéos « thread horreur » ?",
+    "choices": [
+      "Mastu",
+      "Squeezie",
+      "Cyprien",
+      "Amixem"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-004",
+    "question": "Quelle streameuse française est aussi connue sous le pseudonyme Maghla ?",
+    "choices": [
+      "Léa",
+      "Chloé",
+      "Barbara",
+      "Marion"
+    ],
+    "answer": 2,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-005",
+    "question": "Quel duo anime la chaîne McFly et Carlito ?",
+    "choices": [
+      "Grégoire Ludig et David Marsais",
+      "Pierre Croce et Benjamin Verrecchia",
+      "Sébastien Rassiat et Frédéric Molas",
+      "David Coscas et Raphaël Carlier"
+    ],
+    "answer": 3,
+    "category": "YouTube/Twitch",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-006",
+    "question": "Quel vidéaste a réalisé le documentaire Kaizen sur son ascension de l’Everest ?",
+    "choices": [
+      "Inoxtag",
+      "Michou",
+      "Amixem",
+      "Tibo InShape"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-007",
+    "question": "Quel streamer est le fondateur de la Karmine Corp avec Prime ?",
+    "choices": [
+      "Aminematue",
+      "Kameto",
+      "Gotaga",
+      "Domingo"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-008",
+    "question": "Quelle plateforme appartient à Amazon depuis 2014 ?",
+    "choices": [
+      "Dailymotion",
+      "Kick",
+      "Twitch",
+      "YouTube"
+    ],
+    "answer": 2,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-009",
+    "question": "Quel créateur français est associé à la chaîne « Nota Bene » ?",
+    "choices": [
+      "Manon Bril",
+      "Charlie Danger",
+      "Dave Sheik",
+      "Benjamin Brillaud"
+    ],
+    "answer": 3,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-010",
+    "question": "Quel vidéaste teste d’anciens jeux vidéo sous le nom Joueur du Grenier ?",
+    "choices": [
+      "Frédéric Molas",
+      "Karim Debbache",
+      "Sébastien Rassiat",
+      "Edward Ez"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-011",
+    "question": "Quel streamer français est surnommé « The French Monster » dans l’esport ?",
+    "choices": [
+      "Mister MV",
+      "Gotaga",
+      "ZeratoR",
+      "Kameto"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-012",
+    "question": "Quelle vidéaste a lancé la chaîne beauté EnjoyPhoenix ?",
+    "choices": [
+      "Léna Mahfouf",
+      "Shera Kerienski",
+      "Marie Lopez",
+      "Nathalie Odzierejko"
+    ],
+    "answer": 2,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-013",
+    "question": "Quel créateur anime des formats automobiles sur la chaîne Vilebrequin avec Sylvain Levy ?",
+    "choices": [
+      "François Theurel",
+      "Baptiste Lorber",
+      "Théo Babac",
+      "Pierre Chabrier"
+    ],
+    "answer": 3,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-014",
+    "question": "Quel événement caritatif en ligne réunit de nombreux streamers français ?",
+    "choices": [
+      "Le Z Event",
+      "La Paris Games Week",
+      "La Trackmania Cup",
+      "Le GP Explorer"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-youtube-twitch-015",
+    "question": "Quel vidéaste français organise le GP Explorer ?",
+    "choices": [
+      "Michou",
+      "Squeezie",
+      "Amixem",
+      "Inoxtag"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

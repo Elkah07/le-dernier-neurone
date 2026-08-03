@@ -542,5 +542,245 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-001",
+    "question": "Dans Minecraft, quel matériau faut-il pour fabriquer une table d’enchantement ?",
+    "choices": [
+      "Du quartz",
+      "De la redstone",
+      "Du cuivre",
+      "De l’obsidienne"
+    ],
+    "answer": 3,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-002",
+    "question": "Quel personnage principal explore les ruines dans Tomb Raider ?",
+    "choices": [
+      "Lara Croft",
+      "Aloy",
+      "Jill Valentine",
+      "Chloe Frazer"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-003",
+    "question": "Dans Pokémon, quel type est particulièrement efficace contre le type Eau ?",
+    "choices": [
+      "Sol",
+      "Électrik",
+      "Feu",
+      "Roche"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-004",
+    "question": "Quel jeu met en scène le sorceleur Geralt de Riv ?",
+    "choices": [
+      "Skyrim",
+      "Elden Ring",
+      "The Witcher",
+      "Dragon Age"
+    ],
+    "answer": 2,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-005",
+    "question": "Dans Among Us, quel rôle sabote le vaisseau ?",
+    "choices": [
+      "Le médecin",
+      "Le shérif",
+      "Le technicien",
+      "L’imposteur"
+    ],
+    "answer": 3,
+    "category": "Gaming",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-006",
+    "question": "Quelle entreprise fabrique la console PlayStation ?",
+    "choices": [
+      "Sony",
+      "Nintendo",
+      "Sega",
+      "Microsoft"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-007",
+    "question": "Dans League of Legends, comment s’appelle la carte principale en cinq contre cinq ?",
+    "choices": [
+      "La Brèche de cristal",
+      "La Faille de l’invocateur",
+      "La Forêt torturée",
+      "L’Abîme hurlant"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-008",
+    "question": "Quel jeu de Rockstar Games se déroule notamment à Los Santos ?",
+    "choices": [
+      "Bully",
+      "Max Payne 3",
+      "Grand Theft Auto V",
+      "Red Dead Redemption II"
+    ],
+    "answer": 2,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-009",
+    "question": "Dans The Sims, quelle monnaie utilisent les personnages ?",
+    "choices": [
+      "Les clochettes",
+      "Les gil",
+      "Les crédits",
+      "Les simflouz"
+    ],
+    "answer": 3,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-010",
+    "question": "Quel héros de Sega est un hérisson bleu ?",
+    "choices": [
+      "Sonic",
+      "Tails",
+      "Knuckles",
+      "Shadow"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-011",
+    "question": "Dans Overwatch, quel personnage français est une tireuse d’élite ?",
+    "choices": [
+      "Mercy",
+      "Fatale",
+      "Tracer",
+      "D.Va"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-012",
+    "question": "Quel jeu de FromSoftware se déroule dans l’Entre-terre ?",
+    "choices": [
+      "Bloodborne",
+      "Sekiro",
+      "Elden Ring",
+      "Dark Souls III"
+    ],
+    "answer": 2,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-013",
+    "question": "Dans Resident Evil, quelle entreprise est responsable de nombreuses armes biologiques ?",
+    "choices": [
+      "Abstergo",
+      "Arasaka",
+      "Vault-Tec",
+      "Umbrella"
+    ],
+    "answer": 3,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-014",
+    "question": "Quel jeu Nintendo met en scène des combats entre personnages de différentes licences ?",
+    "choices": [
+      "Super Smash Bros.",
+      "Mario Party",
+      "Splatoon",
+      "Arms"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-gaming-015",
+    "question": "Dans Final Fantasy VII, quelle arme manie Cloud ?",
+    "choices": [
+      "Deux dagues",
+      "Une épée broyeuse",
+      "Une gunblade",
+      "Une lance"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

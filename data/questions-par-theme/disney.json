@@ -510,5 +510,229 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "v13-disney-001",
+    "question": "Comment s’appelle la sœur d’Elsa dans La Reine des neiges ?",
+    "choices": [
+      "Iduna",
+      "Agnarr",
+      "Raya",
+      "Anna"
+    ],
+    "answer": 3,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-002",
+    "question": "Quel animal accompagne Vaiana durant une partie de son voyage ?",
+    "choices": [
+      "Le coq Heihei",
+      "Le caméléon Pascal",
+      "Le cheval Maximus",
+      "Le renne Sven"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-003",
+    "question": "Dans Aladdin, quel est le nom du perroquet de Jafar ?",
+    "choices": [
+      "Archimède",
+      "Iago",
+      "Zazu",
+      "Scuttle"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-004",
+    "question": "Quel est le métier de Tiana au début de La Princesse et la Grenouille ?",
+    "choices": [
+      "Institutrice",
+      "Danseuse",
+      "Serveuse",
+      "Couturière"
+    ],
+    "answer": 2,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-005",
+    "question": "Dans Les Aristochats, comment s’appelle la mère des chatons ?",
+    "choices": [
+      "Marie",
+      "Dinah",
+      "Lady",
+      "Duchesse"
+    ],
+    "answer": 3,
+    "category": "Disney",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-006",
+    "question": "Quel personnage Disney possède un crochet à la place d’une main ?",
+    "choices": [
+      "Le capitaine Crochet",
+      "Gaston",
+      "Frollo",
+      "Ratcliffe"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-007",
+    "question": "Dans Hercule, qui entraîne le héros à devenir un vrai champion ?",
+    "choices": [
+      "Hermès",
+      "Philoctète",
+      "Pégase",
+      "Hadès"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-009",
+    "question": "Dans La Belle et la Bête, quel objet enchanté est Lumière ?",
+    "choices": [
+      "Une horloge",
+      "Une théière",
+      "Un plumeau",
+      "Un chandelier"
+    ],
+    "answer": 3,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-010",
+    "question": "Quel poisson oublieux accompagne Marin dans Le Monde de Nemo ?",
+    "choices": [
+      "Dory",
+      "Deb",
+      "Gill",
+      "Perle"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-011",
+    "question": "Quel jouet de Toy Story est un cow-boy ?",
+    "choices": [
+      "Zigzag",
+      "Woody",
+      "Buzz",
+      "Rex"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-012",
+    "question": "Dans Zootopie, quel animal est Nick Wilde ?",
+    "choices": [
+      "Un paresseux",
+      "Un loup",
+      "Un renard",
+      "Un lapin"
+    ],
+    "answer": 2,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-013",
+    "question": "Quelle princesse Disney possède un tigre nommé Rajah ?",
+    "choices": [
+      "Mulan",
+      "Pocahontas",
+      "Ariel",
+      "Jasmine"
+    ],
+    "answer": 3,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-014",
+    "question": "Dans Tarzan, quel gorille femelle adopte le héros ?",
+    "choices": [
+      "Kala",
+      "Terk",
+      "Kerchak",
+      "Jane"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-disney-015",
+    "question": "Quel personnage de Lilo & Stitch porte le numéro d’expérience 626 ?",
+    "choices": [
+      "Reuben",
+      "Stitch",
+      "Jumba",
+      "Pleinley"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

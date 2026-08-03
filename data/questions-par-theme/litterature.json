@@ -1054,5 +1054,341 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "filtre-strict-v12",
     "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0534",
+    "question": "A l'initiative de quel auteur la SACD fut-elle fondée en 1777 ?",
+    "choices": [
+      "Marc Levy",
+      "Beaumarchais",
+      "Charles Baudelaire",
+      "Guy de Maupassant"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0535",
+    "question": "A quel auteur de théâtre doit-on \"La Dame de chez Maxim\" en 1899 ?",
+    "choices": [
+      "Émile Zola",
+      "Paul Verlaine",
+      "Georges Feydeau",
+      "Bernard Werber"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0536",
+    "question": "Quel écrivain est l'auteur de la nouvelle intitulée \"Le Horla\" ?",
+    "choices": [
+      "François Mauriac",
+      "Bernard Werber",
+      "Albert Camus",
+      "Guy de Maupassant"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0537",
+    "question": "A quel écrivain doit-on le personnage de Boule-de-Suif ?",
+    "choices": [
+      "Bernard Werber",
+      "Émile Zola",
+      "François Mauriac",
+      "Guy de Maupassant"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0538",
+    "question": "A quel poète doit-on ces vers : \"Il pleure dans mon coeur...\" ?",
+    "choices": [
+      "Paul Verlaine",
+      "Bernard Werber",
+      "François Mauriac",
+      "Marc Levy"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0539",
+    "question": "Quel écrivain est l'auteur de \"La Nausée\" en 1938 ?",
+    "choices": [
+      "Jean-Paul Sartre",
+      "Victor Hugo",
+      "Georges Feydeau",
+      "Dan Brown"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0540",
+    "question": "Qui a écrit et composé le tube \"Les Restos du cœur\", sorti en 1985 ?",
+    "choices": [
+      "Charles Baudelaire",
+      "Marc Levy",
+      "Dan Brown",
+      "Jean-Jacques Goldman"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0541",
+    "question": "A quel écrivain doit-on le livre \"Charlie et la chocolaterie\" ?",
+    "choices": [
+      "Albert Camus",
+      "Dan Brown",
+      "Émile Zola",
+      "Roald Dahl"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0542",
+    "question": "Quel écrivain est l'auteur du \"Petit Chose\" en 1868 ?",
+    "choices": [
+      "Dan Brown",
+      "Alphonse Daudet",
+      "Albert Camus",
+      "Émile Zola"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0543",
+    "question": "A quel écrivain du XVIIe siècle doit-on le conte \"Le Chat botté\" ?",
+    "choices": [
+      "Georges Feydeau",
+      "Marc Levy",
+      "Paul Verlaine",
+      "Charles Perrault"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0544",
+    "question": "A quel poète doit-on \"Le Dormeur du val\" ?",
+    "choices": [
+      "Arthur Rimbaud",
+      "Albert Camus",
+      "François Mauriac",
+      "Dan Brown"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0545",
+    "question": "Qui a écrit le poème : \"Pour faire le portrait d'un oiseau\" ?",
+    "choices": [
+      "Paul Verlaine",
+      "Jacques Prévert",
+      "Georges Feydeau",
+      "Charles Baudelaire"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0546",
+    "question": "A quel auteur français doit-on le personnage de Zadig ?",
+    "choices": [
+      "Paul Verlaine",
+      "Voltaire",
+      "Charles Baudelaire",
+      "Bernard Werber"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0547",
+    "question": "Quel écrivain a surnommé sa mère \"Folcoche\" dans ses romans ?",
+    "choices": [
+      "Hervé Bazin",
+      "Marc Levy",
+      "Guy de Maupassant",
+      "Albert Camus"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0548",
+    "question": "A quel auteur de pièces de théâtre doit-on \"La Mouette\" en 1896 ?",
+    "choices": [
+      "Victor Hugo",
+      "Georges Feydeau",
+      "Émile Zola",
+      "Anton Tchekhov"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0549",
+    "question": "Quel écrivain a reçu le prix Goncourt en 1984 pour son roman intitulé \"L'Amant\" ?",
+    "choices": [
+      "Marguerite Duras",
+      "Charles Baudelaire",
+      "Marc Levy",
+      "Guy de Maupassant"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0550",
+    "question": "Quel écrivain a créé les personnages de Rastignac, Vautrin et Rubempré ?",
+    "choices": [
+      "Paul Verlaine",
+      "Dan Brown",
+      "Honoré de Balzac",
+      "François Mauriac"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0551",
+    "question": "Avec quel poète J. Ferrat déclare-t-il \"La femme est l'avenir de l'homme\" ?",
+    "choices": [
+      "Jean-Paul Sartre",
+      "Louis Aragon",
+      "Bernard Werber",
+      "François Mauriac"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0552",
+    "question": "En 1927, quel écrivain a publié le roman \"Thérèse Desqueyroux\" ?",
+    "choices": [
+      "Dan Brown",
+      "François Mauriac",
+      "Charles Baudelaire",
+      "Guy de Maupassant"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0553",
+    "question": "Quel poète a écrit : \"Homme libre, toujours tu chériras la mer\" ?",
+    "choices": [
+      "Émile Zola",
+      "Georges Feydeau",
+      "Charles Baudelaire",
+      "Dan Brown"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0554",
+    "question": "Quel écrivain est l'auteur du célèbre article \"J'accuse\", publié en 1898 ?",
+    "choices": [
+      "Emile Zola",
+      "Dan Brown",
+      "Bernard Werber",
+      "François Mauriac"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
   }
 ]

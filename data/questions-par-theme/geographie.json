@@ -3038,5 +3038,2405 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "filtre-strict-v12",
     "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0384",
+    "question": "Dans quel océan se situe le golfe de Gascogne ?",
+    "choices": [
+      "L’océan Pacifique",
+      "L'océan Atlantique",
+      "L’océan Indien",
+      "L’océan Arctique"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0385",
+    "question": "De quel pays fait partie l'Etat du Minnesota ?",
+    "choices": [
+      "L’Espagne",
+      "L’Égypte",
+      "L’Italie",
+      "Les Etats-Unis"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0386",
+    "question": "Dans quel pays africain se trouve le port de Cotonou ?",
+    "choices": [
+      "Le Népal",
+      "Le Brésil",
+      "La Belgique",
+      "Le Bénin"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0387",
+    "question": "Dans quel pays êtes-vous si vous allez au \"Museum of Modern Art\", dit MoMA ?",
+    "choices": [
+      "La Belgique",
+      "La France",
+      "Le Japon",
+      "Etats-Unis"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0388",
+    "question": "Dans quel fleuve l'Ardèche se jette-t-elle ?",
+    "choices": [
+      "Le Nil",
+      "La Garonne",
+      "Le Rhône",
+      "La Tamise"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0389",
+    "question": "Dans quel pays se situe la ville de Dubrovnik ?",
+    "choices": [
+      "L’Italie",
+      "La Croatie",
+      "La Suisse",
+      "La Colombie"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0390",
+    "question": "De quel pays Tirana est-elle la capitale ?",
+    "choices": [
+      "Le Maroc",
+      "Le Canada",
+      "L'Albanie",
+      "Le Japon"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0391",
+    "question": "Sur quel pays la reine Marguerite II règne-t-elle ?",
+    "choices": [
+      "Le Danemark",
+      "Le Portugal",
+      "La Hongrie",
+      "L’Italie"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0392",
+    "question": "Dans quel pays le Grand Prix de F1 de Kuala Lumpur se dispute-t-il ?",
+    "choices": [
+      "Le Maroc",
+      "Le Népal",
+      "L’Italie",
+      "Malaisie"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0393",
+    "question": "Dans quel pays est née Pamela Anderson ?",
+    "choices": [
+      "La Suisse",
+      "Le Canada",
+      "La Belgique",
+      "L’Égypte"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0394",
+    "question": "Dans quel océan se situe l'archipel des Canaries ?",
+    "choices": [
+      "Atlantique",
+      "L’océan Austral",
+      "L’océan Arctique",
+      "L’océan Indien"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0395",
+    "question": "A quel pays doit-on le style de bande dessinée appelé \"manga\" ?",
+    "choices": [
+      "La Belgique",
+      "Le Japon",
+      "Au Japon",
+      "L’Italie"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0396",
+    "question": "De quel pays l'adjectif \"batave\" qualifie-t-il les habitants ?",
+    "choices": [
+      "Les Pays-Bas",
+      "L’Espagne",
+      "Le Canada",
+      "L’Italie"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0397",
+    "question": "Dans quel pays les voitures portant la lettre D sont-elles immatriculées ?",
+    "choices": [
+      "La Belgique",
+      "Le Japon",
+      "Le Brésil",
+      "L'Allemagne"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0398",
+    "question": "De quel pays l'époux de Letizia Ortiz est-il l'héritier du trône ?",
+    "choices": [
+      "La France",
+      "Le Brésil",
+      "L'Espagne",
+      "Le Maroc"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0399",
+    "question": "Dans quel fleuve français l'Yonne se jette-t-elle ?",
+    "choices": [
+      "La Seine",
+      "La Garonne",
+      "Le Nil",
+      "Le Rhin"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0400",
+    "question": "De quel pays Brasilia est-elle la capitale ?",
+    "choices": [
+      "La Suisse",
+      "La France",
+      "Le Brésil",
+      "L’Argentine"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0401",
+    "question": "Dans quel pays les villes de Fès et Meknès sont-elles situées ?",
+    "choices": [
+      "La Hongrie",
+      "Le Maroc",
+      "L’Espagne",
+      "Le Portugal"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0402",
+    "question": "Quel pays a une feuille d'érable rouge sur son drapeau ?",
+    "choices": [
+      "L’Égypte",
+      "La Suisse",
+      "Le Canada",
+      "Le Portugal"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0403",
+    "question": "Dans quel pays africain se trouve la ville d'Abidjan ?",
+    "choices": [
+      "La Belgique",
+      "L’Espagne",
+      "La Côte d'Ivoire",
+      "Le Brésil"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0404",
+    "question": "Dans quelle mer le Rhône se jette-t-il ?",
+    "choices": [
+      "La mer du Nord",
+      "La mer Baltique",
+      "La mer Méditerranée",
+      "La mer Noire"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0405",
+    "question": "Selon les Evangiles, dans quelle ville est né Jésus de Nazareth ?",
+    "choices": [
+      "Londres",
+      "Berlin",
+      "Madrid",
+      "A Bethléem"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0406",
+    "question": "Dans quelle ville se trouve la tombe de François Mitterrand ?",
+    "choices": [
+      "Madrid",
+      "Lisbonne",
+      "Prague",
+      "Jarnac"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0407",
+    "question": "Dans quel pays se trouve Saint-Véran, la commune la plus haute d'Europe ?",
+    "choices": [
+      "France",
+      "L’Espagne",
+      "Le Canada",
+      "L’Allemagne"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0408",
+    "question": "Quel pays a remporté le plus de Coupes du monde de football ?",
+    "choices": [
+      "Le Brésil",
+      "L’Espagne",
+      "Le Maroc",
+      "Le Portugal"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0409",
+    "question": "Quel fleuve arrose la ville de Nantes ?",
+    "choices": [
+      "Le Nil",
+      "Le Yang-Tsé",
+      "Le Danube",
+      "La Loire"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0410",
+    "question": "Quel océan baigne les Maldives ?",
+    "choices": [
+      "L’océan Atlantique",
+      "L’océan Arctique",
+      "L'océan Indien",
+      "L’océan Pacifique"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0411",
+    "question": "Dans quelle ville se trouve le gamin chanté par Yves Montand en 1951 ?",
+    "choices": [
+      "Seattle",
+      "Budapest",
+      "Mexico",
+      "Paris"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0412",
+    "question": "Dans quelle ville andalouse traversée par le Guadalquivir peut-on visiter l'Alcazar ?",
+    "choices": [
+      "Rome",
+      "Séville",
+      "Prague",
+      "Manchester"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0413",
+    "question": "De quel pays vient une voiture qui porte la lettre D ?",
+    "choices": [
+      "Allemagne",
+      "L’Italie",
+      "L’Argentine",
+      "Le Canada"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0414",
+    "question": "De quel pays les Aborigènes sont-ils les autochtones ?",
+    "choices": [
+      "Le Canada",
+      "L'Australie",
+      "Le Maroc",
+      "Le Portugal"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0415",
+    "question": "De quel pays Rangoon est-elle la capitale ?",
+    "choices": [
+      "La Birmanie",
+      "L’Argentine",
+      "L’Égypte",
+      "L’Espagne"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0416",
+    "question": "Quel pays d'Asie obtient-on en enlevant une lettre au département de l'Indre ?",
+    "choices": [
+      "L'Inde",
+      "L’Argentine",
+      "Le Portugal",
+      "Le Japon"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0417",
+    "question": "Dans quel pays est né le footballeur Diego Maradona ?",
+    "choices": [
+      "La France",
+      "En Argentine",
+      "L’Égypte",
+      "Le Japon"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0418",
+    "question": "De quel pays viennent les voitures portant les lettres \"NL\" à l'arrière ?",
+    "choices": [
+      "Les Pays-Bas",
+      "La Colombie",
+      "Le Népal",
+      "Le Brésil"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0419",
+    "question": "Quelle mer, bordée par l'Israël et la Jordanie, a un taux de salinité si élévé qu'aucune vie n'y est possible ?",
+    "choices": [
+      "La mer Baltique",
+      "La mer Méditerranée",
+      "Le mer Morte",
+      "La mer du Nord"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0420",
+    "question": "Quel océan est le plus grand du monde ?",
+    "choices": [
+      "L’océan Atlantique",
+      "L'océan Pacifique",
+      "L’océan Austral",
+      "L’océan Arctique"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0421",
+    "question": "De quel pays l'Alberta est-elle une province ?",
+    "choices": [
+      "Le Canada",
+      "Le Brésil",
+      "L’Argentine",
+      "L’Espagne"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0422",
+    "question": "De quel pays européen la Calabre est-elle l'une des principales régions ?",
+    "choices": [
+      "La Suisse",
+      "Le Népal",
+      "L'Italie",
+      "La Hongrie"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0423",
+    "question": "Dans quel océan navigue-t-on au large de la Guyane ?",
+    "choices": [
+      "L’océan Indien",
+      "L'océan Atlantique",
+      "L’océan Arctique",
+      "L’océan Pacifique"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0424",
+    "question": "Dans quel pays se trouve le Darfour ?",
+    "choices": [
+      "L’Espagne",
+      "Le Maroc",
+      "Le Soudan",
+      "La Belgique"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0425",
+    "question": "Quelle ville habitent les Stambouliotes ?",
+    "choices": [
+      "Mexico",
+      "Istanbul",
+      "Rome",
+      "Berlin"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0426",
+    "question": "Dans quel pays se court le rallye de l'Acropole ?",
+    "choices": [
+      "L’Italie",
+      "L’Égypte",
+      "La Grèce",
+      "Le Canada"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0427",
+    "question": "Dans quel fleuve français l'Isère se jette-t-elle ?",
+    "choices": [
+      "Le Rhône",
+      "La Tamise",
+      "Le Nil",
+      "La Loire"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0428",
+    "question": "De quel pays la ville d'Erevan est- elle la capitale ?",
+    "choices": [
+      "Le Japon",
+      "Le Canada",
+      "L'Arménie",
+      "Le Maroc"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0429",
+    "question": "Dans quelle ville chinoise est située la célèbre place Tian'anmen ?",
+    "choices": [
+      "Pékin",
+      "Budapest",
+      "Lyon",
+      "Berlin"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0430",
+    "question": "De quel pays d'Amérique du Sud Astor Piazzolla était-il originaire ?",
+    "choices": [
+      "La Hongrie",
+      "L'Argentine",
+      "La Belgique",
+      "Le Canada"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0431",
+    "question": "Dans quel pays européen se trouve la ville de Vérone, chère à Roméo et Juliette ?",
+    "choices": [
+      "L’Argentine",
+      "L'Italie",
+      "La Hongrie",
+      "Le Portugal"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0432",
+    "question": "De quel pays fait partie l'Etat du Maryland ?",
+    "choices": [
+      "L’Égypte",
+      "L’Argentine",
+      "Les Etats-Unis",
+      "L’Allemagne"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0433",
+    "question": "Dans quelle mer le fleuve Escaut se jette-t-il ?",
+    "choices": [
+      "La mer du Nord",
+      "La mer Méditerranée",
+      "La mer Baltique",
+      "La mer Noire"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0434",
+    "question": "Dans quelle ville marocaine se trouve la célèbre place Djema'a el-Fna ?",
+    "choices": [
+      "Madrid",
+      "Marseille",
+      "Marrakech",
+      "Londres"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0435",
+    "question": "A quel pays l'île de Capri appartient-elle ?",
+    "choices": [
+      "L'Italie",
+      "L’Espagne",
+      "La France",
+      "La Colombie"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0436",
+    "question": "De quel pays le gorgonzola est-il originaire ?",
+    "choices": [
+      "La Colombie",
+      "L’Égypte",
+      "L'Italie",
+      "L’Allemagne"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0437",
+    "question": "Dans quelle ville des Etats-Unis se situe l'action de \"Nip/Tuck\" ?",
+    "choices": [
+      "Lyon",
+      "Rome",
+      "Miami",
+      "Marseille"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0438",
+    "question": "Sur quel continent se trouve la région du Bengale ?",
+    "choices": [
+      "L’Europe",
+      "L’Afrique",
+      "Asie",
+      "L’Amérique du Nord"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0439",
+    "question": "De quel pays est l'équipe nationale de football surnommée Mannschaft ?",
+    "choices": [
+      "La Hongrie",
+      "L'Allemagne",
+      "Le Népal",
+      "La France"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0440",
+    "question": "Dans quelle ville française peut-on visiter la Cité de l'espace ?",
+    "choices": [
+      "Toulouse",
+      "Budapest",
+      "Lisbonne",
+      "Rome"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0441",
+    "question": "Dans quel fleuve français l'Ain se jette-t-il ?",
+    "choices": [
+      "La Tamise",
+      "Le Rhône",
+      "La Loire",
+      "La Seine"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0442",
+    "question": "De quelle ville du Nord les berlingots appelés \"bêtises\" sont-ils une spécialité ?",
+    "choices": [
+      "Cambrai",
+      "Mexico",
+      "Marseille",
+      "Manchester"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0443",
+    "question": "Dans quel océan baignent les Seychelles ?",
+    "choices": [
+      "Océan Indien",
+      "L’océan Arctique",
+      "L’océan Atlantique",
+      "L’océan Austral"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0444",
+    "question": "Dans quelle ville se trouve la gare de la Part-Dieu ?",
+    "choices": [
+      "Toulouse",
+      "Bruxelles",
+      "Mexico",
+      "Lyon"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0445",
+    "question": "Quel pays imaginaire regorgeait d'or selon les conquistadors ?",
+    "choices": [
+      "L'Eldorado",
+      "Le Portugal",
+      "La Colombie",
+      "L’Espagne"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0446",
+    "question": "Quelle ville des Alpes-Maritimes est considérée comme la capitale mondiale des parfums ?",
+    "choices": [
+      "Vienne",
+      "Mexico",
+      "GRASSE",
+      "Rome"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0447",
+    "question": "Dans quel pays se situe actuellement la Mandchourie ?",
+    "choices": [
+      "Le Maroc",
+      "La Chine",
+      "La Hongrie",
+      "Le Canada"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0448",
+    "question": "A quel pays appartient l'île de Pâques située dans l'océan Pacifique ?",
+    "choices": [
+      "Le Brésil",
+      "Le Chili",
+      "L’Argentine",
+      "La Suisse"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0449",
+    "question": "Sur quel pays le roi Farouk a-t-il régné de 1937 à 1952 ?",
+    "choices": [
+      "L'Egypte",
+      "Le Brésil",
+      "La Suisse",
+      "Le Portugal"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0450",
+    "question": "A l'origine, dans quel pays les supporters sont-ils appelés les \"tifosi\" ?",
+    "choices": [
+      "La Hongrie",
+      "L'Italie",
+      "Le Canada",
+      "Le Maroc"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0451",
+    "question": "Dans quel pays se trouve Saint-Jacques-de-Compostelle ?",
+    "choices": [
+      "La Colombie",
+      "Le Portugal",
+      "Le Népal",
+      "L'Espagne"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0452",
+    "question": "Dans quelle ville française se sont déroulés les JO d'hiver de 1968 ?",
+    "choices": [
+      "Berlin",
+      "Lisbonne",
+      "Grenoble",
+      "Rome"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0453",
+    "question": "De quel pays était originaire l'écrivain, philosophe et homme politique Machiavel ?",
+    "choices": [
+      "Le Brésil",
+      "L'Italie",
+      "L’Argentine",
+      "La Hongrie"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0454",
+    "question": "Dans quelle capitale asiatique Murray Head passait-il \"One Night\" en 1984 ?",
+    "choices": [
+      "Bangkok",
+      "Manchester",
+      "Vienne",
+      "Budapest"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0455",
+    "question": "De quel pays proviennent les amuse-gueules appelés tapas ?",
+    "choices": [
+      "Le Maroc",
+      "Espagne",
+      "La Belgique",
+      "Le Japon"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0456",
+    "question": "Dans quelle ville italienne se situe la \"Tour penchée\" de la \"place des Miracles\"?",
+    "choices": [
+      "Pise",
+      "Bruxelles",
+      "Marseille",
+      "Mexico"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0457",
+    "question": "Dans quel pays les joueurs de football sont-ils surnommés les Eléphants ?",
+    "choices": [
+      "Le Maroc",
+      "Le Brésil",
+      "La Côte d'Ivoire",
+      "Le Népal"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0458",
+    "question": "Dans quel pays pouvez-vous visiter le temple de Louxor ?",
+    "choices": [
+      "L'Egypte",
+      "Le Japon",
+      "L’Argentine",
+      "L’Italie"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0459",
+    "question": "Quel fleuve prend sa source au mont Gerbier-de-Jonc ?",
+    "choices": [
+      "Le Yang-Tsé",
+      "La Loire",
+      "La Tamise",
+      "La Garonne"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0460",
+    "question": "Dans quel pays se situe la ville de Salvador de Bahia ?",
+    "choices": [
+      "La Hongrie",
+      "Le Brésil",
+      "Le Canada",
+      "Le Maroc"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0461",
+    "question": "Combien d'arrondissements la ville de Paris compte-t-elle ?",
+    "choices": [
+      "18",
+      "19",
+      "21",
+      "20"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0462",
+    "question": "De quelle capitale européenne Eugène Sue a-t-il écrit \"Les Mystères\" ?",
+    "choices": [
+      "Paris",
+      "Berlin",
+      "Budapest",
+      "Mexico"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0463",
+    "question": "De quel fleuve français le Tarn est-il un affluent ?",
+    "choices": [
+      "Le Rhône",
+      "Le Nil",
+      "La Garonne",
+      "La Loire"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0464",
+    "question": "De quel pays Bogota est-elle la capitale ?",
+    "choices": [
+      "La Belgique",
+      "La Colombie",
+      "L’Argentine",
+      "Le Japon"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0465",
+    "question": "Sur quel continent se situe la Mongolie ?",
+    "choices": [
+      "L’Amérique du Nord",
+      "L’Amérique du Sud",
+      "L'Asie",
+      "L’Afrique"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0466",
+    "question": "Dans quel océan sont situées les Maldives ?",
+    "choices": [
+      "L’océan Austral",
+      "L'océan Indien",
+      "L’océan Arctique",
+      "L’océan Atlantique"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0467",
+    "question": "Dans quelle ville allemande J.-J. Goldman aurait-il pu naître en 17 ?",
+    "choices": [
+      "Berlin",
+      "Paris",
+      "Rome",
+      "Leidenstadt"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0468",
+    "question": "Dans quel fleuve la rivière Ariège se jette-t-elle ?",
+    "choices": [
+      "La Loire",
+      "La Garonne",
+      "Le Nil",
+      "La Tamise"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0469",
+    "question": "Dans quel pays vivaient les Olmèques ?",
+    "choices": [
+      "La France",
+      "L’Argentine",
+      "Le Mexique",
+      "La Colombie"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0470",
+    "question": "Dans quelle ville italienne se trouve le fameux pont du Rialto ?",
+    "choices": [
+      "Paris",
+      "Lyon",
+      "Prague",
+      "Venise"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0471",
+    "question": "De quel pays la ville d'Alger est-elle la capitale ?",
+    "choices": [
+      "Algérie",
+      "La Colombie",
+      "Le Brésil",
+      "La Hongrie"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0472",
+    "question": "Dans le sketch de Raymond Devos, pour quelle ville veut-il prendre le car ?",
+    "choices": [
+      "Caen",
+      "Seattle",
+      "Mexico",
+      "Prague"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0473",
+    "question": "Quelle ville est le chef-lieu du département de la Sarthe ?",
+    "choices": [
+      "Seattle",
+      "Le Mans",
+      "Rome",
+      "Bruxelles"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0474",
+    "question": "Dans quelle ville habitent les Spinaliens ?",
+    "choices": [
+      "Marseille",
+      "Epinal",
+      "Seattle",
+      "Rome"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0475",
+    "question": "Quelle ville allemande est la capitale de la Bavière ?",
+    "choices": [
+      "Budapest",
+      "Vienne",
+      "Munich",
+      "Berlin"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0476",
+    "question": "Dans quelle ville sainte se trouve la Kaaba ?",
+    "choices": [
+      "Berlin",
+      "La Mecque",
+      "Madrid",
+      "Toulouse"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0477",
+    "question": "De quel pays la ville de Zagreb est-elle la capitale ?",
+    "choices": [
+      "L’Argentine",
+      "La Croatie",
+      "Le Japon",
+      "La Colombie"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0478",
+    "question": "Avec quel pays les Etats-Unis partagent-ils les chutes du Niagara ?",
+    "choices": [
+      "La Belgique",
+      "Le Brésil",
+      "Le Canada",
+      "Le Maroc"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0479",
+    "question": "De quel pays européen les Asturies sont-elles une communauté autonome ?",
+    "choices": [
+      "L'Espagne",
+      "L’Allemagne",
+      "La Colombie",
+      "La Suisse"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0480",
+    "question": "Quel pays est divisé en 26 cantons, dont ceux d'Uri et de Fribourg ?",
+    "choices": [
+      "La Suisse",
+      "Le Maroc",
+      "L’Égypte",
+      "La France"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0481",
+    "question": "A quel pays appartient le Groenland ?",
+    "choices": [
+      "Le Danemark",
+      "Le Népal",
+      "La Suisse",
+      "L’Italie"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0482",
+    "question": "Dans quelle ville Jeanne d'Arc fut-elle brûlée vive ?",
+    "choices": [
+      "Budapest",
+      "Mexico",
+      "Seattle",
+      "Rouen"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0483",
+    "question": "Quelle ville est associée à Tartarin dans l'oeuvre d'Alphonse Daudet ?",
+    "choices": [
+      "Vienne",
+      "Tarascon",
+      "Budapest",
+      "Manchester"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0484",
+    "question": "Dans quel pays se trouve la partie des Andes qui abrite Machu Picchu ?",
+    "choices": [
+      "L’Argentine",
+      "La Suisse",
+      "Le Pérou",
+      "La Hongrie"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0485",
+    "question": "De quel pays Caracas est-elle la capitale ?",
+    "choices": [
+      "Le Venezuela",
+      "Le Japon",
+      "La Suisse",
+      "L’Allemagne"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0486",
+    "question": "Dans quel pays de l'ex-Yougoslavie la ville de Split se trouve-t-elle ?",
+    "choices": [
+      "Le Portugal",
+      "La France",
+      "L’Argentine",
+      "La Croatie"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0487",
+    "question": "Sur quel fleuve se dispute la course d'aviron entre Cambridge et Oxford ?",
+    "choices": [
+      "La Tamise",
+      "Le Rhône",
+      "Le Nil",
+      "Le Danube"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0488",
+    "question": "Dans quel pays se trouvent les villes d'Adélaïde et de Brisbane ?",
+    "choices": [
+      "L'Australie",
+      "Le Japon",
+      "Le Népal",
+      "La Colombie"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0489",
+    "question": "Quelle capitale européenne est née de l'unification des villes Pest et Buda ?",
+    "choices": [
+      "Mexico",
+      "Lyon",
+      "Rome",
+      "Budapest"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0490",
+    "question": "Dans quel pays Ségolène Royal est-elle née ?",
+    "choices": [
+      "La Hongrie",
+      "Le Brésil",
+      "Sénégal",
+      "Le Japon"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0491",
+    "question": "Dans quel pays l'emmenthal a-t-il été inventé ?",
+    "choices": [
+      "Le Portugal",
+      "Le Maroc",
+      "Suisse",
+      "L’Allemagne"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0492",
+    "question": "De quelle ville Crockett et Tubbs sont-ils les \"Deux Flics\" ?",
+    "choices": [
+      "Vienne",
+      "Miami",
+      "Marseille",
+      "Budapest"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0493",
+    "question": "Quelle capitale européenne est traversée par la Tamise ?",
+    "choices": [
+      "Prague",
+      "Bruxelles",
+      "Seattle",
+      "Londres"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0494",
+    "question": "De quel pays Kingston est-elle la capitale ?",
+    "choices": [
+      "L’Égypte",
+      "La Jamaïque",
+      "L’Italie",
+      "Le Népal"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0495",
+    "question": "Quelle ville de Belgique est aussi appelée \"la Venise du Nord\" ?",
+    "choices": [
+      "Bruges",
+      "Budapest",
+      "Manchester",
+      "Seattle"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0496",
+    "question": "Dans quel pays la ville de Cadix est-elle située ?",
+    "choices": [
+      "Le Japon",
+      "Le Népal",
+      "L’Égypte",
+      "L'Espagne"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0497",
+    "question": "Quelle capitale européenne est située sur l'embouchure du Tage ?",
+    "choices": [
+      "Vienne",
+      "Seattle",
+      "Lisbonne",
+      "Madrid"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0498",
+    "question": "Quel fleuve traverse la ville américaine de Washington, DC ?",
+    "choices": [
+      "Le Rhin",
+      "Le Potomac",
+      "La Loire",
+      "Le Yang-Tsé"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0499",
+    "question": "En 2010, dans quel pays se tiendra la prochaine Exposition universelle ?",
+    "choices": [
+      "L’Italie",
+      "La Chine",
+      "L’Argentine",
+      "Le Népal"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0500",
+    "question": "De quel pays Hô Chi Minh proclame-t-il l'indépendance en 1945 ?",
+    "choices": [
+      "L’Italie",
+      "L’Argentine",
+      "Le Viêt Nam",
+      "La Belgique"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0501",
+    "question": "Quelle ville est représentée en Ligue 1 de football par le LOSC ?",
+    "choices": [
+      "Lille",
+      "Mexico",
+      "Bruxelles",
+      "Manchester"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0502",
+    "question": "Dans quel pays peut-on visiter le Taj Mahal ?",
+    "choices": [
+      "Le Népal",
+      "L’Égypte",
+      "En Inde",
+      "L’Argentine"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0503",
+    "question": "Dans quelle mer le fleuve français appelé Orne se jette-t-il ?",
+    "choices": [
+      "La mer Méditerranée",
+      "La Manche",
+      "La mer Rouge",
+      "La mer du Nord"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0504",
+    "question": "De quel pays Hamlet est-il le prince, dans la célèbre pièce de William Shakespeare ?",
+    "choices": [
+      "Le Canada",
+      "Le Danemark",
+      "Le Népal",
+      "La Suisse"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0505",
+    "question": "Dans quelle ville du Lot vivent les Cadurciens ?",
+    "choices": [
+      "Mexico",
+      "Cahors",
+      "Lisbonne",
+      "Budapest"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0506",
+    "question": "Dans quelle ville espagnole réside \"le barbier\" de Beaumarchais ?",
+    "choices": [
+      "Rome",
+      "Lisbonne",
+      "Manchester",
+      "Séville"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0507",
+    "question": "De quel fleuve l'Indre est-elle un affluent ?",
+    "choices": [
+      "Le Danube",
+      "La Loire",
+      "Le Nil",
+      "La Garonne"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0508",
+    "question": "Dans quelle ville est situé le siège de la Banque centrale européenne ?",
+    "choices": [
+      "Toulouse",
+      "Francfort",
+      "Bruxelles",
+      "Berlin"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0509",
+    "question": "Quel pays vécut sous le joug de N. Ceausescu de 1965 à 1989 ?",
+    "choices": [
+      "Le Maroc",
+      "L’Allemagne",
+      "Le Canada",
+      "La Roumanie"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0510",
+    "question": "Quelle ville anglaise est opposée à Oxford dans l'une des plus célèbres courses d'aviron créée en 1829 ?",
+    "choices": [
+      "Madrid",
+      "Londres",
+      "Cambridge",
+      "Berlin"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0511",
+    "question": "Dans quel pays de l'ex-Yougoslavie se trouve la ville de Split ?",
+    "choices": [
+      "La France",
+      "La Suisse",
+      "La Croatie",
+      "Le Japon"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0512",
+    "question": "Quel pays est arrosé par la Loire ?",
+    "choices": [
+      "La France",
+      "La Suisse",
+      "La Hongrie",
+      "Le Canada"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0513",
+    "question": "Dans quel pays se situe Waterloo, qui donna son nom à la bataille de 1815 ?",
+    "choices": [
+      "Le Brésil",
+      "Belgique",
+      "Le Maroc",
+      "Le Portugal"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0514",
+    "question": "Avec quel pays l'Argentine se partage-t-elle la Patagonie ?",
+    "choices": [
+      "Le Chili",
+      "L’Égypte",
+      "La Belgique",
+      "La France"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0515",
+    "question": "Dans quelle ville du Vaucluse ont lieu chaque année les célèbres Chorégies ?",
+    "choices": [
+      "Orange",
+      "Bruxelles",
+      "Toulouse",
+      "Budapest"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0516",
+    "question": "Dans quelle ville du Japon se sont déroulés les jeux Olympiques d'hiver de 1998 ?",
+    "choices": [
+      "Toulouse",
+      "Berlin",
+      "Manchester",
+      "Nagano"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0517",
+    "question": "Dans quelle ville se trouvent les parapluies de Jacques Demy en 1964 ?",
+    "choices": [
+      "Cherbourg",
+      "Marseille",
+      "Madrid",
+      "Budapest"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0518",
+    "question": "Sur quel continent se situe la Guinée-Bissau ?",
+    "choices": [
+      "L’Asie",
+      "L'Afrique",
+      "L’Amérique du Nord",
+      "L’Europe"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0519",
+    "question": "A quel pays la Crète appartient-elle ?",
+    "choices": [
+      "La Grèce",
+      "La Suisse",
+      "Le Brésil",
+      "Le Portugal"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0520",
+    "question": "De quel pays est l'équipe nationale de football surnommée \"Seleção\" ?",
+    "choices": [
+      "Le Portugal",
+      "Le Japon",
+      "Le Brésil",
+      "L’Argentine"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0521",
+    "question": "Dans quel pays d'Afrique la ville d'Agadir est-elle située ?",
+    "choices": [
+      "Le Maroc",
+      "L’Égypte",
+      "Le Canada",
+      "Le Népal"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0522",
+    "question": "De quel fleuve le Cher est-il un affluent ?",
+    "choices": [
+      "Le Rhin",
+      "Le Mississippi",
+      "La Tamise",
+      "La Loire"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0523",
+    "question": "Dans quel pays fut fondé en 1912 le parti du Guomindang ?",
+    "choices": [
+      "La Chine",
+      "L’Argentine",
+      "La France",
+      "La Colombie"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0524",
+    "question": "De quel pays est originaire le fandango, qui se danse en couple ?",
+    "choices": [
+      "L'Espagne",
+      "Le Népal",
+      "Le Japon",
+      "L’Italie"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0525",
+    "question": "Quel pays a eu Golda Meir à la tête de son gouvernement ?",
+    "choices": [
+      "Le Brésil",
+      "Israël",
+      "L’Égypte",
+      "La Suisse"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0526",
+    "question": "Dans l'alphabet international, quelle ville est associée à la lettre Q ?",
+    "choices": [
+      "Seattle",
+      "Marseille",
+      "Québec",
+      "Berlin"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0527",
+    "question": "En 1980, dans quel pays la reine Beatrix est-elle montée sur le trône ?",
+    "choices": [
+      "Le Canada",
+      "Le Maroc",
+      "Les Pays-Bas",
+      "L’Égypte"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0528",
+    "question": "Dans quelle ville française se trouve la Cité de l'espace ?",
+    "choices": [
+      "Toulouse",
+      "Madrid",
+      "Bruxelles",
+      "Mexico"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0529",
+    "question": "Quelle capitale abrite le célèbre théatre du Bolchoï ?",
+    "choices": [
+      "Moscou",
+      "Lyon",
+      "Bruxelles",
+      "Manchester"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0530",
+    "question": "Quelle ville a vu naitre le comique Patrick Bosso ?",
+    "choices": [
+      "Madrid",
+      "Marseille",
+      "Londres",
+      "Lisbonne"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0531",
+    "question": "Dans quelle ville se situe le club de football de Chelsea ?",
+    "choices": [
+      "Londres",
+      "Paris",
+      "Mexico",
+      "Lyon"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0532",
+    "question": "Dans quel pays le Grand Prix de Formule 1 de Kuala Lumpur se dispute-t-il ?",
+    "choices": [
+      "La Hongrie",
+      "La Malaisie",
+      "L’Italie",
+      "L’Allemagne"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
+  },
+  {
+    "id": "grand-quiz-v12-0533",
+    "question": "Dans quel pays se situe actuellement la Dalmatie ?",
+    "choices": [
+      "La France",
+      "Le Portugal",
+      "L’Espagne",
+      "La Croatie"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "hard",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "filtre-strict-v12",
+    "validation": "valide"
   }
 ]

@@ -2030,5 +2030,245 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "filtre-strict-v12",
     "validation": "valide"
+  },
+  {
+    "id": "v13-sport-001",
+    "question": "Combien de joueurs une équipe de basket aligne-t-elle sur le terrain ?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "5"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-002",
+    "question": "Dans quel sport utilise-t-on une mêlée ?",
+    "choices": [
+      "Le rugby",
+      "Le handball",
+      "Le hockey",
+      "Le volleyball"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-003",
+    "question": "Quel pays accueille traditionnellement le tournoi de Wimbledon ?",
+    "choices": [
+      "L’Australie",
+      "Le Royaume-Uni",
+      "La France",
+      "Les États-Unis"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-004",
+    "question": "Combien de sets faut-il gagner dans un match masculin du Grand Chelem ?",
+    "choices": [
+      "4",
+      "5",
+      "3",
+      "2"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-005",
+    "question": "Dans quel sport pratique-t-on le crawl ?",
+    "choices": [
+      "L’aviron",
+      "Le surf",
+      "Le water-polo",
+      "La natation"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-006",
+    "question": "Quel équipement protège la tête d’un boxeur amateur ?",
+    "choices": [
+      "Un casque",
+      "Une visière",
+      "Un masque",
+      "Un bonnet"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-007",
+    "question": "Quelle discipline combine ski de fond et tir à la carabine ?",
+    "choices": [
+      "Le skiathlon",
+      "Le biathlon",
+      "Le combiné nordique",
+      "Le pentathlon"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-008",
+    "question": "Dans quel sport un gardien peut-il utiliser ses mains dans sa surface ?",
+    "choices": [
+      "Le hockey sur gazon",
+      "Le rugby",
+      "Le football",
+      "Le futsal sans exception"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-009",
+    "question": "Combien de trous compte un parcours de golf standard ?",
+    "choices": [
+      "9",
+      "12",
+      "21",
+      "18"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-010",
+    "question": "Quel pays est à l’origine du taekwondo ?",
+    "choices": [
+      "La Corée",
+      "Le Japon",
+      "La Chine",
+      "La Thaïlande"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-011",
+    "question": "Dans quel sport trouve-t-on les postes de quarterback et de running back ?",
+    "choices": [
+      "Le basketball",
+      "Le football américain",
+      "Le baseball",
+      "Le rugby à XIII"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-012",
+    "question": "Quel terme désigne un score nul de 40-40 au tennis ?",
+    "choices": [
+      "Avantage",
+      "Let",
+      "Égalité",
+      "Tie-break"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-013",
+    "question": "Quelle couleur porte le maillot du meilleur grimpeur du Tour de France ?",
+    "choices": [
+      "Vert",
+      "Jaune",
+      "Blanc uni",
+      "Blanc à pois rouges"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-014",
+    "question": "Dans quel sport utilise-t-on un fleuret ?",
+    "choices": [
+      "L’escrime",
+      "Le tir à l’arc",
+      "La gymnastique",
+      "Le pentathlon moderne uniquement"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sport-015",
+    "question": "Combien de minutes dure réglementairement un match de football sans prolongation ?",
+    "choices": [
+      "120",
+      "90",
+      "80",
+      "100"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

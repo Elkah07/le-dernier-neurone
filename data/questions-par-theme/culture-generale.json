@@ -878,5 +878,245 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-001",
+    "question": "Quel jeu de société consiste à acheter des rues et construire des hôtels ?",
+    "choices": [
+      "Cluedo",
+      "Risk",
+      "Scrabble",
+      "Monopoly"
+    ],
+    "answer": 3,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-002",
+    "question": "Quelle couleur de carte signifie généralement une expulsion au football ?",
+    "choices": [
+      "Rouge",
+      "Jaune",
+      "Verte",
+      "Bleue"
+    ],
+    "answer": 0,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-003",
+    "question": "Quel signe du zodiaque est représenté par une balance ?",
+    "choices": [
+      "Le Taureau",
+      "La Balance",
+      "Les Gémeaux",
+      "Le Verseau"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-004",
+    "question": "Combien de faces possède un dé classique ?",
+    "choices": [
+      "8",
+      "12",
+      "6",
+      "4"
+    ],
+    "answer": 2,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-005",
+    "question": "Quel objet indique le nord grâce à une aiguille aimantée ?",
+    "choices": [
+      "Un sextant",
+      "Un astrolabe",
+      "Un baromètre",
+      "Une boussole"
+    ],
+    "answer": 3,
+    "category": "Culture générale",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-006",
+    "question": "Quel nombre romain représente 50 ?",
+    "choices": [
+      "L",
+      "C",
+      "X",
+      "V"
+    ],
+    "answer": 0,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-007",
+    "question": "Quel est le prénom du détective belge créé par Agatha Christie ?",
+    "choices": [
+      "Auguste",
+      "Hercule",
+      "Arthur",
+      "Jules"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-008",
+    "question": "Quel métal précieux est associé aux noces de cinquante ans ?",
+    "choices": [
+      "Le platine",
+      "Le bronze",
+      "L’or",
+      "L’argent"
+    ],
+    "answer": 2,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-009",
+    "question": "Quel jeu utilise les lettres « mot compte triple » sur son plateau ?",
+    "choices": [
+      "Boggle",
+      "Baccalauréat",
+      "Pictionary",
+      "Scrabble"
+    ],
+    "answer": 3,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-010",
+    "question": "Quelle unité mesure la fréquence ?",
+    "choices": [
+      "Le hertz",
+      "Le watt",
+      "Le pascal",
+      "Le joule"
+    ],
+    "answer": 0,
+    "category": "Culture générale",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-011",
+    "question": "Quel symbole représente la paix dans de nombreuses cultures ?",
+    "choices": [
+      "Le faucon",
+      "La colombe",
+      "Le corbeau",
+      "Le paon"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-012",
+    "question": "Combien de cartes comporte un jeu français sans jokers ?",
+    "choices": [
+      "54",
+      "56",
+      "52",
+      "32"
+    ],
+    "answer": 2,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-013",
+    "question": "Quel jour supplémentaire apparaît lors d’une année bissextile ?",
+    "choices": [
+      "Le 31 avril",
+      "Le 30 février",
+      "Le 32 décembre",
+      "Le 29 février"
+    ],
+    "answer": 3,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-014",
+    "question": "Quelle langue utilise l’alphabet cyrillique ?",
+    "choices": [
+      "Le russe",
+      "Le grec moderne",
+      "Le hongrois",
+      "Le finnois"
+    ],
+    "answer": 0,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-culture-generale-015",
+    "question": "Quel instrument sert à observer des objets célestes lointains ?",
+    "choices": [
+      "Un stéthoscope",
+      "Un télescope",
+      "Un microscope",
+      "Un périscope"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

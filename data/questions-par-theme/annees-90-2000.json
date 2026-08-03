@@ -1550,5 +1550,245 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-001",
+    "question": "Quel service de discussion instantanée affichait souvent le message « Wizz » ?",
+    "choices": [
+      "ICQ",
+      "Caramail",
+      "Skype",
+      "MSN Messenger"
+    ],
+    "answer": 3,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-002",
+    "question": "Sur Skyblog, comment appelait-on couramment une publication ?",
+    "choices": [
+      "Un article",
+      "Un snap",
+      "Un reel",
+      "Un thread"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-003",
+    "question": "Quel baladeur Apple lancé en 2001 a popularisé la musique numérique nomade ?",
+    "choices": [
+      "Le Walkman",
+      "L’iPod",
+      "Le Discman",
+      "Le MiniDisc"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-004",
+    "question": "Quel logiciel de partage de fichiers était célèbre pour son logo bleu et vert au début des années 2000 ?",
+    "choices": [
+      "Nero",
+      "QuickTime",
+      "eMule",
+      "Winamp"
+    ],
+    "answer": 2,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-005",
+    "question": "Quel jeu de danse utilisait un tapis relié à la console ?",
+    "choices": [
+      "SingStar",
+      "Buzz!",
+      "EyeToy Play",
+      "Dance Dance Revolution"
+    ],
+    "answer": 3,
+    "category": "Années 90/2000",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-006",
+    "question": "Quel petit animal électronique fallait-il nourrir et soigner sur un porte-clés ?",
+    "choices": [
+      "Le Tamagotchi",
+      "Le Furby",
+      "Le Kiki",
+      "Le Bitzee"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-007",
+    "question": "Quel réseau social permettait de classer ses amis dans un « Top 8 » ?",
+    "choices": [
+      "Copains d’avant",
+      "MySpace",
+      "Facebook",
+      "Skyblog"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-008",
+    "question": "Quel moteur de recherche français avait pour mascotte un jaguar noir ?",
+    "choices": [
+      "Altavista",
+      "Excite",
+      "Voila",
+      "Lycos"
+    ],
+    "answer": 2,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-009",
+    "question": "Quel logiciel servait surtout à lire des fichiers MP3 avec des skins personnalisables ?",
+    "choices": [
+      "Paint",
+      "Outlook Express",
+      "Netscape",
+      "Winamp"
+    ],
+    "answer": 3,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-010",
+    "question": "Quel appareil photo instantané jetable était souvent utilisé lors des sorties scolaires ?",
+    "choices": [
+      "Un appareil photo jetable",
+      "Un caméscope MiniDV",
+      "Un Polaroid numérique",
+      "Une webcam"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-011",
+    "question": "Quel jeu télévisé pour enfants faisait avancer des équipes dans un décor médiéval avec des Maîtres des jeux ?",
+    "choices": [
+      "En route pour l’aventure",
+      "Fort Boyard",
+      "La Carte aux trésors",
+      "Mission Pirattak"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-012",
+    "question": "Quel boys band français chantait « Partir un jour » ?",
+    "choices": [
+      "G-Squad",
+      "Poetic Lover",
+      "2Be3",
+      "Alliage"
+    ],
+    "answer": 2,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-013",
+    "question": "Quelle chanteuse interprétait « Je serai (ta meilleure amie) » en 2001 ?",
+    "choices": [
+      "Priscilla",
+      "Alizée",
+      "Jenifer",
+      "Lorie"
+    ],
+    "answer": 3,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-014",
+    "question": "Quel téléphone Nokia était réputé pour sa solidité et le jeu Snake II ?",
+    "choices": [
+      "Le Nokia 3310",
+      "Le Nokia N95",
+      "Le Motorola Razr",
+      "Le Siemens S55"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-annees-90-2000-015",
+    "question": "Quel format vidéo domestique rivalisait avec le VHS avant de disparaître ?",
+    "choices": [
+      "Le MiniDisc",
+      "Le Betamax",
+      "Le Blu-ray",
+      "Le DivX"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

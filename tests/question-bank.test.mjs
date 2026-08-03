@@ -2,9 +2,9 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import bank from "../data/question-bank.json" with { type: "json" };
 
-test("la base contient exactement 1 545 QCM valides", () => {
-  assert.equal(bank.length, 1545);
-  assert.equal(new Set(bank.map(question => question.question.toLowerCase())).size, 1545);
+test("la base contient exactement 2 068 QCM valides", () => {
+  assert.equal(bank.length, 2068);
+  assert.equal(new Set(bank.map(question => question.question.toLowerCase())).size, 2068);
   for (const question of bank) {
     assert.match(question.question, /\?["»']?$/);
     assert.equal(question.choices.length, 4);

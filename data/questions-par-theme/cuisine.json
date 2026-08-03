@@ -878,5 +878,245 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-001",
+    "question": "Quel fromage utilise-t-on traditionnellement dans une tartiflette ?",
+    "choices": [
+      "Le comté",
+      "Le cantal",
+      "Le munster",
+      "Le reblochon"
+    ],
+    "answer": 3,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-002",
+    "question": "Quel ingrédient donne sa couleur violette à une tarte amandine aux myrtilles ?",
+    "choices": [
+      "La myrtille",
+      "La mûre",
+      "Le cassis",
+      "La prune"
+    ],
+    "answer": 0,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-003",
+    "question": "Quelle pâte sert traditionnellement de base à une quiche lorraine ?",
+    "choices": [
+      "Une pâte phyllo",
+      "Une pâte brisée",
+      "Une pâte à choux",
+      "Une pâte sablée"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-004",
+    "question": "Quel morceau de bœuf est traditionnellement utilisé pour un pot-au-feu ?",
+    "choices": [
+      "L’onglet",
+      "La bavette",
+      "Le gîte",
+      "Le filet"
+    ],
+    "answer": 2,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-005",
+    "question": "Quel condiment japonais vert accompagne souvent les sushis ?",
+    "choices": [
+      "Le miso",
+      "Le mirin",
+      "Le ponzu",
+      "Le wasabi"
+    ],
+    "answer": 3,
+    "category": "Cuisine",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-006",
+    "question": "Quelle céréale constitue la base de la polenta ?",
+    "choices": [
+      "Le maïs",
+      "Le blé",
+      "Le seigle",
+      "L’orge"
+    ],
+    "answer": 0,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-007",
+    "question": "Quel dessert italien signifie littéralement « tire-moi vers le haut » ?",
+    "choices": [
+      "Le zabaglione",
+      "Le tiramisu",
+      "La panna cotta",
+      "Le cannolo"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-008",
+    "question": "Quel légume est l’ingrédient principal du caviar d’aubergine ?",
+    "choices": [
+      "Le poivron",
+      "L’artichaut",
+      "L’aubergine",
+      "La courgette"
+    ],
+    "answer": 2,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-009",
+    "question": "Quelle sauce accompagne classiquement les œufs Bénédicte ?",
+    "choices": [
+      "La sauce béarnaise",
+      "La sauce gribiche",
+      "La sauce mornay",
+      "La sauce hollandaise"
+    ],
+    "answer": 3,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-010",
+    "question": "Comment appelle-t-on la cuisson lente d’un aliment dans sa graisse ?",
+    "choices": [
+      "Confire",
+      "Poêler",
+      "Saisir",
+      "Blanchir"
+    ],
+    "answer": 0,
+    "category": "Cuisine",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-011",
+    "question": "Quel fruit sec entre dans la préparation traditionnelle du pesto génois ?",
+    "choices": [
+      "La pistache",
+      "Le pignon de pin",
+      "La noix de cajou",
+      "La noisette"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-012",
+    "question": "Quel alcool parfume traditionnellement les crêpes Suzette ?",
+    "choices": [
+      "Le calvados",
+      "Le kirsch",
+      "Le Grand Marnier",
+      "Le cognac"
+    ],
+    "answer": 2,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-013",
+    "question": "Quelle soupe froide espagnole est préparée avec des tomates ?",
+    "choices": [
+      "Le salmorejo blanc",
+      "L’ajo blanco rouge",
+      "La zarzuela",
+      "Le gaspacho"
+    ],
+    "answer": 3,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-014",
+    "question": "Quel fromage italien trouve-t-on au cœur d’une burrata ?",
+    "choices": [
+      "La stracciatella",
+      "Le parmesan",
+      "Le gorgonzola",
+      "Le pecorino"
+    ],
+    "answer": 0,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-cuisine-015",
+    "question": "Quel terme désigne des pâtes cuites encore légèrement fermes ?",
+    "choices": [
+      "Affumicato",
+      "Al dente",
+      "Al forno",
+      "Alla panna"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

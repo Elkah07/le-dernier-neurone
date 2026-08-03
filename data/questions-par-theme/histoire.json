@@ -638,5 +638,197 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "filtre-strict-v12",
     "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-003",
+    "question": "En quelle année la chute du mur de Berlin a-t-elle eu lieu ?",
+    "choices": [
+      "1993",
+      "1989",
+      "1987",
+      "1991"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-005",
+    "question": "Quelle héroïne française a été brûlée à Rouen en 1431 ?",
+    "choices": [
+      "Aliénor d’Aquitaine",
+      "Olympe de Gouges",
+      "Charlotte Corday",
+      "Jeanne d’Arc"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-006",
+    "question": "Quel empire avait Constantinople pour capitale ?",
+    "choices": [
+      "L’Empire byzantin",
+      "L’Empire carolingien",
+      "L’Empire perse",
+      "L’Empire aztèque"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-007",
+    "question": "Quelle prison parisienne est prise le 14 juillet 1789 ?",
+    "choices": [
+      "Le Temple",
+      "La Bastille",
+      "La Conciergerie",
+      "La Santé"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-008",
+    "question": "Quel président américain a aboli l’esclavage aux États-Unis pendant la guerre de Sécession ?",
+    "choices": [
+      "Thomas Jefferson",
+      "Theodore Roosevelt",
+      "Abraham Lincoln",
+      "George Washington"
+    ],
+    "answer": 2,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-009",
+    "question": "Quel peuple antique utilisait des hiéroglyphes sur les rives du Nil ?",
+    "choices": [
+      "Les Phéniciens",
+      "Les Sumériens",
+      "Les Hittites",
+      "Les Égyptiens"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-010",
+    "question": "Quel événement déclenche directement la Première Guerre mondiale ?",
+    "choices": [
+      "L’assassinat de l’archiduc François-Ferdinand",
+      "Le naufrage du Titanic",
+      "La révolution russe",
+      "La crise de Suez"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-011",
+    "question": "Quelle ville japonaise subit la première bombe atomique utilisée en guerre ?",
+    "choices": [
+      "Kyoto",
+      "Hiroshima",
+      "Nagasaki",
+      "Tokyo"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-012",
+    "question": "Quel général romain franchit le Rubicon en 49 av. J.-C. ?",
+    "choices": [
+      "Marc Antoine",
+      "Scipion",
+      "Jules César",
+      "Pompée"
+    ],
+    "answer": 2,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-013",
+    "question": "Quel document anglais de 1215 limite le pouvoir du roi ?",
+    "choices": [
+      "Le Domesday Book",
+      "L’Habeas Corpus",
+      "Le Bill of Rights",
+      "La Magna Carta"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-014",
+    "question": "Quelle dynastie régnait en France juste avant la Révolution de 1789 ?",
+    "choices": [
+      "Les Bourbons",
+      "Les Valois",
+      "Les Carolingiens",
+      "Les Mérovingiens"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-histoire-015",
+    "question": "Quel chef gaulois affronte Jules César à Alésia ?",
+    "choices": [
+      "Diviciacos",
+      "Vercingétorix",
+      "Brennus",
+      "Ambiorix"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

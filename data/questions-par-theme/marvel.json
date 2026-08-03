@@ -542,5 +542,245 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-001",
+    "question": "Quel est le vrai nom d’Iron Man ?",
+    "choices": [
+      "Steve Rogers",
+      "Clint Barton",
+      "Stephen Strange",
+      "Tony Stark"
+    ],
+    "answer": 3,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-002",
+    "question": "Quel héros Marvel est surnommé le Dieu du Tonnerre ?",
+    "choices": [
+      "Thor",
+      "Loki",
+      "Odin",
+      "Hercule"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-003",
+    "question": "Quelle héroïne peut manipuler la magie du chaos ?",
+    "choices": [
+      "Jennifer Walters",
+      "Wanda Maximoff",
+      "Carol Danvers",
+      "Hope van Dyne"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-004",
+    "question": "Quel membre des Gardiens de la Galaxie est un raton laveur génétiquement modifié ?",
+    "choices": [
+      "Drax",
+      "Cosmo",
+      "Rocket",
+      "Groot"
+    ],
+    "answer": 2,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-005",
+    "question": "Quel est le vrai nom de Spider-Man dans le MCU principal ?",
+    "choices": [
+      "Miles Morales",
+      "Ben Reilly",
+      "Miguel O’Hara",
+      "Peter Parker"
+    ],
+    "answer": 3,
+    "category": "Marvel",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-006",
+    "question": "Quel Avenger utilise principalement un arc et des flèches ?",
+    "choices": [
+      "Hawkeye",
+      "Falcon",
+      "War Machine",
+      "Ant-Man"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-007",
+    "question": "Dans le MCU, quel objet permet à Doctor Strange de manipuler le temps ?",
+    "choices": [
+      "La Lance de Gungnir",
+      "L’Œil d’Agamotto",
+      "Le Tesseract",
+      "Le Darkhold"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-008",
+    "question": "Quel personnage devient Hulk lorsqu’il perd le contrôle ?",
+    "choices": [
+      "Samuel Sterns",
+      "Thunderbolt Ross",
+      "Bruce Banner",
+      "Emil Blonsky"
+    ],
+    "answer": 2,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-009",
+    "question": "Quel métal fictif est lié au squelette de Wolverine ?",
+    "choices": [
+      "Le vibranium",
+      "L’uru",
+      "Le carbonadium",
+      "L’adamantium"
+    ],
+    "answer": 3,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-010",
+    "question": "Quelle organisation d’espionnage est dirigée par Nick Fury ?",
+    "choices": [
+      "Le S.H.I.E.L.D.",
+      "Hydra",
+      "A.I.M.",
+      "Le S.W.O.R.D."
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-011",
+    "question": "Quel méchant de Spider-Man utilise des bras mécaniques ?",
+    "choices": [
+      "Kraven",
+      "Doctor Octopus",
+      "Le Vautour",
+      "Mysterio"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-012",
+    "question": "Quel héros aveugle protège principalement Hell’s Kitchen ?",
+    "choices": [
+      "Punisher",
+      "Iron Fist",
+      "Daredevil",
+      "Moon Knight"
+    ],
+    "answer": 2,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-013",
+    "question": "Quel est le nom de la sœur de T’Challa ?",
+    "choices": [
+      "Okoye",
+      "Nakia",
+      "Ramonda",
+      "Shuri"
+    ],
+    "answer": 3,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-014",
+    "question": "Quelle Pierre d’Infinité est enfermée dans le Tesseract ?",
+    "choices": [
+      "La Pierre de l’Espace",
+      "La Pierre du Pouvoir",
+      "La Pierre de l’Âme",
+      "La Pierre du Temps"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-marvel-015",
+    "question": "Quel personnage Marvel est aussi appelé le Soldat de l’Hiver ?",
+    "choices": [
+      "Red Guardian",
+      "Bucky Barnes",
+      "Sam Wilson",
+      "John Walker"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

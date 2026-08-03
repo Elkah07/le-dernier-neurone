@@ -1310,5 +1310,213 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "filtre-strict-v12",
     "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-001",
+    "question": "Dans Game of Thrones, quelle famille a pour devise « L’hiver vient » ?",
+    "choices": [
+      "Les Lannister",
+      "Les Targaryen",
+      "Les Baratheon",
+      "Les Stark"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-002",
+    "question": "Dans The Office US, qui dirige la branche de Scranton au début de la série ?",
+    "choices": [
+      "Michael Scott",
+      "Jim Halpert",
+      "Dwight Schrute",
+      "David Wallace"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-003",
+    "question": "Quelle série suit un professeur devenu fabricant de méthamphétamine ?",
+    "choices": [
+      "Better Call Saul",
+      "Breaking Bad",
+      "Ozark",
+      "Narcos"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-004",
+    "question": "Dans Wednesday, dans quelle école Mercredi est-elle envoyée ?",
+    "choices": [
+      "Blackwell",
+      "Hawkins High",
+      "Nevermore Academy",
+      "Ravenwood"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-005",
+    "question": "Quel personnage de Friends travaille comme chef cuisinière ?",
+    "choices": [
+      "Rachel",
+      "Phoebe",
+      "Janice",
+      "Monica"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-007",
+    "question": "Quelle série française raconte les coulisses d’une agence de comédiens ?",
+    "choices": [
+      "Family Business",
+      "Dix pour cent",
+      "Drôle",
+      "Plan cœur"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-008",
+    "question": "Dans Peaky Blinders, quel est le prénom du chef de la famille Shelby ?",
+    "choices": [
+      "John",
+      "Finn",
+      "Thomas",
+      "Arthur"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-009",
+    "question": "Quelle série met en scène le tueur en série Dexter Morgan ?",
+    "choices": [
+      "Mindhunter",
+      "Hannibal",
+      "You",
+      "Dexter"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-011",
+    "question": "Quelle série d’animation suit la famille Simpson à Springfield ?",
+    "choices": [
+      "American Dad!",
+      "Les Simpson",
+      "Futurama",
+      "South Park"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-012",
+    "question": "Dans Lupin, quel acteur incarne Assane Diop ?",
+    "choices": [
+      "Reda Kateb",
+      "Roschdy Zem",
+      "Omar Sy",
+      "Tahar Rahim"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-013",
+    "question": "Quel groupe d’amis fréquente le Central Perk ?",
+    "choices": [
+      "Les héros de How I Met Your Mother",
+      "Les héros de Seinfeld",
+      "Les héros de New Girl",
+      "Les héros de Friends"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-014",
+    "question": "Dans La Casa de Papel, qui organise le premier braquage ?",
+    "choices": [
+      "Le Professeur",
+      "Berlin",
+      "Palermo",
+      "Denver"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-netflix-series-015",
+    "question": "Quelle série suit la famille royale britannique au fil des règnes d’Élisabeth II ?",
+    "choices": [
+      "The Royals",
+      "The Crown",
+      "Victoria",
+      "The Tudors"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

@@ -1854,5 +1854,245 @@
     "origin": "Enrichissement transversal V11",
     "review": "editorial-2026-08",
     "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-001",
+    "question": "Quelle planète est la plus proche du Soleil ?",
+    "choices": [
+      "Vénus",
+      "Mars",
+      "La Terre",
+      "Mercure"
+    ],
+    "answer": 3,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-002",
+    "question": "Quel organe humain pompe le sang dans le corps ?",
+    "choices": [
+      "Le cœur",
+      "Le foie",
+      "Le poumon",
+      "Le rein"
+    ],
+    "answer": 0,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-003",
+    "question": "Quel est le symbole chimique du sodium ?",
+    "choices": [
+      "Sn",
+      "Na",
+      "So",
+      "S"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-004",
+    "question": "Comment appelle-t-on un animal qui se nourrit uniquement de végétaux ?",
+    "choices": [
+      "Un omnivore",
+      "Un détritivore",
+      "Un herbivore",
+      "Un carnivore"
+    ],
+    "answer": 2,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-005",
+    "question": "Quelle partie de la cellule contient généralement l’ADN ?",
+    "choices": [
+      "La membrane",
+      "Le cytoplasme",
+      "Le ribosome",
+      "Le noyau"
+    ],
+    "answer": 3,
+    "category": "Sciences",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-006",
+    "question": "Quel phénomène décompose la lumière blanche en couleurs ?",
+    "choices": [
+      "La dispersion",
+      "La conduction",
+      "La diffraction sonore",
+      "La gravitation"
+    ],
+    "answer": 0,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-007",
+    "question": "Combien de paires de chromosomes possède normalement l’être humain ?",
+    "choices": [
+      "46",
+      "23",
+      "22",
+      "24"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-008",
+    "question": "Quelle unité mesure l’intensité du courant électrique ?",
+    "choices": [
+      "Le watt",
+      "L’ohm",
+      "L’ampère",
+      "Le volt"
+    ],
+    "answer": 2,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-009",
+    "question": "Quel gaz est majoritaire dans l’atmosphère terrestre ?",
+    "choices": [
+      "L’oxygène",
+      "Le dioxyde de carbone",
+      "L’argon",
+      "L’azote"
+    ],
+    "answer": 3,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-010",
+    "question": "Comment appelle-t-on le changement de l’état liquide à l’état gazeux ?",
+    "choices": [
+      "La vaporisation",
+      "La fusion",
+      "La solidification",
+      "La condensation"
+    ],
+    "answer": 0,
+    "category": "Sciences",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-011",
+    "question": "Quel os protège principalement le cerveau ?",
+    "choices": [
+      "L’omoplate",
+      "Le crâne",
+      "Le sternum",
+      "Le bassin"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-012",
+    "question": "Quelle vitamine est synthétisée par la peau sous l’effet du soleil ?",
+    "choices": [
+      "La vitamine B12",
+      "La vitamine K",
+      "La vitamine D",
+      "La vitamine C"
+    ],
+    "answer": 2,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-013",
+    "question": "Quel scientifique est associé à la théorie de la relativité ?",
+    "choices": [
+      "Niels Bohr",
+      "Louis Pasteur",
+      "Gregor Mendel",
+      "Albert Einstein"
+    ],
+    "answer": 3,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-014",
+    "question": "Quel animal passe par un stade de têtard ?",
+    "choices": [
+      "La grenouille",
+      "Le lézard",
+      "La tortue",
+      "La salamandre adulte uniquement"
+    ],
+    "answer": 0,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v13-sciences-015",
+    "question": "Quelle couche de la Terre est liquide et entoure la graine solide ?",
+    "choices": [
+      "La lithosphère",
+      "Le noyau externe",
+      "Le manteau supérieur",
+      "La croûte"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "hard",
+    "origin": "Enrichissement V13",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

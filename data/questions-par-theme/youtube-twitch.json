@@ -350,5 +350,405 @@
     "origin": "Le Dernier Neurone",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-001",
+    "question": "Quelle créatrice française est connue pour publier les « Vlogs d'août » ?",
+    "choices": [
+      "EnjoyPhoenix",
+      "Léna Situations",
+      "Sananas",
+      "Juju Fitcats"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-002",
+    "question": "Quel est le nom de famille de Léna Situations ?",
+    "choices": [
+      "Mahfouf",
+      "Mourad",
+      "Mansour",
+      "Mahdi"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-003",
+    "question": "Quel slogan Léna Situations a-t-elle popularisé ?",
+    "choices": [
+      "Toujours plus",
+      "Le positif attire le positif",
+      "Rien n'est impossible",
+      "La vie est belle"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-004",
+    "question": "Quel vidéaste français est à l'origine des vidéos « Ce mec » et « Norman fait des vidéos » ?",
+    "choices": [
+      "Cyprien",
+      "Norman",
+      "Hugo Tout Seul",
+      "Mister V"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-005",
+    "question": "Quel créateur a lancé la série de courts-métrages « Les Dissociés » avec le collectif Suricate ?",
+    "choices": [
+      "Natoo",
+      "Raphaël Descraques",
+      "Amixem",
+      "McFly"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-006",
+    "question": "Quel duo de vidéastes est formé par David Coscas et Raphaël Carlier ?",
+    "choices": [
+      "McFly et Carlito",
+      "Vilebrequin",
+      "Le Rire Jaune",
+      "Palmashow"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-007",
+    "question": "Quels créateurs se cachent derrière le duo Vilebrequin ?",
+    "choices": [
+      "Sylvain Levy et Pierre Chabrier",
+      "Grégoire Ludig et David Marsais",
+      "Kevin Tran et Henry Tran",
+      "McFly et Carlito"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-008",
+    "question": "Quelle thématique a rendu la chaîne Vilebrequin célèbre ?",
+    "choices": [
+      "La cuisine",
+      "L'automobile",
+      "Le cinéma",
+      "Le football"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-009",
+    "question": "Quel créateur est connu pour ses vidéos scientifiques sur la chaîne e-penser ?",
+    "choices": [
+      "Bruce Benamran",
+      "David Louapre",
+      "Jamy Gourmaud",
+      "Étienne Klein"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-010",
+    "question": "Quel vidéaste anime la chaîne de vulgarisation historique Nota Bene ?",
+    "choices": [
+      "Benjamin Brillaud",
+      "Manon Bril",
+      "Charlie Danger",
+      "Romain Filstroff"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-011",
+    "question": "Quelle créatrice anime la chaîne d'histoire « C'est une autre histoire » ?",
+    "choices": [
+      "Charlie Danger",
+      "Manon Bril",
+      "Marion Seclin",
+      "Natoo"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-012",
+    "question": "Quel vidéaste se cache derrière la chaîne de linguistique Linguisticae ?",
+    "choices": [
+      "Romain Filstroff",
+      "Benjamin Brillaud",
+      "François Descraques",
+      "Bruce Benamran"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-013",
+    "question": "Quel streamer français organise le marathon caritatif Z Event ?",
+    "choices": [
+      "Squeezie",
+      "ZeratoR",
+      "Domingo",
+      "Kameto"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-014",
+    "question": "Quelle cause le Z Event soutient-il principalement ?",
+    "choices": [
+      "Des associations caritatives",
+      "Des clubs d'esport",
+      "Des studios de jeux vidéo",
+      "Des chaînes de télévision"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-015",
+    "question": "Quel streamer est le cofondateur de la structure esport Karmine Corp avec Prime ?",
+    "choices": [
+      "Kameto",
+      "Gotaga",
+      "ZeratoR",
+      "Domingo"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-016",
+    "question": "Quel ancien joueur professionnel de Call of Duty est surnommé le « French Monster » ?",
+    "choices": [
+      "Gotaga",
+      "Doigby",
+      "ChowH1",
+      "Mister MV"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-017",
+    "question": "Quel streamer français est particulièrement associé aux jeux Nintendo et au speedrun ?",
+    "choices": [
+      "Mister MV",
+      "Inoxtag",
+      "Michou",
+      "AmineMaTue"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-018",
+    "question": "Quel créateur a réalisé le documentaire « Kaizen » consacré à son ascension de l'Everest ?",
+    "choices": [
+      "Inoxtag",
+      "Tibo InShape",
+      "Squeezie",
+      "Amixem"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-019",
+    "question": "Quel vidéaste français est connu pour le concept « Qui est l'imposteur ? » avec des invités ?",
+    "choices": [
+      "Squeezie",
+      "Cyprien",
+      "Mastu",
+      "Joyca"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-020",
+    "question": "Quel créateur organise le GP Explorer, une course de Formule 4 réunissant des personnalités d'Internet ?",
+    "choices": [
+      "Squeezie",
+      "ZeratoR",
+      "Amixem",
+      "Seb"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-021",
+    "question": "Quel duo a chanté « Je scrolle » et réalisé de nombreuses vidéos avec Pierre Niney ?",
+    "choices": [
+      "McFly et Carlito",
+      "Bigflo et Oli",
+      "Éric et Ramzy",
+      "Le Palmashow"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-022",
+    "question": "Quelle vidéaste française a commencé avec des contenus beauté sous le nom EnjoyPhoenix ?",
+    "choices": [
+      "Marie Lopez",
+      "Natoo",
+      "Léna Mahfouf",
+      "Shera Kerienski"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-023",
+    "question": "Quel créateur est connu pour ses expériences et constructions réalisées avec son équipe dans un grand hangar ?",
+    "choices": [
+      "Amixem",
+      "Mastu",
+      "Joyca",
+      "LeBouseuh"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-024",
+    "question": "Quel créateur, ami d'Amixem, mêle régulièrement musique, humour et expériences sonores ?",
+    "choices": [
+      "Joyca",
+      "Mastu",
+      "Theodort",
+      "Seb"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-web-025",
+    "question": "Quel vidéaste est connu pour ses vidéos narratives sur la musique, Internet et la culture pop sous le simple nom « SEB » ?",
+    "choices": [
+      "Sébastien Frit",
+      "Sébastien Cauet",
+      "Sébastien Marx",
+      "Sébastien Folin"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
   }
 ]

@@ -318,5 +318,405 @@
     "origin": "Le Dernier Neurone",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-001",
+    "question": "Quelle candidate de téléréalité est associée à l'expression « Il faut sachez que » ?",
+    "choices": [
+      "Nabilla Benattia",
+      "Amélie Neten",
+      "Loana Petrucciani",
+      "Milla Jasmine"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-002",
+    "question": "Quelle candidate a rendu célèbre la phrase « Non mais allô quoi ! » ?",
+    "choices": [
+      "Ayem Nour",
+      "Nabilla Benattia",
+      "Caroline Receveur",
+      "Capucine Anav"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-003",
+    "question": "Dans quelle émission Nabilla a-t-elle prononcé « Non mais allô quoi ! » ?",
+    "choices": [
+      "Secret Story",
+      "Les Anges de la téléréalité",
+      "Les Marseillais",
+      "La Villa des cœurs brisés"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-004",
+    "question": "Qui a remporté la première saison française de Loft Story en 2001 avec Christophe ?",
+    "choices": [
+      "Loana",
+      "Laure",
+      "Julie",
+      "Kenza"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-005",
+    "question": "Quel candidat de Loft Story est ensuite devenu chroniqueur télé et homme politique ?",
+    "choices": [
+      "Jean-Édouard Lipa",
+      "Steevy Boulay",
+      "Aziz Essayed",
+      "David Borrelli"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-006",
+    "question": "Quel duo s'est fait remarquer dans une piscine durant la première saison de Loft Story ?",
+    "choices": [
+      "Loana et Jean-Édouard",
+      "Laure et Fabrice",
+      "Steevy et Kenza",
+      "Julie et Christophe"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-007",
+    "question": "Quel animateur a présenté les premières saisons de Secret Story ?",
+    "choices": [
+      "Benjamin Castaldi",
+      "Christophe Dechavanne",
+      "Arthur",
+      "Nikos Aliagas"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-008",
+    "question": "Quelle voix invisible donne les missions aux candidats de Secret Story ?",
+    "choices": [
+      "Le Maître",
+      "La Voix",
+      "Le Patron",
+      "Le Gardien"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-009",
+    "question": "Quel était le secret de Daniela Martins dans Secret Story 3 ?",
+    "choices": [
+      "Elle avait été la maîtresse d'un Ballon d'or",
+      "Elle était millionnaire",
+      "Elle avait survécu à un tsunami",
+      "Elle était une ancienne Miss France"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-010",
+    "question": "Qui a remporté Secret Story 3 en 2009 ?",
+    "choices": [
+      "Émilie Nef Naf",
+      "Jonathan Canivez",
+      "François-Xavier Leuridan",
+      "Cindy Lopes"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-011",
+    "question": "Quelle candidate belge, connue pour son caractère explosif, a participé à Secret Story 4 puis aux Anges ?",
+    "choices": [
+      "Amélie Neten",
+      "Coralie Porrovecchio",
+      "Aurélie Van Daelen",
+      "Tatiana-Laurence"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-012",
+    "question": "Quel programme a suivi Nabilla et sa famille dans leur quotidien ?",
+    "choices": [
+      "Allô Nabilla",
+      "Nabilla sans filtre",
+      "La Famille Benattia",
+      "Chez Nabilla"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-013",
+    "question": "Quel groupe de candidats est au cœur de l'émission lancée en 2012 sur W9 ?",
+    "choices": [
+      "Les Ch'tis",
+      "Les Marseillais",
+      "Les Anges",
+      "La JLC Family"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-014",
+    "question": "Quel candidat est connu comme une figure historique des Marseillais aux côtés de Jessica Thivenin ?",
+    "choices": [
+      "Julien Tanti",
+      "Benoît Dubois",
+      "Thomas Vergara",
+      "Eddy Ben Youssef"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-015",
+    "question": "Quel surnom Julien Tanti donne-t-il souvent à ses amis dans Les Marseillais ?",
+    "choices": [
+      "Les fratés",
+      "Les sangs",
+      "Les collègues",
+      "Les champions"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-016",
+    "question": "Quel programme réunissait d'anciens candidats de téléréalité autour d'un projet professionnel à l'étranger ?",
+    "choices": [
+      "Les Anges de la téléréalité",
+      "Les Apprentis Aventuriers",
+      "Les Cinquante",
+      "La Bataille des couples"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-017",
+    "question": "Quel parrain emblématique accueillait les candidats des Anges à Miami ?",
+    "choices": [
+      "Fabrice Sopoglian",
+      "Luc Besson",
+      "Moundir Zoughari",
+      "Alex Goude"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-018",
+    "question": "Quelle émission de téléréalité mettait des couples à l'épreuve sur une île entourés de célibataires ?",
+    "choices": [
+      "L'Île de la tentation",
+      "Love Island",
+      "Bachelor",
+      "La Villa des cœurs brisés"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-019",
+    "question": "Dans quelle émission un homme célibataire offre-t-il traditionnellement des roses aux prétendantes ?",
+    "choices": [
+      "Bachelor",
+      "Mariés au premier regard",
+      "Les Princes de l'amour",
+      "L'amour est aveugle"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-020",
+    "question": "Quelle émission forme des couples selon leur compatibilité scientifique avant leur rencontre à la mairie ?",
+    "choices": [
+      "Mariés au premier regard",
+      "L'amour est dans le pré",
+      "Love Island",
+      "Et si on se rencontrait ?"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-021",
+    "question": "Quel ancien candidat de Koh-Lanta est devenu l'animateur emblématique de Moundir et les Apprentis Aventuriers ?",
+    "choices": [
+      "Claude Dartois",
+      "Moundir Zoughari",
+      "Teheiura Teahui",
+      "Laurent Maistret"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-022",
+    "question": "Quelle émission de W9 oppose des binômes de candidats dans des épreuves de survie sur une plage ?",
+    "choices": [
+      "Les Apprentis Aventuriers",
+      "Les Cinquante",
+      "Objectif : Reste du Monde",
+      "Le Cross"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-023",
+    "question": "Quelle émission réunit des candidats dans le château de Bertichères sous l'autorité d'un mystérieux Lion ?",
+    "choices": [
+      "Les Traîtres",
+      "Les Cinquante",
+      "Dilemme",
+      "La Bataille des couples"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-024",
+    "question": "Sur quelle chaîne Nice People était-elle diffusée en 2003 ?",
+    "choices": [
+      "TF1",
+      "M6",
+      "France 2",
+      "W9"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-tv-025",
+    "question": "Quelle émission de 2010 enfermait deux équipes dans un cube séparé en deux camps ?",
+    "choices": [
+      "Carré ViiiP",
+      "Dilemme",
+      "Les Colocataires",
+      "La Ferme Célébrités"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
   }
 ]

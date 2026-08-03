@@ -990,5 +990,405 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "pop00-001",
+    "question": "Quel service permettait de créer un blog très populaire chez les adolescents français des années 2000 ?",
+    "choices": [
+      "Skyblog",
+      "Dailymotion",
+      "Caramail",
+      "Kazaa"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-002",
+    "question": "À quelle radio française la plateforme Skyblog était-elle liée ?",
+    "choices": [
+      "NRJ",
+      "Fun Radio",
+      "Skyrock",
+      "Virgin Radio"
+    ],
+    "answer": 2,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-003",
+    "question": "En quelle année Skyblog a-t-il été lancé ?",
+    "choices": [
+      "1998",
+      "2000",
+      "2002",
+      "2005"
+    ],
+    "answer": 2,
+    "category": "Années 90/2000",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-004",
+    "question": "Comment appelait-on les petits messages laissés sous les articles d'un Skyblog ?",
+    "choices": [
+      "Des snaps",
+      "Des commentaires",
+      "Des tweets",
+      "Des stories"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-005",
+    "question": "Quel logiciel de messagerie instantanée était célèbre pour ses wizz dans les années 2000 ?",
+    "choices": [
+      "ICQ",
+      "MSN Messenger",
+      "Skype",
+      "Teamspeak"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-006",
+    "question": "À quoi servait le bouton « Wizz » sur MSN Messenger ?",
+    "choices": [
+      "À envoyer un fichier",
+      "À faire vibrer la fenêtre du contact",
+      "À passer hors ligne",
+      "À changer de pseudonyme"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-007",
+    "question": "Quel réseau social permettait de classer ses amis dans un célèbre « Top 8 » ?",
+    "choices": [
+      "MySpace",
+      "Facebook",
+      "Copains d'avant",
+      "Skyblog"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-008",
+    "question": "Quel baladeur numérique d'Apple, lancé en 2001, a marqué les années 2000 ?",
+    "choices": [
+      "Le Walkman",
+      "Le Discman",
+      "L'iPod",
+      "Le MiniDisc"
+    ],
+    "answer": 2,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-009",
+    "question": "Quel téléphone Nokia était réputé presque indestructible au début des années 2000 ?",
+    "choices": [
+      "Le 3310",
+      "Le 7650",
+      "Le N-Gage",
+      "Le 8110"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-010",
+    "question": "Quel jeu était préinstallé sur de nombreux téléphones Nokia ?",
+    "choices": [
+      "Tetris",
+      "Snake",
+      "Pac-Man",
+      "Pong"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-011",
+    "question": "Quel animal virtuel fallait-il nourrir et soigner dans un petit boîtier des années 1990 ?",
+    "choices": [
+      "Un Furby",
+      "Un Tamagotchi",
+      "Un Pokémon",
+      "Un Kiki"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-012",
+    "question": "Quel jouet électronique à fourrure parlait et bougeait les oreilles à la fin des années 1990 ?",
+    "choices": [
+      "Furby",
+      "Tamagotchi",
+      "Polly Pocket",
+      "Game Boy"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-013",
+    "question": "Quel support Sony permettait d'écouter de la musique sur de petits disques réinscriptibles ?",
+    "choices": [
+      "Le LaserDisc",
+      "Le MiniDisc",
+      "Le Blu-ray",
+      "Le DAT"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-014",
+    "question": "Quel logiciel était massivement utilisé pour télécharger et partager de la musique au début des années 2000 ?",
+    "choices": [
+      "Winamp",
+      "Napster",
+      "Paint",
+      "Nero"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-015",
+    "question": "Quel lecteur multimédia était connu pour ses skins et son slogan « It really whips the llama's ass » ?",
+    "choices": [
+      "QuickTime",
+      "RealPlayer",
+      "Winamp",
+      "Windows Media Center"
+    ],
+    "answer": 2,
+    "category": "Années 90/2000",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-016",
+    "question": "Quel site français lancé en 2005 s'est fait connaître par le partage de vidéos en ligne ?",
+    "choices": [
+      "Dailymotion",
+      "Deezer",
+      "Allociné",
+      "Viadeo"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-017",
+    "question": "Quel réseau social français aidait notamment à retrouver d'anciens camarades de classe ?",
+    "choices": [
+      "Copains d'avant",
+      "MySpace",
+      "Habbo",
+      "Bebo"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-018",
+    "question": "Quel navigateur était fourni avec Windows et dominait le Web au début des années 2000 ?",
+    "choices": [
+      "Safari",
+      "Opera",
+      "Internet Explorer",
+      "Firefox"
+    ],
+    "answer": 2,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-019",
+    "question": "Quel moteur de recherche français était symbolisé par une araignée ?",
+    "choices": [
+      "Voila",
+      "Lycos",
+      "Exalead",
+      "Nomade"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-020",
+    "question": "Quel magazine dérivé d'une émission de M6 suivait l'actualité des stars pour les adolescents ?",
+    "choices": [
+      "Fan 2",
+      "Star Club",
+      "Salut !",
+      "Hit Machine Girl"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-021",
+    "question": "Quel appareil photo instantané jetable emportait-on souvent en voyage avant les smartphones ?",
+    "choices": [
+      "Un caméscope MiniDV",
+      "Un appareil jetable",
+      "Un Polaroid numérique",
+      "Un reflex hybride"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-022",
+    "question": "Quel format de sonnerie consistait à faire jouer une véritable chanson sur un téléphone ?",
+    "choices": [
+      "La sonnerie monophonique",
+      "Le répondeur vocal",
+      "Le realtone",
+      "Le code PIN"
+    ],
+    "answer": 2,
+    "category": "Années 90/2000",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-023",
+    "question": "Quel service de téléphonie permettait d'acheter des logos et sonneries par SMS surtaxé ?",
+    "choices": [
+      "Les services SMS premium",
+      "Le Bluetooth",
+      "Le WAP gratuit",
+      "L'infrarouge"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-024",
+    "question": "Quel jeu de danse sur tapis a connu un grand succès dans les salles d'arcade des années 2000 ?",
+    "choices": [
+      "SingStar",
+      "Dance Dance Revolution",
+      "Guitar Hero",
+      "EyeToy Play"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop00-025",
+    "question": "Quel accessoire de la PlayStation 2 utilisait une caméra pour faire jouer le corps du joueur ?",
+    "choices": [
+      "Le Kinect",
+      "L'EyeToy",
+      "Le Wii Balance Board",
+      "Le PlayStation Move"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
   }
 ]

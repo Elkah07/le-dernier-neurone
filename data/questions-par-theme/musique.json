@@ -2878,5 +2878,405 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-001",
+    "question": "Quelle chanteuse de R&B a remporté Popstars en 2007 ?",
+    "choices": [
+      "Sheryfa Luna",
+      "Vitaa",
+      "Amel Bent",
+      "Kenza Farah"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-002",
+    "question": "Quel est le titre du premier grand succès de Sheryfa Luna sorti en 2007 ?",
+    "choices": [
+      "Il avait les mots",
+      "Quelque part",
+      "D'ici et d'ailleurs",
+      "Comme avant"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-003",
+    "question": "Dans quelle chanson Sheryfa Luna découvre-t-elle que l'homme qu'elle aime est marié ?",
+    "choices": [
+      "Quelque part",
+      "Il avait les mots",
+      "Si tu n'étais plus là",
+      "Tu me manques"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-004",
+    "question": "Avec quel chanteur Sheryfa Luna interprète-t-elle le duo « Comme avant » ?",
+    "choices": [
+      "Mathieu Edward",
+      "Singuila",
+      "Matt Houston",
+      "Soprano"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-005",
+    "question": "Quelle chanteuse interprète « Je me bats » et « Lettre du front » ?",
+    "choices": [
+      "Kenza Farah",
+      "Vitaa",
+      "Sheryfa Luna",
+      "Wallén"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-006",
+    "question": "Quel rappeur chante avec Kenza Farah sur « Lettre du front » ?",
+    "choices": [
+      "Sefyu",
+      "Rohff",
+      "Kery James",
+      "Soprano"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-007",
+    "question": "Quelle chanteuse interprète « Ma philosophie » ?",
+    "choices": [
+      "Amel Bent",
+      "Chimène Badi",
+      "Diam's",
+      "Vitaa"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-008",
+    "question": "Dans quelle émission Amel Bent s'est-elle fait connaître en 2004 ?",
+    "choices": [
+      "Star Academy",
+      "Nouvelle Star",
+      "Popstars",
+      "Graines de star"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-009",
+    "question": "Quelle rappeuse accompagne Vitaa sur le titre « Confessions nocturnes » ?",
+    "choices": [
+      "Diam's",
+      "Keny Arkana",
+      "Casey",
+      "Chilla"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-010",
+    "question": "Quel chanteur interprète « Ma direction » avec le groupe Sexion d'Assaut ?",
+    "choices": [
+      "Gims",
+      "Black M",
+      "Lefa",
+      "Barack Adama"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-011",
+    "question": "Quel artiste interprète « C'est chelou » ?",
+    "choices": [
+      "Zaho",
+      "Vitaa",
+      "Shy'm",
+      "Amel Bent"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-012",
+    "question": "Quel chanteur interprète « Femme Like U » et « Sous l'œil de l'ange » ?",
+    "choices": [
+      "K-Maro",
+      "Rohff",
+      "Soprano",
+      "Matt Pokora"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-013",
+    "question": "Quel chanteur interprète « Elle me contrôle » avec la rappeuse Sweety ?",
+    "choices": [
+      "M. Pokora",
+      "K-Maro",
+      "Singuila",
+      "Willy Denzey"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-014",
+    "question": "De quel groupe M. Pokora faisait-il partie avant sa carrière solo ?",
+    "choices": [
+      "Linkup",
+      "Tragédie",
+      "2Be3",
+      "Poetic Lover"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-015",
+    "question": "Quel groupe a remporté Popstars en 2003 avec M. Pokora ?",
+    "choices": [
+      "Whatfor",
+      "Linkup",
+      "L5",
+      "Diadems"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-016",
+    "question": "Quel duo nantais interprète le tube « Hey Oh » ?",
+    "choices": [
+      "Tragédie",
+      "Tribal King",
+      "Organiz'",
+      "Ärsenik"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-017",
+    "question": "Quel groupe interprète « Façon Sex » en 2006 ?",
+    "choices": [
+      "Tribal King",
+      "Tragédie",
+      "Magic System",
+      "113"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-018",
+    "question": "Quel chanteur interprète « L'Orphelin » et « Le Mur du son » ?",
+    "choices": [
+      "Willy Denzey",
+      "Singuila",
+      "Corneille",
+      "M. Pokora"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-019",
+    "question": "Quel artiste interprète « Femme Like U » ?",
+    "choices": [
+      "K-Maro",
+      "Matt Houston",
+      "Nuttea",
+      "Stomy Bugsy"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-020",
+    "question": "Quelle chanteuse du groupe Tragédie accompagne K-Maro sur « Femme Like U » ?",
+    "choices": [
+      "Aucune, K-Maro chante ce titre en solo",
+      "Nâdiya",
+      "Vitaa",
+      "Leslie"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-021",
+    "question": "Quelle chanteuse interprète « Sobri (Notre destin) » avec Amine ?",
+    "choices": [
+      "Leslie",
+      "Lââm",
+      "Nâdiya",
+      "Assia"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-022",
+    "question": "Quel chanteur interprète « J'voulais » et « C'est trop » ?",
+    "choices": [
+      "Sully Sefil",
+      "Amine",
+      "Singuila",
+      "Jalane"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-023",
+    "question": "Quel groupe de rap français chante « Le bilan » en 2000 ?",
+    "choices": [
+      "Nèg' Marrons",
+      "Ärsenik",
+      "Ministère A.M.E.R.",
+      "113"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-024",
+    "question": "Quelle chanteuse interprète « Parle-moi » en 2000 ?",
+    "choices": [
+      "Isabelle Boulay",
+      "Lara Fabian",
+      "Hélène Ségara",
+      "Natasha St-Pier"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "pop-music-025",
+    "question": "Quel groupe féminin issu de Popstars interprète « Toutes les femmes de ta vie » ?",
+    "choices": [
+      "L5",
+      "Diadems",
+      "Whatfor",
+      "Les Déesses"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement culture pop française",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
   }
 ]

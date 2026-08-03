@@ -718,5 +718,165 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-cg-001",
+    "question": "Combien de couleurs comporte un Rubik’s Cube classique ?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-002",
+    "question": "Quel symbole typographique précède un hashtag ?",
+    "choices": [
+      "@",
+      "#",
+      "&",
+      "%"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-003",
+    "question": "Dans un jeu de cartes français, quelle figure se situe entre le valet et le roi ?",
+    "choices": [
+      "L’as",
+      "La dame",
+      "Le dix",
+      "Le joker"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-004",
+    "question": "Quel prix récompense chaque année un roman français ?",
+    "choices": [
+      "Le César",
+      "Le Goncourt",
+      "Le Molière",
+      "Le Pritzker"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-005",
+    "question": "Quelle couleur obtient-on en mélangeant du bleu et du jaune en peinture ?",
+    "choices": [
+      "Orange",
+      "Vert",
+      "Violet",
+      "Marron"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-006",
+    "question": "Quel instrument mesure la pression atmosphérique ?",
+    "choices": [
+      "Thermomètre",
+      "Baromètre",
+      "Hygromètre",
+      "Altimètre"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-007",
+    "question": "Quel alphabet tactile est utilisé par les personnes aveugles ou malvoyantes ?",
+    "choices": [
+      "Morse",
+      "Braille",
+      "Cyrillique",
+      "Sténographie"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-008",
+    "question": "Quel animal figure sur le logo du navigateur Firefox ?",
+    "choices": [
+      "Un renard",
+      "Un panda roux",
+      "Un loup",
+      "Un écureuil"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-009",
+    "question": "Quel jour vient immédiatement après le mardi gras dans le calendrier chrétien ?",
+    "choices": [
+      "Le Vendredi saint",
+      "Le mercredi des Cendres",
+      "Le dimanche des Rameaux",
+      "Le lundi de Pâques"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-010",
+    "question": "Quel mot désigne la peur des espaces clos ?",
+    "choices": [
+      "Agoraphobie",
+      "Claustrophobie",
+      "Acrophobie",
+      "Nyctophobie"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

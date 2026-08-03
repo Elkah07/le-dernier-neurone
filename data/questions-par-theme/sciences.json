@@ -1694,5 +1694,165 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-sci-001",
+    "question": "Quelle planète est surnommée la planète rouge ?",
+    "choices": [
+      "Vénus",
+      "Mars",
+      "Jupiter",
+      "Mercure"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-002",
+    "question": "Quel gaz les plantes absorbent-elles principalement pour la photosynthèse ?",
+    "choices": [
+      "Oxygène",
+      "Dioxyde de carbone",
+      "Azote",
+      "Hydrogène"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-003",
+    "question": "Combien de chromosomes possède normalement une cellule humaine non sexuelle ?",
+    "choices": [
+      "23",
+      "46",
+      "48",
+      "64"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-004",
+    "question": "Quel organe filtre le sang et produit l’urine ?",
+    "choices": [
+      "Le foie",
+      "Le rein",
+      "Le pancréas",
+      "La rate"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-005",
+    "question": "À quelle température l’eau pure gèle-t-elle à pression normale ?",
+    "choices": [
+      "-10 °C",
+      "0 °C",
+      "10 °C",
+      "32 °C"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-006",
+    "question": "Quelle force nous maintient au sol ?",
+    "choices": [
+      "Le magnétisme",
+      "La gravitation",
+      "La friction",
+      "La pression"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-007",
+    "question": "Quel est le symbole chimique de l’or ?",
+    "choices": [
+      "Ag",
+      "Au",
+      "Or",
+      "Fe"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-008",
+    "question": "Quel mammifère est capable de vol actif ?",
+    "choices": [
+      "L’écureuil volant",
+      "La chauve-souris",
+      "Le colugo",
+      "Le phalanger volant"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-009",
+    "question": "Quel scientifique a formulé les lois du mouvement et de la gravitation universelle ?",
+    "choices": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Galilée",
+      "Nikola Tesla"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-010",
+    "question": "Comment appelle-t-on le passage direct de l’état solide à l’état gazeux ?",
+    "choices": [
+      "Condensation",
+      "Sublimation",
+      "Fusion",
+      "Vaporisation"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

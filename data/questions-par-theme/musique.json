@@ -3278,5 +3278,165 @@
     "origin": "Enrichissement culture pop française",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-mus-001",
+    "question": "Quelle chanteuse interprète « Tu trouveras » ?",
+    "choices": [
+      "Natasha St-Pier",
+      "Hélène Ségara",
+      "Lara Fabian",
+      "Isabelle Boulay"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-002",
+    "question": "Quel groupe français chante « J’irai où tu iras » avec Jean-Jacques Goldman ?",
+    "choices": [
+      "Aucun, c’est un duo avec Céline Dion",
+      "Les Enfoirés",
+      "Fredericks Goldman Jones",
+      "Téléphone"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-003",
+    "question": "Quel artiste interprète « Bouge de là » ?",
+    "choices": [
+      "MC Solaar",
+      "IAM",
+      "NTM",
+      "Passi"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-004",
+    "question": "Quelle chanteuse a sorti l’album Gourmandises ?",
+    "choices": [
+      "Jenifer",
+      "Alizée",
+      "Lorie",
+      "Priscilla"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-005",
+    "question": "Quel groupe interprète « Désenchantée » ?",
+    "choices": [
+      "Indochine",
+      "Aucun, c’est Mylène Farmer",
+      "Téléphone",
+      "Niagara"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-006",
+    "question": "Quel rappeur français interprète « Gravé dans la roche » avec Sniper ?",
+    "choices": [
+      "Aketo",
+      "Tunisiano",
+      "Blacko",
+      "Les trois"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-007",
+    "question": "Quelle artiste chante « Dernière danse » en 2013 ?",
+    "choices": [
+      "Indila",
+      "Zaz",
+      "Tal",
+      "Louane"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-008",
+    "question": "Quel duo interprète « À fleur de toi » ?",
+    "choices": [
+      "Aucun, Vitaa chante ce titre en solo",
+      "Vitaa et Slimane",
+      "Diam’s et Vitaa",
+      "Amel Bent et Soprano"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-009",
+    "question": "Quel groupe de rock français a chanté « Cendrillon » ?",
+    "choices": [
+      "Indochine",
+      "Téléphone",
+      "Noir Désir",
+      "Kyo"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-010",
+    "question": "Quel chanteur interprète « J’me tire » ?",
+    "choices": [
+      "Gims",
+      "Black M",
+      "Soprano",
+      "Dadju"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

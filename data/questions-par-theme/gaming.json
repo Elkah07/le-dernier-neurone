@@ -382,5 +382,165 @@
     "origin": "Le Dernier Neurone",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-game-001",
+    "question": "Quel plombier est le frère de Mario ?",
+    "choices": [
+      "Wario",
+      "Luigi",
+      "Waluigi",
+      "Toad"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-002",
+    "question": "Dans Mario Kart, quel objet bleu vise généralement le pilote en tête ?",
+    "choices": [
+      "La carapace rouge",
+      "La carapace à épines",
+      "Le Bill Balle",
+      "Le Bob-omb"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-003",
+    "question": "Quel studio a créé la série The Last of Us ?",
+    "choices": [
+      "Rockstar Games",
+      "Naughty Dog",
+      "Ubisoft",
+      "Bethesda"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-004",
+    "question": "Quel Pokémon porte le numéro 25 dans le Pokédex national ?",
+    "choices": [
+      "Évoli",
+      "Pikachu",
+      "Miaouss",
+      "Rondoudou"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-005",
+    "question": "Quelle console Nintendo utilise des manettes appelées Joy-Con ?",
+    "choices": [
+      "Wii U",
+      "Switch",
+      "GameCube",
+      "3DS"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-006",
+    "question": "Dans Fortnite, comment appelle-t-on la zone dangereuse qui rétrécit ?",
+    "choices": [
+      "Le brouillard",
+      "La tempête",
+      "Le poison",
+      "Le cercle rouge"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-007",
+    "question": "Quel héros manie les Lames du Chaos dans God of War ?",
+    "choices": [
+      "Dante",
+      "Kratos",
+      "Geralt",
+      "Jin Sakai"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-008",
+    "question": "Dans Animal Crossing, quel personnage tanuki gère les prêts immobiliers ?",
+    "choices": [
+      "Kéké Laglisse",
+      "Tom Nook",
+      "Thibou",
+      "Gulliver"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-009",
+    "question": "Quel jeu de rythme utilise une guitare en plastique ?",
+    "choices": [
+      "Just Dance",
+      "Guitar Hero",
+      "Beat Saber",
+      "SingStar"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-010",
+    "question": "Quel jeu vidéo met en scène Link dans le royaume d’Hyrule ?",
+    "choices": [
+      "Final Fantasy",
+      "The Legend of Zelda",
+      "Dragon Quest",
+      "Fire Emblem"
+    ],
+    "answer": 1,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

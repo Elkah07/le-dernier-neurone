@@ -718,5 +718,165 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-cui-001",
+    "question": "Quel fromage entre traditionnellement dans la recette du tiramisu ?",
+    "choices": [
+      "Ricotta",
+      "Mascarpone",
+      "Mozzarella",
+      "Gorgonzola"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-002",
+    "question": "Quelle légumineuse constitue la base du houmous ?",
+    "choices": [
+      "Lentille corail",
+      "Pois chiche",
+      "Haricot blanc",
+      "Fève"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-003",
+    "question": "Quel ustensile japonais en bambou sert à rouler les makis ?",
+    "choices": [
+      "Un makisu",
+      "Un donabe",
+      "Un suribachi",
+      "Un hangiri"
+    ],
+    "answer": 0,
+    "category": "Cuisine",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-004",
+    "question": "Quelle sauce froide est une émulsion de jaune d’œuf et d’huile ?",
+    "choices": [
+      "Béchamel",
+      "Mayonnaise",
+      "Hollandaise",
+      "Béarnaise"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-005",
+    "question": "Quel agrume parfume traditionnellement la tarte au citron ?",
+    "choices": [
+      "Le yuzu",
+      "Le citron jaune",
+      "Le combava",
+      "La bergamote"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-006",
+    "question": "Dans quelle région française la bouillabaisse est-elle née ?",
+    "choices": [
+      "Bretagne",
+      "Provence",
+      "Alsace",
+      "Savoie"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-007",
+    "question": "Quel riz italien utilise-t-on couramment pour préparer un risotto ?",
+    "choices": [
+      "Basmati",
+      "Arborio",
+      "Jasmin",
+      "Camargue rouge"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-008",
+    "question": "Comment appelle-t-on une cuisson très brève dans l’eau bouillante suivie d’un refroidissement ?",
+    "choices": [
+      "Braiser",
+      "Blanchir",
+      "Confire",
+      "Pocher"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-009",
+    "question": "Quel dessert est composé de blancs d’œufs pochés et de crème anglaise ?",
+    "choices": [
+      "Île flottante",
+      "Paris-Brest",
+      "Saint-honoré",
+      "Baba au rhum"
+    ],
+    "answer": 0,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-010",
+    "question": "Quelle épice donne sa couleur jaune au curry et au lait d’or ?",
+    "choices": [
+      "Paprika",
+      "Curcuma",
+      "Cumin",
+      "Safran"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

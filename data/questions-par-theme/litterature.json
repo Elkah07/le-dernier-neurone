@@ -334,5 +334,165 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-lit-001",
+    "question": "Qui a écrit Le Petit Prince ?",
+    "choices": [
+      "Jules Verne",
+      "Antoine de Saint-Exupéry",
+      "Albert Camus",
+      "Marcel Pagnol"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-002",
+    "question": "Quel détective habite au 221B Baker Street ?",
+    "choices": [
+      "Hercule Poirot",
+      "Sherlock Holmes",
+      "Arsène Lupin",
+      "Jules Maigret"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-003",
+    "question": "Dans quelle saga trouve-t-on la maison Gryffondor ?",
+    "choices": [
+      "Le Seigneur des anneaux",
+      "Harry Potter",
+      "Hunger Games",
+      "À la croisée des mondes"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-004",
+    "question": "Quel auteur a créé le gentleman cambrioleur Arsène Lupin ?",
+    "choices": [
+      "Gaston Leroux",
+      "Maurice Leblanc",
+      "Georges Simenon",
+      "Pierre Souvestre"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-005",
+    "question": "Quel roman de George Orwell met en scène Big Brother ?",
+    "choices": [
+      "1984",
+      "Le Meilleur des mondes",
+      "Fahrenheit 451",
+      "La Ferme des animaux"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-006",
+    "question": "Qui a écrit Les Misérables ?",
+    "choices": [
+      "Émile Zola",
+      "Victor Hugo",
+      "Honoré de Balzac",
+      "Alexandre Dumas"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-007",
+    "question": "Quel personnage poursuit la baleine blanche Moby Dick ?",
+    "choices": [
+      "Le capitaine Nemo",
+      "Le capitaine Achab",
+      "Long John Silver",
+      "Robinson Crusoé"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-008",
+    "question": "Quel roman d’Agatha Christie se déroule à bord d’un train de luxe ?",
+    "choices": [
+      "Mort sur le Nil",
+      "Le Crime de l’Orient-Express",
+      "Dix Petits Nègres",
+      "La Maison biscornue"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-009",
+    "question": "Quel auteur français a écrit L’Étranger ?",
+    "choices": [
+      "Jean-Paul Sartre",
+      "Albert Camus",
+      "André Gide",
+      "Romain Gary"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-010",
+    "question": "Dans Le Seigneur des anneaux, quel objet Frodon doit-il détruire ?",
+    "choices": [
+      "Une épée",
+      "Un anneau",
+      "Un palantír",
+      "Une couronne"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

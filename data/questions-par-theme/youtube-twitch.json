@@ -750,5 +750,165 @@
     "origin": "Enrichissement culture pop française",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-web-001",
+    "question": "Quel duo français est à l’origine du « Palmashow » ?",
+    "choices": [
+      "Grégoire Ludig et David Marsais",
+      "McFly et Carlito",
+      "Éric et Ramzy",
+      "Jonathan Cohen et Pierre Niney"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-002",
+    "question": "Quel créateur se cache derrière la chaîne Joueur du Grenier ?",
+    "choices": [
+      "Frédéric Molas",
+      "Sébastien Rassiat",
+      "Karim Debbache",
+      "Bob Lennon"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-003",
+    "question": "Quelle chaîne de Karim Debbache analyse le cinéma avec humour ?",
+    "choices": [
+      "Chroma",
+      "Crossed",
+      "Le Fossoyeur de Films",
+      "Calmos"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-004",
+    "question": "Quel vidéaste est connu pour la chaîne « Le Fossoyeur de Films » ?",
+    "choices": [
+      "François Theurel",
+      "Durendal",
+      "Karim Debbache",
+      "Victor Bonnefoy"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-005",
+    "question": "Quelle créatrice française est connue pour ses vidéos de fitness et son couple avec Tibo InShape ?",
+    "choices": [
+      "Juju Fitcats",
+      "Natoo",
+      "EnjoyPhoenix",
+      "Sananas"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-006",
+    "question": "Quel créateur a popularisé le personnage de Dark Sasuke ?",
+    "choices": [
+      "Mastu",
+      "Mister V",
+      "Theodort",
+      "Seb"
+    ],
+    "answer": 1,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-007",
+    "question": "Quel streamer anime l’émission Popcorn sur Twitch ?",
+    "choices": [
+      "Domingo",
+      "ZeratoR",
+      "Kameto",
+      "Gotaga"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-008",
+    "question": "Quel créateur est associé à la chaîne cuisine « FastGoodCuisine » ?",
+    "choices": [
+      "Charles Gilles-Compagnon",
+      "FlorianOnAir",
+      "Chef Michel Dumas",
+      "Hervé Cuisine"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-009",
+    "question": "Quelle vidéaste française a créé le personnage de la mère de Natoo dans ses sketches ?",
+    "choices": [
+      "Natoo elle-même",
+      "Marion Seclin",
+      "Camille Lellouche",
+      "Alison Wheeler"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-010",
+    "question": "Quel vidéaste est connu pour ses vidéos de rap et d’humour sous le nom Mister V ?",
+    "choices": [
+      "Yvick Letexier",
+      "Valentin Jean",
+      "Vincent Tirel",
+      "William Kalubi"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

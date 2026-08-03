@@ -350,5 +350,165 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-dis-001",
+    "question": "Quel est le nom du caméléon de Raiponce ?",
+    "choices": [
+      "Pascal",
+      "Pua",
+      "Sébastien",
+      "Figaro"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-002",
+    "question": "Dans Encanto, quel don possède Luisa ?",
+    "choices": [
+      "Elle contrôle la météo",
+      "Elle a une force surhumaine",
+      "Elle parle aux animaux",
+      "Elle guérit par la cuisine"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-003",
+    "question": "Quel personnage de La Reine des neiges adore les câlins chaleureux ?",
+    "choices": [
+      "Sven",
+      "Olaf",
+      "Kristoff",
+      "Hans"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-004",
+    "question": "Quel méchant transforme Kuzco en lama ?",
+    "choices": [
+      "Yzma",
+      "Maléfique",
+      "Ursula",
+      "Cruella"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-005",
+    "question": "Comment s’appelle le dragon gardien de Mulan ?",
+    "choices": [
+      "Mushu",
+      "Khan",
+      "Cri-Kee",
+      "Shan Yu"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-006",
+    "question": "Dans Vaiana, quel objet doit-elle rendre à Te Fiti ?",
+    "choices": [
+      "Une couronne",
+      "Un cœur de pierre verte",
+      "Un coquillage magique",
+      "Un trident"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-007",
+    "question": "Quel prénom porte le fils de Dingo ?",
+    "choices": [
+      "Max",
+      "Tic",
+      "Bobby",
+      "Morty"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-008",
+    "question": "Quel animal est Bambi ?",
+    "choices": [
+      "Un faon",
+      "Un lapin",
+      "Un renard",
+      "Un blaireau"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-009",
+    "question": "Dans Coco, quel est le rêve de Miguel ?",
+    "choices": [
+      "Devenir cuisinier",
+      "Devenir musicien",
+      "Devenir peintre",
+      "Devenir lutteur"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-010",
+    "question": "Quel duo de tamia crée souvent des ennuis à Donald ?",
+    "choices": [
+      "Tic et Tac",
+      "Bernard et Bianca",
+      "Rox et Rouky",
+      "Jojo et Mickey"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

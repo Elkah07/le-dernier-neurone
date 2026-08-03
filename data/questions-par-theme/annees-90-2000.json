@@ -1390,5 +1390,165 @@
     "origin": "Enrichissement culture pop française",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-y2k-001",
+    "question": "Quel site permettait de créer un personnage et de discuter dans un hôtel virtuel ?",
+    "choices": [
+      "Habbo",
+      "Skyblog",
+      "Caramail",
+      "Second Life"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-002",
+    "question": "Quel logiciel de gravure de CD était symbolisé par un Colisée en flammes ?",
+    "choices": [
+      "Winamp",
+      "Nero Burning ROM",
+      "Kazaa",
+      "QuickTime"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-003",
+    "question": "Quel service français de messagerie a précédé l’essor de Gmail ?",
+    "choices": [
+      "Caramail",
+      "Tumblr",
+      "Vine",
+      "Discord"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-004",
+    "question": "Quel objet permettait de rembobiner rapidement une cassette audio à la main ?",
+    "choices": [
+      "Un crayon",
+      "Une disquette",
+      "Un trombone",
+      "Une clé USB"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-005",
+    "question": "Quel jeu de karaoké sur PlayStation 2 était vendu avec deux microphones ?",
+    "choices": [
+      "Buzz!",
+      "SingStar",
+      "EyeToy Play",
+      "Guitar Hero"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-006",
+    "question": "Quelle émission jeunesse française mettait en scène des animateurs dans un vaisseau spatial ?",
+    "choices": [
+      "KD2A",
+      "Les Minikeums",
+      "Club Dorothée",
+      "Gulli Mag"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-007",
+    "question": "Quel personnage virtuel violet donnait son nom à une célèbre console éducative ?",
+    "choices": [
+      "Adibou",
+      "Rayman",
+      "Spyro",
+      "Titeuf"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-008",
+    "question": "Sur quel support enregistrait-on souvent des fichiers de 1,44 Mo ?",
+    "choices": [
+      "Une disquette 3,5 pouces",
+      "Un MiniDisc",
+      "Une cassette DAT",
+      "Un CD-R"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-009",
+    "question": "Quel téléphone à clapet Motorola est devenu une icône du milieu des années 2000 ?",
+    "choices": [
+      "Razr V3",
+      "Nokia N-Gage",
+      "BlackBerry Curve",
+      "Sony Ericsson K750i"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-010",
+    "question": "Quel service permettait d’écouter un correspondant avant de décrocher sur certains téléphones fixes ?",
+    "choices": [
+      "Le répondeur enregistreur",
+      "Le WAP",
+      "Le fax",
+      "Le Minitel"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

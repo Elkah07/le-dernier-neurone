@@ -1392,6 +1392,166 @@
     "validation": "a_valider"
   },
   {
+    "id": "v11-y2k-001",
+    "question": "Quel site permettait de créer un personnage et de discuter dans un hôtel virtuel ?",
+    "choices": [
+      "Habbo",
+      "Caramail",
+      "Skyblog",
+      "Second Life"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-002",
+    "question": "Quel logiciel de gravure de CD était symbolisé par un Colisée en flammes ?",
+    "choices": [
+      "Kazaa",
+      "Nero Burning ROM",
+      "QuickTime",
+      "Winamp"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-003",
+    "question": "Quel service français de messagerie a précédé l’essor de Gmail ?",
+    "choices": [
+      "Vine",
+      "Caramail",
+      "Discord",
+      "Tumblr"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-004",
+    "question": "Quel objet permettait de rembobiner rapidement une cassette audio à la main ?",
+    "choices": [
+      "Un trombone",
+      "Un crayon",
+      "Une disquette",
+      "Une clé USB"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-005",
+    "question": "Quel jeu de karaoké sur PlayStation 2 était vendu avec deux microphones ?",
+    "choices": [
+      "Buzz!",
+      "Guitar Hero",
+      "EyeToy Play",
+      "SingStar"
+    ],
+    "answer": 3,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-006",
+    "question": "Quelle émission jeunesse française mettait en scène des animateurs dans un vaisseau spatial ?",
+    "choices": [
+      "Les Minikeums",
+      "Gulli Mag",
+      "KD2A",
+      "Club Dorothée"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-007",
+    "question": "Quel personnage virtuel violet donnait son nom à une célèbre console éducative ?",
+    "choices": [
+      "Rayman",
+      "Titeuf",
+      "Adibou",
+      "Spyro"
+    ],
+    "answer": 2,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-008",
+    "question": "Sur quel support enregistrait-on souvent des fichiers de 1,44 Mo ?",
+    "choices": [
+      "Une disquette 3,5 pouces",
+      "Un MiniDisc",
+      "Une cassette DAT",
+      "Un CD-R"
+    ],
+    "answer": 0,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-009",
+    "question": "Quel téléphone à clapet Motorola est devenu une icône du milieu des années 2000 ?",
+    "choices": [
+      "BlackBerry Curve",
+      "Nokia N-Gage",
+      "Sony Ericsson K750i",
+      "Razr V3"
+    ],
+    "answer": 3,
+    "category": "Années 90/2000",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-y2k-010",
+    "question": "Quel service permettait d’écouter un correspondant avant de décrocher sur certains téléphones fixes ?",
+    "choices": [
+      "Le fax",
+      "Le répondeur enregistreur",
+      "Le Minitel",
+      "Le WAP"
+    ],
+    "answer": 1,
+    "category": "Années 90/2000",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
     "id": "archive-0025",
     "question": "A quel numéro habite l'assassin, selon le titre d'un film de Clouzot ?",
     "choices": [
@@ -4272,6 +4432,166 @@
     "validation": "a_valider"
   },
   {
+    "id": "v11-cin-001",
+    "question": "Quel film français suit Amélie Poulain dans le quartier de Montmartre ?",
+    "choices": [
+      "Le Fabuleux Destin d’Amélie Poulain",
+      "La Môme",
+      "Un long dimanche de fiançailles",
+      "Paris, je t’aime"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-002",
+    "question": "Quel acteur incarne le Joker dans The Dark Knight ?",
+    "choices": [
+      "Jack Nicholson",
+      "Heath Ledger",
+      "Joaquin Phoenix",
+      "Jared Leto"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-003",
+    "question": "Dans quel film entend-on « Je vois des gens qui sont morts » ?",
+    "choices": [
+      "Sixième Sens",
+      "Shining",
+      "Les Autres",
+      "Poltergeist"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-004",
+    "question": "Quel réalisateur a signé Parasite ?",
+    "choices": [
+      "Park Chan-wook",
+      "Bong Joon-ho",
+      "Lee Chang-dong",
+      "Hirokazu Kore-eda"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-005",
+    "question": "Quel objet permet à Marty McFly de voyager dans le temps ?",
+    "choices": [
+      "Une Ford Mustang",
+      "Une DeLorean",
+      "Une Chevrolet Camaro",
+      "Une Pontiac Firebird"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-006",
+    "question": "Quelle actrice joue Furiosa dans Mad Max: Fury Road ?",
+    "choices": [
+      "Rebecca Ferguson",
+      "Emily Blunt",
+      "Charlize Theron",
+      "Rosamund Pike"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-007",
+    "question": "Quel film de Steven Spielberg met en scène un parc peuplé de dinosaures clonés ?",
+    "choices": [
+      "Godzilla",
+      "Le Monde perdu",
+      "King Kong",
+      "Jurassic Park"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-008",
+    "question": "Quel réalisateur français a tourné Le Cinquième Élément ?",
+    "choices": [
+      "Jean-Jacques Annaud",
+      "Jean-Pierre Jeunet",
+      "Mathieu Kassovitz",
+      "Luc Besson"
+    ],
+    "answer": 3,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-009",
+    "question": "Dans quel film Tom Hanks incarne-t-il un homme bloqué dans un aéroport ?",
+    "choices": [
+      "Seul au monde",
+      "Le Terminal",
+      "Arrête-moi si tu peux",
+      "Sully"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-010",
+    "question": "Quel film d’animation met en scène le robot compacteur WALL-E ?",
+    "choices": [
+      "Big Hero 6",
+      "Les Mitchell contre les machines",
+      "WALL-E",
+      "Robots"
+    ],
+    "answer": 2,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
     "id": "archive-0803",
     "question": "À quel fromage de chèvre AOC le nom de Chavignol est-il associé ?",
     "choices": [
@@ -4990,6 +5310,166 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-cui-001",
+    "question": "Quel fromage entre traditionnellement dans la recette du tiramisu ?",
+    "choices": [
+      "Ricotta",
+      "Mascarpone",
+      "Mozzarella",
+      "Gorgonzola"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-002",
+    "question": "Quelle légumineuse constitue la base du houmous ?",
+    "choices": [
+      "Haricot blanc",
+      "Fève",
+      "Pois chiche",
+      "Lentille corail"
+    ],
+    "answer": 2,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-003",
+    "question": "Quel ustensile japonais en bambou sert à rouler les makis ?",
+    "choices": [
+      "Un donabe",
+      "Un suribachi",
+      "Un makisu",
+      "Un hangiri"
+    ],
+    "answer": 2,
+    "category": "Cuisine",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-004",
+    "question": "Quelle sauce froide est une émulsion de jaune d’œuf et d’huile ?",
+    "choices": [
+      "Béarnaise",
+      "Mayonnaise",
+      "Hollandaise",
+      "Béchamel"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-005",
+    "question": "Quel agrume parfume traditionnellement la tarte au citron ?",
+    "choices": [
+      "Le combava",
+      "La bergamote",
+      "Le citron jaune",
+      "Le yuzu"
+    ],
+    "answer": 2,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-006",
+    "question": "Dans quelle région française la bouillabaisse est-elle née ?",
+    "choices": [
+      "Provence",
+      "Savoie",
+      "Alsace",
+      "Bretagne"
+    ],
+    "answer": 0,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-007",
+    "question": "Quel riz italien utilise-t-on couramment pour préparer un risotto ?",
+    "choices": [
+      "Arborio",
+      "Basmati",
+      "Camargue rouge",
+      "Jasmin"
+    ],
+    "answer": 0,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-008",
+    "question": "Comment appelle-t-on une cuisson très brève dans l’eau bouillante suivie d’un refroidissement ?",
+    "choices": [
+      "Blanchir",
+      "Confire",
+      "Pocher",
+      "Braiser"
+    ],
+    "answer": 0,
+    "category": "Cuisine",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-009",
+    "question": "Quel dessert est composé de blancs d’œufs pochés et de crème anglaise ?",
+    "choices": [
+      "Paris-Brest",
+      "Île flottante",
+      "Saint-honoré",
+      "Baba au rhum"
+    ],
+    "answer": 1,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cui-010",
+    "question": "Quelle épice donne sa couleur jaune au curry et au lait d’or ?",
+    "choices": [
+      "Curcuma",
+      "Paprika",
+      "Cumin",
+      "Safran"
+    ],
+    "answer": 0,
+    "category": "Cuisine",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   },
   {
     "id": "archive-0917",
@@ -5712,6 +6192,166 @@
     "validation": "a_valider"
   },
   {
+    "id": "v11-cg-001",
+    "question": "Combien de couleurs comporte un Rubik’s Cube classique ?",
+    "choices": [
+      "8",
+      "4",
+      "6",
+      "12"
+    ],
+    "answer": 2,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-002",
+    "question": "Quel symbole typographique précède un hashtag ?",
+    "choices": [
+      "@",
+      "#",
+      "&",
+      "%"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-003",
+    "question": "Dans un jeu de cartes français, quelle figure se situe entre le valet et le roi ?",
+    "choices": [
+      "Le joker",
+      "La dame",
+      "Le dix",
+      "L’as"
+    ],
+    "answer": 1,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-004",
+    "question": "Quel prix récompense chaque année un roman français ?",
+    "choices": [
+      "Le Goncourt",
+      "Le Pritzker",
+      "Le César",
+      "Le Molière"
+    ],
+    "answer": 0,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-005",
+    "question": "Quelle couleur obtient-on en mélangeant du bleu et du jaune en peinture ?",
+    "choices": [
+      "Orange",
+      "Marron",
+      "Violet",
+      "Vert"
+    ],
+    "answer": 3,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-006",
+    "question": "Quel instrument mesure la pression atmosphérique ?",
+    "choices": [
+      "Altimètre",
+      "Thermomètre",
+      "Hygromètre",
+      "Baromètre"
+    ],
+    "answer": 3,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-007",
+    "question": "Quel alphabet tactile est utilisé par les personnes aveugles ou malvoyantes ?",
+    "choices": [
+      "Cyrillique",
+      "Morse",
+      "Sténographie",
+      "Braille"
+    ],
+    "answer": 3,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-008",
+    "question": "Quel animal figure sur le logo du navigateur Firefox ?",
+    "choices": [
+      "Un renard",
+      "Un écureuil",
+      "Un panda roux",
+      "Un loup"
+    ],
+    "answer": 2,
+    "category": "Culture générale",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-009",
+    "question": "Quel jour vient immédiatement après le mardi gras dans le calendrier chrétien ?",
+    "choices": [
+      "Le Vendredi saint",
+      "Le lundi de Pâques",
+      "Le dimanche des Rameaux",
+      "Le mercredi des Cendres"
+    ],
+    "answer": 3,
+    "category": "Culture générale",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cg-010",
+    "question": "Quel mot désigne la peur des espaces clos ?",
+    "choices": [
+      "Claustrophobie",
+      "Acrophobie",
+      "Agoraphobie",
+      "Nyctophobie"
+    ],
+    "answer": 0,
+    "category": "Culture générale",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
     "id": "archive-0832",
     "question": "Combien de doigts Mickey a-t-il à chaque main, pouce compris ?",
     "choices": [
@@ -6062,6 +6702,166 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-dis-001",
+    "question": "Quel est le nom du caméléon de Raiponce ?",
+    "choices": [
+      "Pascal",
+      "Sébastien",
+      "Figaro",
+      "Pua"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-002",
+    "question": "Dans Encanto, quel don possède Luisa ?",
+    "choices": [
+      "Elle parle aux animaux",
+      "Elle a une force surhumaine",
+      "Elle guérit par la cuisine",
+      "Elle contrôle la météo"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-003",
+    "question": "Quel personnage de La Reine des neiges adore les câlins chaleureux ?",
+    "choices": [
+      "Olaf",
+      "Kristoff",
+      "Sven",
+      "Hans"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-004",
+    "question": "Quel méchant transforme Kuzco en lama ?",
+    "choices": [
+      "Ursula",
+      "Yzma",
+      "Maléfique",
+      "Cruella"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-005",
+    "question": "Comment s’appelle le dragon gardien de Mulan ?",
+    "choices": [
+      "Mushu",
+      "Khan",
+      "Cri-Kee",
+      "Shan Yu"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-006",
+    "question": "Dans Vaiana, quel objet doit-elle rendre à Te Fiti ?",
+    "choices": [
+      "Une couronne",
+      "Un trident",
+      "Un coquillage magique",
+      "Un cœur de pierre verte"
+    ],
+    "answer": 3,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-007",
+    "question": "Quel prénom porte le fils de Dingo ?",
+    "choices": [
+      "Tic",
+      "Max",
+      "Bobby",
+      "Morty"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-008",
+    "question": "Quel animal est Bambi ?",
+    "choices": [
+      "Un lapin",
+      "Un faon",
+      "Un blaireau",
+      "Un renard"
+    ],
+    "answer": 1,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-009",
+    "question": "Dans Coco, quel est le rêve de Miguel ?",
+    "choices": [
+      "Devenir lutteur",
+      "Devenir cuisinier",
+      "Devenir musicien",
+      "Devenir peintre"
+    ],
+    "answer": 2,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-dis-010",
+    "question": "Quel duo de tamia crée souvent des ennuis à Donald ?",
+    "choices": [
+      "Tic et Tac",
+      "Jojo et Mickey",
+      "Bernard et Bianca",
+      "Rox et Rouky"
+    ],
+    "answer": 0,
+    "category": "Disney",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   },
   {
     "id": "modern-047",
@@ -6446,6 +7246,166 @@
     "origin": "Le Dernier Neurone",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-game-001",
+    "question": "Quel plombier est le frère de Mario ?",
+    "choices": [
+      "Wario",
+      "Waluigi",
+      "Luigi",
+      "Toad"
+    ],
+    "answer": 2,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-002",
+    "question": "Dans Mario Kart, quel objet bleu vise généralement le pilote en tête ?",
+    "choices": [
+      "La carapace à épines",
+      "Le Bob-omb",
+      "Le Bill Balle",
+      "La carapace rouge"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-003",
+    "question": "Quel studio a créé la série The Last of Us ?",
+    "choices": [
+      "Rockstar Games",
+      "Bethesda",
+      "Ubisoft",
+      "Naughty Dog"
+    ],
+    "answer": 3,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-004",
+    "question": "Quel Pokémon porte le numéro 25 dans le Pokédex national ?",
+    "choices": [
+      "Rondoudou",
+      "Évoli",
+      "Pikachu",
+      "Miaouss"
+    ],
+    "answer": 2,
+    "category": "Gaming",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-005",
+    "question": "Quelle console Nintendo utilise des manettes appelées Joy-Con ?",
+    "choices": [
+      "GameCube",
+      "Wii U",
+      "Switch",
+      "3DS"
+    ],
+    "answer": 2,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-006",
+    "question": "Dans Fortnite, comment appelle-t-on la zone dangereuse qui rétrécit ?",
+    "choices": [
+      "Le poison",
+      "Le brouillard",
+      "Le cercle rouge",
+      "La tempête"
+    ],
+    "answer": 3,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-007",
+    "question": "Quel héros manie les Lames du Chaos dans God of War ?",
+    "choices": [
+      "Geralt",
+      "Jin Sakai",
+      "Dante",
+      "Kratos"
+    ],
+    "answer": 3,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-008",
+    "question": "Dans Animal Crossing, quel personnage tanuki gère les prêts immobiliers ?",
+    "choices": [
+      "Thibou",
+      "Gulliver",
+      "Tom Nook",
+      "Kéké Laglisse"
+    ],
+    "answer": 2,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-009",
+    "question": "Quel jeu de rythme utilise une guitare en plastique ?",
+    "choices": [
+      "Just Dance",
+      "SingStar",
+      "Beat Saber",
+      "Guitar Hero"
+    ],
+    "answer": 3,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-game-010",
+    "question": "Quel jeu vidéo met en scène Link dans le royaume d’Hyrule ?",
+    "choices": [
+      "The Legend of Zelda",
+      "Fire Emblem",
+      "Dragon Quest",
+      "Final Fantasy"
+    ],
+    "answer": 0,
+    "category": "Gaming",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   },
   {
     "id": "archive-0488",
@@ -8528,6 +9488,166 @@
     "validation": "a_valider"
   },
   {
+    "id": "v11-geo-001",
+    "question": "Quelle capitale européenne est traversée par le Danube et réunissait autrefois Buda et Pest ?",
+    "choices": [
+      "Belgrade",
+      "Budapest",
+      "Bratislava",
+      "Prague"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-002",
+    "question": "Dans quel pays se trouve la ville de Marrakech ?",
+    "choices": [
+      "Tunisie",
+      "Maroc",
+      "Algérie",
+      "Égypte"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-003",
+    "question": "Quelle mer borde à la fois la France, l’Italie et la Grèce ?",
+    "choices": [
+      "Mer Noire",
+      "Mer du Nord",
+      "Mer Méditerranée",
+      "Mer Baltique"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-004",
+    "question": "Quel fleuve traverse Paris ?",
+    "choices": [
+      "La Seine",
+      "La Garonne",
+      "La Loire",
+      "Le Rhône"
+    ],
+    "answer": 0,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-005",
+    "question": "Quel pays a la forme d’une botte sur les cartes ?",
+    "choices": [
+      "Croatie",
+      "Portugal",
+      "Italie",
+      "Grèce"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-006",
+    "question": "Sur quel continent se trouve le désert d’Atacama ?",
+    "choices": [
+      "Afrique",
+      "Asie",
+      "Océanie",
+      "Amérique du Sud"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-007",
+    "question": "Quelle est la capitale du Canada ?",
+    "choices": [
+      "Vancouver",
+      "Montréal",
+      "Toronto",
+      "Ottawa"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-008",
+    "question": "Quel détroit sépare l’Espagne du Maroc ?",
+    "choices": [
+      "Béring",
+      "Malacca",
+      "Bosphore",
+      "Gibraltar"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-009",
+    "question": "Dans quel océan se trouve l’île de La Réunion ?",
+    "choices": [
+      "Pacifique",
+      "Arctique",
+      "Atlantique",
+      "Indien"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-010",
+    "question": "Quelle chaîne de montagnes sépare en partie la France et l’Espagne ?",
+    "choices": [
+      "Les Apennins",
+      "Les Alpes",
+      "Les Carpates",
+      "Les Pyrénées"
+    ],
+    "answer": 3,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
     "id": "archive-0739",
     "question": "Combien de Napoléon ont été empereurs ?",
     "choices": [
@@ -8880,6 +10000,166 @@
     "validation": "a_valider"
   },
   {
+    "id": "v11-his-001",
+    "question": "Quel événement spatial a lieu le 20 juillet 1969 ?",
+    "choices": [
+      "Le premier vol de la navette Columbia",
+      "Les premiers pas humains sur la Lune",
+      "Le lancement de Spoutnik",
+      "La première sortie dans l’espace"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-002",
+    "question": "Quelle reine de France était l’épouse de Louis XVI ?",
+    "choices": [
+      "Joséphine de Beauharnais",
+      "Marie de Médicis",
+      "Marie-Antoinette",
+      "Anne d’Autriche"
+    ],
+    "answer": 2,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-003",
+    "question": "Quel peuple de l’Antiquité a construit le Colisée ?",
+    "choices": [
+      "Les Égyptiens",
+      "Les Perses",
+      "Les Grecs",
+      "Les Romains"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-004",
+    "question": "Qui a prononcé l’appel du 18 Juin 1940 ?",
+    "choices": [
+      "Jean Moulin",
+      "Georges Clemenceau",
+      "Charles de Gaulle",
+      "Philippe Leclerc"
+    ],
+    "answer": 2,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-005",
+    "question": "Quel événement marque traditionnellement le début de la Révolution française ?",
+    "choices": [
+      "La prise de la Bastille",
+      "Le sacre de Napoléon",
+      "La fuite à Varennes",
+      "Le serment de Strasbourg"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-006",
+    "question": "Quelle civilisation a bâti Machu Picchu ?",
+    "choices": [
+      "Les Olmèques",
+      "Les Incas",
+      "Les Aztèques",
+      "Les Mayas"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-007",
+    "question": "Quel pharaon possède un tombeau découvert presque intact en 1922 ?",
+    "choices": [
+      "Khéops",
+      "Ramsès II",
+      "Toutânkhamon",
+      "Akhenaton"
+    ],
+    "answer": 2,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-008",
+    "question": "Quel traité signé en 1919 règle officiellement la paix avec l’Allemagne après la Première Guerre mondiale ?",
+    "choices": [
+      "Traité de Versailles",
+      "Traité de Rome",
+      "Traité de Tordesillas",
+      "Traité de Maastricht"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-009",
+    "question": "Quel empereur français a été exilé sur l’île de Sainte-Hélène ?",
+    "choices": [
+      "Louis-Philippe",
+      "Napoléon III",
+      "Charlemagne",
+      "Napoléon Ier"
+    ],
+    "answer": 3,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-010",
+    "question": "Quelle invention de Gutenberg a accéléré la diffusion des livres en Europe ?",
+    "choices": [
+      "L’imprimerie à caractères mobiles",
+      "La machine à écrire",
+      "La lithographie",
+      "Le papier"
+    ],
+    "answer": 0,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
     "id": "archive-0616",
     "question": "Combien de livres composent \"À la recherche du temps perdu\" de Proust ?",
     "choices": [
@@ -9214,6 +10494,166 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-lit-001",
+    "question": "Qui a écrit Le Petit Prince ?",
+    "choices": [
+      "Jules Verne",
+      "Marcel Pagnol",
+      "Albert Camus",
+      "Antoine de Saint-Exupéry"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-002",
+    "question": "Quel détective habite au 221B Baker Street ?",
+    "choices": [
+      "Sherlock Holmes",
+      "Arsène Lupin",
+      "Hercule Poirot",
+      "Jules Maigret"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-003",
+    "question": "Dans quelle saga trouve-t-on la maison Gryffondor ?",
+    "choices": [
+      "Le Seigneur des anneaux",
+      "À la croisée des mondes",
+      "Harry Potter",
+      "Hunger Games"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-004",
+    "question": "Quel auteur a créé le gentleman cambrioleur Arsène Lupin ?",
+    "choices": [
+      "Maurice Leblanc",
+      "Georges Simenon",
+      "Pierre Souvestre",
+      "Gaston Leroux"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-005",
+    "question": "Quel roman de George Orwell met en scène Big Brother ?",
+    "choices": [
+      "La Ferme des animaux",
+      "Le Meilleur des mondes",
+      "1984",
+      "Fahrenheit 451"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-006",
+    "question": "Qui a écrit Les Misérables ?",
+    "choices": [
+      "Émile Zola",
+      "Alexandre Dumas",
+      "Victor Hugo",
+      "Honoré de Balzac"
+    ],
+    "answer": 2,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-007",
+    "question": "Quel personnage poursuit la baleine blanche Moby Dick ?",
+    "choices": [
+      "Le capitaine Nemo",
+      "Le capitaine Achab",
+      "Long John Silver",
+      "Robinson Crusoé"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-008",
+    "question": "Quel roman d’Agatha Christie se déroule à bord d’un train de luxe ?",
+    "choices": [
+      "Le Crime de l’Orient-Express",
+      "Dix Petits Nègres",
+      "La Maison biscornue",
+      "Mort sur le Nil"
+    ],
+    "answer": 0,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-009",
+    "question": "Quel auteur français a écrit L’Étranger ?",
+    "choices": [
+      "André Gide",
+      "Albert Camus",
+      "Romain Gary",
+      "Jean-Paul Sartre"
+    ],
+    "answer": 1,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-lit-010",
+    "question": "Dans Le Seigneur des anneaux, quel objet Frodon doit-il détruire ?",
+    "choices": [
+      "Une épée",
+      "Une couronne",
+      "Un palantír",
+      "Un anneau"
+    ],
+    "answer": 3,
+    "category": "Littérature",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   },
   {
     "id": "new-marvel-007",
@@ -9598,6 +11038,166 @@
     "origin": "Le Dernier Neurone",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-mar-001",
+    "question": "Quel métal compose le bouclier de Captain America dans le MCU ?",
+    "choices": [
+      "Titane",
+      "Uru",
+      "Adamantium",
+      "Vibranium"
+    ],
+    "answer": 3,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-002",
+    "question": "Quel est le vrai nom de Black Panther ?",
+    "choices": [
+      "T’Challa",
+      "Killmonger",
+      "M’Baku",
+      "T’Chaka"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-003",
+    "question": "Quel héros devient minuscule grâce aux particules Pym ?",
+    "choices": [
+      "Moon Knight",
+      "Hawkeye",
+      "Daredevil",
+      "Ant-Man"
+    ],
+    "answer": 3,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-004",
+    "question": "Quel frère adoptif de Thor est le dieu de la malice ?",
+    "choices": [
+      "Surtur",
+      "Heimdall",
+      "Balder",
+      "Loki"
+    ],
+    "answer": 3,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-005",
+    "question": "Quelle Pierre d’Infinité se trouvait dans le front de Vision ?",
+    "choices": [
+      "La Pierre du Temps",
+      "La Pierre de l’Esprit",
+      "La Pierre de l’Espace",
+      "La Pierre de la Réalité"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-006",
+    "question": "Quel personnage dit « Je s’appelle Groot » ?",
+    "choices": [
+      "Rocket",
+      "Groot",
+      "Drax",
+      "Korg"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-007",
+    "question": "Quel chirurgien devient le maître des arts mystiques ?",
+    "choices": [
+      "Reed Richards",
+      "Bruce Banner",
+      "Stephen Strange",
+      "Marc Spector"
+    ],
+    "answer": 2,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-008",
+    "question": "Quelle héroïne est la sœur de Natasha Romanoff ?",
+    "choices": [
+      "Yelena Belova",
+      "Kate Bishop",
+      "Peggy Carter",
+      "Wanda Maximoff"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-009",
+    "question": "Quel méchant veut réunir les six Pierres d’Infinité ?",
+    "choices": [
+      "Ultron",
+      "Ronan",
+      "Dormammu",
+      "Thanos"
+    ],
+    "answer": 3,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-010",
+    "question": "Dans quel pays fictif règne Black Panther ?",
+    "choices": [
+      "Wakanda",
+      "Sokovie",
+      "Genosha",
+      "Latvérie"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   },
   {
     "id": "archive-0192",
@@ -12880,6 +14480,166 @@
     "validation": "a_valider"
   },
   {
+    "id": "v11-mus-001",
+    "question": "Quelle chanteuse interprète « Tu trouveras » ?",
+    "choices": [
+      "Natasha St-Pier",
+      "Lara Fabian",
+      "Isabelle Boulay",
+      "Hélène Ségara"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-002",
+    "question": "Quel groupe français chante « J’irai où tu iras » avec Jean-Jacques Goldman ?",
+    "choices": [
+      "Les Enfoirés",
+      "Aucun, c’est un duo avec Céline Dion",
+      "Fredericks Goldman Jones",
+      "Téléphone"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-003",
+    "question": "Quel artiste interprète « Bouge de là » ?",
+    "choices": [
+      "Passi",
+      "MC Solaar",
+      "IAM",
+      "NTM"
+    ],
+    "answer": 1,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-004",
+    "question": "Quelle chanteuse a sorti l’album Gourmandises ?",
+    "choices": [
+      "Priscilla",
+      "Jenifer",
+      "Lorie",
+      "Alizée"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-005",
+    "question": "Quel groupe interprète « Désenchantée » ?",
+    "choices": [
+      "Indochine",
+      "Téléphone",
+      "Aucun, c’est Mylène Farmer",
+      "Niagara"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-006",
+    "question": "Quel rappeur français interprète « Gravé dans la roche » avec Sniper ?",
+    "choices": [
+      "Aketo",
+      "Tunisiano",
+      "Les trois",
+      "Blacko"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-007",
+    "question": "Quelle artiste chante « Dernière danse » en 2013 ?",
+    "choices": [
+      "Indila",
+      "Tal",
+      "Louane",
+      "Zaz"
+    ],
+    "answer": 0,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-008",
+    "question": "Quel duo interprète « À fleur de toi » ?",
+    "choices": [
+      "Diam’s et Vitaa",
+      "Vitaa et Slimane",
+      "Amel Bent et Soprano",
+      "Aucun, Vitaa chante ce titre en solo"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-009",
+    "question": "Quel groupe de rock français a chanté « Cendrillon » ?",
+    "choices": [
+      "Indochine",
+      "Kyo",
+      "Téléphone",
+      "Noir Désir"
+    ],
+    "answer": 2,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mus-010",
+    "question": "Quel chanteur interprète « J’me tire » ?",
+    "choices": [
+      "Soprano",
+      "Black M",
+      "Dadju",
+      "Gims"
+    ],
+    "answer": 3,
+    "category": "Musique",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
     "id": "archive-0768",
     "question": "A quel âge n'est-on pas sérieux selon un poème d'Arthur Rimbaud ?",
     "choices": [
@@ -13950,6 +15710,166 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-ser-001",
+    "question": "Dans Stranger Things, comment s’appelle la jeune fille dotée de pouvoirs ?",
+    "choices": [
+      "Nancy",
+      "Max",
+      "Onze",
+      "Robin"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-002",
+    "question": "Quelle mini-série suit la prodige des échecs Beth Harmon ?",
+    "choices": [
+      "Maid",
+      "Unorthodox",
+      "Le Jeu de la dame",
+      "Inventing Anna"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-003",
+    "question": "Dans Breaking Bad, quelle matière Walter White enseigne-t-il ?",
+    "choices": [
+      "Mathématiques",
+      "Chimie",
+      "Physique",
+      "Biologie"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-004",
+    "question": "Quel jeu ouvre la première épreuve de Squid Game ?",
+    "choices": [
+      "Les billes",
+      "Le pont de verre",
+      "Un, deux, trois, soleil",
+      "Le tir à la corde"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-005",
+    "question": "Quelle famille est au centre de La Chronique des Bridgerton ?",
+    "choices": [
+      "Les Featherington",
+      "Les Cowper",
+      "Les Bridgerton",
+      "Les Sharma"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-006",
+    "question": "Dans La Casa de Papel, quel nom de ville porte le personnage joué par Úrsula Corberó ?",
+    "choices": [
+      "Nairobi",
+      "Lisbonne",
+      "Stockholm",
+      "Tokyo"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-007",
+    "question": "Quel métier exerce Emily dans Emily in Paris ?",
+    "choices": [
+      "Spécialiste du marketing",
+      "Journaliste",
+      "Avocate",
+      "Styliste"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-008",
+    "question": "Quel personnage de Mercredi est une main coupée vivante ?",
+    "choices": [
+      "La Chose",
+      "Cousin Machin",
+      "Lurch",
+      "Fétide"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-009",
+    "question": "Dans Friends, quel est le métier de Ross Geller ?",
+    "choices": [
+      "Architecte",
+      "Comptable",
+      "Paléontologue",
+      "Journaliste"
+    ],
+    "answer": 2,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-010",
+    "question": "Quelle série française met en scène l’agent artistique Andréa Martel ?",
+    "choices": [
+      "Plan cœur",
+      "Family Business",
+      "Drôle",
+      "Dix pour cent"
+    ],
+    "answer": 3,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   },
   {
     "id": "archive-0578",
@@ -15646,6 +17566,166 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-sci-001",
+    "question": "Quelle planète est surnommée la planète rouge ?",
+    "choices": [
+      "Jupiter",
+      "Mercure",
+      "Mars",
+      "Vénus"
+    ],
+    "answer": 2,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-002",
+    "question": "Quel gaz les plantes absorbent-elles principalement pour la photosynthèse ?",
+    "choices": [
+      "Oxygène",
+      "Dioxyde de carbone",
+      "Hydrogène",
+      "Azote"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-003",
+    "question": "Combien de chromosomes possède normalement une cellule humaine non sexuelle ?",
+    "choices": [
+      "64",
+      "48",
+      "46",
+      "23"
+    ],
+    "answer": 2,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-004",
+    "question": "Quel organe filtre le sang et produit l’urine ?",
+    "choices": [
+      "Le pancréas",
+      "Le rein",
+      "Le foie",
+      "La rate"
+    ],
+    "answer": 1,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-005",
+    "question": "À quelle température l’eau pure gèle-t-elle à pression normale ?",
+    "choices": [
+      "0 °C",
+      "10 °C",
+      "-10 °C",
+      "32 °C"
+    ],
+    "answer": 0,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-006",
+    "question": "Quelle force nous maintient au sol ?",
+    "choices": [
+      "La pression",
+      "La friction",
+      "Le magnétisme",
+      "La gravitation"
+    ],
+    "answer": 3,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-007",
+    "question": "Quel est le symbole chimique de l’or ?",
+    "choices": [
+      "Or",
+      "Ag",
+      "Fe",
+      "Au"
+    ],
+    "answer": 3,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-008",
+    "question": "Quel mammifère est capable de vol actif ?",
+    "choices": [
+      "Le phalanger volant",
+      "Le colugo",
+      "L’écureuil volant",
+      "La chauve-souris"
+    ],
+    "answer": 3,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-009",
+    "question": "Quel scientifique a formulé les lois du mouvement et de la gravitation universelle ?",
+    "choices": [
+      "Albert Einstein",
+      "Nikola Tesla",
+      "Galilée",
+      "Isaac Newton"
+    ],
+    "answer": 3,
+    "category": "Sciences",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-sci-010",
+    "question": "Comment appelle-t-on le passage direct de l’état solide à l’état gazeux ?",
+    "choices": [
+      "Sublimation",
+      "Fusion",
+      "Vaporisation",
+      "Condensation"
+    ],
+    "answer": 0,
+    "category": "Sciences",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   },
   {
     "id": "archive-0691",
@@ -17408,6 +19488,166 @@
     "validation": "a_valider"
   },
   {
+    "id": "v11-spo-001",
+    "question": "Combien de joueurs une équipe de football aligne-t-elle au coup d’envoi ?",
+    "choices": [
+      "11",
+      "10",
+      "9",
+      "12"
+    ],
+    "answer": 0,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-002",
+    "question": "Dans quel sport utilise-t-on un volant ?",
+    "choices": [
+      "Squash",
+      "Tennis",
+      "Badminton",
+      "Padel"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-003",
+    "question": "Quelle couleur de maillot porte le leader du Tour de France ?",
+    "choices": [
+      "Vert",
+      "Jaune",
+      "À pois",
+      "Blanc"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-004",
+    "question": "Combien de points vaut un essai au rugby à XV ?",
+    "choices": [
+      "3",
+      "7",
+      "6",
+      "5"
+    ],
+    "answer": 3,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-005",
+    "question": "Dans quel sport Teddy Riner s’est-il illustré ?",
+    "choices": [
+      "Taekwondo",
+      "Boxe",
+      "Judo",
+      "Lutte"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-006",
+    "question": "Quel tournoi de tennis se joue sur terre battue à Paris ?",
+    "choices": [
+      "Wimbledon",
+      "Open d’Australie",
+      "Roland-Garros",
+      "US Open"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-007",
+    "question": "Quelle distance officielle mesure un marathon ?",
+    "choices": [
+      "50 km",
+      "40 km",
+      "42,195 km",
+      "45 km"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-008",
+    "question": "Dans quel sport marque-t-on un strike ?",
+    "choices": [
+      "Billard",
+      "Bowling",
+      "Baseball",
+      "Curling"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-009",
+    "question": "Quel pays a inventé le judo ?",
+    "choices": [
+      "Thaïlande",
+      "Japon",
+      "Corée du Sud",
+      "Chine"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-010",
+    "question": "Combien d’anneaux composent le symbole olympique ?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
     "id": "new-tv-001",
     "question": "Dans Koh-Lanta, quel objet symbolise traditionnellement l’immunité individuelle ?",
     "choices": [
@@ -18126,6 +20366,166 @@
     "origin": "Enrichissement culture pop française",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-tv-001",
+    "question": "Dans Secret Story, que fallait-il protéger pour augmenter sa cagnotte ?",
+    "choices": [
+      "Son immunité",
+      "Sa chambre",
+      "Son binôme",
+      "Son secret"
+    ],
+    "answer": 3,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-002",
+    "question": "Quelle candidate de Loft Story a ensuite animé des émissions comme Le Morning Live ?",
+    "choices": [
+      "Kenza",
+      "Laure",
+      "Aucune : le Morning Live était notamment animé par Michaël Youn",
+      "Loana"
+    ],
+    "answer": 2,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-003",
+    "question": "Quelle émission faisait vivre des célébrités dans une ferme en Afrique du Sud ?",
+    "choices": [
+      "Première Compagnie",
+      "Nice People",
+      "Je suis une célébrité, sortez-moi de là !",
+      "La Ferme Célébrités"
+    ],
+    "answer": 3,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-004",
+    "question": "Quel programme de M6 suit des agriculteurs à la recherche de l’amour ?",
+    "choices": [
+      "Love Island",
+      "Le Bachelor",
+      "Mariés au premier regard",
+      "L’amour est dans le pré"
+    ],
+    "answer": 3,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-005",
+    "question": "Dans Les Cinquante, quel animal masqué dirige le château ?",
+    "choices": [
+      "Un lion",
+      "Un tigre",
+      "Un loup",
+      "Un renard"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-006",
+    "question": "Quelle émission révélait chaque semaine des candidats derrière des costumes ?",
+    "choices": [
+      "The Voice",
+      "Popstars",
+      "Star Academy",
+      "Mask Singer"
+    ],
+    "answer": 3,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-007",
+    "question": "Quel candidat de Secret Story 4 partageait le secret « Nous sommes les élus de la Voix » avec Anne-Krystel et Julie ?",
+    "choices": [
+      "Ahmed",
+      "Maxime",
+      "Senna",
+      "Bastien"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-008",
+    "question": "Quelle émission réunissait des anonymes dans une maison divisée par un mur transparent en 2004 ?",
+    "choices": [
+      "Dilemme",
+      "Carré ViiiP",
+      "Les Colocataires",
+      "Loft Story"
+    ],
+    "answer": 2,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-009",
+    "question": "Quel programme suit des familles et influenceurs dans leur quotidien ?",
+    "choices": [
+      "Objectif Top Chef",
+      "Les Reines du shopping",
+      "Mamans & célèbres",
+      "La Villa des cœurs brisés"
+    ],
+    "answer": 2,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-010",
+    "question": "Dans Pékin Express, quel moyen de transport les candidats doivent-ils surtout utiliser ?",
+    "choices": [
+      "L’auto-stop",
+      "Le vélo",
+      "Le train",
+      "Le bateau"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   },
   {
     "id": "modern-028",
@@ -18878,5 +21278,165 @@
     "origin": "Enrichissement culture pop française",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-web-001",
+    "question": "Quel duo français est à l’origine du « Palmashow » ?",
+    "choices": [
+      "Grégoire Ludig et David Marsais",
+      "Jonathan Cohen et Pierre Niney",
+      "McFly et Carlito",
+      "Éric et Ramzy"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-002",
+    "question": "Quel créateur se cache derrière la chaîne Joueur du Grenier ?",
+    "choices": [
+      "Frédéric Molas",
+      "Bob Lennon",
+      "Sébastien Rassiat",
+      "Karim Debbache"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-003",
+    "question": "Quelle chaîne de Karim Debbache analyse le cinéma avec humour ?",
+    "choices": [
+      "Chroma",
+      "Calmos",
+      "Le Fossoyeur de Films",
+      "Crossed"
+    ],
+    "answer": 3,
+    "category": "YouTube/Twitch",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-004",
+    "question": "Quel vidéaste est connu pour la chaîne « Le Fossoyeur de Films » ?",
+    "choices": [
+      "Victor Bonnefoy",
+      "Durendal",
+      "François Theurel",
+      "Karim Debbache"
+    ],
+    "answer": 2,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-005",
+    "question": "Quelle créatrice française est connue pour ses vidéos de fitness et son couple avec Tibo InShape ?",
+    "choices": [
+      "Juju Fitcats",
+      "Sananas",
+      "Natoo",
+      "EnjoyPhoenix"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-006",
+    "question": "Quel créateur a popularisé le personnage de Dark Sasuke ?",
+    "choices": [
+      "Mister V",
+      "Seb",
+      "Mastu",
+      "Theodort"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-007",
+    "question": "Quel streamer anime l’émission Popcorn sur Twitch ?",
+    "choices": [
+      "Gotaga",
+      "Kameto",
+      "ZeratoR",
+      "Domingo"
+    ],
+    "answer": 3,
+    "category": "YouTube/Twitch",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-008",
+    "question": "Quel créateur est associé à la chaîne cuisine « FastGoodCuisine » ?",
+    "choices": [
+      "FlorianOnAir",
+      "Hervé Cuisine",
+      "Chef Michel Dumas",
+      "Charles Gilles-Compagnon"
+    ],
+    "answer": 3,
+    "category": "YouTube/Twitch",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-009",
+    "question": "Quelle vidéaste française a créé le personnage de la mère de Natoo dans ses sketches ?",
+    "choices": [
+      "Alison Wheeler",
+      "Marion Seclin",
+      "Natoo elle-même",
+      "Camille Lellouche"
+    ],
+    "answer": 2,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-web-010",
+    "question": "Quel vidéaste est connu pour ses vidéos de rap et d’humour sous le nom Mister V ?",
+    "choices": [
+      "Yvick Letexier",
+      "Vincent Tirel",
+      "Valentin Jean",
+      "William Kalubi"
+    ],
+    "answer": 0,
+    "category": "YouTube/Twitch",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

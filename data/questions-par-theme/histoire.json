@@ -350,5 +350,165 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-his-001",
+    "question": "Quel événement spatial a lieu le 20 juillet 1969 ?",
+    "choices": [
+      "Le lancement de Spoutnik",
+      "Les premiers pas humains sur la Lune",
+      "Le premier vol de la navette Columbia",
+      "La première sortie dans l’espace"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-002",
+    "question": "Quelle reine de France était l’épouse de Louis XVI ?",
+    "choices": [
+      "Marie de Médicis",
+      "Marie-Antoinette",
+      "Anne d’Autriche",
+      "Joséphine de Beauharnais"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-003",
+    "question": "Quel peuple de l’Antiquité a construit le Colisée ?",
+    "choices": [
+      "Les Grecs",
+      "Les Romains",
+      "Les Égyptiens",
+      "Les Perses"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-004",
+    "question": "Qui a prononcé l’appel du 18 Juin 1940 ?",
+    "choices": [
+      "Jean Moulin",
+      "Charles de Gaulle",
+      "Georges Clemenceau",
+      "Philippe Leclerc"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-005",
+    "question": "Quel événement marque traditionnellement le début de la Révolution française ?",
+    "choices": [
+      "Le sacre de Napoléon",
+      "La prise de la Bastille",
+      "Le serment de Strasbourg",
+      "La fuite à Varennes"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-006",
+    "question": "Quelle civilisation a bâti Machu Picchu ?",
+    "choices": [
+      "Les Mayas",
+      "Les Incas",
+      "Les Aztèques",
+      "Les Olmèques"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-007",
+    "question": "Quel pharaon possède un tombeau découvert presque intact en 1922 ?",
+    "choices": [
+      "Ramsès II",
+      "Toutânkhamon",
+      "Akhenaton",
+      "Khéops"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-008",
+    "question": "Quel traité signé en 1919 règle officiellement la paix avec l’Allemagne après la Première Guerre mondiale ?",
+    "choices": [
+      "Traité de Rome",
+      "Traité de Versailles",
+      "Traité de Maastricht",
+      "Traité de Tordesillas"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-009",
+    "question": "Quel empereur français a été exilé sur l’île de Sainte-Hélène ?",
+    "choices": [
+      "Charlemagne",
+      "Napoléon Ier",
+      "Napoléon III",
+      "Louis-Philippe"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-his-010",
+    "question": "Quelle invention de Gutenberg a accéléré la diffusion des livres en Europe ?",
+    "choices": [
+      "La machine à écrire",
+      "L’imprimerie à caractères mobiles",
+      "Le papier",
+      "La lithographie"
+    ],
+    "answer": 1,
+    "category": "Histoire",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

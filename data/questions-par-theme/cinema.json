@@ -2878,5 +2878,165 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-cin-001",
+    "question": "Quel film français suit Amélie Poulain dans le quartier de Montmartre ?",
+    "choices": [
+      "Le Fabuleux Destin d’Amélie Poulain",
+      "La Môme",
+      "Paris, je t’aime",
+      "Un long dimanche de fiançailles"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-002",
+    "question": "Quel acteur incarne le Joker dans The Dark Knight ?",
+    "choices": [
+      "Joaquin Phoenix",
+      "Heath Ledger",
+      "Jack Nicholson",
+      "Jared Leto"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-003",
+    "question": "Dans quel film entend-on « Je vois des gens qui sont morts » ?",
+    "choices": [
+      "Sixième Sens",
+      "Poltergeist",
+      "Shining",
+      "Les Autres"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-004",
+    "question": "Quel réalisateur a signé Parasite ?",
+    "choices": [
+      "Park Chan-wook",
+      "Bong Joon-ho",
+      "Hirokazu Kore-eda",
+      "Lee Chang-dong"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-005",
+    "question": "Quel objet permet à Marty McFly de voyager dans le temps ?",
+    "choices": [
+      "Une Pontiac Firebird",
+      "Une DeLorean",
+      "Une Ford Mustang",
+      "Une Chevrolet Camaro"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-006",
+    "question": "Quelle actrice joue Furiosa dans Mad Max: Fury Road ?",
+    "choices": [
+      "Charlize Theron",
+      "Emily Blunt",
+      "Rebecca Ferguson",
+      "Rosamund Pike"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-007",
+    "question": "Quel film de Steven Spielberg met en scène un parc peuplé de dinosaures clonés ?",
+    "choices": [
+      "Jurassic Park",
+      "Le Monde perdu",
+      "King Kong",
+      "Godzilla"
+    ],
+    "answer": 0,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-008",
+    "question": "Quel réalisateur français a tourné Le Cinquième Élément ?",
+    "choices": [
+      "Jean-Pierre Jeunet",
+      "Luc Besson",
+      "Mathieu Kassovitz",
+      "Jean-Jacques Annaud"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-009",
+    "question": "Dans quel film Tom Hanks incarne-t-il un homme bloqué dans un aéroport ?",
+    "choices": [
+      "Seul au monde",
+      "Le Terminal",
+      "Arrête-moi si tu peux",
+      "Sully"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-cin-010",
+    "question": "Quel film d’animation met en scène le robot compacteur WALL-E ?",
+    "choices": [
+      "Robots",
+      "WALL-E",
+      "Big Hero 6",
+      "Les Mitchell contre les machines"
+    ],
+    "answer": 1,
+    "category": "Cinéma",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

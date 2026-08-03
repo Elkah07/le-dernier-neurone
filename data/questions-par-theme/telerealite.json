@@ -718,5 +718,165 @@
     "origin": "Enrichissement culture pop française",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-tv-001",
+    "question": "Dans Secret Story, que fallait-il protéger pour augmenter sa cagnotte ?",
+    "choices": [
+      "Son immunité",
+      "Son secret",
+      "Son binôme",
+      "Sa chambre"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-002",
+    "question": "Quelle candidate de Loft Story a ensuite animé des émissions comme Le Morning Live ?",
+    "choices": [
+      "Loana",
+      "Aucune : le Morning Live était notamment animé par Michaël Youn",
+      "Laure",
+      "Kenza"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-003",
+    "question": "Quelle émission faisait vivre des célébrités dans une ferme en Afrique du Sud ?",
+    "choices": [
+      "La Ferme Célébrités",
+      "Première Compagnie",
+      "Je suis une célébrité, sortez-moi de là !",
+      "Nice People"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-004",
+    "question": "Quel programme de M6 suit des agriculteurs à la recherche de l’amour ?",
+    "choices": [
+      "Mariés au premier regard",
+      "L’amour est dans le pré",
+      "Le Bachelor",
+      "Love Island"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-005",
+    "question": "Dans Les Cinquante, quel animal masqué dirige le château ?",
+    "choices": [
+      "Un tigre",
+      "Un lion",
+      "Un loup",
+      "Un renard"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-006",
+    "question": "Quelle émission révélait chaque semaine des candidats derrière des costumes ?",
+    "choices": [
+      "Mask Singer",
+      "Star Academy",
+      "The Voice",
+      "Popstars"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-007",
+    "question": "Quel candidat de Secret Story 4 partageait le secret « Nous sommes les élus de la Voix » avec Anne-Krystel et Julie ?",
+    "choices": [
+      "Bastien",
+      "Ahmed",
+      "Maxime",
+      "Senna"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-008",
+    "question": "Quelle émission réunissait des anonymes dans une maison divisée par un mur transparent en 2004 ?",
+    "choices": [
+      "Les Colocataires",
+      "Dilemme",
+      "Loft Story",
+      "Carré ViiiP"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "hard",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-009",
+    "question": "Quel programme suit des familles et influenceurs dans leur quotidien ?",
+    "choices": [
+      "Mamans & célèbres",
+      "Les Reines du shopping",
+      "La Villa des cœurs brisés",
+      "Objectif Top Chef"
+    ],
+    "answer": 0,
+    "category": "Téléréalité",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-tv-010",
+    "question": "Dans Pékin Express, quel moyen de transport les candidats doivent-ils surtout utiliser ?",
+    "choices": [
+      "Le train",
+      "L’auto-stop",
+      "Le vélo",
+      "Le bateau"
+    ],
+    "answer": 1,
+    "category": "Téléréalité",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

@@ -1758,5 +1758,165 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-spo-001",
+    "question": "Combien de joueurs une équipe de football aligne-t-elle au coup d’envoi ?",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": 2,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-002",
+    "question": "Dans quel sport utilise-t-on un volant ?",
+    "choices": [
+      "Squash",
+      "Badminton",
+      "Tennis",
+      "Padel"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-003",
+    "question": "Quelle couleur de maillot porte le leader du Tour de France ?",
+    "choices": [
+      "Vert",
+      "Jaune",
+      "Blanc",
+      "À pois"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-004",
+    "question": "Combien de points vaut un essai au rugby à XV ?",
+    "choices": [
+      "3",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-005",
+    "question": "Dans quel sport Teddy Riner s’est-il illustré ?",
+    "choices": [
+      "Lutte",
+      "Judo",
+      "Taekwondo",
+      "Boxe"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-006",
+    "question": "Quel tournoi de tennis se joue sur terre battue à Paris ?",
+    "choices": [
+      "Wimbledon",
+      "Roland-Garros",
+      "US Open",
+      "Open d’Australie"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-007",
+    "question": "Quelle distance officielle mesure un marathon ?",
+    "choices": [
+      "40 km",
+      "42,195 km",
+      "45 km",
+      "50 km"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-008",
+    "question": "Dans quel sport marque-t-on un strike ?",
+    "choices": [
+      "Billard",
+      "Bowling",
+      "Baseball",
+      "Curling"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-009",
+    "question": "Quel pays a inventé le judo ?",
+    "choices": [
+      "Chine",
+      "Japon",
+      "Corée du Sud",
+      "Thaïlande"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-spo-010",
+    "question": "Combien d’anneaux composent le symbole olympique ?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1,
+    "category": "Sport",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

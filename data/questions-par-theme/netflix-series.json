@@ -1070,5 +1070,165 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-ser-001",
+    "question": "Dans Stranger Things, comment s’appelle la jeune fille dotée de pouvoirs ?",
+    "choices": [
+      "Max",
+      "Onze",
+      "Nancy",
+      "Robin"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-002",
+    "question": "Quelle mini-série suit la prodige des échecs Beth Harmon ?",
+    "choices": [
+      "Unorthodox",
+      "Le Jeu de la dame",
+      "Inventing Anna",
+      "Maid"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-003",
+    "question": "Dans Breaking Bad, quelle matière Walter White enseigne-t-il ?",
+    "choices": [
+      "Physique",
+      "Chimie",
+      "Mathématiques",
+      "Biologie"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-004",
+    "question": "Quel jeu ouvre la première épreuve de Squid Game ?",
+    "choices": [
+      "Le tir à la corde",
+      "Un, deux, trois, soleil",
+      "Les billes",
+      "Le pont de verre"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-005",
+    "question": "Quelle famille est au centre de La Chronique des Bridgerton ?",
+    "choices": [
+      "Les Featherington",
+      "Les Bridgerton",
+      "Les Sharma",
+      "Les Cowper"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-006",
+    "question": "Dans La Casa de Papel, quel nom de ville porte le personnage joué par Úrsula Corberó ?",
+    "choices": [
+      "Nairobi",
+      "Tokyo",
+      "Lisbonne",
+      "Stockholm"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-007",
+    "question": "Quel métier exerce Emily dans Emily in Paris ?",
+    "choices": [
+      "Avocate",
+      "Spécialiste du marketing",
+      "Styliste",
+      "Journaliste"
+    ],
+    "answer": 1,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-008",
+    "question": "Quel personnage de Mercredi est une main coupée vivante ?",
+    "choices": [
+      "La Chose",
+      "Cousin Machin",
+      "Lurch",
+      "Fétide"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-009",
+    "question": "Dans Friends, quel est le métier de Ross Geller ?",
+    "choices": [
+      "Paléontologue",
+      "Architecte",
+      "Comptable",
+      "Journaliste"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-ser-010",
+    "question": "Quelle série française met en scène l’agent artistique Andréa Martel ?",
+    "choices": [
+      "Dix pour cent",
+      "Plan cœur",
+      "Drôle",
+      "Family Business"
+    ],
+    "answer": 0,
+    "category": "Netflix/Séries",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

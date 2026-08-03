@@ -2078,5 +2078,165 @@
     "origin": "Le Grand Quiz - dB Animation",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-geo-001",
+    "question": "Quelle capitale européenne est traversée par le Danube et réunissait autrefois Buda et Pest ?",
+    "choices": [
+      "Prague",
+      "Budapest",
+      "Bratislava",
+      "Belgrade"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-002",
+    "question": "Dans quel pays se trouve la ville de Marrakech ?",
+    "choices": [
+      "Tunisie",
+      "Maroc",
+      "Algérie",
+      "Égypte"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-003",
+    "question": "Quelle mer borde à la fois la France, l’Italie et la Grèce ?",
+    "choices": [
+      "Mer Noire",
+      "Mer Méditerranée",
+      "Mer Baltique",
+      "Mer du Nord"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-004",
+    "question": "Quel fleuve traverse Paris ?",
+    "choices": [
+      "La Loire",
+      "La Seine",
+      "Le Rhône",
+      "La Garonne"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-005",
+    "question": "Quel pays a la forme d’une botte sur les cartes ?",
+    "choices": [
+      "Portugal",
+      "Italie",
+      "Croatie",
+      "Grèce"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-006",
+    "question": "Sur quel continent se trouve le désert d’Atacama ?",
+    "choices": [
+      "Afrique",
+      "Amérique du Sud",
+      "Asie",
+      "Océanie"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-007",
+    "question": "Quelle est la capitale du Canada ?",
+    "choices": [
+      "Toronto",
+      "Ottawa",
+      "Montréal",
+      "Vancouver"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-008",
+    "question": "Quel détroit sépare l’Espagne du Maroc ?",
+    "choices": [
+      "Bosphore",
+      "Gibraltar",
+      "Béring",
+      "Malacca"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-009",
+    "question": "Dans quel océan se trouve l’île de La Réunion ?",
+    "choices": [
+      "Atlantique",
+      "Indien",
+      "Pacifique",
+      "Arctique"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-geo-010",
+    "question": "Quelle chaîne de montagnes sépare en partie la France et l’Espagne ?",
+    "choices": [
+      "Les Alpes",
+      "Les Pyrénées",
+      "Les Carpates",
+      "Les Apennins"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

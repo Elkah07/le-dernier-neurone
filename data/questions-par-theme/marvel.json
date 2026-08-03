@@ -382,5 +382,165 @@
     "origin": "Le Dernier Neurone",
     "review": "editorial-2026-08",
     "validation": "a_valider"
+  },
+  {
+    "id": "v11-mar-001",
+    "question": "Quel métal compose le bouclier de Captain America dans le MCU ?",
+    "choices": [
+      "Adamantium",
+      "Vibranium",
+      "Uru",
+      "Titane"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-002",
+    "question": "Quel est le vrai nom de Black Panther ?",
+    "choices": [
+      "T’Challa",
+      "M’Baku",
+      "Killmonger",
+      "T’Chaka"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-003",
+    "question": "Quel héros devient minuscule grâce aux particules Pym ?",
+    "choices": [
+      "Ant-Man",
+      "Daredevil",
+      "Hawkeye",
+      "Moon Knight"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-004",
+    "question": "Quel frère adoptif de Thor est le dieu de la malice ?",
+    "choices": [
+      "Heimdall",
+      "Loki",
+      "Balder",
+      "Surtur"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-005",
+    "question": "Quelle Pierre d’Infinité se trouvait dans le front de Vision ?",
+    "choices": [
+      "La Pierre de l’Espace",
+      "La Pierre de l’Esprit",
+      "La Pierre du Temps",
+      "La Pierre de la Réalité"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-006",
+    "question": "Quel personnage dit « Je s’appelle Groot » ?",
+    "choices": [
+      "Rocket",
+      "Groot",
+      "Drax",
+      "Korg"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-007",
+    "question": "Quel chirurgien devient le maître des arts mystiques ?",
+    "choices": [
+      "Stephen Strange",
+      "Bruce Banner",
+      "Reed Richards",
+      "Marc Spector"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-008",
+    "question": "Quelle héroïne est la sœur de Natasha Romanoff ?",
+    "choices": [
+      "Yelena Belova",
+      "Kate Bishop",
+      "Wanda Maximoff",
+      "Peggy Carter"
+    ],
+    "answer": 0,
+    "category": "Marvel",
+    "difficulty": "medium",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-009",
+    "question": "Quel méchant veut réunir les six Pierres d’Infinité ?",
+    "choices": [
+      "Ultron",
+      "Thanos",
+      "Ronan",
+      "Dormammu"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
+  },
+  {
+    "id": "v11-mar-010",
+    "question": "Dans quel pays fictif règne Black Panther ?",
+    "choices": [
+      "Latvérie",
+      "Wakanda",
+      "Sokovie",
+      "Genosha"
+    ],
+    "answer": 1,
+    "category": "Marvel",
+    "difficulty": "easy",
+    "origin": "Enrichissement transversal V11",
+    "review": "editorial-2026-08",
+    "validation": "valide"
   }
 ]

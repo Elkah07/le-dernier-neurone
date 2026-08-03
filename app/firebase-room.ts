@@ -68,17 +68,34 @@ export async function createRoom(name: string) {
 
 export async function joinRoom(code: string, name: string) {
   await ensureAuth();
-  const normalizedCode=code.trim().toUpperCase(); const player=makePlayer(name,"#22d3ee"); let failure="";
-  const result=await runTransaction(ref(database,`rooms/${normalizedCode}`), value => {
-    if (!value) { failure="Salon introuvable"; return; }
-    const room=normalize(value as Room);
-    if (room.status!=="lobby") { failure="La partie a déjà commencé"; return; }
-    if (room.players.length>=12) { failure="Le salon est complet"; return; }
-    if (!player.name) { failure="Pseudo obligatoire"; return; }
-    room.players.push(player); return normalize(room);
+  const normalizedCode=code.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 6);
+  const player=makePlayer(name,"#22d3ee");
+  if (normalizedCode.length !== 6) throw new Error(`Code incomplet (${normalizedCode || "vide"})`);
+  if (!player.name) throw new Error("Pseudo obligatoire");
+
+  // Read the room from the server first. A transaction on the complete room can
+  // temporarily receive `null` on a second device and incorrectly report that
+  // an existing room does not exist.
+  const roomRef=ref(database,`rooms/${normalizedCode}`);
+  const snapshot=await get(roomRef);
+  if (!snapshot.exists()) throw new Error(`Salon ${normalizedCode} introuvable`);
+  const existing=normalize(snapshot.val() as Room);
+  if (existing.status!=="lobby") throw new Error("La partie a déjà commencé");
+
+  let failure="";
+  const playersRef=ref(database,`rooms/${normalizedCode}/players`);
+  const result=await runTransaction(playersRef, value => {
+    const players: Player[]=Array.isArray(value) ? value : [];
+    if (players.length>=12) { failure="Le salon est complet"; return; }
+    return [...players, player];
   },{applyLocally:false});
-  if (!result.committed) throw new Error(failure || "Impossible de rejoindre le salon");
-  return { room:normalize(result.snapshot.val() as Room), playerId:player.id };
+  if (!result.committed) throw new Error(failure || "Impossible d’ajouter le joueur au salon");
+
+  const confirmed=await get(roomRef);
+  if (!confirmed.exists()) throw new Error("Le salon a été fermé pendant la connexion");
+  const room=normalize(confirmed.val() as Room);
+  if (!room.players.some(candidate=>candidate.id===player.id)) throw new Error("Le joueur n’a pas été ajouté au salon");
+  return { room, playerId:player.id };
 }
 
 export async function getRoom(code: string) {

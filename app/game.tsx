@@ -271,7 +271,7 @@ export default function Game() {
       <p className="eyebrow">{screen === "createRoom" ? "NOUVEAU SALON" : "REJOINDRE"}</p>
       <h1>{screen === "createRoom" ? "Crée ton pupitre" : "Entre dans l’arène"}</h1>
       <label>TON PSEUDO<input value={name} maxLength={12} onChange={e => setName(e.target.value.toUpperCase())} /></label>
-      {screen === "joinRoom" && <label>CODE DE LA PARTIE<input className="code-input" value={roomCode} maxLength={6} placeholder="ABC123" onChange={e => setRoomCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g,""))} /></label>}
+      {screen === "joinRoom" && <label>CODE DE LA PARTIE<input className="code-input" value={roomCode} inputMode="text" autoCapitalize="characters" placeholder="ABC123" onChange={e => setRoomCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g,"").slice(0,6))} /></label>}
       {roomError && <div className="room-error">{roomError}</div>}
       <button className="primary" disabled={roomLoading || !name.trim() || (screen === "joinRoom" && roomCode.length !== 6)} onClick={() => roomAction(screen === "createRoom" ? "create" : "join")}>{roomLoading ? "CONNEXION…" : screen === "createRoom" ? "CRÉER LE SALON" : "REJOINDRE LE SALON"}</button>
       <button className="text-button" onClick={() => setScreen("multi")}>Annuler</button>

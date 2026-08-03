@@ -2,7 +2,7 @@
 
 import { initializeApp, getApps } from "firebase/app";
 import { getAuth, signInAnonymously } from "firebase/auth";
-import { getDatabase, get, goOnline, onValue, ref, runTransaction, set } from "firebase/database";
+import { getDatabase, get, onValue, ref, runTransaction } from "firebase/database";
 import { qualificationQuestions, themeQuestions } from "./question-bank";
 
 export type Player = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number; joinedAt: string };
@@ -39,10 +39,7 @@ function makePlayer(name: string, color: string, ready = false): Player {
 }
 
 function normalize(room: Room): Room {
-  const rawPlayers = room.players as unknown;
-  room.players = Array.isArray(rawPlayers)
-    ? rawPlayers.filter(Boolean)
-    : Object.values((rawPlayers || {}) as Record<string, Player>);
+  room.players ||= [];
   room.usedThemes ||= [];
   room.selectedCases ||= [];
   room.answerKeys ||= {};
@@ -71,30 +68,17 @@ export async function createRoom(name: string) {
 
 export async function joinRoom(code: string, name: string) {
   await ensureAuth();
-  const normalizedCode=code.normalize("NFKC").toUpperCase().replace(/[^A-Z0-9]/g,"");
-  const player=makePlayer(name,"#22d3ee");
-  if (!player.name) throw new Error("Pseudo obligatoire");
-  if (!/^[A-HJ-NP-Z2-9]{6}$/.test(normalizedCode)) throw new Error(`Code invalide (${normalizedCode || "vide"})`);
-
-  goOnline(database);
-  const roomRef=ref(database,`rooms/${normalizedCode}`);
-  let existing = await get(roomRef);
-  if (!existing.exists()) {
-    await new Promise(resolve => window.setTimeout(resolve, 700));
-    existing = await get(roomRef);
-  }
-  if (!existing.exists()) throw new Error(`Salon ${normalizedCode} introuvable — vérifie le code affiché sur le téléphone de l’hôte`);
-
-  const room=normalize(existing.val() as Room);
-  if (room.status!=="lobby") throw new Error("La partie a déjà commencé");
-  if (room.players.length>=12) throw new Error("Le salon est complet");
-
-  await set(ref(database,`rooms/${normalizedCode}/players/${player.id}`),player);
-  const joined=await get(roomRef);
-  if (!joined.exists()) throw new Error(`Le salon ${normalizedCode} n’est plus disponible`);
-  const joinedRoom=normalize(joined.val() as Room);
-  if (!joinedRoom.players.some(candidate=>candidate.id===player.id)) throw new Error("Firebase n’a pas enregistré le joueur");
-  return { room:joinedRoom, playerId:player.id };
+  const normalizedCode=code.trim().toUpperCase(); const player=makePlayer(name,"#22d3ee"); let failure="";
+  const result=await runTransaction(ref(database,`rooms/${normalizedCode}`), value => {
+    if (!value) { failure="Salon introuvable"; return; }
+    const room=normalize(value as Room);
+    if (room.status!=="lobby") { failure="La partie a déjà commencé"; return; }
+    if (room.players.length>=12) { failure="Le salon est complet"; return; }
+    if (!player.name) { failure="Pseudo obligatoire"; return; }
+    room.players.push(player); return normalize(room);
+  },{applyLocally:false});
+  if (!result.committed) throw new Error(failure || "Impossible de rejoindre le salon");
+  return { room:normalize(result.snapshot.val() as Room), playerId:player.id };
 }
 
 export async function getRoom(code: string) {
@@ -108,7 +92,7 @@ export async function subscribeRoom(code: string, callback: (room: Room | null) 
   return onValue(ref(database,`rooms/${code.trim().toUpperCase()}`), snapshot => callback(snapshot.exists()?normalize(snapshot.val() as Room):null));
 }
 
-type Payload = { questionIndex?:number; answerIndex?:number; elapsedMs?:number; estimate?:number; theme?:string; caseIndex?:number };
+type Payload = { questionIndex?:number; answerIndex?:number; elapsedMs?:number; estimate?:number; theme?:string; caseIndex?:number; targetPlayerId?:string };
 
 export async function roomAction(code: string, playerId: string, action: string, payload: Payload = {}) {
   await ensureAuth(); let failure="";
@@ -128,7 +112,7 @@ export async function roomAction(code: string, playerId: string, action: string,
       const i=payload.questionIndex??-1; if(room.phase!=="qualification") return fail("Les qualifications sont terminées");
       if(i!==player.qualificationAnswered||i<0||i>=20) return fail("Réponse déjà reçue ou question invalide");
       player.qualificationAnswered++; player.qualificationMs+=Math.max(0,payload.elapsedMs||0); if(payload.answerIndex===qualificationQuestions[i].answer) player.score++;
-      if(room.players.every(p=>p.qualificationAnswered>=20)) { room.phase="estimate"; room.phaseStartedAt=new Date().toISOString(); }
+      if(room.players.length > 0 && room.players.every(p=>p.qualificationAnswered>=20)) { room.phase="estimate"; room.phaseStartedAt=new Date().toISOString(); }
     } else if(action==="estimate") {
       if(room.phase!=="estimate"||!room.qualifiedIds.includes(player.id)) return fail("Estimation indisponible");
       player.estimate=Math.max(0,Math.round(payload.estimate||0));
@@ -157,10 +141,18 @@ export async function roomAction(code: string, playerId: string, action: string,
       if(room.phase!=="final-answer"||room.activePlayerId!==player.id||room.activeCase===null) return fail("Ce n’est pas ton tour");
       const i=(19-room.turnIndex+40)%20,points=room.activeCase%4===0?3:room.activeCase%3===0?2:1;if(payload.answerIndex===qualificationQuestions[i].answer)player.finalScore+=points;
       room.turnIndex++;room.activeCase=null;room.phaseStartedAt=new Date().toISOString();if(room.turnIndex>=12){room.phase="finished";room.status="finished";}else room.phase="final-pick";
-    } else if(action==="leave") room.players=room.players.filter(p=>p.id!==player.id);
+    } else if(action==="kick") {
+      if(room.hostPlayerId!==player.id) return fail("Seul l’hôte peut exclure un joueur");
+      if(!payload.targetPlayerId || payload.targetPlayerId===player.id) return fail("Joueur invalide");
+      room.players=room.players.filter(p=>p.id!==payload.targetPlayerId);
+    } else if(action==="leave") {
+      if(room.hostPlayerId===player.id) return null;
+      room.players=room.players.filter(p=>p.id!==player.id);
+    }
     else return fail("Action inconnue");
     return normalize(room);
   },{applyLocally:false});
   if(!result.committed) throw new Error(failure||"Action impossible");
-  return normalize(result.snapshot.val() as Room);
+  const value=result.snapshot.val() as Room | null;
+  return value ? normalize(value) : null;
 }

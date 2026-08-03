@@ -1,13 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import MultiplayerGame from "./multiplayer-game";
-import { allQuestions, qualificationQuestions, themeQuestions, type GameQuestion } from "./question-bank";
-import { createRoom, getRoom, joinRoom, roomAction as updateRoom, subscribeRoom, type Room as RoomData } from "./firebase-room";
+import { qualificationQuestions, themeQuestions, type GameQuestion } from "./question-bank";
 
-type Screen = "home" | "setup" | "multi" | "createRoom" | "joinRoom" | "lobby" | "multiGame" | "qualify" | "qualified" | "estimate" | "categories" | "speed" | "roundResult" | "finalIntro" | "final" | "victory" | "creator" | "questionAudit";
+type Screen = "home" | "setup" | "multi" | "createRoom" | "joinRoom" | "lobby" | "multiGame" | "qualify" | "qualified" | "estimate" | "categories" | "speed" | "roundResult" | "finalIntro" | "final" | "victory" | "creator";
 type Question = GameQuestion;
-type QuestionReport = { questionId: string; reason: string; correction: string; createdAt: string };
+type RoomPlayer = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number };
+type RoomData = { id: string; code: string; status: string; phase: string; hostPlayerId: string; round: number; turnIndex: number; currentTheme: string | null; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: RoomPlayer[] };
 
 const questions = qualificationQuestions;
 const themes = themeQuestions;
@@ -84,10 +84,7 @@ function Answers({ question, onAnswer }: { question: Question; onAnswer: (i: num
 
 export default function Game() {
   const [screen, setScreen] = useState<Screen>("home");
-  const screenRef = useRef<Screen>("home");
-  const isHandlingPhoneBack = useRef(false);
-  const navigationReady = useRef(false);
-  const [name, setName] = useState("KATHIE");
+  const [name, setName] = useState("");
   const [index, setIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [time, setTime] = useState(10);
@@ -107,57 +104,8 @@ export default function Game() {
   const [playerId, setPlayerId] = useState("");
   const [roomError, setRoomError] = useState("");
   const [roomLoading, setRoomLoading] = useState(false);
-  const [auditCategory, setAuditCategory] = useState("Tous les thèmes");
-  const [auditIndex, setAuditIndex] = useState(0);
-  const [reportReason, setReportReason] = useState("Mauvaises réponses incohérentes");
-  const [reportCorrection, setReportCorrection] = useState("");
-  const [questionReports, setQuestionReports] = useState<QuestionReport[]>(() => {
-    if (typeof window === "undefined") return [];
-    try { return JSON.parse(window.localStorage.getItem("ldn-question-reports") || "[]") as QuestionReport[]; }
-    catch { return []; }
-  });
-  const auditedQuestions = auditCategory === "Tous les thèmes" ? allQuestions : allQuestions.filter(question => question.category === auditCategory);
-  const auditedQuestion = auditedQuestions[Math.min(auditIndex, Math.max(0, auditedQuestions.length - 1))];
 
   const current = screen === "qualify" ? questions[index] : themes[theme]?.[index];
-
-  useEffect(() => {
-    screenRef.current = screen;
-
-    if (!navigationReady.current) {
-      window.history.replaceState({ ...window.history.state, ldnScreen: screen }, "");
-      navigationReady.current = true;
-      return;
-    }
-
-    if (isHandlingPhoneBack.current) {
-      isHandlingPhoneBack.current = false;
-      return;
-    }
-
-    window.history.pushState({ ...window.history.state, ldnScreen: screen }, "");
-  }, [screen]);
-
-  useEffect(() => {
-    function handlePhoneBack(event: PopStateEvent) {
-      const previousScreen = event.state?.ldnScreen as Screen | undefined;
-
-      if (previousScreen) {
-        isHandlingPhoneBack.current = true;
-        setScreen(previousScreen);
-        return;
-      }
-
-      if (screenRef.current !== "home") {
-        isHandlingPhoneBack.current = true;
-        window.history.pushState({ ...window.history.state, ldnScreen: "home" }, "");
-        setScreen("home");
-      }
-    }
-
-    window.addEventListener("popstate", handlePhoneBack);
-    return () => window.removeEventListener("popstate", handlePhoneBack);
-  }, []);
 
   useEffect(() => {
     if (!["qualify", "speed"].includes(screen)) return;
@@ -189,44 +137,44 @@ export default function Game() {
 
   useEffect(() => {
     if (screen !== "lobby" || !room?.code) return;
-    let unsubscribe=()=>{};
-    subscribeRoom(room.code, next=>{ if(!next)return; setRoom(next); if(next.status!=="lobby")setScreen("multiGame"); }).then(stop=>{unsubscribe=stop}).catch(()=>setRoomError("Connexion Firebase impossible"));
-    return () => unsubscribe();
+    const refresh = async () => {
+      const response = await fetch(`/api/rooms?code=${room.code}`, { cache: "no-store" });
+      if (!response.ok) return;
+      const data = await response.json() as { room: RoomData };
+      if (!data.room.players.some(player => player.id === playerId)) {
+        setRoom(null); setPlayerId(""); setRoomCode(""); setRoomError("Tu as été retiré·e du salon."); setScreen("multi");
+        return;
+      }
+      setRoom(data.room);
+      if (data.room.status !== "lobby") setScreen("multiGame");
+    };
+    const timer = window.setInterval(refresh, 1500);
+    return () => window.clearInterval(timer);
   }, [screen, room?.code]);
 
   useEffect(() => {
-    const savedCode = window.localStorage.getItem("ldn-room-code");
-    const savedPlayer = window.localStorage.getItem("ldn-player-id");
-    if (!savedCode || !savedPlayer) return;
-    getRoom(savedCode).then(savedRoom=>{ if(!savedRoom?.players.some(player=>player.id===savedPlayer))return; setRoom(savedRoom);setRoomCode(savedCode);setPlayerId(savedPlayer);setScreen(savedRoom.status==="lobby"?"lobby":"multiGame"); }).catch(()=>undefined);
-  }, []);
+    if (!room?.code || !playerId) return;
+    const leaveWhenClosed = () => {
+      const payload = JSON.stringify({ action: "leave", code: room.code, playerId });
+      navigator.sendBeacon?.("/api/rooms", new Blob([payload], { type: "application/json" }));
+    };
+    window.addEventListener("pagehide", leaveWhenClosed);
+    return () => window.removeEventListener("pagehide", leaveWhenClosed);
+  }, [room?.code, playerId]);
 
-  function saveQuestionReport() {
-    if (!auditedQuestion) return;
-    const next = [...questionReports.filter(report => report.questionId !== auditedQuestion.id), { questionId: auditedQuestion.id, reason: reportReason, correction: reportCorrection.trim(), createdAt: new Date().toISOString() }];
-    setQuestionReports(next);
-    window.localStorage.setItem("ldn-question-reports", JSON.stringify(next));
-    setReportCorrection("");
-    setAuditIndex(value => Math.min(value + 1, auditedQuestions.length - 1));
-  }
-
-  function exportQuestionReports() {
-    const payload = questionReports.map(report => ({ ...report, question: allQuestions.find(question => question.id === report.questionId) }));
-    const url = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" }));
-    const link = document.createElement("a");
-    link.href = url; link.download = "signalements-questions.json"; link.click();
-    URL.revokeObjectURL(url);
-  }
-
-  async function roomAction(action: "create" | "join" | "ready" | "start") {
+  async function roomAction(action: "create" | "join" | "ready" | "start" | "leave" | "kick", targetPlayerId?: string) {
     setRoomLoading(true); setRoomError("");
     try {
-      const data = action === "create" ? await createRoom(name) : action === "join" ? await joinRoom(roomCode,name) : { room: await updateRoom(room!.code,playerId,action), playerId };
+      const response = await fetch("/api/rooms", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ action, code: roomCode || room?.code, name, playerId, targetPlayerId }) });
+      const data = await response.json() as { room?: RoomData; playerId?: string; error?: string; closed?: boolean };
+      if (action === "leave") {
+        setRoom(null); setPlayerId(""); setRoomCode(""); reset(); setScreen("home");
+        return;
+      }
+      if (!response.ok || !data.room) throw new Error(data.error || "Impossible de rejoindre le salon");
       setRoom(data.room);
       if (data.playerId) {
         setPlayerId(data.playerId);
-        window.localStorage.setItem("ldn-player-id", data.playerId);
-        window.localStorage.setItem("ldn-room-code", data.room.code);
       }
       setRoomCode(data.room.code);
       if (action === "create" || action === "join") setScreen("lobby");
@@ -247,10 +195,7 @@ export default function Game() {
     }
   }
   function answer(i: number) {
-    if (i === current.answer) {
-      if (screen === "qualify") setScore(v => v + 1);
-      else setSpeedScore(v => v + 1);
-    }
+    if (i === current.answer) screen === "qualify" ? setScore(v => v + 1) : setSpeedScore(v => v + 1);
     next();
   }
   function chooseTheme(value: string) {
@@ -277,38 +222,21 @@ export default function Game() {
 
   return <main className={`game ${screen === "home" ? "is-home" : ""}`}>
     <header>
-      <button className="mini-brand" onClick={() => setScreen("home")}><img src="/app-icon.png" alt="" /><span>LE DERNIER NEURONE</span></button>
+      <button className="mini-brand" onClick={() => room && playerId ? roomAction("leave") : setScreen("home")}><img src="/app-icon.png" alt="" /><span>LE DERNIER NEURONE</span></button>
       {screen !== "home" && <small>{room && ["lobby","multiGame"].includes(screen) ? "MULTIJOUEUR" : "DÉMO SOLO"}</small>}
       <button className="settings" onClick={() => setScreen("creator")}>⚙</button>
     </header>
 
     {screen === "home" && <section className="hero">
-      <div className="brain-grid" aria-hidden="true"><i /><i /><i /><i /><i /><i /></div>
-      <div className="hero-copy">
-        <span className="show-label">LE GRAND JEU DE CULTURE GÉNÉRALE</span>
-        <img className="logo" src="/logo-full.png" alt="Le Dernier Neurone" />
-        <p>Il ne doit en rester qu’un.</p>
-      </div>
+      <img className="logo" src="/logo-full.png" alt="Le Dernier Neurone" />
+      <p>Prouve qu’il t’en reste au moins un.</p>
+      <button className="primary huge" onClick={() => setScreen("setup")}>JOUER</button>
       <div className="modes">
-        <button className="mode-card" onClick={() => setScreen("setup")}>
-          <span className="mode-icon">◉</span>
-          <span className="mode-copy"><small>ENTRAÎNEMENT</small><b>SOLO</b><em>Affronte 3 candidats contrôlés par le jeu.</em></span>
-          <strong>JOUER MAINTENANT <i>›</i></strong>
-        </button>
-        <button className="mode-card private-card" onClick={() => setScreen("multi")}>
-          <span className="mode-badge">MODE PRINCIPAL</span>
-          <span className="mode-icon">⌁</span>
-          <span className="mode-copy"><small>MULTIJOUEUR</small><b>PARTIE PRIVÉE</b><em>Crée un salon ou rejoins tes amis avec un code.</em></span>
-          <strong>ENTRER DANS L’ARÈNE <i>›</i></strong>
-        </button>
-        <button className="mode-card tournament-card" disabled>
-          <span className="mode-badge">BIENTÔT</span>
-          <span className="mode-icon">♛</span>
-          <span className="mode-copy"><small>COMPÉTITION</small><b>TOURNOIS</b><em>La Guerre des Neurones, pour les plus solides.</em></span>
-          <strong>PROCHAINEMENT</strong>
-        </button>
+        <button onClick={() => setScreen("setup")}><b>◉ SOLO</b><span>Affronte 3 candidats</span></button>
+        <button onClick={() => setScreen("multi")}><b>⌁ PARTIE PRIVÉE</b><span>Joue sur plusieurs téléphones</span></button>
+        <button disabled><b>♛ TOURNOIS</b><span>La Guerre des Neurones</span></button>
       </div>
-      <div className="pls"><span>NOUVEAU MODE</span><b>CULTURE EN PLS</b><em>La culture pop sans pitié</em><small>BIENTÔT</small></div>
+      <div className="pls"><b>CULTURE EN PLS</b> arrive bientôt — la culture pop sans pitié</div>
     </section>}
 
     {screen === "multi" && <section className="panel multiplayer-panel">
@@ -325,7 +253,7 @@ export default function Game() {
       <p className="eyebrow">{screen === "createRoom" ? "NOUVEAU SALON" : "REJOINDRE"}</p>
       <h1>{screen === "createRoom" ? "Crée ton pupitre" : "Entre dans l’arène"}</h1>
       <label>TON PSEUDO<input value={name} maxLength={12} onChange={e => setName(e.target.value.toUpperCase())} /></label>
-      {screen === "joinRoom" && <label>CODE DE LA PARTIE<input className="code-input" value={roomCode} inputMode="text" autoCapitalize="characters" autoCorrect="off" spellCheck={false} placeholder="ABC123" onChange={e => setRoomCode(e.target.value.normalize("NFKC").toUpperCase().replace(/[^A-Z0-9]/g,"").slice(0,6))} /></label>}
+      {screen === "joinRoom" && <label>CODE DE LA PARTIE<input className="code-input" value={roomCode} maxLength={6} placeholder="ABC123" onChange={e => setRoomCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g,""))} /></label>}
       {roomError && <div className="room-error">{roomError}</div>}
       <button className="primary" disabled={roomLoading || !name.trim() || (screen === "joinRoom" && roomCode.length !== 6)} onClick={() => roomAction(screen === "createRoom" ? "create" : "join")}>{roomLoading ? "CONNEXION…" : screen === "createRoom" ? "CRÉER LE SALON" : "REJOINDRE LE SALON"}</button>
       <button className="text-button" onClick={() => setScreen("multi")}>Annuler</button>
@@ -335,19 +263,20 @@ export default function Game() {
       <p className="eyebrow">SALON PRIVÉ</p><h1>Prêts à jouer ?</h1>
       <div className="room-code"><small>CODE À PARTAGER</small><b>{room.code}</b><button onClick={() => navigator.clipboard?.writeText(room.code)}>COPIER</button></div>
       <div className="lobby-count"><span>{room.players.length}/12 joueurs</span><small>Minimum 2 pour commencer</small></div>
-      <div className="players-list">{room.players.map((player, i) => <div key={player.id} className={player.ready ? "ready" : ""}>
+      <div className="players-list">{room.players.map((player) => <div key={player.id} className={player.ready ? "ready" : ""}>
         <span className="player-avatar" style={{background:player.color}}>{player.name[0]}</span><b>{player.name}{player.id === room.hostPlayerId && <small> HÔTE</small>}</b><em>{player.ready ? "PRÊT ✓" : "EN ATTENTE"}</em>
+        {playerId === room.hostPlayerId && player.id !== playerId && <button className="kick-player" disabled={roomLoading} onClick={() => roomAction("kick", player.id)} aria-label={`Exclure ${player.name}`}>VIRER</button>}
       </div>)}</div>
       {roomError && <div className="room-error">{roomError}</div>}
       {playerId === room.hostPlayerId
         ? <button className="primary" disabled={roomLoading || room.players.length < 2 || room.players.some(p => !p.ready)} onClick={() => roomAction("start")}>LANCER LA PARTIE</button>
         : <button className={room.players.find(p => p.id === playerId)?.ready ? "secondary ready-button" : "primary"} disabled={roomLoading} onClick={() => roomAction("ready")}>{room.players.find(p => p.id === playerId)?.ready ? "JE NE SUIS PLUS PRÊT" : "JE SUIS PRÊT"}</button>}
       <p className="waiting-note">{playerId === room.hostPlayerId ? "Le bouton s’active lorsque tout le monde est prêt." : "La partie démarrera automatiquement quand l’hôte la lancera."}</p>
+      <button className="leave-room" disabled={roomLoading} onClick={() => roomAction("leave")}>{playerId === room.hostPlayerId ? "FERMER LE SALON" : "QUITTER LE SALON"}</button>
     </section>}
 
     {screen === "multiGame" && room && playerId && <MultiplayerGame initialRoom={room} playerId={playerId} onExit={() => {
-      window.localStorage.removeItem("ldn-room-code"); window.localStorage.removeItem("ldn-player-id");
-      setRoom(null); setPlayerId(""); reset(); setScreen("home");
+      roomAction("leave");
     }} />}
 
     {screen === "setup" && <section className="panel">
@@ -430,19 +359,7 @@ export default function Game() {
       <p className="eyebrow">MODE CRÉATEUR</p><h1>Tester une étape</h1><p className="muted">Accès rapide à tous les écrans.</p>
       <div className="creator">{[["Qualifications","qualify"],["Classement","qualified"],["Estimation","estimate"],["Catégories","categories"],["Finalistes","finalIntro"],["Finale","final"],["Victoire","victory"]].map(([label,target]) =>
         <button key={target} onClick={() => { if(target==="qualify") reset(); setScreen(target as Screen); }}>{label}</button>)}</div>
-      <button className="primary" onClick={() => setScreen("questionAudit")}>CONTRÔLER LES 1 000 QUESTIONS</button>
-      <p className="muted">{questionReports.length} question{questionReports.length > 1 ? "s" : ""} signalée{questionReports.length > 1 ? "s" : ""} sur cet appareil.</p>
       <button className="secondary" onClick={() => setScreen("home")}>FERMER</button>
-    </section>}
-
-    {screen === "questionAudit" && auditedQuestion && <section className="wide audit-panel">
-      <p className="eyebrow">CONTRÔLE ÉDITORIAL</p><h1>Question {auditIndex + 1}/{auditedQuestions.length}</h1>
-      <div className="audit-toolbar"><select value={auditCategory} onChange={event => { setAuditCategory(event.target.value); setAuditIndex(0); }}><option>Tous les thèmes</option>{[...new Set(allQuestions.map(question => question.category))].sort().map(category => <option key={category}>{category}</option>)}</select><input aria-label="Numéro de question" type="number" min="1" max={auditedQuestions.length} value={auditIndex + 1} onChange={event => setAuditIndex(Math.max(0, Math.min(auditedQuestions.length - 1, Number(event.target.value) - 1)))} /></div>
-      <div className="audit-question"><small>{auditedQuestion.id} · {auditedQuestion.category} · {auditedQuestion.difficulty}</small><h2>{auditedQuestion.q}</h2><div className="audit-choices">{auditedQuestion.choices.map((choice, choiceIndex) => <div className={choiceIndex === auditedQuestion.answer ? "correct" : ""} key={choice}><b>{String.fromCharCode(65 + choiceIndex)}</b>{choice}{choiceIndex === auditedQuestion.answer && <span>RÉPONSE ACTUELLE</span>}</div>)}</div></div>
-      <div className="audit-actions"><button className="secondary" disabled={auditIndex === 0} onClick={() => setAuditIndex(value => value - 1)}>← PRÉCÉDENTE</button><button className="primary" onClick={() => setAuditIndex(value => Math.min(value + 1, auditedQuestions.length - 1))}>QUESTION OK · SUIVANTE</button></div>
-      <div className="report-box"><h2>Signaler cette question</h2><select value={reportReason} onChange={event => setReportReason(event.target.value)}><option>Mauvaises réponses incohérentes</option><option>Réponse actuelle incorrecte</option><option>Question ambiguë</option><option>Question datée ou évolutive</option><option>Doublon</option><option>Formulation à corriger</option><option>Mauvaise difficulté ou catégorie</option></select><textarea value={reportCorrection} onChange={event => setReportCorrection(event.target.value)} placeholder="Correction proposée ou explication (facultatif)" /><button className="danger-button" onClick={saveQuestionReport}>ENREGISTRER LE SIGNALEMENT</button></div>
-      {questionReports.length > 0 && <button className="secondary" onClick={exportQuestionReports}>EXPORTER LES {questionReports.length} SIGNALEMENTS</button>}
-      <button className="text-button" onClick={() => setScreen("creator")}>Retour au mode créateur</button>
     </section>}
   </main>;
 }

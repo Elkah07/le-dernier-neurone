@@ -110,17 +110,42 @@ const curatedPools = {
   body: ["Le cœur","Le cerveau","Le foie","Le rein","Le poumon","L’estomac","Le fémur","Le tibia","Le crâne","La peau","La bouche","Le nez","L’oreille","La main","Le pied"],
   game: ["Le Cluedo","Le Monopoly","Le Scrabble","Les échecs","Les dames","Le poker","Le flipper","Pyramide","Mario Kart","Minecraft","Fortnite","Pokémon","The Legend of Zelda","Les Sims","Sonic"],
   organization: ["L’ONU","L’UNESCO","L’Union européenne","La FIFA","Le CIO","La NASA","Nintendo","Disney","Marvel","Netflix","Amazon","Microsoft","Sony","La Croix-Rouge","L’OTAN"],
+  city: ["Paris","Londres","Rome","Madrid","Berlin","New York","Tokyo","Lisbonne","Bruxelles","Vienne","Athènes","Dublin","Oslo","Stockholm","Prague","Budapest","Montréal","Sydney","Le Caire","Moscou"],
+  country: ["La France","L’Espagne","L’Italie","L’Allemagne","Le Portugal","La Belgique","La Suisse","L’Autriche","La Grèce","Le Canada","Le Brésil","Le Japon","L’Australie","L’Inde","L’Égypte","L’Argentine","Le Mexique","La Norvège","La Suède","Le Maroc"],
+  fruit: ["La pomme","La poire","La prune","La pêche","L’abricot","La cerise","La fraise","La framboise","Le raisin","Le kiwi","La mangue","L’ananas","L’orange","Le citron","Le melon","La pastèque"],
+  vegetable: ["La carotte","La courgette","L’aubergine","Le poireau","Le navet","Le chou-fleur","Le brocoli","L’épinard","Le radis","La betterave","Le céleri","Le fenouil"],
+  meat: ["Le bœuf","Le veau","Le porc","L’agneau","Le poulet","La dinde","Le canard","Le lapin","Le gibier","Le mouton"],
+  cheese: ["Le camembert","Le roquefort","Le comté","Le brie","Le reblochon","Le chèvre","La mozzarella","Le parmesan","Le gouda","Le munster"],
+  drink: ["L’eau","Le café","Le thé","Le vin","La bière","Le cidre","Le jus d’orange","La limonade","Le lait","Le chocolat chaud"],
 };
 const answerType = q => {
-  if (/\b(combien|quelle année|quel âge|quel numéro|à quelle date)\b/i.test(q)) return "number";
-  if (/^(qui|à quel écrivain|à quelle écrivaine|quel acteur|quelle actrice|quel chanteur|quelle chanteuse|quel auteur|quelle auteure|quel réalisateur|quelle réalisatrice|quel personnage historique)\b/i.test(q)) return "person";
-  if (/\b(quel pays|quelle ville|quelle capitale|quel continent|quelle île|quel océan|quelle mer|quel fleuve|dans quel état|dans quelle région|où se trouve|où est situé)\b/i.test(q)) return "place";
-  if (/\b(quel film|quelle série|quelle chanson|quel album|quel livre|quel roman|quelle œuvre|quel opéra|quel titre|quelle émission|quel dessin animé)\b/i.test(q)) return "title";
+  if (/\b(quelle année|en quelle année|à quelle date|de quel siècle)\b/i.test(q)) return "year";
+  if (/\b(quel âge|à quel âge)\b/i.test(q)) return "age";
+  if (/\b(combien|quel numéro)\b/i.test(q)) return "number";
+  if (/\b(quel chanteur|quelle chanteuse|quel musicien|quelle musicienne|quel interprète|quelle interprète|qui (?:chante|interprète)|l['’]interprète de)\b/i.test(q)) return "singer";
+  if (/\b(quel acteur|quelle actrice|quel comédien|quelle comédienne|qui (?:joue|incarne)|interprété par|incarné(?:e)? par)\b/i.test(q)) return "actor";
+  if (/\b(quel écrivain|quelle écrivaine|quel auteur|quelle auteure|quel poète|quelle poétesse|qui (?:a écrit|écrivit))\b/i.test(q)) return "writer";
+  if (/\b(quel réalisateur|quelle réalisatrice|qui (?:a réalisé|réalisa))\b/i.test(q)) return "director";
+  if (/\b(quel personnage historique|quel homme politique|quelle femme politique|quel scientifique|quelle scientifique)\b/i.test(q)) return "person";
+  if (/\b(quelle ville|quelle capitale|dans quelle ville)\b/i.test(q)) return "city";
+  if (/\b(quel pays|dans quel pays|de quel pays)\b/i.test(q)) return "country";
+  if (/\b(quel continent|quelle île|quel océan|quelle mer|quel fleuve|dans quel état|dans quelle région|où se trouve|où est situé)\b/i.test(q)) return "place";
+  if (/\b(quel film|dans quel film)\b/i.test(q)) return "film";
+  if (/\b(quelle série|dans quelle série|quel feuilleton)\b/i.test(q)) return "series";
+  if (/\b(quelle chanson|quel album|quel morceau)\b/i.test(q)) return "song";
+  if (/\b(quel livre|quel roman|quelle œuvre littéraire|quelle pièce)\b/i.test(q)) return "book";
+  if (/\b(quelle émission|quel jeu télévisé)\b/i.test(q)) return "show";
+  if (/\b(quel opéra|quel titre|quel dessin animé)\b/i.test(q)) return "title";
   if (/\b(quel animal|quelle race|quel oiseau|quel poisson|quel insecte|quel mammifère)\b/i.test(q)) return "animal";
   if (/\b(quel sport|quelle discipline|dans quel sport)\b/i.test(q)) return "sport";
-  if (/\b(quel plat|quel aliment|quel fruit|quel légume|quel fromage|quelle boisson|quel dessert|quelle viande|quel ingrédient)\b/i.test(q)) return "food";
+  if (/\b(quel fruit|de quel fruit)\b/i.test(q)) return "fruit";
+  if (/\b(quel légume|de quel légume)\b/i.test(q)) return "vegetable";
+  if (/\b(quel fromage|de quel fromage)\b/i.test(q)) return "cheese";
+  if (/\b(quelle boisson|quel vin|quelle bière)\b/i.test(q)) return "drink";
+  if (/\b(quelle viande|de quel animal mangez-vous la viande)\b/i.test(q)) return "meat";
+  if (/\b(quel plat|quel aliment|quel dessert|quel ingrédient)\b/i.test(q)) return "food";
   if (/\b(de quelle couleur|quelle couleur)\b/i.test(q)) return "color";
-  if (/\b(quel prénom|quelle prénom|quel nom|quelle appellation|comment s'appelle|comment se nomme)\b/i.test(q)) return "name";
+  if (/\b(quel prénom|quelle prénom)\b/i.test(q)) return "name";
   if (/\b(quelle profession|quel métier)\b/i.test(q)) return "profession";
   if (/\b(quelle langue|quel langage)\b/i.test(q)) return "language";
   if (/\b(quelle partie du corps|quel organe|quel os|quel muscle)\b/i.test(q)) return "body";
@@ -168,8 +193,30 @@ for (const row of rows) {
   if (!globalPools.get(row.type).some(value => normalize(value) === normalize(row.answer))) globalPools.get(row.type).push(row.answer);
 }
 
+const numericDistractors = row => {
+  const match = row.answer.match(/-?\d[\d\s]*/);
+  if (!match) return null;
+  const value = Number(match[0].replace(/\s/g, ""));
+  if (!Number.isFinite(value)) return null;
+  const startsWithNumber = (match.index || 0) === 0;
+  const suffix = startsWithNumber ? row.answer.slice(match[0].length).trim() : "";
+  const format = n => `${n.toLocaleString("fr-FR")}${suffix ? ` ${suffix}` : ""}`;
+  const candidates = row.type === "year"
+    ? [value - 10, value - 1, value + 1, value + 10]
+    : row.type === "age"
+      ? [Math.max(0, value - 4), Math.max(0, value - 2), value + 2, value + 4]
+      : [Math.max(0, value - 2), Math.max(0, value - 1), value + 1, value + 2, value * 2, value + 3];
+  return [...new Set(candidates)].filter(n => n !== value).map(format);
+};
+
 const pdfQuestions = selected.map((row, index) => {
-  const pool = curatedPools[row.type] || globalPools.get(row.type) || [];
+  const broadType = ({ singer: "person", actor: "person", writer: "person", director: "person", film: "title", series: "title", song: "title", book: "title", show: "title", year: "number", age: "number", fruit: "food", vegetable: "food", meat: "food", cheese: "food", drink: "food" })[row.type] || row.type;
+  const cleanPool = curatedPools[row.type];
+  const pool = numericDistractors(row) || cleanPool || (pools.get(`${row.category}:${row.type}`)?.length >= 4
+    ? pools.get(`${row.category}:${row.type}`)
+    : globalPools.get(row.type)?.length >= 4
+      ? globalPools.get(row.type)
+      : curatedPools[broadType] || []);
   const distractors = pool.filter(value => normalize(value) !== normalize(row.answer)).sort((a,b) => hash(`${row.question}${a}`) - hash(`${row.question}${b}`)).slice(0,3);
   const choices = [...distractors, row.answer].sort((a,b) => hash(`${row.question}:${a}`) - hash(`${row.question}:${b}`));
   return { id: `archive-${String(index+1).padStart(4,"0")}`, question: row.question, choices, answer: choices.indexOf(row.answer), category: row.category, difficulty: index % 7 === 0 ? "hard" : index % 3 === 0 ? "easy" : "medium", origin: "Le Grand Quiz - dB Animation", review: "stable-filtered" };

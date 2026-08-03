@@ -4,15 +4,15 @@
     "question": "Au coup d'envoi, combien y a-t-il de joueurs sur un terrain de handball ?",
     "choices": [
       "14",
-      "1789",
-      "1914",
-      "1945"
+      "12",
+      "13",
+      "16"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -20,47 +20,47 @@
     "question": "Combien de décilitres d'eau contient 1 bouteille de 75 cl aux 2/3 pleine ?",
     "choices": [
       "5",
-      "10",
-      "12",
-      "15"
+      "4",
+      "6",
+      "7"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0906",
-    "question": "Combien de présidents de la Ve République ont fini leurs 2 mandats ?",
+    "question": "En août 2026, combien de présidents de la Ve République ont accompli deux mandats complets ?",
     "choices": [
       "2",
-      "1789",
-      "1914",
-      "1945"
+      "1",
+      "3",
+      "4"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0932",
     "question": "Combien fait le cinquième du double de 10 ?",
     "choices": [
-      "0",
-      "1",
       "2",
+      "5",
+      "8",
       "4"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -68,31 +68,31 @@
     "question": "Combien fait le huitième du triple de 16 ?",
     "choices": [
       "6",
-      "1789",
-      "1914",
-      "1945"
+      "4",
+      "8",
+      "12"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0926",
     "question": "Combien fait le septième du double de 14 ?",
     "choices": [
-      "1789",
-      "1914",
-      "1945",
+      "2",
+      "6",
+      "8",
       "4"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -100,63 +100,63 @@
     "question": "Combien font 10 au carré moins 40 ?",
     "choices": [
       "60",
-      "1 000",
-      "100",
-      "365"
+      "50",
+      "70",
+      "80"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0921",
     "question": "Combien font le sixième du double du triple de 459 ?",
     "choices": [
-      "1 000",
-      "100",
-      "365",
+      "306",
+      "612",
+      "918",
       "459"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0914",
     "question": "Combien y a-t-il de \"a\" dans le mot abracadabrantesque ?",
     "choices": [
-      "0",
-      "1",
-      "2",
+      "4",
+      "6",
+      "7",
       "5"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0927",
     "question": "Combien y a-t-il de billets de valeurs différentes en euros ?",
     "choices": [
-      "1789",
-      "1914",
-      "1945",
+      "6",
+      "8",
+      "9",
       "7"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -164,15 +164,15 @@
     "question": "Combien y a-t-il de décagrammes dans un kilogramme ?",
     "choices": [
       "100",
-      "1789",
-      "1914",
-      "1945"
+      "10",
+      "1 000",
+      "10 000"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -180,15 +180,15 @@
     "question": "Combien y a-t-il de litres dans un décalitre ?",
     "choices": [
       "10",
-      "1 000",
+      "1",
       "100",
-      "365"
+      "1 000"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -196,79 +196,79 @@
     "question": "Combien y a-t-il de milligrammes dans un gramme ?",
     "choices": [
       "1000",
-      "10",
-      "12",
-      "15"
+      "100",
+      "10 000",
+      "100 000"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0904",
     "question": "Combien y a-t-il de millimètres dans un mètre ?",
     "choices": [
-      "1789",
-      "1914",
-      "1945",
+      "Cent",
+      "Dix mille",
+      "Cent mille",
       "Mille"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0916",
     "question": "Comment s'appelle la partie du tube digestif qui va du pharynx à l'estomac ?",
     "choices": [
-      "Sherlock Holmes",
-      "Tony Stark",
-      "Victor",
+      "La trachée",
+      "Le duodénum",
+      "Le côlon",
       "L'oesophage"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0923",
     "question": "Comment s'appelle le pirate qui apparaît dans l'univers de B. Bunny ?",
     "choices": [
-      "Central Perk",
-      "Pikachu",
+      "Daffy",
+      "Taz",
       "Sam",
-      "Tony Stark"
+      "Porky"
     ],
     "answer": 2,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0900",
     "question": "Dans les aventures de Lucky Luke, combien les frères Dalton sont-ils ?",
     "choices": [
-      "0",
-      "1",
-      "2",
+      "3",
+      "5",
+      "6",
       "4"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -276,15 +276,15 @@
     "question": "Dans notre calendrier, combien de mois finissent par la lettre E ?",
     "choices": [
       "4",
-      "10",
-      "12",
-      "15"
+      "3",
+      "5",
+      "6"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -292,15 +292,15 @@
     "question": "Dans notre calendrier, combien de mois finissent par la lettre R ?",
     "choices": [
       "2",
-      "1789",
-      "1914",
-      "1945"
+      "1",
+      "3",
+      "4"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -308,15 +308,15 @@
     "question": "Dans quel jeu de société un meurtre peut-il être commis par le colonel Moutarde dans la salle à manger ?",
     "choices": [
       "Le Cluedo",
-      "The Legend of Zelda",
-      "Les Sims",
-      "Sonic"
+      "Le Monopoly",
+      "Risk",
+      "Les Loups-Garous"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -324,223 +324,223 @@
     "question": "Dans quel jeu doit-on payer pour voir les cartes de l'adversaire ?",
     "choices": [
       "Le poker",
-      "The Legend of Zelda",
-      "Pyramide",
-      "Mario Kart"
+      "Le bridge",
+      "Le rami",
+      "La belote"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0907",
     "question": "Dans quelle langue le mot \"perestroïka\" signifie-t-il \"reconstruction\" ?",
     "choices": [
-      "L’anglais",
-      "Le français",
+      "Le polonais",
+      "L’ukrainien",
       "Le russe",
-      "Le grec"
+      "Le tchèque"
     ],
     "answer": 2,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0922",
-    "question": "Dans quelle région administrative se trouve le Territoire de Belfort ?",
+    "question": "Dans quelle région administrative se trouve le Territoire de Belfort depuis 2016 ?",
     "choices": [
-      "L’océan Pacifique",
-      "La Franche-Comté",
-      "L’Espagne",
-      "L’Australie"
+      "Le Grand Est",
+      "La Bourgogne-Franche-Comté",
+      "L’Auvergne-Rhône-Alpes",
+      "Le Centre-Val de Loire"
     ],
     "answer": 1,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0919",
     "question": "De quelle couleur sont les draps de \"La Groupie du pianiste\" ?",
     "choices": [
-      "Beige",
-      "Blanc",
+      "Blancs",
+      "Bleus",
       "Roses",
-      "Argenté"
+      "Verts"
     ],
     "answer": 2,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0929",
     "question": "De quelle couleur sont les Simpson dans le célèbre dessin animé ?",
     "choices": [
-      "Marron",
       "Orange",
-      "Violet",
+      "Bleu",
+      "Rose",
       "Jaune"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0908",
     "question": "En combien de zones le calendrier scolaire divise-t-il la France ?",
     "choices": [
-      "1789",
-      "1914",
-      "1945",
+      "2",
+      "4",
+      "5",
       "3"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0911",
     "question": "En quelle année fut inaugurée la 1re liaison commerciale du TGV ?",
     "choices": [
-      "1789",
-      "1914",
-      "1945",
+      "1977",
+      "1984",
+      "1989",
       "1981"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0912",
     "question": "En quelle langue Ovide a-t-il écrit \"Les Métamorphoses\" ?",
     "choices": [
-      "Le portugais",
-      "L’anglais",
-      "Le japonais",
+      "Grec ancien",
+      "Italien",
+      "Araméen",
       "Latin"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0897",
     "question": "Quel âge a Pierre Perret dans \"les Jolies Colonies de vacances\" ?",
     "choices": [
-      "0",
-      "1",
-      "2",
+      "7 ans",
+      "9 ans",
+      "10 ans",
       "8 ans"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0893",
     "question": "Quel jeu de café \"claque\" quand on gagne une partie gratuite ?",
     "choices": [
-      "Les dames",
-      "The Legend of Zelda",
-      "Fortnite",
+      "Le billard",
+      "Le baby-foot",
+      "Le jeu de palets",
       "Le flipper"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0934",
     "question": "Quel nom de poisson désigne un piquet de tente de camping ?",
     "choices": [
-      "Central Perk",
+      "Anchois",
       "Sardine",
-      "Scotland Yard",
-      "Alexandre"
+      "Hareng",
+      "Maquereau"
     ],
     "answer": 1,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0915",
     "question": "Quel nom porte la larve des papillons ?",
     "choices": [
-      "Central Perk",
+      "La chrysalide",
       "La chenille",
-      "Mario",
-      "Simba"
+      "La nymphe",
+      "La pupe"
     ],
     "answer": 1,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0909",
     "question": "Quel nom porte le siège de la police londonienne ?",
     "choices": [
-      "Tony Stark",
-      "Arthur",
+      "Buckingham Palace",
+      "Whitehall",
       "Scotland Yard",
-      "Pikachu"
+      "Westminster"
     ],
     "answer": 2,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0931",
     "question": "Quel organe sensoriel se dit \"esgourde\" en argot ?",
     "choices": [
-      "La main",
-      "La peau",
-      "Le foie",
+      "Le nez",
+      "L’œil",
+      "La bouche",
       "L'oreille"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -548,47 +548,47 @@
     "question": "Quel prénom complète le titre du tube de Joe Dassin : \"C'est la vie\" ?",
     "choices": [
       "Lily",
-      "Mario",
-      "Juliette",
-      "Alexandre"
+      "Marie",
+      "Julie",
+      "Lucie"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0920",
     "question": "Quelle partie du corps manque-t-il au \"Stoïque Soldat de plomb\" d'Andersen ?",
     "choices": [
-      "Le nez",
+      "Un bras",
       "Une jambe",
-      "La main",
-      "La peau"
+      "Un œil",
+      "Une main"
     ],
     "answer": 1,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0933",
     "question": "Qui a écrit ce vers : \"Je fais souvent ce rêve, étrange et pénétrant\" ?",
     "choices": [
-      "Catherine Deneuve",
-      "Vanessa Paradis",
+      "Arthur Rimbaud",
+      "Charles Baudelaire",
       "Paul Verlaine",
-      "Brad Pitt"
+      "Stéphane Mallarmé"
     ],
     "answer": 2,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -596,15 +596,15 @@
     "question": "Qui appelez-vous en composant le 115 ?",
     "choices": [
       "Le SAMU social",
-      "Charles de Gaulle",
-      "Émile Zola",
-      "Louis Pasteur"
+      "Le SAMU médical",
+      "La police",
+      "Les pompiers"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -612,47 +612,47 @@
     "question": "Qui est l'interprète de \"Wild World\" en 1970 ?",
     "choices": [
       "Cat Stevens",
-      "Brad Pitt",
-      "Meryl Streep",
-      "Marie Curie"
+      "James Taylor",
+      "Donovan",
+      "Leonard Cohen"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0930",
     "question": "Qui incarne l'épouse de Gary Cooper dans \"Le train sifflera trois fois\" ?",
     "choices": [
-      "Vanessa Paradis",
+      "Ingrid Bergman",
       "Grace Kelly",
-      "Tom Hanks",
-      "Émile Zola"
+      "Lauren Bacall",
+      "Ava Gardner"
     ],
     "answer": 1,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0892",
     "question": "Qui tombe amoureux de sa \"Belle-maman\" incarnée par Catherine Deneuve ?",
     "choices": [
-      "Bénabar",
-      "Sophie Marceau",
-      "Édith Piaf",
+      "Gérard Depardieu",
+      "Daniel Auteuil",
+      "André Dussollier",
       "Vincent Lindon"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -660,63 +660,63 @@
     "question": "Sans compter l'excuse, combien y a-t-il d'atouts au tarot ?",
     "choices": [
       "21",
-      "100",
-      "365",
-      "1789"
+      "20",
+      "22",
+      "24"
     ],
     "answer": 0,
     "category": "Culture générale",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0910",
     "question": "Si j'ai passé 12 bimestres en Australie, combien d'années suis-je resté là-bas ?",
     "choices": [
-      "1789",
-      "1914",
-      "1 000",
+      "1 an",
+      "3 ans",
+      "4 ans",
       "2"
     ],
     "answer": 3,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0896",
     "question": "Sous quel nom est plus connu le personnage de Malko Linge ?",
     "choices": [
-      "Peter Parker",
+      "OSS 117",
       "SAS",
-      "Mario",
-      "Simba"
+      "Bob Morane",
+      "Largo Winch"
     ],
     "answer": 1,
     "category": "Culture générale",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0913",
     "question": "Sur un baby-foot, combien y a-t-il de défenseurs par équipe ?",
     "choices": [
-      "0",
-      "1",
+      "3",
+      "4",
       "2",
-      "3"
+      "5"
     ],
     "answer": 2,
     "category": "Culture générale",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   }
 ]

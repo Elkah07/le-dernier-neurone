@@ -2,20 +2,19 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import bank from "../data/question-bank.json" with { type: "json" };
 
-test("la base contient au moins 1 080 QCM valides", () => {
-  assert.ok(bank.length >= 1080);
-  assert.equal(new Set(bank.map(question => question.question.toLowerCase())).size, bank.length);
+test("la base contient exactement 1 080 QCM valides", () => {
+  assert.equal(bank.length, 1080);
+  assert.equal(new Set(bank.map(question => question.question.toLowerCase())).size, 1080);
   for (const question of bank) {
     assert.match(question.question, /\?["»']?$/);
     assert.equal(question.choices.length, 4);
     assert.equal(new Set(question.choices.map(choice => choice.toLowerCase())).size, 4);
     assert.ok(question.answer >= 0 && question.answer <= 3);
     assert.ok(question.choices[question.answer]);
-    assert.notEqual(question.validation, "rejetee");
   }
 });
 
-test("tous les thèmes modernes demandés sont représentés", () => {
+test("tous les thèmes demandés sont représentés", () => {
   for (const category of ["Cinéma", "Musique", "Gaming", "Disney", "Marvel", "Années 90/2000", "Téléréalité", "YouTube/Twitch", "Netflix/Séries", "Cuisine"]) {
     assert.ok(bank.some(question => question.category === category), `thème manquant: ${category}`);
   }

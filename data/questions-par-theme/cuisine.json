@@ -1,18 +1,18 @@
 [
   {
     "id": "archive-0803",
-    "question": "A quel fromage de chèvre AOC le nom de Chavignol est-il associé ?",
+    "question": "À quel fromage de chèvre AOC le nom de Chavignol est-il associé ?",
     "choices": [
-      "Le crottin",
-      "La vanille",
-      "La carotte",
-      "Le fromage"
+      "Le crottin de Chavignol",
+      "La feta",
+      "Le comté",
+      "Le roquefort"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -20,143 +20,143 @@
     "question": "Au rugby, quel nom porte le fait de marquer en aplatissant le ballon ?",
     "choices": [
       "Un essai",
-      "Buzz",
-      "Nemo",
-      "Olaf"
+      "Un drop",
+      "Une pénalité",
+      "Une transformation"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0811",
-    "question": "Avec le lait de quel fruit fabrique-t- on le sirop d'orgeat ?",
+    "question": "Avec le lait de quel fruit fabrique-t-on le sirop d'orgeat ?",
     "choices": [
-      "Le mascarpone",
-      "Le riz",
-      "Le thé",
-      "L'amande"
+      "L'amande",
+      "La pomme",
+      "La poire",
+      "La cerise"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0820",
     "question": "Avec quel fruit pilé confectionne-t-on les macarons nature ?",
     "choices": [
-      "Le poulet",
-      "Le saumon",
-      "La mozzarella",
-      "L'amande"
+      "L'amande",
+      "La pomme",
+      "La poire",
+      "La cerise"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0799",
     "question": "Combien y a-t-il de chevaux par enclos sur un plateau de jeu des petits chevaux ?",
     "choices": [
-      "1789",
-      "1914",
-      "1945",
-      "4"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "answer": 3,
+    "answer": 2,
     "category": "Cuisine",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0812",
     "question": "Combien y a-t-il de chevaux sur le plateau du jeu des petits chevaux ?",
     "choices": [
+      "14",
+      "15",
       "16",
-      "100",
-      "365",
-      "1789"
+      "17"
     ],
-    "answer": 0,
+    "answer": 2,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0788",
     "question": "Dans quel sport la Française Tatiana Golovin s'illustre-t-elle ?",
     "choices": [
-      "Le hockey sur glace",
       "Le tennis",
-      "Le golf",
-      "Le judo"
+      "Le badminton",
+      "Le squash",
+      "Le tennis de table"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0809",
     "question": "De quel aliment Winnie l'ourson raffole-t-il ?",
     "choices": [
-      "La mozzarella",
       "Le miel",
-      "Le pois chiche",
-      "Les pâtes"
+      "Le beurre",
+      "Le sucre",
+      "Le pain"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0813",
     "question": "De quel fruit la \"pink lady\" est-elle une variété ?",
     "choices": [
-      "Le fromage",
-      "La pomme de terre",
-      "Le chocolat",
-      "La pomme"
+      "La pomme",
+      "La poire",
+      "La cerise",
+      "La prune"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0792",
     "question": "De quel fruit la burlat est-elle une variété ?",
     "choices": [
-      "L’avocat",
-      "Le chocolat",
       "La cerise",
-      "La tomate"
+      "La pomme",
+      "La poire",
+      "La prune"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -164,63 +164,63 @@
     "question": "De quel fruit la guigne est-elle une variété ?",
     "choices": [
       "La cerise",
-      "Le café",
-      "Le bœuf",
-      "L’avocat"
+      "La pomme",
+      "La poire",
+      "La prune"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0783",
     "question": "De quel fruit la mirabelle est-elle une variété ?",
     "choices": [
-      "Le riz",
-      "Le poulet",
-      "Le saumon",
-      "La prune"
+      "La prune",
+      "La pomme",
+      "La poire",
+      "La cerise"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0826",
     "question": "De quel fruit la montmorency est-elle une variété ?",
     "choices": [
-      "Le riz",
-      "Le thé",
       "La cerise",
-      "La mozzarella"
+      "La pomme",
+      "La poire",
+      "La prune"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0787",
-    "question": "De quel légume la bintje et la ratte sont- elles des variétés ?",
+    "question": "De quel légume la bintje et la ratte sont-elles des variétés ?",
     "choices": [
-      "Le citron",
       "La pomme de terre",
-      "Le poulet",
-      "L’avocat"
+      "Le concombre",
+      "L’aubergine",
+      "La courgette"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -228,63 +228,63 @@
     "question": "De quel pays est originaire le vin appelé Porto ?",
     "choices": [
       "Le Portugal",
-      "La Corse",
-      "La Grèce",
-      "Les Alpes"
+      "L’Espagne",
+      "L’Italie",
+      "La France"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0819",
     "question": "De quelle boisson la cervoise des Gaulois est-elle l'ancêtre ?",
     "choices": [
-      "La tomate",
+      "La bière",
       "Le café",
-      "Le bœuf",
-      "La bière"
+      "Le cidre",
+      "Le vin"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0827",
     "question": "En Grèce, à base de quel légume vert se prépare le tzatziki ?",
     "choices": [
-      "La pomme de terre",
-      "Les pâtes",
       "Le concombre",
-      "Le mascarpone"
+      "La pomme de terre",
+      "L’aubergine",
+      "La courgette"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0789",
     "question": "Outre la poire, à partir de quel fruit fait-on traditionnellement du calvados ?",
     "choices": [
-      "Le chocolat",
-      "La pomme de terre",
       "La pomme",
-      "La vanille"
+      "La poire",
+      "La cerise",
+      "La prune"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -292,79 +292,79 @@
     "question": "Pour quel jeu télévisé Gérard Lanvin risque-t-il sa vie en 1983 ?",
     "choices": [
       "Le Prix du danger",
-      "Le Monopoly",
-      "Le poker",
-      "Pokémon"
+      "Le Jeu de la mort",
+      "Running Man",
+      "Rollerball"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0791",
     "question": "Quel aliment fabrique-t-on avec une baratte ?",
     "choices": [
-      "Le pois chiche",
       "Le beurre",
-      "La mozzarella",
-      "L’œuf"
+      "La crème fraîche",
+      "Le yaourt",
+      "Le fromage blanc"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0790",
     "question": "Quel aliment plongez-vous dans l'huile lors d'une fondue bourguignonne ?",
     "choices": [
-      "Le chocolat",
-      "De la viande",
-      "La pomme",
-      "Les pâtes"
+      "Des morceaux de bœuf",
+      "Des morceaux de poulet",
+      "Des crevettes",
+      "Des cubes de tofu"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0805",
     "question": "Quel aliment plongez-vous dans le fromage lors d'une fondue savoyarde ?",
     "choices": [
-      "Le fromage",
-      "L’avocat",
-      "Le mascarpone",
-      "Du pain"
+      "Des morceaux de pain",
+      "Des pommes de terre",
+      "Des quartiers de pomme",
+      "Des champignons"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0804",
     "question": "Quel fromage entre dans la recette traditionnelle de la salade grecque ?",
     "choices": [
-      "Le citron",
-      "Le poulet",
-      "La pomme de terre",
-      "La feta"
+      "La feta",
+      "Le comté",
+      "Le roquefort",
+      "Le chèvre frais"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -372,63 +372,63 @@
     "question": "Quel fruit a fait la réputation de la ville de Moissac ?",
     "choices": [
       "Le raisin",
-      "La vanille",
-      "Les pâtes",
-      "La pomme"
+      "La pomme",
+      "La poire",
+      "La cerise"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0784",
     "question": "Quel fruit à la peau duveteuse et à la chair verte est appelé \"groseille de Chine\" ?",
     "choices": [
-      "Les pâtes",
+      "Le kiwi",
       "La pomme",
-      "La pomme de terre",
-      "Le kiwi"
+      "La poire",
+      "La cerise"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0794",
     "question": "Quel fruit peut être \"golden\" ou \"granny-smith\" ?",
     "choices": [
-      "Les pâtes",
-      "La pomme de terre",
-      "Le riz",
-      "La pomme"
+      "La pomme",
+      "La poire",
+      "La cerise",
+      "La prune"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0785",
     "question": "Quel fruit pouvant être plantain pousse en régime ?",
     "choices": [
-      "Le pois chiche",
-      "La mozzarella",
-      "La pomme de terre",
-      "La banane"
+      "La banane",
+      "La pomme",
+      "La poire",
+      "La cerise"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -436,31 +436,31 @@
     "question": "Quel fruit sec peut être de Corinthe, de Smyrne ou de Malaga ?",
     "choices": [
       "Le raisin",
-      "Le riz",
-      "Le thé",
-      "Le citron"
+      "La pomme",
+      "La poire",
+      "La cerise"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0824",
     "question": "Quel légume est le \"Coco de Paimpol\" ?",
     "choices": [
-      "Les pâtes",
-      "Un haricot (blanc)",
+      "Le haricot blanc",
       "La pomme de terre",
-      "Le mascarpone"
+      "Le concombre",
+      "L’aubergine"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -468,95 +468,95 @@
     "question": "Quel légume porte le nom de chicon en Belgique ?",
     "choices": [
       "L'endive",
-      "Le mascarpone",
-      "Le citron",
-      "L’œuf"
+      "La pomme de terre",
+      "Le concombre",
+      "L’aubergine"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0801",
     "question": "Quel nom de légume donne-t-on à l'enseigne rouge des bureaux de tabac ?",
     "choices": [
-      "Carotte",
-      "Central Perk",
-      "Walter White",
-      "Juliette"
+      "La carotte",
+      "Le cigare",
+      "La pipe",
+      "La feuille de tabac"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0808",
     "question": "Quel nom de légume porte le nain qui est l'ami de Oui-Oui ?",
     "choices": [
-      "La Méduse",
-      "Buzz",
-      "Nemo",
-      "Potiron"
+      "Potiron",
+      "La pomme de terre",
+      "Le concombre",
+      "L’aubergine"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0814",
-    "question": "Quel nom donne-t-on à la fondue composée de fromage et de vin blanc, que l'on déguste avec des morceaux de pains ?",
+    "question": "Quel nom donne-t-on à la fondue composée de fromage et de vin blanc, que l'on déguste avec des morceaux de pain ?",
     "choices": [
-      "La Méduse",
-      "Sherlock Holmes",
-      "Arthur",
-      "La fondue savoyarde"
+      "La fondue savoyarde",
+      "La raclette",
+      "La fondue bourguignonne",
+      "La tartiflette"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0815",
     "question": "Quel os plat et triangulaire est situé à la partie postérieure de l'épaule ?",
     "choices": [
-      "L'omoplate",
-      "Le cerveau",
-      "La main",
-      "La bouche"
+      "L’omoplate",
+      "Le sternum",
+      "Le sacrum",
+      "Le bassin"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0797",
     "question": "Quel os, en forme de S, va du sternum à l'omoplate ?",
     "choices": [
-      "La main",
-      "La peau",
       "La clavicule",
-      "La bouche"
+      "L’humérus",
+      "Le radius",
+      "Le cubitus"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -564,15 +564,15 @@
     "question": "Quel plat brésilien est un ragoût de viande et de haricots noirs ?",
     "choices": [
       "La feijoada",
-      "Le café",
-      "Le bœuf",
-      "Le miel"
+      "Le taboulé",
+      "La moussaka",
+      "Le couscous"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -580,47 +580,47 @@
     "question": "Quel plat d'origine libanaise mêle tomates, blé concassé, persil, oignons et menthe ?",
     "choices": [
       "Le taboulé",
-      "La carotte",
-      "Le fromage",
-      "Le citron"
+      "La feijoada",
+      "La moussaka",
+      "Le couscous"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0807",
     "question": "Quel plat partagent \"La Belle et le Clochard\" lors de leur soirée en amoureux dans un restaurant italien ?",
     "choices": [
-      "Les pâtes",
-      "Des spaghettis (bolognaises).",
-      "L’œuf",
-      "La mozzarella"
+      "Des spaghettis",
+      "Des raviolis",
+      "Des lasagnes",
+      "Des tagliatelles"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0818",
     "question": "Quelle boisson est la spécialité de la ville de Limoux ?",
     "choices": [
-      "La mozzarella",
-      "La carotte",
-      "Le fromage",
-      "La blanquette"
+      "La blanquette",
+      "Le café",
+      "La bière",
+      "Le cidre"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -628,63 +628,63 @@
     "question": "Quelle boisson peut être arabica ou robusta ?",
     "choices": [
       "Le café",
-      "L’avocat",
-      "La vanille",
-      "Le poulet"
+      "La bière",
+      "Le cidre",
+      "Le vin"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0793",
     "question": "Quelle ville française donne son nom à une façon de cuisiner les carottes ?",
     "choices": [
-      "La Belgique",
-      "La Corse",
-      "La Grèce",
-      "Vichy"
+      "Vichy",
+      "Dijon",
+      "Lyon",
+      "Bordeaux"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0786",
     "question": "Selon le proverbe, quel plat se mange froid ?",
     "choices": [
-      "Le riz",
-      "Le thé",
-      "Le fromage",
-      "La vengeance"
+      "La vengeance",
+      "La jalousie",
+      "La colère",
+      "La rancune"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0798",
     "question": "Selon Lio, quel dessert \"sert l'abominable homme des neiges\" ?",
     "choices": [
-      "Le banana Split",
-      "La mozzarella",
-      "L’œuf",
-      "La fraise"
+      "Le banana split",
+      "Le sundae",
+      "La pêche Melba",
+      "Le mont-blanc"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -692,31 +692,31 @@
     "question": "Sous quel nom de produit alimentaire connaît-on mieux le saccharose ?",
     "choices": [
       "Le sucre",
-      "Mario",
-      "Simba",
-      "Sonic"
+      "Le beurre",
+      "Le miel",
+      "Le pain"
     ],
     "answer": 0,
     "category": "Cuisine",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0817",
-    "question": "Traditionnellement, quel légume est l'ingrédient principal de la moussaka ?",
+    "question": "Dans la version grecque de la moussaka, quel légume constitue la couche principale ?",
     "choices": [
-      "La vanille",
-      "La carotte",
-      "L'aubergine",
-      "La mozzarella"
+      "L’aubergine",
+      "La courgette",
+      "Le poivron",
+      "La pomme de terre"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Cuisine",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   }
 ]

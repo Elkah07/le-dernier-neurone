@@ -1,34 +1,34 @@
 [
   {
     "id": "new-tv-001",
-    "question": "Dans Koh-Lanta, quel objet symbolise l'immunité individuelle ?",
+    "question": "Dans Koh-Lanta, quel objet symbolise traditionnellement l’immunité individuelle ?",
     "choices": [
-      "Un totem",
-      "Un flambeau",
-      "Une boussole",
-      "Un collier"
+      "Le totem",
+      "Le flambeau",
+      "La balise",
+      "Le poignard"
     ],
     "answer": 0,
     "category": "Téléréalité",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "new-tv-010",
-    "question": "Dans L'amour est dans le pré, quel est le métier des participants principaux ?",
+    "question": "Dans « L'amour est dans le pré », quel métier exercent les participants principaux ?",
     "choices": [
-      "Agriculteur",
-      "Cuisinier",
-      "Comédien",
+      "Agriculteur ou agricultrice",
+      "Restaurateur ou restauratrice",
+      "Artisan ou artisane",
       "Médecin"
     ],
     "answer": 0,
     "category": "Téléréalité",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -44,23 +44,23 @@
     "category": "Téléréalité",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "new-tv-005",
-    "question": "Dans Pékin Express, quel objet permet traditionnellement d'arrêter une voiture ?",
+    "question": "Dans Pékin Express, quel objet les candidats utilisent-ils traditionnellement pour faire de l’auto-stop ?",
     "choices": [
       "Un pouce en carton",
-      "Un totem",
-      "Une rose",
-      "Un masque"
+      "Un fanion rouge",
+      "Une pancarte jaune",
+      "Un bracelet fluorescent"
     ],
     "answer": 0,
     "category": "Téléréalité",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -76,7 +76,7 @@
     "category": "Téléréalité",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -92,7 +92,7 @@
     "category": "Téléréalité",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -102,13 +102,13 @@
       "Secret Story",
       "Loft Story",
       "Star Academy",
-      "Les Traîtres"
+      "Dilemme"
     ],
     "answer": 0,
     "category": "Téléréalité",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -124,7 +124,7 @@
     "category": "Téléréalité",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -140,7 +140,7 @@
     "category": "Téléréalité",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -156,7 +156,7 @@
     "category": "Téléréalité",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -172,7 +172,7 @@
     "category": "Téléréalité",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -188,7 +188,7 @@
     "category": "Téléréalité",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -204,7 +204,7 @@
     "category": "Téléréalité",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -220,7 +220,7 @@
     "category": "Téléréalité",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -236,7 +236,7 @@
     "category": "Téléréalité",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -252,7 +252,7 @@
     "category": "Téléréalité",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -268,7 +268,7 @@
     "category": "Téléréalité",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -284,7 +284,7 @@
     "category": "Téléréalité",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -300,23 +300,23 @@
     "category": "Téléréalité",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "new-tv-004",
-    "question": "Quelle émission suit des candidats dans une villa à la recherche de l'amour ?",
+    "question": "Quelle émission de rencontres place des célibataires dans une villa pour former des couples ?",
     "choices": [
       "Love Island",
-      "Pékin Express",
-      "Top Chef",
-      "The Voice"
+      "Les Cinquante",
+      "La Villa des cœurs brisés",
+      "Bachelor"
     ],
     "answer": 0,
     "category": "Téléréalité",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   }
 ]

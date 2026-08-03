@@ -3,160 +3,160 @@
     "id": "archive-0192",
     "question": "A quel groupe de rap doit-on le titre \"Qu'est-ce qu'on fait maintenant\" ?",
     "choices": [
-      "La Croix-Rouge",
       "Benny B",
-      "L’OTAN",
-      "L’ONU"
+      "IAM",
+      "Suprême NTM",
+      "MC Solaar"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0299",
     "question": "A quel groupe de rock britannique doit-on l'album \"Dark Side Of The Moon\" en 1973 ?",
     "choices": [
-      "La Croix-Rouge",
       "Pink Floyd",
-      "Netflix",
-      "L’ONU"
+      "Genesis",
+      "Yes",
+      "King Crimson"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0306",
     "question": "A quel groupe de rock doit-on le tube \"Angie\" en 1973 ?",
     "choices": [
-      "L’UNESCO",
-      "Amazon",
-      "Disney",
-      "Les Rolling Stones"
+      "Les Rolling Stones",
+      "The Who",
+      "Led Zeppelin",
+      "The Kinks"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0331",
     "question": "A quel groupe doit-on \"The Reflex\" en 1983 ?",
     "choices": [
-      "Amazon",
-      "Disney",
       "Duran Duran",
-      "La Croix-Rouge"
+      "Queen",
+      "Genesis",
+      "IAM"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0207",
     "question": "A quel groupe doit-on l'album \"Mobilis in mobile\" en 1993 ?",
     "choices": [
-      "L’Union européenne",
-      "Sony",
-      "L’ONU",
-      "Affaire Louis' Trio"
+      "Affaire Louis' Trio",
+      "U2",
+      "Radiohead",
+      "Suprême NTM"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0218",
     "question": "A quel groupe doit-on la chanson \"A Hard Day's Night\" en 1964 ?",
     "choices": [
-      "Microsoft",
-      "L’ONU",
       "Les Beatles",
-      "Netflix"
+      "The Who",
+      "Daft Punk",
+      "Spice Girls"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0353",
     "question": "A quel groupe doit-on la chanson \"Fade to Grey\" en 1981 ?",
     "choices": [
-      "La Croix-Rouge",
-      "L’ONU",
-      "Netflix",
-      "Visage"
+      "Visage",
+      "Genesis",
+      "IAM",
+      "The Beatles"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0283",
     "question": "A quel groupe doit-on la chanson \"I Don't Want a Lover\" en 1989 ?",
     "choices": [
-      "L’Union européenne",
-      "Sony",
-      "Nintendo",
-      "Texas"
+      "Texas",
+      "Radiohead",
+      "Suprême NTM",
+      "The Rolling Stones"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0328",
     "question": "A quel groupe doit-on la chanson \"I Want to Hold Your Hand\" en 1963 ?",
     "choices": [
-      "Disney",
-      "Le CIO",
       "Les Beatles",
-      "Amazon"
+      "Daft Punk",
+      "Spice Girls",
+      "Pink Floyd"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0213",
     "question": "A quel groupe doit-on le tube \"Call Me\" en 1980 ?",
     "choices": [
-      "Sony",
-      "Microsoft",
       "Blondie",
-      "L’ONU"
+      "IAM",
+      "The Beatles",
+      "Queen"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -164,79 +164,79 @@
     "question": "A quel groupe doit-on le tube \"Cherchez le garçon\" en 1980 ?",
     "choices": [
       "Taxi-Girl",
-      "Sony",
-      "La FIFA",
-      "La NASA"
+      "Suprême NTM",
+      "The Rolling Stones",
+      "U2"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0229",
     "question": "A quel groupe doit-on le tube \"Good Vibrations\" en 1966 ?",
     "choices": [
-      "L’UNESCO",
       "Les Beach Boys",
-      "La FIFA",
-      "La NASA"
+      "Spice Girls",
+      "Pink Floyd",
+      "The Who"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0358",
     "question": "A quel groupe doit-on le tube \"How Deep is Your Love\" en 1977 ?",
     "choices": [
-      "Microsoft",
       "Bee Gees",
-      "L’UNESCO",
-      "L’OTAN"
+      "The Beatles",
+      "Queen",
+      "Genesis"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0304",
     "question": "A quel groupe doit-on le tube \"Le vent nous portera\" en 2001 ?",
     "choices": [
-      "Amazon",
-      "Sony",
-      "L’OTAN",
-      "Noir Désir"
+      "Noir Désir",
+      "The Rolling Stones",
+      "U2",
+      "Radiohead"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0235",
     "question": "A quel groupe doit-on le tube \"Losing My Religion\" en 1991 ?",
     "choices": [
-      "La Croix-Rouge",
       "R.E.M.",
-      "L’UNESCO",
-      "L’Union européenne"
+      "Pink Floyd",
+      "The Who",
+      "Daft Punk"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -244,15 +244,15 @@
     "question": "A quel groupe doit-on le tube \"Message in a Bottle\", en 1979 ?",
     "choices": [
       "Police",
-      "L’Union européenne",
-      "Amazon",
-      "Disney"
+      "Queen",
+      "Genesis",
+      "IAM"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -260,63 +260,63 @@
     "question": "A quel groupe doit-on le tube \"Money\" en 1973 ?",
     "choices": [
       "Pink Floyd",
-      "Sony",
-      "Netflix",
-      "L’Union européenne"
+      "U2",
+      "Radiohead",
+      "Suprême NTM"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0200",
     "question": "A quel groupe doit-on le tube \"New Year's Day\" en 1983 ?",
     "choices": [
-      "La FIFA",
-      "La NASA",
       "U2",
-      "L’OTAN"
+      "The Who",
+      "Daft Punk",
+      "Spice Girls"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0214",
     "question": "A quel groupe doit-on le tube \"One Step Beyond\", en 1979 ?",
     "choices": [
-      "La FIFA",
       "Madness",
-      "Nintendo",
-      "Microsoft"
+      "Genesis",
+      "IAM",
+      "The Beatles"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0187",
     "question": "A quel groupe doit-on le tube \"Owner of a Lonely Heart\" en 1983 ?",
     "choices": [
-      "Sony",
       "Yes",
-      "Nintendo",
-      "L’ONU"
+      "Radiohead",
+      "Suprême NTM",
+      "The Rolling Stones"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -324,31 +324,31 @@
     "question": "A quel groupe doit-on le tube \"Rain and Tears\" en 1968 ?",
     "choices": [
       "Aphrodite's Child",
-      "L’OTAN",
-      "Amazon",
-      "Netflix"
+      "Daft Punk",
+      "Spice Girls",
+      "Pink Floyd"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0195",
     "question": "A quel groupe doit-on le tube \"Sugar Baby Love\" en 1974 ?",
     "choices": [
-      "La Croix-Rouge",
       "The Rubettes",
-      "Sony",
-      "L’OTAN"
+      "IAM",
+      "The Beatles",
+      "Queen"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -356,79 +356,79 @@
     "question": "A quel groupe doit-on le tube \"The Show Must Go On\" en 1991 ?",
     "choices": [
       "Queen",
-      "Microsoft",
-      "Amazon",
-      "Disney"
+      "Suprême NTM",
+      "The Rolling Stones",
+      "U2"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0262",
     "question": "A quel groupe doit-on le tube \"Tic tic tac\" en 1997 ?",
     "choices": [
-      "La FIFA",
-      "La NASA",
       "Carrapicho",
-      "L’ONU"
+      "Spice Girls",
+      "Pink Floyd",
+      "The Who"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0314",
     "question": "A quel groupe doit-on le tube \"Tu dis que tu l'M\" en 1986 ?",
     "choices": [
-      "Microsoft",
       "Dennis' Twist",
-      "L’UNESCO",
-      "L’OTAN"
+      "The Beatles",
+      "Queen",
+      "Genesis"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0315",
     "question": "A quel groupe français doit-on le tube \"C'est comme ça\", en 1986 ?",
     "choices": [
-      "L’Union européenne",
-      "L’ONU",
       "Rita Mitsouko",
-      "Netflix"
+      "Indochine",
+      "Kassav’",
+      "Téléphone"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0282",
     "question": "A quelle chanson de James Brown ces \"Get up (get on up)\" appartiennent-ils ?",
     "choices": [
-      "Imagine",
-      "Pulp Fiction",
-      "Le Seigneur des anneaux",
-      "Sex Machine"
+      "Sex Machine",
+      "Wannabe",
+      "Billie Jean",
+      "Imagine"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -436,31 +436,31 @@
     "question": "Avec quel groupe grunge Kurt Cobain connut-il un succès international ?",
     "choices": [
       "Nirvana",
-      "L’UNESCO",
-      "L’ONU",
-      "La FIFA"
+      "Oasis",
+      "Pink Floyd",
+      "Genesis"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0300",
-    "question": "Combien d'albums un chanteur doit-il vendre pour recevoir un disque d'or ?",
+    "question": "En France, combien d’équivalents ventes faut-il actuellement pour qu’un album soit certifié disque d’or ?",
     "choices": [
+      "50 000",
+      "25 000",
       "75 000",
-      "0",
-      "100",
-      "365"
+      "100 000"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -468,47 +468,47 @@
     "question": "Combien de membres composaient le groupe \"Téléphone\" ?",
     "choices": [
       "4",
-      "10",
-      "12",
-      "15"
+      "3",
+      "5",
+      "6"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0252",
     "question": "Dans quel groupe comique Jean Dujardin s'est-il illustré ?",
     "choices": [
-      "L’Union européenne",
-      "La Croix-Rouge",
-      "L’ONU",
-      "Les Nous C Nous"
+      "Les Nous C Nous",
+      "Genesis",
+      "IAM",
+      "The Beatles"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0265",
     "question": "Dans quelle chanson avait-on dit à Patrick Bruel : \"Te pose pas trop de questions\" ?",
     "choices": [
-      "La Casa de Papel",
-      "Thriller",
       "Qui a le droit",
-      "Le Roi Lion"
+      "Angie",
+      "Je te donne",
+      "Ces soirées-là"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -516,31 +516,31 @@
     "question": "Dans quelle chanson H. Léonard veut-il \"refaire d'un homme un enfant...\" ?",
     "choices": [
       "Pour le plaisir",
-      "Les Dents de la mer",
-      "The Crown",
-      "Le Roi Lion"
+      "Imagine",
+      "Désenchantée",
+      "La Bohème"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0240",
     "question": "Dans quelle chanson M. Delpech rend-il hommage à Dylan et Donovan ?",
     "choices": [
-      "Carmen",
       "Wight Is Wight",
-      "Hamlet",
-      "Titanic"
+      "Purple Rain",
+      "Wannabe",
+      "Billie Jean"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -548,47 +548,47 @@
     "question": "Dans quelle chanson P. Bertrand est-il \"the king of the divan\" ?",
     "choices": [
       "Ça plane pour moi",
-      "Imagine",
-      "Les Dents de la mer",
-      "Pulp Fiction"
+      "Je te donne",
+      "Ces soirées-là",
+      "Like a Prayer"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0333",
     "question": "De quel groupe créé en 1968 Demis Roussos était-il le chanteur ?",
     "choices": [
-      "L’OTAN",
-      "Microsoft",
-      "L’UNESCO",
-      "Aphrodite's Child"
+      "Aphrodite's Child",
+      "Spice Girls",
+      "Pink Floyd",
+      "The Who"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0346",
     "question": "De quel groupe de hard-rock le père de Liv Tyler est-il le chanteur ?",
     "choices": [
-      "Amazon",
-      "Disney",
-      "L’UNESCO",
-      "Aerosmith"
+      "Aerosmith",
+      "Radiohead",
+      "The Rolling Stones",
+      "The Who"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -596,95 +596,95 @@
     "question": "De quel groupe de rock Bono est-il le chanteur ?",
     "choices": [
       "U2",
-      "Nintendo",
-      "La FIFA",
-      "La NASA"
+      "Oasis",
+      "Pink Floyd",
+      "Genesis"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0249",
     "question": "De quel groupe de rock britannique Chris Martin est-il le chanteur ?",
     "choices": [
-      "L’Union européenne",
-      "L’OTAN",
       "Coldplay",
-      "Netflix"
+      "The Beatles",
+      "Queen",
+      "Led Zeppelin"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0226",
     "question": "De quel groupe de rock britannique les frères Noel et Liam Gallagher sont-ils les piliers ?",
     "choices": [
-      "Nintendo",
-      "Netflix",
       "Oasis",
-      "L’Union européenne"
+      "The Rolling Stones",
+      "The Who",
+      "The Kinks"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0269",
     "question": "De quel groupe de zouk font partie Jocelyne Beroard et Jacob Desvarieux ?",
     "choices": [
-      "L’OTAN",
-      "Kassav'",
-      "La FIFA",
-      "La NASA"
+      "Kassav’",
+      "Zouk Machine",
+      "La Compagnie créole",
+      "Malavoi"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0339",
     "question": "De quel groupe des années 70 Gérard Blanc a-t-il été le chanteur ?",
     "choices": [
-      "Sony",
-      "L’OTAN",
       "Martin Circus",
-      "Netflix"
+      "The Who",
+      "Daft Punk",
+      "Spice Girls"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0215",
     "question": "De quel groupe irlandais The Edge est-il le guitariste ?",
     "choices": [
-      "L’Union européenne",
-      "L’ONU",
-      "L’UNESCO",
-      "U2"
+      "U2",
+      "Genesis",
+      "IAM",
+      "The Beatles"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -692,47 +692,47 @@
     "question": "De quel groupe rock Freddie Mercury était-il le chanteur à partir des années 70 ?",
     "choices": [
       "Queen",
-      "La Croix-Rouge",
-      "La FIFA",
-      "La NASA"
+      "Genesis",
+      "Radiohead",
+      "The Rolling Stones"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0236",
     "question": "De quel groupe surnommé les \"Fab Four\" Ringo Starr était-il le batteur ?",
     "choices": [
-      "Nintendo",
       "Les Beatles",
-      "La Croix-Rouge",
-      "L’ONU"
+      "Daft Punk",
+      "Spice Girls",
+      "Pink Floyd"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0310",
     "question": "De quel pays est issu le groupe rock Europe ?",
     "choices": [
-      "Paris",
       "Suède",
-      "Tokyo",
-      "L’Égypte"
+      "Le Maroc",
+      "La France",
+      "L’Allemagne"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -740,95 +740,95 @@
     "question": "De quelle chanson française le tube \"My Way\" est-il une adaptation ?",
     "choices": [
       "Comme d'habitude",
-      "Les Dents de la mer",
-      "Friends",
-      "La Boum"
+      "Wannabe",
+      "Billie Jean",
+      "Imagine"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0275",
     "question": "De quelle ville est originaire le groupe Zebda ?",
     "choices": [
-      "La Corse",
-      "La Grèce",
       "Toulouse",
-      "Rome"
+      "Athènes",
+      "New York",
+      "Madrid"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0305",
     "question": "En 1961, quel groupe interprète la chanson \"Tu parles trop\" ?",
     "choices": [
-      "La Croix-Rouge",
-      "Sony",
       "Chaussettes noires",
-      "L’ONU"
+      "The Beatles",
+      "Queen",
+      "Genesis"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0341",
     "question": "En 1978, quel groupe américain connaît un grand succès avec la chanson \"Y.M.C.A\" ?",
     "choices": [
-      "Netflix",
       "Village People",
-      "L’ONU",
-      "Marvel"
+      "The Rolling Stones",
+      "U2",
+      "Radiohead"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0245",
     "question": "En 1979, à quel groupe disco doit-on le tube \"In the Navy\" ?",
     "choices": [
-      "Sony",
-      "La FIFA",
       "Village People",
-      "L’UNESCO"
+      "Pink Floyd",
+      "The Who",
+      "Daft Punk"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0316",
     "question": "En 1982, quel groupe de rock a chanté le héros de BD Bob Morane dans le tube \"L'Aventurier\" ?",
     "choices": [
-      "La FIFA",
-      "La NASA",
       "Indochine",
-      "L’OTAN"
+      "Queen",
+      "Led Zeppelin",
+      "Oasis"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -836,15 +836,15 @@
     "question": "En 1986, quel groupe français célèbre \"L'Amour à la plage\" ?",
     "choices": [
       "Niagara",
-      "L’Union européenne",
-      "L’OTAN",
-      "L’UNESCO"
+      "Kassav’",
+      "Indochine",
+      "Téléphone"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -852,79 +852,79 @@
     "question": "En 1989, à quel groupe doit-on le tube \"Love Shack\" ?",
     "choices": [
       "The B-52's",
-      "La Croix-Rouge",
-      "Sony",
-      "Nintendo"
+      "The Who",
+      "Daft Punk",
+      "Spice Girls"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0356",
     "question": "En 1991, quel groupe grunge fait un tube avec \"Smells Like Teen Spirit\" ?",
     "choices": [
-      "L’Union européenne",
-      "La Croix-Rouge",
-      "Sony",
-      "Nirvana"
+      "Nirvana",
+      "Led Zeppelin",
+      "Oasis",
+      "Pink Floyd"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0312",
     "question": "En 1992, à quel groupe doit-on le titre \"Everybody Hurts\" ?",
     "choices": [
-      "La FIFA",
       "R.E.M.",
-      "Microsoft",
-      "L’ONU"
+      "Radiohead",
+      "Suprême NTM",
+      "The Rolling Stones"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0324",
     "question": "En 2000, quel groupe sort la chanson \"One More Time\" ?",
     "choices": [
-      "L’OTAN",
       "Daft Punk",
-      "Amazon",
-      "Netflix"
+      "Spice Girls",
+      "Pink Floyd",
+      "The Who"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0196",
     "question": "En grammaire, de quel groupe le verbe entreprendre fait-il partie ?",
     "choices": [
-      "Netflix",
-      "L’UNESCO",
       "3e groupe",
-      "La Croix-Rouge"
+      "2 e groupe",
+      "4 e groupe",
+      "5 e groupe"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -932,111 +932,111 @@
     "question": "En grammaire, de quel groupe le verbe surgir fait-il partie ?",
     "choices": [
       "2e groupe",
-      "L’OTAN",
-      "Microsoft",
-      "L’UNESCO"
+      "1 e groupe",
+      "3 e groupe",
+      "4 e groupe"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0208",
     "question": "En grammaire, de quel groupe le verbe tressaillir fait-il partie ?",
     "choices": [
-      "Nintendo",
       "3e groupe",
-      "L’ONU",
-      "L’OTAN"
+      "2 e groupe",
+      "4 e groupe",
+      "5 e groupe"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0293",
     "question": "En musique, à partir de combien de sons obtient-on un accord ?",
     "choices": [
-      "10",
       "3",
-      "100",
-      "365"
+      "2",
+      "4",
+      "5"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0313",
     "question": "Par quel nom d'animal surnomme-t-on le chanteur Christophe Willem ?",
     "choices": [
-      "Perceval",
       "La tortue",
-      "Walter White",
-      "Arsène Lupin"
+      "Angie",
+      "Je te donne",
+      "Ces soirées-là"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0206",
     "question": "Quel animal est \"passé par ici\" dans une chanson enfantine ?",
     "choices": [
-      "Le cheval",
-      "Le cochon",
       "Le furet",
-      "La baleine"
+      "Un kangourou",
+      "Un manchot",
+      "Un chien"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0295",
     "question": "Quel animal répond au hibou selon la chanson : \"Dans la forêt lointaine\" ?",
     "choices": [
-      "Le kangourou",
       "Le coucou",
-      "Le serpent",
-      "La tortue"
+      "Un alligator",
+      "Un gorille",
+      "Un chat"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0263",
     "question": "Quel auteur-compositeur français a écrit avec Luc Plamondon la comédie musicale \"Starmania\" ?",
     "choices": [
-      "Jodie Foster",
-      "Audrey Tautou",
-      "Marie Curie",
-      "Michel Berger"
+      "Michel Berger",
+      "Sting",
+      "Jean-Jacques Goldman",
+      "Robbie Williams"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1044,31 +1044,31 @@
     "question": "Quel chanteur a connu le succès en 2007 avec le titre \"On s'attache\" ?",
     "choices": [
       "Christophe Maé",
-      "Steven Spielberg",
-      "David Bowie",
-      "Bénabar"
+      "George Michael",
+      "Michel Sardou",
+      "Seal"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0247",
     "question": "Quel chanteur américain était surnommé \"The Voice\" ?",
     "choices": [
-      "Brad Pitt",
-      "Agatha Christie",
       "Frank Sinatra",
-      "Steven Spielberg"
+      "Mylène Farmer",
+      "Serge Gainsbourg",
+      "Michael Jackson"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1076,15 +1076,15 @@
     "question": "Quel chanteur américain prénommé \"Bruce\" est surnommé \"The Boss\" ?",
     "choices": [
       "Bruce Springsteen",
-      "Jean Reno",
-      "Émile Zola",
-      "Vanessa Paradis"
+      "Jean-Jacques Goldman",
+      "Robbie Williams",
+      "Prince"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1092,31 +1092,31 @@
     "question": "Quel chanteur britannique interprète \"Let's Dance\" en 1983 ?",
     "choices": [
       "David Bowie",
-      "Marie Curie",
-      "Audrey Tautou",
-      "Vanessa Paradis"
+      "Michel Sardou",
+      "Seal",
+      "Madonna"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0349",
     "question": "Quel chanteur compose la musique de \"Sa raison d'être\" en 1998 ?",
     "choices": [
-      "Louis Pasteur",
-      "Napoléon Bonaparte",
-      "Tom Hanks",
-      "Pascal Obispo"
+      "Pascal Obispo",
+      "Serge Gainsbourg",
+      "Michael Jackson",
+      "David Bowie"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1124,31 +1124,31 @@
     "question": "Quel chanteur de pop anglaise interprète le tube \"Relax, Take It Easy\" ?",
     "choices": [
       "Mika",
-      "Tina Turner",
-      "Catherine Deneuve",
-      "Louis Pasteur"
+      "Robbie Williams",
+      "Prince",
+      "Sting"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0267",
     "question": "Quel chanteur est Vitoo, le partenaire de Fatal Bazooka sur \"Mauvaise...\" ?",
     "choices": [
-      "Steven Spielberg",
-      "Agatha Christie",
-      "Tom Hanks",
-      "Pascal Obispo"
+      "Pascal Obispo",
+      "Seal",
+      "Madonna",
+      "George Michael"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1156,47 +1156,47 @@
     "question": "Quel chanteur français né à Casablanca rend hommage à T. Monod ?",
     "choices": [
       "Alain Souchon",
-      "Pablo Picasso",
-      "Claude Monet",
-      "David Bowie"
+      "Michael Jackson",
+      "David Bowie",
+      "Mylène Farmer"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0210",
     "question": "Quel chanteur interprète \"A présent tu peux t'en aller\" en 1964 ?",
     "choices": [
-      "Sophie Marceau",
-      "Steven Spielberg",
-      "Napoléon Bonaparte",
-      "Richard Anthony"
+      "Richard Anthony",
+      "Prince",
+      "Sting",
+      "Jean-Jacques Goldman"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0259",
     "question": "Quel chanteur latino a interprété \"La Copa de la vida\" en 1998 ?",
     "choices": [
-      "Jean Dujardin",
       "Ricky Martin",
-      "Mozart",
-      "Marion Cotillard"
+      "Madonna",
+      "George Michael",
+      "Michel Sardou"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1204,111 +1204,111 @@
     "question": "Quel chanteur nous propose ses \"Crayons de couleur\" en 1966 ?",
     "choices": [
       "Hugues Aufray",
-      "Steven Spielberg",
-      "Louis Pasteur",
-      "Jodie Foster"
+      "David Bowie",
+      "Mylène Farmer",
+      "Serge Gainsbourg"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0222",
     "question": "Quel groupe a gagné le Concours Eurovision de la Chanson en 1974 avec le titre \"Waterloo\" ?",
     "choices": [
-      "Nintendo",
       "ABBA",
-      "La Croix-Rouge",
-      "L’ONU"
+      "U2",
+      "Radiohead",
+      "Suprême NTM"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0352",
     "question": "Quel groupe chante \"Come as You Are\" en 1991 ?",
     "choices": [
-      "Nintendo",
-      "Netflix",
       "Nirvana",
-      "L’OTAN"
+      "The Who",
+      "Daft Punk",
+      "Spice Girls"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0325",
     "question": "Quel groupe chante \"Djobi djoba\" en 1987 ?",
     "choices": [
-      "L’OTAN",
-      "Netflix",
-      "Sony",
-      "Les Gipsy Kings"
+      "Les Gipsy Kings",
+      "Genesis",
+      "IAM",
+      "The Beatles"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0294",
     "question": "Quel groupe chante \"La Plume\" en 2000 ?",
     "choices": [
-      "Amazon",
-      "Disney",
       "Louise Attaque",
-      "Microsoft"
+      "Radiohead",
+      "Suprême NTM",
+      "The Rolling Stones"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0257",
     "question": "Quel groupe chante \"Money, Money, Money\" en 1976 ?",
     "choices": [
-      "Nintendo",
       "ABBA",
-      "Netflix",
-      "L’ONU"
+      "Daft Punk",
+      "Spice Girls",
+      "Pink Floyd"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0221",
     "question": "Quel groupe chante \"Seine-Saint-Denis Style\" en 1998 ?",
     "choices": [
-      "La FIFA",
-      "La NASA",
-      "La Croix-Rouge",
-      "NTM"
+      "NTM",
+      "IAM",
+      "The Beatles",
+      "Queen"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1316,31 +1316,31 @@
     "question": "Quel groupe chante \"Too Much Heaven\" en 1978 ?",
     "choices": [
       "Les Bee Gees",
-      "Le CIO",
-      "Marvel",
-      "L’ONU"
+      "Suprême NTM",
+      "The Rolling Stones",
+      "U2"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0227",
     "question": "Quel groupe chante \"Vive le Douanier Rousseau !\" en 1983 ?",
     "choices": [
-      "L’OTAN",
-      "L’Union européenne",
-      "La FIFA",
-      "La Compagnie Créole"
+      "La Compagnie Créole",
+      "Spice Girls",
+      "Pink Floyd",
+      "The Who"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1348,15 +1348,15 @@
     "question": "Quel groupe de rap réunissait Kool Shen et Joey Starr ?",
     "choices": [
       "NTM",
-      "Netflix",
-      "Le CIO",
-      "Marvel"
+      "Suprême NTM",
+      "Ministère A.M.E.R.",
+      "MC Solaar"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1364,31 +1364,31 @@
     "question": "Quel groupe de rock avait Mark Knopfler pour leader dès 1978 ?",
     "choices": [
       "Dire Straits",
-      "Amazon",
-      "Disney",
-      "L’UNESCO"
+      "The Kinks",
+      "The Beatles",
+      "Queen"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0232",
     "question": "Quel groupe de rock fut surnommé les \"Fab Four\" ?",
     "choices": [
-      "Nintendo",
       "Les Beatles",
-      "L’OTAN",
-      "Amazon"
+      "Radiohead",
+      "The Rolling Stones",
+      "The Who"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1396,15 +1396,15 @@
     "question": "Quel groupe des années soixante-dix a interprété le tube \"J'ai encore rêvé d'elle\" ?",
     "choices": [
       "Il était une fois",
-      "Sony",
-      "La Croix-Rouge",
-      "L’ONU"
+      "Queen",
+      "Genesis",
+      "IAM"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1412,79 +1412,79 @@
     "question": "Quel groupe disco interprète \"Le Freak\" en 1978 ?",
     "choices": [
       "Chic",
-      "L’ONU",
-      "L’UNESCO",
-      "La Croix-Rouge"
+      "U2",
+      "Radiohead",
+      "Suprême NTM"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0197",
     "question": "Quel groupe est l'interprète de \"Ma Baker\" en 1977 ?",
     "choices": [
-      "Amazon",
-      "Disney",
       "Boney M",
-      "Microsoft"
+      "The Who",
+      "Daft Punk",
+      "Spice Girls"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0327",
     "question": "Quel groupe est l'interprète de \"Shout\" en 1984 ?",
     "choices": [
-      "Disney",
       "Tears For Fears",
-      "Le CIO",
-      "Marvel"
+      "Genesis",
+      "IAM",
+      "The Beatles"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0298",
     "question": "Quel groupe est l'interprète de \"Suicide Blonde\" en 1990 ?",
     "choices": [
-      "La Croix-Rouge",
       "INXS",
-      "Nintendo",
-      "L’UNESCO"
+      "Radiohead",
+      "Suprême NTM",
+      "The Rolling Stones"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0199",
     "question": "Quel groupe est l'interprète du titre \"Calling Elvis\" en 1991 ?",
     "choices": [
-      "Amazon",
-      "Disney",
-      "Le CIO",
-      "Dire Straits"
+      "Dire Straits",
+      "Daft Punk",
+      "Spice Girls",
+      "Pink Floyd"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1492,47 +1492,47 @@
     "question": "Quel groupe interprétait le titre \"Quand tu serres mon corps\" en 1989 ?",
     "choices": [
       "Pacifique",
-      "L’OTAN",
-      "La Croix-Rouge",
-      "Microsoft"
+      "IAM",
+      "The Beatles",
+      "Queen"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0254",
     "question": "Quel groupe interprète \"Kao Bang\" en 1983 ?",
     "choices": [
-      "Le CIO",
-      "Marvel",
-      "L’Union européenne",
-      "Indochine"
+      "Indochine",
+      "Suprême NTM",
+      "The Rolling Stones",
+      "U2"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0287",
     "question": "Quel groupe s'est reformé en 2006 autour du chanteur Peter Kingsbery ?",
     "choices": [
-      "L’OTAN",
-      "Nintendo",
       "Cock Robin",
-      "L’UNESCO"
+      "Spice Girls",
+      "Pink Floyd",
+      "The Who"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1540,31 +1540,31 @@
     "question": "Quel insecte est \"Zobi\" dans une chanson des Négresses vertes ?",
     "choices": [
       "Une mouche",
-      "Le perroquet",
-      "Le crocodile",
-      "L’aigle"
+      "Wannabe",
+      "Billie Jean",
+      "Imagine"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0285",
     "question": "Quel nom désigne une vieille voiture et un petit instrument de musique ?",
     "choices": [
-      "Juliette",
       "La guimbarde",
-      "Walter White",
-      "Arsène Lupin"
+      "Ces soirées-là",
+      "Like a Prayer",
+      "Purple Rain"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1572,31 +1572,31 @@
     "question": "Quel oiseau passe selon le titre de cette chanson de Simon and Garfunkel ?",
     "choices": [
       "Le condor",
-      "Le perroquet",
-      "Le serpent",
-      "Le crocodile"
+      "La Bohème",
+      "Angie",
+      "Je te donne"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0359",
     "question": "Quel prénom est associé à \"Food Beat\" dans le nom d'un groupe des années 90?",
     "choices": [
-      "Walter White",
-      "Victor",
       "Elmer",
-      "Central Perk"
+      "Billie Jean",
+      "Imagine",
+      "Désenchantée"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1604,47 +1604,47 @@
     "question": "Quel prénom Koxie donne-t-elle au garçon qui l'importune dans sa chanson de 2007 ?",
     "choices": [
       "Alphonse",
-      "Tony Stark",
-      "Alexandre",
-      "Scotland Yard"
+      "Sting",
+      "Jean-Jacques Goldman",
+      "Robbie Williams"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0194",
     "question": "Quelle chanson d'Elodie Frégé a pour titre le nom d'1 objet vestimentaire ?",
     "choices": [
-      "Carmen",
       "La Ceinture",
-      "The Crown",
-      "Star Wars"
+      "Angie",
+      "Je te donne",
+      "Ces soirées-là"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0204",
     "question": "Quelle chanson de Claude François commence par \"Un p'tit coin perdu...\"?",
     "choices": [
-      "Les Dents de la mer",
       "Même si tu revenais",
-      "The Crown",
-      "Le Roi Lion"
+      "Imagine",
+      "Désenchantée",
+      "La Bohème"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1652,111 +1652,111 @@
     "question": "Quelle chanson de Johnny commence par \"Quand tes cheveux s'étalent...\" ?",
     "choices": [
       "Que je t'aime",
-      "Germinal",
-      "Carmen",
-      "Hamlet"
+      "Purple Rain",
+      "Wannabe",
+      "Billie Jean"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0348",
     "question": "Quelle chanson de Piaf Paco reprend-il en 1988 dans \"Amor de mis amores\" ?",
     "choices": [
-      "Imagine",
       "La Foule",
-      "The Crown",
-      "Star Wars"
+      "Je te donne",
+      "Ces soirées-là",
+      "Like a Prayer"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0350",
     "question": "Quelle chanteuse a épousé Pierre Palmade en 1995 ?",
     "choices": [
-      "Charles de Gaulle",
-      "Brad Pitt",
       "Véronique Sanson",
-      "Louis de Funès"
+      "Serge Gainsbourg",
+      "Michael Jackson",
+      "David Bowie"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0354",
     "question": "Quelle chanteuse a été la première gagnante de la Star Academy française ?",
     "choices": [
-      "Louis de Funès",
-      "Vanessa Paradis",
-      "Jean Dujardin",
-      "Jenifer"
+      "Jenifer",
+      "Robbie Williams",
+      "Prince",
+      "Sting"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0357",
     "question": "Quelle chanteuse a incarné \"Madame S.O.S.\" à la télévision ?",
     "choices": [
-      "Audrey Tautou",
-      "Jodie Foster",
       "Annie Cordy",
-      "Vanessa Paradis"
+      "Seal",
+      "Madonna",
+      "George Michael"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0307",
     "question": "Quelle chanteuse américaine a chanté en 2006 les tubes \"Stupid Girls\" et \"Who Knew\" ?",
     "choices": [
-      "Émile Zola",
-      "Pablo Picasso",
-      "Napoléon Bonaparte",
-      "Pink (Alecia Moore )"
+      "Pink (Alecia Moore )",
+      "Michael Jackson",
+      "David Bowie",
+      "Mylène Farmer"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0212",
     "question": "Quelle chanteuse australienne reprend \"Les 3 Cloches\", d'E. Piaf en 1998 ?",
     "choices": [
-      "Charles de Gaulle",
-      "Vanessa Paradis",
       "Tina Arena",
-      "Marie Curie"
+      "Prince",
+      "Sting",
+      "Jean-Jacques Goldman"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1764,15 +1764,15 @@
     "question": "Quelle chanteuse de jazz, décédée en 1996, était surnommée \"The First Lady Of Song\" ?",
     "choices": [
       "Ella Fitzgerald",
-      "Jean Dujardin",
-      "Agatha Christie",
-      "Johnny Depp"
+      "Madonna",
+      "George Michael",
+      "Michel Sardou"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1780,63 +1780,63 @@
     "question": "Quelle chanteuse fait un tube avec \"White and Black Blues\" en 1990 ?",
     "choices": [
       "Joëlle Ursull",
-      "Brad Pitt",
-      "Agatha Christie",
-      "Édith Piaf"
+      "David Bowie",
+      "Mylène Farmer",
+      "Serge Gainsbourg"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0185",
     "question": "Quelle chanteuse grecque interpète le tube \"L'Amour en héritage\" au milieu des années 1980 ?",
     "choices": [
-      "Pablo Picasso",
       "Nana Mouskouri",
-      "Tom Hanks",
-      "Napoléon Bonaparte"
+      "Sting",
+      "Jean-Jacques Goldman",
+      "Robbie Williams"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0186",
     "question": "Quelle chanteuse interprétait le tube \"Maxou\" en 1988 ?",
     "choices": [
-      "Alfred Hitchcock",
-      "Meryl Streep",
       "Vanessa Paradis",
-      "Édith Piaf"
+      "George Michael",
+      "Michel Sardou",
+      "Seal"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0308",
     "question": "Quelle chanteuse interprète \"La Solitudine\" en 1993 ?",
     "choices": [
-      "Jean Dujardin",
-      "Napoléon Bonaparte",
       "Laura Pausini",
-      "Jodie Foster"
+      "Mylène Farmer",
+      "Serge Gainsbourg",
+      "Michael Jackson"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1844,79 +1844,79 @@
     "question": "Quelle chanteuse interprète \"Ne retiens pas tes larmes\" en 2005 ?",
     "choices": [
       "Amel Bent",
-      "Mozart",
-      "Jodie Foster",
-      "Pablo Picasso"
+      "Jean-Jacques Goldman",
+      "Robbie Williams",
+      "Prince"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0188",
     "question": "Quelle chanteuse interprète la chanson \"Elle, tu l'aimes\" en 2000 ?",
     "choices": [
-      "Tina Turner",
-      "Victor Hugo",
       "Hélène Segara",
-      "Claude Monet"
+      "Michel Sardou",
+      "Seal",
+      "Madonna"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0202",
     "question": "Quelle chanteuse interprète le tube \"Ma philosophie\" en 2005 ?",
     "choices": [
-      "Tina Turner",
-      "Victor Hugo",
       "Amel Bent",
-      "Mozart"
+      "Serge Gainsbourg",
+      "Michael Jackson",
+      "David Bowie"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0239",
     "question": "Quelle chanteuse reprend \"Hasta siempre\" en 1997 ?",
     "choices": [
-      "Tina Turner",
-      "Victor Hugo",
       "Nathalie Cardone",
-      "Tom Hanks"
+      "Robbie Williams",
+      "Prince",
+      "Sting"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0278",
     "question": "Quelle chanteuse trouvait qu'\"il y a trop de gens qui t'aiment\" ?",
     "choices": [
-      "Mozart",
       "Hélène Segara",
-      "Louis Pasteur",
-      "Claude Monet"
+      "Seal",
+      "Madonna",
+      "George Michael"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1924,15 +1924,15 @@
     "question": "Quelle ville \"crève d'ennui\" dans la chanson \"Et maintenant\" de G. Bécaud ?",
     "choices": [
       "Paris",
-      "Rome",
-      "Les Alpes",
-      "L’Argentine"
+      "Los Angeles",
+      "Berlin",
+      "Barcelone"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1940,47 +1940,47 @@
     "question": "Quelle ville a pris E. Macias dans ses bras dans une chanson de 1964 ?",
     "choices": [
       "Paris",
-      "Tokyo",
-      "L’Inde",
-      "Le Japon"
+      "Londres",
+      "Rome",
+      "Chicago"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0248",
     "question": "Quelle ville des E.-U. est le titre d'une chanson de J. Hallyday en 1967 ?",
     "choices": [
-      "L’Australie",
+      "San Francisco",
       "New York",
       "Madrid",
-      "San Francisco"
+      "Athènes"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0223",
     "question": "Qui a dirigé \"Le Petit Conservatoire de la chanson\" de 1955 à 1975 ?",
     "choices": [
-      "Marie Curie",
       "Mireille",
-      "Alfred Hitchcock",
-      "Louis Pasteur"
+      "David Bowie",
+      "Mylène Farmer",
+      "Serge Gainsbourg"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1988,95 +1988,95 @@
     "question": "Qui chante : \"Ma révolution porte ton nom\" en 2004 ?",
     "choices": [
       "Jenifer",
-      "Johnny Depp",
-      "Charles de Gaulle",
-      "Mozart"
+      "Sting",
+      "Jean-Jacques Goldman",
+      "Robbie Williams"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0335",
     "question": "Qui chante \"Aimer jusqu'à l'impossible\" en 2005 ?",
     "choices": [
-      "Jodie Foster",
-      "David Bowie",
-      "Catherine Deneuve",
-      "Tina Arena"
+      "Tina Arena",
+      "George Michael",
+      "Michel Sardou",
+      "Seal"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0271",
     "question": "Qui chante \"Bailamos\" en 1999 ?",
     "choices": [
-      "Jodie Foster",
       "Enrique Iglesias",
-      "Vanessa Paradis",
-      "Pablo Picasso"
+      "Mylène Farmer",
+      "Serge Gainsbourg",
+      "Michael Jackson"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0198",
     "question": "Qui chante \"Ballerina Girl\" en 1986 ?",
     "choices": [
-      "Marie Curie",
-      "Alfred Hitchcock",
       "Lionel Richie",
-      "Édith Piaf"
+      "Jean-Jacques Goldman",
+      "Robbie Williams",
+      "Prince"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0317",
     "question": "Qui chante \"Big bisou\" en 1977 ?",
     "choices": [
-      "Tina Turner",
-      "Victor Hugo",
-      "Johnny Depp",
-      "Carlos"
+      "Carlos",
+      "Michel Sardou",
+      "Seal",
+      "Madonna"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0330",
     "question": "Qui chante \"Blue Eyes\" en 1982 ?",
     "choices": [
-      "Alain Delon",
-      "Vanessa Paradis",
       "Elton John",
-      "Brad Pitt"
+      "Serge Gainsbourg",
+      "Michael Jackson",
+      "David Bowie"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2084,15 +2084,15 @@
     "question": "Qui chante \"Cream\" en 1991 ?",
     "choices": [
       "Prince",
-      "Catherine Deneuve",
-      "Jean Reno",
-      "Alfred Hitchcock"
+      "Robbie Williams",
+      "Sting",
+      "Jean-Jacques Goldman"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2100,79 +2100,79 @@
     "question": "Qui chante \"Devil in Disguise\" en 1963 ?",
     "choices": [
       "Elvis Presley",
-      "Mozart",
-      "Napoléon Bonaparte",
-      "Audrey Tautou"
+      "Seal",
+      "Madonna",
+      "George Michael"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0319",
     "question": "Qui chante \"Emmène-moi\" en 1998 ?",
     "choices": [
-      "Sophie Marceau",
-      "Brad Pitt",
-      "Meryl Streep",
-      "Allan Theo"
+      "Allan Theo",
+      "Michael Jackson",
+      "David Bowie",
+      "Mylène Farmer"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0286",
     "question": "Qui chante \"Good Luck Charm\" en 1962 ?",
     "choices": [
-      "David Bowie",
-      "Bénabar",
-      "Charles de Gaulle",
-      "Elvis Presley"
+      "Elvis Presley",
+      "Prince",
+      "Sting",
+      "Jean-Jacques Goldman"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0338",
     "question": "Qui chante \"I Say a Little Prayer\" en 1968 ?",
     "choices": [
-      "Jean Reno",
       "Aretha Franklin",
-      "Meryl Streep",
-      "Marion Cotillard"
+      "Madonna",
+      "George Michael",
+      "Michel Sardou"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0355",
     "question": "Qui chante \"Il fait beau, il fait bon\" en 1971 ?",
     "choices": [
-      "Catherine Deneuve",
-      "Napoléon Bonaparte",
-      "Jodie Foster",
-      "Claude François"
+      "Claude François",
+      "David Bowie",
+      "Mylène Farmer",
+      "Serge Gainsbourg"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2180,47 +2180,47 @@
     "question": "Qui chante \"Il faut savoir quitter la table lorsque l'amour est desservi\" ?",
     "choices": [
       "Charles Aznavour",
-      "Claude Monet",
-      "Tina Turner",
-      "Sophie Marceau"
+      "Sting",
+      "Jean-Jacques Goldman",
+      "Robbie Williams"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0238",
     "question": "Qui chante \"Le Coup de folie\" en 1981 ?",
     "choices": [
-      "Émile Zola",
-      "Brad Pitt",
-      "Meryl Streep",
-      "Thierry Pastor"
+      "Thierry Pastor",
+      "George Michael",
+      "Michel Sardou",
+      "Seal"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0320",
     "question": "Qui chante \"Le Petit Oiseau de toutes les couleurs\" en 1966 ?",
     "choices": [
-      "Brad Pitt",
-      "Claude Monet",
       "Gilbert Bécaud",
-      "Charles de Gaulle"
+      "Mylène Farmer",
+      "Serge Gainsbourg",
+      "Michael Jackson"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2228,191 +2228,191 @@
     "question": "Qui chante \"Mao et Moa\" en 1967 ?",
     "choices": [
       "Nino Ferrer",
-      "Bénabar",
-      "Jodie Foster",
-      "Jean Reno"
+      "Jean-Jacques Goldman",
+      "Robbie Williams",
+      "Prince"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0347",
     "question": "Qui chante \"Off the Wall\" en 1979 ?",
     "choices": [
-      "Jean Reno",
-      "Tina Turner",
-      "Victor Hugo",
-      "Michael Jackson"
+      "Michael Jackson",
+      "Michel Sardou",
+      "Seal",
+      "Madonna"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0309",
     "question": "Qui chante \"On écrit sur les murs\" en 1989 ?",
     "choices": [
-      "Édith Piaf",
-      "Bénabar",
       "Demis Roussos",
-      "Tom Hanks"
+      "Serge Gainsbourg",
+      "Michael Jackson",
+      "David Bowie"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0360",
     "question": "Qui chante \"Only the Very Best\" en 1992 ?",
     "choices": [
-      "Agatha Christie",
       "Peter Kingsbery",
-      "Meryl Streep",
-      "Marion Cotillard"
+      "Robbie Williams",
+      "Prince",
+      "Sting"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0351",
     "question": "Qui chante \"Que Marianne était jolie\" en 1972 ?",
     "choices": [
-      "Sophie Marceau",
       "Michel Delpech",
-      "Marion Cotillard",
-      "Jodie Foster"
+      "Seal",
+      "Madonna",
+      "George Michael"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0231",
     "question": "Qui chante \"Remember the Time\" en 1992 ?",
     "choices": [
-      "Jean Dujardin",
       "Michael Jackson",
-      "Brad Pitt",
-      "Alfred Hitchcock"
+      "David Bowie",
+      "Mylène Farmer",
+      "Serge Gainsbourg"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0242",
     "question": "Qui chante \"Salma Ya Salama\" en 1978 ?",
     "choices": [
-      "Tina Turner",
-      "Victor Hugo",
-      "Brad Pitt",
-      "Dalida"
+      "Dalida",
+      "Prince",
+      "Sting",
+      "Jean-Jacques Goldman"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0343",
     "question": "Qui chante \"Si je m'en sors\" en 2000 ?",
     "choices": [
-      "Émile Zola",
-      "Agatha Christie",
-      "Mozart",
-      "Julie Zenatti"
+      "Julie Zenatti",
+      "Madonna",
+      "George Michael",
+      "Michel Sardou"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0228",
     "question": "Qui chante \"Tchin tchin\" en 1976 ?",
     "choices": [
-      "Tom Hanks",
-      "Alain Delon",
-      "Bénabar",
-      "Hugues Aufray"
+      "Hugues Aufray",
+      "David Bowie",
+      "Mylène Farmer",
+      "Serge Gainsbourg"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0264",
     "question": "Qui chante \"That's Just the Way It Is\" en 1989 ?",
     "choices": [
-      "Catherine Deneuve",
-      "Édith Piaf",
-      "Meryl Streep",
-      "Phil Collins"
+      "Phil Collins",
+      "Sting",
+      "Jean-Jacques Goldman",
+      "Robbie Williams"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0276",
     "question": "Qui chante \"Umbrella\" en duo avec Jay-Z en 2007 ?",
     "choices": [
-      "Alain Delon",
-      "Agatha Christie",
-      "Catherine Deneuve",
-      "Rihanna"
+      "Rihanna",
+      "The Who",
+      "Daft Punk",
+      "Spice Girls"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0205",
     "question": "Qui chante le titre \"Parce que c'est toi\" en 1999 ?",
     "choices": [
-      "Charles de Gaulle",
-      "Napoléon Bonaparte",
       "Axelle Red",
-      "Vanessa Paradis"
+      "Mylène Farmer",
+      "Serge Gainsbourg",
+      "Michael Jackson"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2420,111 +2420,111 @@
     "question": "Qui est \"comme l'eau vive\" selon les paroles de la chanson de Guy Béart ?",
     "choices": [
       "Ma petite",
-      "Émile Zola",
-      "Catherine Deneuve",
-      "Marie Curie"
+      "Jean-Jacques Goldman",
+      "Robbie Williams",
+      "Prince"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0217",
     "question": "Qui est l'interprète de la chanson : \"Louxor, j'adore\", en 2005 ?",
     "choices": [
-      "Catherine Deneuve",
-      "Marion Cotillard",
       "Philippe Katerine",
-      "Audrey Tautou"
+      "Michel Sardou",
+      "Seal",
+      "Madonna"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0342",
     "question": "Qui est l'interprète de la chanson : \"Si\" en 1980 ?",
     "choices": [
-      "Catherine Deneuve",
-      "Johnny Depp",
-      "Steven Spielberg",
-      "Karen Cheryl"
+      "Karen Cheryl",
+      "Serge Gainsbourg",
+      "Michael Jackson",
+      "David Bowie"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0280",
     "question": "Qui est l'interprète de la chanson \"Black or White\" en 1991 ?",
     "choices": [
-      "Audrey Tautou",
-      "Napoléon Bonaparte",
-      "Édith Piaf",
-      "Michael Jackson"
+      "Michael Jackson",
+      "Robbie Williams",
+      "Prince",
+      "Sting"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0334",
     "question": "Qui est l'interprète de la chanson \"Immortelle\" en 2001 ?",
     "choices": [
-      "Bénabar",
-      "Jean Reno",
       "Lara Fabian",
-      "Johnny Depp"
+      "Seal",
+      "Madonna",
+      "George Michael"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0203",
     "question": "Qui est l'interprète de la chanson \"Murder on The Dancefloor\" en 2002 ?",
     "choices": [
-      "Louis Pasteur",
       "Sophie Ellis Bextor",
-      "Édith Piaf",
-      "Tom Hanks"
+      "Michael Jackson",
+      "David Bowie",
+      "Mylène Farmer"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0260",
     "question": "Qui est l'interprète de la chanson \"Streets of Philadelphia\" en 1993 ?",
     "choices": [
-      "Brad Pitt",
-      "Marie Curie",
-      "Sophie Marceau",
-      "Bruce Springsteen"
+      "Bruce Springsteen",
+      "Prince",
+      "Sting",
+      "Jean-Jacques Goldman"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2532,31 +2532,31 @@
     "question": "Qui est la mère du chanteur Thomas Dutronc ?",
     "choices": [
       "Françoise Hardy",
-      "Brad Pitt",
-      "Jean Dujardin",
-      "Claude Monet"
+      "Madonna",
+      "George Michael",
+      "Michel Sardou"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0332",
     "question": "Qui est le dieu grec de la Beauté, de la Raison, des Arts et de la Musique ?",
     "choices": [
-      "Victor Hugo",
-      "Napoléon Bonaparte",
-      "Meryl Streep",
-      "Apollon"
+      "Apollon",
+      "David Bowie",
+      "Mylène Farmer",
+      "Serge Gainsbourg"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2564,95 +2564,95 @@
     "question": "Qui était \"abandonné\" dans une chanson du groupe Gold en 1985 ?",
     "choices": [
       "Un capitaine",
-      "Sophie Marceau",
-      "Agatha Christie",
-      "Alfred Hitchcock"
+      "Sting",
+      "Jean-Jacques Goldman",
+      "Robbie Williams"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0291",
     "question": "Qui était le chanteur des Communards, groupe phare des années 80 ?",
     "choices": [
-      "Louis de Funès",
-      "Catherine Deneuve",
-      "Émile Zola",
-      "Jimmy Somerville"
+      "Jimmy Somerville",
+      "George Michael",
+      "Michel Sardou",
+      "Seal"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0256",
     "question": "Qui était le chanteur du groupe The Police ?",
     "choices": [
-      "Pablo Picasso",
       "Sting",
-      "Vanessa Paradis",
-      "Charles de Gaulle"
+      "Mylène Farmer",
+      "Serge Gainsbourg",
+      "Michael Jackson"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0246",
     "question": "Qui fait \"perdre la tête\" à Dany Brillant dans sa chanson de 1991 ?",
     "choices": [
-      "Marie Curie",
       "Suzette",
-      "Audrey Tautou",
-      "Claude Monet"
+      "Jean-Jacques Goldman",
+      "Robbie Williams",
+      "Prince"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0250",
     "question": "Qui formait le groupe Wham en duo avec Andrew Ridgeley dans les années 80 ?",
     "choices": [
-      "Marie Curie",
-      "Vanessa Paradis",
-      "Marion Cotillard",
-      "George Michael"
+      "George Michael",
+      "Daft Punk",
+      "Spice Girls",
+      "Pink Floyd"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0274",
     "question": "Qui fume des havanes dans la chanson de Serge Gainsbourg et Catherine Deneuve ?",
     "choices": [
-      "Steven Spielberg",
-      "Édith Piaf",
       "Dieu",
-      "Jodie Foster"
+      "Serge Gainsbourg",
+      "Michael Jackson",
+      "David Bowie"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2660,15 +2660,15 @@
     "question": "Qui interprète la chanson \"Gangsta's Paradise\" en 1995 ?",
     "choices": [
       "Coolio",
-      "Agatha Christie",
-      "Charles de Gaulle",
-      "Marie Curie"
+      "Robbie Williams",
+      "Prince",
+      "Sting"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2676,47 +2676,47 @@
     "question": "Qui interprète la chanson \"Here's to You\" en 1971 ?",
     "choices": [
       "Joan Baez",
-      "Bénabar",
-      "David Bowie",
-      "Napoléon Bonaparte"
+      "Seal",
+      "Madonna",
+      "George Michael"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0209",
     "question": "Qui interprète la chanson \"Parle-moi\" en 2000 ?",
     "choices": [
-      "Meryl Streep",
       "Isabelle Boulay",
-      "Audrey Tautou",
-      "Marion Cotillard"
+      "Michael Jackson",
+      "David Bowie",
+      "Mylène Farmer"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0344",
     "question": "Qui interprète la chanson \"The Rhythm of the Night\" en 1994 ?",
     "choices": [
-      "Steven Spielberg",
-      "Claude Monet",
       "Corona",
-      "Audrey Tautou"
+      "Prince",
+      "Sting",
+      "Jean-Jacques Goldman"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2724,159 +2724,159 @@
     "question": "Qui interprète la chanson \"Tu ne m'as pas laissé le temps\" en 1999 ?",
     "choices": [
       "David Hallyday",
-      "Tina Turner",
-      "Victor Hugo",
-      "Brad Pitt"
+      "Madonna",
+      "George Michael",
+      "Michel Sardou"
     ],
     "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0289",
     "question": "Qui se fait connaître en reprenant \"Chanter pour ceux qui sont loin...\" ?",
     "choices": [
-      "Steven Spielberg",
+      "Lââm",
       "David Bowie",
-      "Bénabar",
-      "Lââm"
+      "Mylène Farmer",
+      "Serge Gainsbourg"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0311",
     "question": "Selon la célèbre chanson populaire, combien de maisons Cadet Rousselle a-t-il ?",
     "choices": [
-      "100",
-      "365",
       "3",
-      "1789"
+      "2",
+      "4",
+      "5"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0243",
     "question": "Selon la chanson d'Etienne Daho en 1988, de quelle couleur est le monde ?",
     "choices": [
-      "Violet",
       "Bleu",
-      "Doré",
-      "Gris"
+      "Jaune",
+      "Rouge",
+      "Vert"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0219",
     "question": "Selon la chanson de Barbara de 1964, sur quelle ville pleut-il ?",
     "choices": [
-      "Berlin",
       "Nantes",
-      "L’océan Pacifique",
-      "L’Égypte"
+      "Berlin",
+      "Barcelone",
+      "Paris"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0323",
     "question": "Sous quel nom est plus connu le chanteur Mathieu Blanc-Francard ?",
     "choices": [
-      "Sherlock Holmes",
-      "Springfield",
-      "Charlotte",
-      "Sinclair"
+      "Sinclair",
+      "Calogero",
+      "M",
+      "Sanseverino"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0234",
     "question": "Sous quel nom est plus connu le chanteur québécois Pierre Garand ?",
     "choices": [
-      "Walter White",
-      "Arthur",
-      "Gotham",
-      "Garou"
+      "Garou",
+      "L’inspecteur Clouseau",
+      "Indiana Jones",
+      "Maximus"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0279",
     "question": "Sous quel nom était autrefois connu le chanteur Yusuf Islam ?",
     "choices": [
-      "Peter Parker",
-      "Springfield",
-      "Scotland Yard",
-      "Cat Stevens"
+      "Cat Stevens",
+      "Scarlett O’Hara",
+      "John McClane",
+      "Forrest Gump"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0181",
     "question": "Sous quel nom la chanteuse Mélanie Georgiades est-elle plus connue ?",
     "choices": [
-      "Gontran",
-      "Valmont",
-      "Diam's",
-      "Walter White"
+      "Diam’s",
+      "Shay",
+      "Lââm",
+      "Wallenn"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0253",
     "question": "Sur la couverture de quel album peut-on voir Tintin sur un radeau ?",
     "choices": [
-      "Le Petit Prince",
       "Coke en stock",
-      "Carmen",
-      "Hamlet"
+      "Billie Jean",
+      "Imagine",
+      "Désenchantée"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Musique",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   }
 ]

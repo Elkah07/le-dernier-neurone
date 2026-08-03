@@ -1,82 +1,82 @@
 [
   {
     "id": "archive-0488",
-    "question": "A l'état sauvage, sur quelle île vit l'ornithorynque ?",
+    "question": "À l’état sauvage, sur quel continent vit l’ornithorynque ?",
     "choices": [
-      "L'Australie",
-      "L’Argentine",
-      "Paris",
-      "La Suisse"
+      "L’Australie",
+      "L’Asie",
+      "L’Afrique",
+      "L’Amérique du Sud"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0490",
-    "question": "A quel pays appartenait le Brésil avant 1822 ?",
+    "question": "À quel pays appartenait le Brésil avant 1822 ?",
     "choices": [
-      "Les Alpes",
-      "Le Japon",
+      "L’Espagne",
+      "La France",
       "Portugal",
-      "Rome"
+      "Les Pays-Bas"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0377",
-    "question": "A quelle ville associe-t-on un vase rendu célèbre par Clovis ?",
+    "question": "À quelle ville associe-t-on un vase rendu célèbre par Clovis ?",
     "choices": [
-      "L’Argentine",
+      "Reims",
       "Soissons",
-      "La Suisse",
-      "Rome"
+      "Tours",
+      "Orléans"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0384",
-    "question": "A quelle ville italienne le parmesan doit-il son nom ?",
+    "question": "À quelle ville italienne le parmesan doit-il son nom ?",
     "choices": [
-      "Les Alpes",
-      "La Corse",
-      "La Grèce",
+      "Bologne",
+      "Modène",
+      "Crémone",
       "Parme"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0370",
-    "question": "A quelle ville le curé est-il associé dans la nouvelle d'A. Daudet ?",
+    "question": "À quelle ville le curé est-il associé dans la nouvelle d'A. Daudet ?",
     "choices": [
-      "Le Brésil",
-      "Le Canada",
+      "Tarascon",
+      "Arles",
       "Cucugnan",
-      "Rome"
+      "Fontvieille"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -84,15 +84,15 @@
     "question": "Avec la Belgique et le Luxembourg, quel pays forme le Benelux ?",
     "choices": [
       "Les Pays-Bas",
-      "L’Espagne",
-      "La Belgique",
-      "L’océan Atlantique"
+      "La France",
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -100,31 +100,31 @@
     "question": "Comment se nomme la baleine blanche qui a donné son nom au célèbre roman d'Herman Melville ?",
     "choices": [
       "Moby Dick",
-      "Gontran",
-      "Valmont",
-      "Arsène Lupin"
+      "Achab",
+      "Queequeg",
+      "Starbuck"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0440",
     "question": "Dans quel fleuve français l'Eure se jette-t-elle ?",
     "choices": [
-      "L’Inde",
-      "Le Mexique",
+      "La Loire",
+      "Le Rhône",
       "La Seine",
-      "L’océan Atlantique"
+      "La Garonne"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -132,79 +132,79 @@
     "question": "Dans quel fleuve l'Essonne se jette-t-elle ?",
     "choices": [
       "La Seine",
-      "L’Espagne",
-      "Londres",
-      "L’Inde"
+      "La Loire",
+      "Le Rhône",
+      "La Garonne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0406",
     "question": "Dans quel fleuve le Gard se jette-t-il ?",
     "choices": [
-      "L’Australie",
+      "La Seine",
       "Le Rhône",
-      "La Corse",
-      "La Grèce"
+      "La Loire",
+      "La Garonne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0381",
     "question": "Dans quel fleuve le Gers se jette-t-il ?",
     "choices": [
-      "L’Inde",
-      "L’Australie",
-      "Le Mexique",
+      "La Seine",
+      "La Loire",
+      "Le Rhône",
       "La Garonne"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0365",
     "question": "Dans quel océan est situé Saint-Pierre-et-Miquelon ?",
     "choices": [
-      "La mer Méditerranée",
-      "L’Australie",
+      "L’océan Pacifique",
+      "L’océan Indien",
       "L'océan Atlantique",
-      "L’Argentine"
+      "L’océan Arctique"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0443",
     "question": "Dans quel océan les îles Galapagos sont-elles situées ?",
     "choices": [
-      "Berlin",
-      "Madrid",
+      "L’océan Atlantique",
+      "L’océan Indien",
       "L'océan Pacifique",
-      "Le Japon"
+      "L’océan Arctique"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -212,15 +212,15 @@
     "question": "Dans quel océan se situent les Bahamas ?",
     "choices": [
       "L'océan Atlantique",
-      "L’Australie",
-      "Le Japon",
-      "L’Espagne"
+      "L’océan Pacifique",
+      "L’océan Indien",
+      "L’océan Arctique"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -228,23 +228,23 @@
     "question": "Dans quel pays d'Afrique le scarabée était-il l'emblème de la résurrection ?",
     "choices": [
       "L'Egypte (l'ancienne Egypte)",
-      "Londres",
-      "L’Inde",
-      "L’Australie"
+      "La France",
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0445",
     "question": "Dans quel pays est né l'humoriste Anthony Kavanagh ?",
     "choices": [
-      "La mer Méditerranée",
-      "La Belgique",
+      "La France",
+      "L’Italie",
       "Le Canada",
       "L’Espagne"
     ],
@@ -252,135 +252,135 @@
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0411",
     "question": "Dans quel pays est située la ville de Johannesburg ?",
     "choices": [
-      "La Corse",
-      "La Grèce",
-      "Madrid",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "L'Afrique du Sud"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0460",
     "question": "Dans quel pays l'euro a-t-il remplacé la drachme ?",
     "choices": [
-      "Madrid",
+      "La France",
       "La Grèce",
-      "L’océan Pacifique",
-      "Le Mexique"
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0487",
     "question": "Dans quel pays l'Oise prend-elle sa source ?",
     "choices": [
-      "Le Brésil",
-      "Le Canada",
-      "L’océan Pacifique",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "Belgique"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0416",
     "question": "Dans quel pays les habitants se nomment-ils les Malgaches ?",
     "choices": [
-      "L’Argentine",
-      "Paris",
-      "Tokyo",
+      "Les Orléanais",
+      "Les Montpelliérains",
+      "Les Bisontins",
       "Madagascar"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0475",
     "question": "Dans quel pays les shoguns étaient-ils des chefs militaires et civils ?",
     "choices": [
-      "L’océan Pacifique",
-      "Les Alpes",
-      "Le Brésil",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "Le Japon"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0405",
     "question": "Dans quel pays non francophone, Nikos Aliagas présentait-il le journal télévisé ?",
     "choices": [
-      "L’Australie",
-      "L’Inde",
-      "La mer Méditerranée",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "En Grèce"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0448",
     "question": "Dans quel pays peut-on admirer la pyramide de Khéops ?",
     "choices": [
-      "Le Mexique",
+      "La France",
       "L'Egypte",
-      "L’Inde",
-      "L’océan Pacifique"
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0470",
     "question": "Dans quel pays peut-on visiter la ville de Sienne ?",
     "choices": [
-      "L’océan Atlantique",
-      "La mer Méditerranée",
-      "New York",
+      "La France",
+      "L’Espagne",
+      "Le Portugal",
       "L'Italie"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -388,55 +388,55 @@
     "question": "Dans quel pays peut-on visiter le site archéologique de la ville d'Ephèse ?",
     "choices": [
       "La Turquie",
-      "Le Japon",
-      "Le Brésil",
-      "Le Canada"
+      "La France",
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0366",
     "question": "Dans quel pays peut-on visiter les ruines de la ville antique de Carthage ?",
     "choices": [
-      "Paris",
-      "Tokyo",
+      "La France",
+      "L’Italie",
       "La Tunisie",
-      "L’Argentine"
+      "L’Espagne"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0426",
     "question": "Dans quel pays pouvez-vous visiter la ville d'Alicante ?",
     "choices": [
-      "La Corse",
-      "La Grèce",
+      "La France",
+      "L’Italie",
       "L'Espagne",
-      "Rome"
+      "Le Portugal"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0423",
     "question": "Dans quel pays se situe la ville d'Innsbruck ?",
     "choices": [
-      "La Belgique",
-      "Le Japon",
+      "La France",
+      "L’Italie",
       "L’Espagne",
       "L'Autriche"
     ],
@@ -444,7 +444,7 @@
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -452,111 +452,111 @@
     "question": "Dans quel pays se situent les villes d'Adélaïde et de Brisbane ?",
     "choices": [
       "L'Australie",
-      "Les Alpes",
+      "La France",
       "L’Italie",
-      "New York"
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0388",
     "question": "Dans quel pays se trouve la chaîne de montagnes du Rif ?",
     "choices": [
-      "Le Mexique",
-      "Le Japon",
+      "La France",
+      "L’Italie",
       "Le Maroc",
-      "L’océan Atlantique"
+      "L’Espagne"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0414",
     "question": "Dans quel pays se trouve la place Tian'anmen ?",
     "choices": [
-      "Le Brésil",
-      "Le Canada",
-      "Rome",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "La Chine"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0433",
     "question": "Dans quel pays se trouve la ville de Bayreuth ?",
     "choices": [
-      "L’océan Pacifique",
-      "L’Inde",
-      "Rome",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "Allemagne"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0424",
     "question": "Dans quel pays se trouve la ville de Tobrouk ?",
     "choices": [
-      "New York",
+      "La France",
       "Libye",
-      "L’océan Atlantique",
-      "L’Argentine"
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0446",
     "question": "Dans quel pays se trouve le Péloponnèse ?",
     "choices": [
-      "L’Espagne",
+      "La France",
       "La Grèce",
-      "Le Mexique",
-      "L’Australie"
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0471",
     "question": "Dans quel pays sont immatriculées les voitures portant la lettre A ?",
     "choices": [
-      "L’océan Pacifique",
-      "La mer Méditerranée",
+      "La France",
       "L’Italie",
+      "L’Espagne",
       "L'Autriche"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -564,15 +564,15 @@
     "question": "Dans quel pays sont immatriculées les voitures portant la lettre L ?",
     "choices": [
       "Le Luxembourg",
-      "Le Brésil",
-      "Le Canada",
-      "L’Australie"
+      "La France",
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -580,15 +580,15 @@
     "question": "Dans quel pays sont immatriculées les voitures portant les lettres \"CH\" ?",
     "choices": [
       "Suisse",
-      "La Suisse",
-      "Rome",
-      "Londres"
+      "La France",
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -596,15 +596,15 @@
     "question": "Dans quel pays trouve-t-on une chaîne de montagnes appelée le Rif ?",
     "choices": [
       "Le Maroc",
-      "L’Égypte",
+      "La France",
       "L’Italie",
-      "La Suisse"
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -612,31 +612,31 @@
     "question": "Dans quelle mer se jette le Danube ?",
     "choices": [
       "La mer Noire",
-      "L’océan Pacifique",
-      "La Belgique",
-      "L’Australie"
+      "La mer Méditerranée",
+      "La mer Baltique",
+      "La mer Rouge"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0459",
     "question": "Dans quelle ville britannique le guitariste des Beatles George Harrison est-il né ?",
     "choices": [
-      "L’océan Pacifique",
-      "La Corse",
-      "La Grèce",
+      "Paris",
+      "Rome",
+      "Madrid",
       "Liverpool"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -644,47 +644,47 @@
     "question": "Dans quelle ville d'Amérique latine se baigne-t-on sur la plage d'Ipanema ?",
     "choices": [
       "Rio de Janeiro",
-      "La Belgique",
-      "L’océan Pacifique",
-      "La mer Méditerranée"
+      "Paris",
+      "Rome",
+      "Madrid"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0486",
     "question": "Dans quelle ville de France est située l'Ecole nationale d'administration ?",
     "choices": [
-      "La mer Méditerranée",
+      "Paris",
       "Rome",
-      "Le Japon",
+      "Madrid",
       "Strasbourg"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0362",
-    "question": "Dans quelle ville des Etats-Unis peut- on visiter l'Empire State Building ?",
+    "question": "Dans quelle ville des Etats-Unis peut-on visiter l'Empire State Building ?",
     "choices": [
-      "Madrid",
+      "Paris",
       "Rome",
       "New York",
-      "L’Espagne"
+      "Madrid"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -693,30 +693,30 @@
     "choices": [
       "Calgary",
       "Paris",
-      "Tokyo",
-      "L’Espagne"
+      "Rome",
+      "Madrid"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0464",
     "question": "Dans quelle ville habitent les Bisontins ?",
     "choices": [
-      "Les Alpes",
+      "Paris",
       "Besançon",
       "Rome",
-      "L’océan Atlantique"
+      "Madrid"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -724,111 +724,111 @@
     "question": "Dans quelle ville italienne se trouve la villa Médicis qui abrite l'Académie de France ?",
     "choices": [
       "Rome",
-      "L’océan Pacifique",
       "Paris",
-      "Tokyo"
+      "Madrid",
+      "Lisbonne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0386",
     "question": "Dans quelle ville se déroulent les Transmusicales ?",
     "choices": [
-      "L’Australie",
-      "Madrid",
+      "Paris",
+      "Rome",
       "Rennes",
-      "La Suisse"
+      "Madrid"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0407",
     "question": "Dans quelle ville se dérouleront les jeux Olympiques d'hiver de 2010 ?",
     "choices": [
-      "Berlin",
-      "L’océan Atlantique",
-      "Londres",
+      "Paris",
+      "Rome",
+      "Madrid",
       "Vancouver"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0467",
     "question": "Dans quelle ville se trouve le siège de l'ONU ?",
     "choices": [
-      "Londres",
-      "Le Mexique",
+      "Paris",
+      "Rome",
       "New York",
-      "L’Australie"
+      "Madrid"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0399",
     "question": "De 1952 à 1999, de quel pays Hussein a-t-il été le roi ?",
     "choices": [
+      "La France",
       "L’Italie",
-      "L’Australie",
-      "L’océan Pacifique",
+      "L’Espagne",
       "La Jordanie"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0476",
     "question": "De quel continent est originaire le tambour appelé djembé ?",
     "choices": [
-      "L’Italie",
-      "New York",
+      "L’Asie",
+      "L’Europe",
       "L'Afrique",
-      "L’océan Atlantique"
+      "L’Amérique du Sud"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0391",
     "question": "De quel fleuve la Vienne est-elle un des principaux affluents ?",
     "choices": [
-      "Les Alpes",
-      "Le Brésil",
+      "La Seine",
+      "Le Rhône",
       "La Loire",
-      "New York"
+      "La Garonne"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -836,31 +836,31 @@
     "question": "De quel fleuve le Lot est-il un affluent ?",
     "choices": [
       "Garonne",
-      "L’Inde",
-      "L’Australie",
-      "Le Japon"
+      "La Seine",
+      "La Loire",
+      "Le Rhône"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0364",
     "question": "De quel pays Adriana Karembeu est-elle originaire ?",
     "choices": [
-      "Madrid",
+      "La France",
       "La Slovaquie",
-      "La Corse",
-      "Les Alpes"
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -868,135 +868,103 @@
     "question": "De quel pays d'Afrique N'Djamena est-elle la capitale ?",
     "choices": [
       "Le Tchad",
-      "Paris",
-      "Tokyo",
-      "La Belgique"
+      "La France",
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0461",
     "question": "De quel pays est originaire le peuple Maori ?",
     "choices": [
-      "Les Alpes",
-      "Rome",
-      "La Belgique",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "Nouvelle-Zélande"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0463",
     "question": "De quel pays l'ayatollah Khomeyni fut-il le guide suprême de 79 à 89 ?",
     "choices": [
-      "Le Japon",
-      "L’Inde",
+      "La France",
+      "L’Italie",
       "L'Iran",
-      "L’océan Pacifique"
+      "L’Espagne"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0383",
-    "question": "De quel pays l'époux de Letizia Ortiz est-il l'héritier du trône ?",
+    "question": "De quel pays Felipe VI, époux de Letizia Ortiz, est-il roi depuis 2014 ?",
     "choices": [
-      "Rome",
-      "L'Espagne",
-      "Paris",
-      "Tokyo"
+      "La France",
+      "L’Espagne",
+      "L’Italie",
+      "Le Portugal"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0393",
     "question": "De quel pays la Croatie a-t-elle fait partie de 1945 à 1991 ?",
     "choices": [
-      "Paris",
+      "La France",
       "La Yougoslavie",
-      "L’Inde",
-      "Le Mexique"
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0408",
     "question": "De quel pays le commandant Massoud était-il un chef de guerre ?",
     "choices": [
-      "Le Japon",
-      "Le Mexique",
-      "La Belgique",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "Afghanistan"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0420",
     "question": "De quel pays le Nikkei est-il le principal indice boursier ?",
     "choices": [
-      "L’océan Atlantique",
-      "Londres",
-      "Le Japon",
-      "L’Australie"
-    ],
-    "answer": 2,
-    "category": "Géographie",
-    "difficulty": "medium",
-    "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
-    "validation": "a_valider"
-  },
-  {
-    "id": "archive-0363",
-    "question": "De quel pays le Tyrol est-il une province ?",
-    "choices": [
-      "La Belgique",
-      "Autriche",
-      "Londres",
-      "Le Mexique"
-    ],
-    "answer": 1,
-    "category": "Géographie",
-    "difficulty": "medium",
-    "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
-    "validation": "a_valider"
-  },
-  {
-    "id": "archive-0462",
-    "question": "De quel pays le volcan Fuji-Yama est-il le point culminant ?",
-    "choices": [
-      "L’Inde",
-      "L’Argentine",
+      "La France",
+      "L’Italie",
       "Le Japon",
       "L’Espagne"
     ],
@@ -1004,15 +972,47 @@
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0363",
+    "question": "De quel pays le Tyrol est-il une province ?",
+    "choices": [
+      "La France",
+      "Autriche",
+      "L’Italie",
+      "L’Espagne"
+    ],
+    "answer": 1,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "editorial-2026-08",
+    "validation": "a_valider"
+  },
+  {
+    "id": "archive-0462",
+    "question": "De quel pays le volcan Fuji-Yama est-il le point culminant ?",
+    "choices": [
+      "La France",
+      "L’Italie",
+      "Le Japon",
+      "L’Espagne"
+    ],
+    "answer": 2,
+    "category": "Géographie",
+    "difficulty": "medium",
+    "origin": "Le Grand Quiz - dB Animation",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0378",
     "question": "De quel pays le yuan est-il la monnaie officielle ?",
     "choices": [
-      "Le Japon",
-      "L’Australie",
+      "La France",
+      "L’Italie",
       "L’Espagne",
       "La Chine"
     ],
@@ -1020,151 +1020,151 @@
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0419",
     "question": "De quel pays proviennent les pièces en euros avec le mot \"Lëtzebuerg\" ?",
     "choices": [
-      "Londres",
+      "La France",
       "L’Italie",
-      "New York",
+      "L’Espagne",
       "Le Luxembourg"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0429",
     "question": "De quel pays Reykjavik est-elle la capitale ?",
     "choices": [
-      "Le Japon",
-      "L’Argentine",
-      "Madrid",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "L'Islande"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0441",
     "question": "De quel pays Riyad est-elle la capitale ?",
     "choices": [
-      "L’océan Atlantique",
+      "La France",
       "L'Arabie saoudite",
-      "Madrid",
-      "Les Alpes"
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0417",
     "question": "De quel pays sont les joueurs de foot surnommés \"Bafana Bafana\" ?",
     "choices": [
-      "L’Inde",
+      "La France",
       "L'Afrique du Sud",
-      "Les Alpes",
-      "Le Japon"
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0456",
     "question": "De quelle couleur est la bande centrale du drapeau des Pays-Bas ?",
     "choices": [
-      "Marron",
-      "Orange",
+      "Rouge",
+      "Bleue",
       "Blanche",
-      "Turquoise"
+      "Verte"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0369",
     "question": "De quelle ville d'Italie est l'équipe de football de la Juventus ?",
     "choices": [
-      "La Belgique",
+      "Paris",
       "Turin",
-      "La mer Méditerranée",
-      "Le Mexique"
+      "Rome",
+      "Madrid"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0439",
     "question": "De quelle ville les Stéphanois sont-ils les habitants ?",
     "choices": [
-      "La mer Méditerranée",
-      "L’Italie",
-      "New York",
+      "Paris",
+      "Rome",
+      "Madrid",
       "Saint-Etienne"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0425",
     "question": "De quelle ville part la course cycliste qui arrive à San Remo ?",
     "choices": [
-      "Les Alpes",
-      "Madrid",
+      "Paris",
+      "Rome",
       "Milan",
-      "L’océan Pacifique"
+      "Madrid"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0435",
     "question": "En quelle année la loi interdisant de fumer dans les bars et restaurants est-elle entrée en vigueur en France ?",
     "choices": [
-      "100",
-      "365",
-      "1789",
+      "2006",
+      "2007",
+      "2009",
       "2008"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1172,63 +1172,63 @@
     "question": "Hormis la Chine, avec quel pays la Mongolie a-t-elle une frontière ?",
     "choices": [
       "La Russie",
+      "La France",
       "L’Italie",
-      "New York",
       "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0394",
     "question": "Par quel pays les eaux de la baie d'Hudson sont-elles encerclées ?",
     "choices": [
-      "Berlin",
-      "Madrid",
-      "Le Japon",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "Le Canada"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0482",
     "question": "Quel animal porte un nom signifiant littéralement : \"cheval du fleuve\" ?",
     "choices": [
-      "Le dauphin",
+      "Le rhinocéros",
       "L'hippopotame",
-      "Le cheval",
-      "Le cochon"
+      "Le lamantin",
+      "Le crocodile"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0438",
     "question": "Quel fleuve de Russie n'a que deux lettres à son nom ?",
     "choices": [
-      "L’océan Pacifique",
+      "La Seine",
       "L'Ob",
-      "L’Italie",
-      "New York"
+      "La Loire",
+      "Le Rhône"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1236,79 +1236,79 @@
     "question": "Quel fleuve français a pour nom la même voyelle répétée deux fois ?",
     "choices": [
       "L'Aa",
-      "L’océan Atlantique",
-      "L’Australie",
-      "L’Espagne"
+      "La Seine",
+      "La Loire",
+      "Le Rhône"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0430",
     "question": "Quel nom désigne la chaîne montagneuse des Andes, longue de 8 000 km ?",
     "choices": [
-      "Alexandre",
-      "Tony Stark",
-      "Juliette",
+      "Le massif",
+      "La dorsale",
+      "Le plateau",
       "La cordillère"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0473",
     "question": "Quel nom donne-t-on aux habitants de la ville d'Orléans ?",
     "choices": [
-      "Charlotte",
-      "Mario",
+      "Les Montpelliérains",
+      "Les Bisontins",
       "Les Orléanais",
-      "Juliette"
+      "Les Stéphanois"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0478",
     "question": "Quel nom les habitants de la ville de Montpellier portent-ils ?",
     "choices": [
-      "Scotland Yard",
+      "Les Orléanais",
       "Les Montpelliérains",
-      "Mario",
-      "Pikachu"
+      "Les Bisontins",
+      "Les Stéphanois"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0389",
     "question": "Quel nom porte actuellement l'ancienne ville de Leningrad ?",
     "choices": [
-      "Juliette",
-      "Perceval",
-      "Arthur",
+      "Moscou",
+      "Volgograd",
+      "Novgorod",
       "Saint-Pétersbourg"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1316,111 +1316,111 @@
     "question": "Quel océan borde la ville américaine de San Francisco ?",
     "choices": [
       "L'océan Pacifique",
-      "Berlin",
-      "Madrid",
-      "La Belgique"
+      "L’océan Atlantique",
+      "L’océan Indien",
+      "L’océan Arctique"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0387",
     "question": "Quel pays a des frontières communes avec la Russie et la Norvège ?",
     "choices": [
-      "La Belgique",
+      "La France",
       "L’Italie",
-      "New York",
+      "L’Espagne",
       "La Finlande"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0403",
     "question": "Quel pays a des frontières communes avec la Suisse et l'Espagne ?",
     "choices": [
-      "Le Japon",
-      "Berlin",
-      "Madrid",
+      "L’Italie",
+      "L’Espagne",
+      "Le Portugal",
       "La France"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0444",
     "question": "Quel pays a des pièces de 10 centimes représentant \"La Naissance de Vénus\" ?",
     "choices": [
-      "Berlin",
+      "La France",
       "L'Italie",
-      "Le Japon",
-      "L’océan Pacifique"
+      "L’Espagne",
+      "Le Portugal"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0379",
     "question": "Quel pays a frappé ses pièces de 10 à 50 cents à l'effigie de Cervantès ?",
     "choices": [
-      "L’océan Atlantique",
+      "La France",
       "L'Espagne",
       "L’Italie",
-      "New York"
+      "Le Portugal"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0375",
     "question": "Quel pays a la plus grande superficie au monde ?",
     "choices": [
-      "Paris",
-      "Tokyo",
       "La Russie",
-      "Berlin"
+      "Le Canada",
+      "La Chine",
+      "Les États-Unis"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0454",
     "question": "Quel pays a mis le visage de Mozart sur la face de ses pièces de 1 euro ?",
     "choices": [
-      "Paris",
-      "Tokyo",
+      "La France",
       "L’Italie",
+      "L’Espagne",
       "L'Autriche"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1428,47 +1428,47 @@
     "question": "Quel pays a Téhéran pour capitale ?",
     "choices": [
       "L'Iran",
-      "La Belgique",
-      "Paris",
-      "Tokyo"
+      "La France",
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0413",
     "question": "Quel pays Corneille et Sonia Rolland ont-ils en commun par leurs origines ?",
     "choices": [
-      "New York",
-      "Les Alpes",
-      "La Belgique",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "Le Rwanda"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0371",
     "question": "Quel pays d'Europe a été dirigé par les jumeaux Kaczynski de 2006 à 2007 ?",
     "choices": [
-      "L’Australie",
-      "Les Alpes",
-      "L’Argentine",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "La Pologne"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1476,55 +1476,55 @@
     "question": "Quel pays désigne-t-on par le surnom peu flatteur de \"perfide Albion\" ?",
     "choices": [
       "L'Angleterre",
-      "Paris",
-      "Tokyo",
-      "La Suisse"
+      "La France",
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0422",
     "question": "Quel pays est bordé par la Méditerranée, l'Atlantique, la Manche et la mer du Nord ?",
     "choices": [
-      "L’Australie",
-      "Paris",
-      "Tokyo",
+      "L’Italie",
+      "L’Espagne",
+      "Le Portugal",
       "La France"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0390",
-    "question": "Quel pays est dirigé par Kim Jong-il ?",
+    "question": "Quel pays Kim Jong-il a-t-il dirigé de 1994 à 2011 ?",
     "choices": [
-      "L’océan Pacifique",
+      "La France",
       "La Corée du Nord",
-      "Le Japon",
-      "Rome"
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0427",
     "question": "Quel pays est principalement formé par Kyushu, Shikoku, Honshu et Hokkaido ?",
     "choices": [
-      "L’Australie",
-      "Berlin",
+      "La France",
+      "L’Italie",
       "Le Japon",
       "L’Espagne"
     ],
@@ -1532,7 +1532,7 @@
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1540,79 +1540,79 @@
     "question": "Quel pays était l'invité d'honneur des cérémonies du 14 juillet 2009 ?",
     "choices": [
       "L'Inde",
-      "Le Japon",
-      "L’Australie",
-      "Le Mexique"
+      "La France",
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0372",
     "question": "Quel pays frontalier des Etats-Unis est voisin de l'Etat du Montana ?",
     "choices": [
-      "L’océan Pacifique",
+      "La France",
       "Le Canada",
-      "La Corse",
-      "La Grèce"
+      "L’Italie",
+      "L’Espagne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0409",
     "question": "Quel pays vécut sous la dictature des Duvalier entre 1957 et 1986 ?",
     "choices": [
-      "Madrid",
-      "Rome",
-      "L’Argentine",
+      "La France",
+      "L’Italie",
+      "L’Espagne",
       "Haïti"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0457",
     "question": "Quelle capitale fut le théâtre des crimes de Jack l'Eventreur ?",
     "choices": [
-      "Madrid",
-      "Les Alpes",
+      "Paris",
+      "Rome",
       "Londres",
-      "Rome"
+      "Madrid"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0374",
     "question": "Quelle île danoise fait plus de 2 millions de kilomètres carrés ?",
     "choices": [
-      "L’océan Atlantique",
-      "L’Italie",
-      "New York",
+      "La Corse",
+      "La Sicile",
+      "La Sardaigne",
       "Le Groenland"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1620,207 +1620,207 @@
     "question": "Quelle île française est surnommée \"l'île de Beauté\" ?",
     "choices": [
       "La Corse",
-      "Rome",
-      "L’Espagne",
-      "L’Inde"
+      "La Sicile",
+      "La Sardaigne",
+      "La Crète"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0398",
     "question": "Quelle île les Européens appelaient-ils autrefois Formose ?",
     "choices": [
-      "L’océan Atlantique",
-      "L’Espagne",
-      "Rome",
+      "La Corse",
+      "La Sicile",
+      "La Sardaigne",
       "Taïwan"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0465",
     "question": "Quelle mer baigne les côtes de l'Algérie ?",
     "choices": [
-      "La Suisse",
+      "La mer Noire",
       "La Méditerranée",
-      "L’Égypte",
-      "L’Inde"
+      "La mer Méditerranée",
+      "La mer Baltique"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0361",
     "question": "Quelle profession est liée à Séville dans le titre d'un opéra de Rossini ?",
     "choices": [
-      "Vétérinaire",
-      "Journaliste",
-      "Pompier",
+      "Médecin",
+      "Notaire",
+      "Tailleur",
       "Barbier"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0404",
     "question": "Quelle race de chiens à poil ras tient son nom d'une ville mexicaine ?",
     "choices": [
-      "L’aigle",
-      "Le cheval",
-      "Le kangourou",
+      "Le carlin",
+      "Le teckel",
+      "Le pinscher",
       "Le chihuahua"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0392",
     "question": "Quelle ville américaine est souvent désignée par ses initiales L.A. ?",
     "choices": [
-      "L’Inde",
-      "L’océan Atlantique",
+      "Paris",
+      "Rome",
       "Los Angeles",
-      "Rome"
+      "Madrid"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0450",
     "question": "Quelle ville d'Asie a été un tube du Grand Orchestre du Splendid en 1979 ?",
     "choices": [
+      "Paris",
+      "Rome",
       "Madrid",
-      "L’océan Atlantique",
-      "Londres",
       "Macao"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0489",
     "question": "Quelle ville de France surnomme-t-on la cité des Papes ?",
     "choices": [
-      "La Corse",
-      "La Grèce",
-      "L’Égypte",
+      "Paris",
+      "Rome",
+      "Madrid",
       "Avignon"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0481",
     "question": "Quelle ville de l'Hérault a la gare Saint-Roch pour gare principale ?",
     "choices": [
-      "Le Mexique",
-      "L’océan Atlantique",
-      "L’Argentine",
+      "Paris",
+      "Rome",
+      "Madrid",
       "Montpellier"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0449",
     "question": "Quelle ville de Tunisie s'opposait à Rome lors des guerres puniques ?",
     "choices": [
-      "Le Brésil",
-      "Le Canada",
-      "L’océan Atlantique",
+      "Paris",
+      "Rome",
+      "Madrid",
       "Carthage"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0418",
     "question": "Quelle ville des Vosges est célèbre pour ses images ?",
     "choices": [
-      "L’Italie",
-      "New York",
-      "L’océan Atlantique",
+      "Paris",
+      "Rome",
+      "Madrid",
       "Epinal"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0458",
     "question": "Quelle ville est le chef-lieu du département des Alpes-Maritimes ?",
     "choices": [
-      "L’Inde",
-      "La Suisse",
-      "Le Mexique",
+      "Paris",
+      "Rome",
+      "Madrid",
       "Nice"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0452",
     "question": "Quelle ville est représentée en Ligue 1 de football par l'ASM ?",
     "choices": [
-      "Le Japon",
-      "Le Brésil",
-      "Le Canada",
+      "Paris",
+      "Rome",
+      "Madrid",
       "Monaco"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1829,14 +1829,14 @@
     "choices": [
       "Lens",
       "Paris",
-      "La Belgique",
-      "L’océan Atlantique"
+      "Rome",
+      "Madrid"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1844,15 +1844,15 @@
     "question": "Quelle ville est surnommée \"la capitale des Gaules\" ?",
     "choices": [
       "Lyon",
-      "L’Italie",
-      "Londres",
-      "La Suisse"
+      "Paris",
+      "Rome",
+      "Madrid"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1860,159 +1860,159 @@
     "question": "Quelle ville française s'appelait Burdigala pendant l'Antiquité ?",
     "choices": [
       "Bordeaux",
-      "Les Alpes",
       "Paris",
-      "L’Inde"
+      "Rome",
+      "Madrid"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0469",
     "question": "Quelle ville française s'appelait Massalia pendant l'Antiquité ?",
     "choices": [
-      "L’Italie",
-      "New York",
+      "Paris",
+      "Rome",
       "Marseille",
-      "L’Argentine"
+      "Madrid"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0485",
     "question": "Quelle ville italienne Henri Salvador aimerait-il \"tant voir\" ?",
     "choices": [
-      "Londres",
+      "Paris",
       "Syracuse",
-      "La Suisse",
-      "L’Argentine"
+      "Rome",
+      "Madrid"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0483",
     "question": "Qui est l'interprète de \"Lady d'Arbanville\" en 1970 ?",
     "choices": [
-      "Victor Hugo",
+      "Donovan",
       "Cat Stevens",
-      "Charles de Gaulle",
-      "Édith Piaf"
+      "James Taylor",
+      "Leonard Cohen"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0421",
     "question": "Selon le générique du dessin animé des années 1980, sur les bords de quel fleuve Tom Sawyer est-il né ?",
     "choices": [
-      "Les Alpes",
+      "La Seine",
       "Le Mississippi",
-      "Le Japon",
-      "Berlin"
+      "La Loire",
+      "Le Rhône"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0367",
     "question": "Si vous vous trouvez sur la côte ouest du Canada, dans quel océan pouvez-vous vous baigner ?",
     "choices": [
-      "Londres",
-      "La Belgique",
+      "L’océan Atlantique",
+      "L’océan Indien",
       "L'océan Pacifique",
-      "L’océan Atlantique"
+      "L’océan Arctique"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0451",
     "question": "Sur quel continent est situé le Kilimandjaro ?",
     "choices": [
-      "La Belgique",
-      "L’Inde",
-      "Le Mexique",
+      "L’Asie",
+      "L’Europe",
+      "L’Amérique du Sud",
       "L'Afrique"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0434",
     "question": "Sur quel continent la région du Bengale est-elle située ?",
     "choices": [
-      "Berlin",
+      "L’Afrique",
       "L'Asie",
-      "La Corse",
-      "La Grèce"
+      "L’Europe",
+      "L’Amérique du Sud"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0442",
     "question": "Sur quel continent se situe le massif volcanique du Hoggar ?",
     "choices": [
-      "L’Australie",
-      "Madrid",
+      "L’Asie",
+      "L’Europe",
       "L'Afrique",
-      "Le Brésil"
+      "L’Amérique du Sud"
     ],
     "answer": 2,
     "category": "Géographie",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0401",
     "question": "Sur quelle île de la Méditerranée Napoléon 1er est-il né ?",
     "choices": [
-      "La mer Méditerranée",
-      "L’Australie",
-      "Les Alpes",
+      "La Sicile",
+      "La Sardaigne",
+      "La Crète",
       "La Corse"
     ],
     "answer": 3,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -2020,63 +2020,63 @@
     "question": "Sur quelle île êtes-vous en vacances si vous bronzez à Porto-Vecchio ?",
     "choices": [
       "La Corse",
-      "Berlin",
-      "Rome",
-      "La mer Méditerranée"
+      "La Sicile",
+      "La Sardaigne",
+      "La Crète"
     ],
     "answer": 0,
     "category": "Géographie",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0368",
     "question": "Sur quelle île française est située la ville de Papeete ?",
     "choices": [
-      "La Belgique",
+      "La Corse",
       "Tahiti",
-      "Paris",
-      "Tokyo"
+      "La Sicile",
+      "La Sardaigne"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0468",
-    "question": "Sur quelle île française vivent les Caldoches et les Kanak ?",
+    "question": "Dans quel territoire français du Pacifique vivent notamment les Caldoches et les Kanak ?",
     "choices": [
-      "L’Australie",
+      "La Polynésie française",
       "La Nouvelle-Calédonie",
-      "Londres",
-      "L’Inde"
+      "Wallis-et-Futuna",
+      "La Réunion"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0453",
     "question": "Sur quelle île méditerranéenne se situe la ville de Taormina ?",
     "choices": [
-      "Madrid",
+      "La Corse",
       "La Sicile",
-      "Londres",
-      "Rome"
+      "La Sardaigne",
+      "La Crète"
     ],
     "answer": 1,
     "category": "Géographie",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   }
 ]

@@ -1,34 +1,34 @@
 [
   {
     "id": "archive-0832",
-    "question": "Combien de doigts Mickey a-t-il à chaque main ?",
+    "question": "Combien de doigts Mickey a-t-il à chaque main, pouce compris ?",
     "choices": [
+      "3",
       "4",
-      "10",
-      "12",
-      "15"
+      "5",
+      "6"
     ],
-    "answer": 0,
+    "answer": 1,
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0830",
-    "question": "Combien Donald et Daisy ont-ils d'enfants ?",
+    "question": "Quel lien de parenté unit Riri, Fifi et Loulou à Donald Duck ?",
     "choices": [
-      "1789",
-      "1914",
-      "1 000",
-      "Aucun"
+      "Ce sont ses fils",
+      "Ce sont ses neveux",
+      "Ce sont ses cousins",
+      "Ce sont ses petits-fils"
     ],
-    "answer": 3,
+    "answer": 1,
     "category": "Disney",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -36,15 +36,15 @@
     "question": "Comment s'appelle l'inventeur farfelu qui est l'ami de Donald ?",
     "choices": [
       "Géo Trouvetou",
-      "Gontran",
-      "Valmont",
-      "Camille"
+      "Gontran Bonheur",
+      "Picsou",
+      "Ludwig Von Drake"
     ],
     "answer": 0,
     "category": "Disney",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -60,23 +60,23 @@
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0838",
-    "question": "Comment s'appelle la princesse dont l'ogre Shrek est amoureux ?",
+    "question": "Comment s'appelle la princesse dont Shrek est amoureux ?",
     "choices": [
-      "Springfield",
-      "Alexandre",
       "Fiona",
-      "Central Perk"
+      "Aurore",
+      "Odette",
+      "Mérida"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -92,7 +92,7 @@
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -100,15 +100,15 @@
     "question": "Comment s'appelle le chien de Mickey ?",
     "choices": [
       "Pluto",
-      "Buzz",
-      "Peter Parker",
-      "Pikachu"
+      "Dingo",
+      "Pongo",
+      "Rouky"
     ],
     "answer": 0,
     "category": "Disney",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -124,7 +124,7 @@
     "category": "Disney",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -140,7 +140,7 @@
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -156,7 +156,7 @@
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -172,7 +172,7 @@
     "category": "Disney",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -180,47 +180,47 @@
     "question": "Dans l'univers de Walt Disney, quel animal est Clarabelle ?",
     "choices": [
       "Une vache",
-      "Le manchot",
-      "Le perroquet",
-      "Le crocodile"
+      "Une jument",
+      "Une poule",
+      "Une chèvre"
     ],
     "answer": 0,
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0839",
-    "question": "Dans le conte des frères Grimm, combien de nains entourent Blanche-Neige ?",
+    "question": "Dans le film Disney « Blanche-Neige et les Sept Nains », combien de nains entourent Blanche-Neige ?",
     "choices": [
+      "5",
+      "6",
       "7",
-      "10",
-      "12",
-      "15"
+      "8"
     ],
-    "answer": 0,
+    "answer": 2,
     "category": "Disney",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0833",
     "question": "Dans quelle ville Riri, Fifi et Loulou habitent-ils avec leur oncle ?",
     "choices": [
-      "Les Alpes",
-      "L’Argentine",
-      "Paris",
-      "Donaldville"
+      "Donaldville",
+      "Canardville",
+      "Mickeyville",
+      "Duckburg"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Disney",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -236,39 +236,39 @@
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0829",
     "question": "Quel animal est Cléo dans le \"Pinocchio\" de Walt Disney ?",
     "choices": [
-      "Un poisson",
-      "Le kangourou",
-      "Le cheval",
-      "Le cochon"
+      "Un poisson rouge",
+      "Un grillon",
+      "Un chat",
+      "Un canari"
     ],
     "answer": 0,
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0836",
-    "question": "Quel animal est Nouf-Nouf dans un dessin animé de Walt Disney ?",
+    "question": "Dans le court métrage Disney « Les Trois Petits Cochons », quel animal est Nouf-Nouf ?",
     "choices": [
-      "Le chien",
-      "Le hibou",
-      "Le lapin",
-      "Un cochon"
+      "Un cochon",
+      "Un lapin",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Disney",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -284,23 +284,23 @@
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0828",
     "question": "Quel nom démoniaque porte le méchant chat dans \"Cendrillon\" ?",
     "choices": [
-      "Mannix",
-      "Mufasa",
       "Lucifer",
-      "Walter White"
+      "Figaro",
+      "Si et Am",
+      "Thomas O’Malley"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Disney",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -316,7 +316,7 @@
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -332,23 +332,23 @@
     "category": "Disney",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0831",
-    "question": "Qui a écrit \"Cendrillon\" en 1697 ?",
+    "question": "Quel auteur français a publié une version de « Cendrillon » en 1697 ?",
     "choices": [
-      "Mozart",
-      "Claude Monet",
-      "Louis de Funès",
-      "Charles Perrault"
+      "Charles Perrault",
+      "Jean de La Fontaine",
+      "Madame d’Aulnoy",
+      "Fénelon"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Disney",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   }
 ]

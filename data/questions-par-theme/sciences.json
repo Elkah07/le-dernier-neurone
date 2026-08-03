@@ -1,98 +1,98 @@
 [
   {
     "id": "archive-0578",
-    "question": "A partir du lait de quel animal le brie de Meaux est-il fabriqué ?",
+    "question": "À partir du lait de quel animal le brie de Meaux est-il fabriqué ?",
     "choices": [
-      "Le kangourou",
-      "Le cheval",
-      "La baleine",
-      "De vache"
+      "La vache",
+      "La chèvre",
+      "La brebis",
+      "La bufflonne"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0566",
-    "question": "A quel animal appartient le bout de la queue chantée par les Frères Jacques ?",
+    "question": "À quel animal appartient le bout de la queue chantée par les Frères Jacques ?",
     "choices": [
-      "L’éléphant",
-      "Le perroquet",
-      "Le crocodile",
-      "Un chat"
+      "Un chat",
+      "Un chien",
+      "Un renard",
+      "Un lapin"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0583",
-    "question": "A quel animal l'adjectif \"hippique\" se rapporte-t-il ?",
+    "question": "À quel animal l'adjectif \"hippique\" se rapporte-t-il ?",
     "choices": [
       "Le cheval",
-      "Le cochon",
-      "Le kangourou",
-      "L’aigle"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0498",
-    "question": "A quel organe du corps humain se rapporte l'adjectif \"stomacal\" ?",
+    "question": "À quel organe du corps humain se rapporte l'adjectif \"stomacal\" ?",
     "choices": [
-      "L’oreille",
-      "A l'estomac",
-      "Le nez",
-      "L’estomac"
+      "L’estomac",
+      "Le cerveau",
+      "L’œil",
+      "L’oreille"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0500",
     "question": "Au jeu du \"Mille Bornes\", quel animal figure sur la carte \"25 km\" ?",
     "choices": [
-      "Le serpent",
-      "Le kangourou",
-      "Le chat",
-      "Un escargot"
+      "Un escargot",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0555",
     "question": "Au tarot, quel nom d'animal donne-t-on au talon de trois ou six cartes ?",
     "choices": [
-      "Arsène Lupin",
       "Le chien",
-      "Gontran",
-      "Valmont"
+      "Un chat",
+      "Un renard",
+      "Un lapin"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -100,47 +100,47 @@
     "question": "Avec la laine de quel animal fait-on des vêtements en cachemire ?",
     "choices": [
       "La chèvre",
-      "La girafe",
-      "Le chat",
-      "Le serpent"
+      "La vache",
+      "La brebis",
+      "La bufflonne"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0496",
     "question": "Avec la tête de quel animal les Hindous représentent-ils Ganesh ?",
     "choices": [
-      "Le serpent",
-      "La chèvre",
       "Une tête d'éléphant",
-      "L’aigle"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0495",
     "question": "Avec le lait de quel animal est fabriqué le munster ?",
     "choices": [
-      "Le serpent",
-      "Le cheval",
-      "Le cochon",
-      "La vache"
+      "La vache",
+      "La chèvre",
+      "La brebis",
+      "La bufflonne"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -148,15 +148,15 @@
     "question": "Avec le lait de quel animal est fabriquée la tomme de Savoie ?",
     "choices": [
       "La vache",
-      "Le perroquet",
       "La chèvre",
-      "La girafe"
+      "La brebis",
+      "La bufflonne"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -164,79 +164,79 @@
     "question": "Avec le lait de quel animal fabrique-t-on le coulommiers ?",
     "choices": [
       "La vache",
-      "La girafe",
-      "La baleine",
-      "La tortue"
+      "La chèvre",
+      "La brebis",
+      "La bufflonne"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0579",
     "question": "Avec le lait de quel animal fabrique-t-on le reblochon ?",
     "choices": [
-      "L’aigle",
       "La vache",
-      "Le perroquet",
-      "La baleine"
+      "La chèvre",
+      "La brebis",
+      "La bufflonne"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0561",
     "question": "Avec le lait de quel animal fabrique-t-on le roquefort ?",
     "choices": [
-      "Le kangourou",
-      "Brebis",
-      "Le serpent",
-      "La chèvre"
+      "La brebis",
+      "La vache",
+      "La chèvre",
+      "La bufflonne"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0564",
     "question": "Avec le lait de quel animal fabrique-t-on le saint-marcellin ?",
     "choices": [
-      "Le cheval",
-      "Le cochon",
       "La vache",
-      "Le perroquet"
+      "La chèvre",
+      "La brebis",
+      "La bufflonne"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0592",
     "question": "Avec le lait de quel animal le coulommiers est-il fabriqué ?",
     "choices": [
-      "Vache",
-      "Le chien",
-      "Le hibou",
-      "Le lapin"
+      "La vache",
+      "La chèvre",
+      "La brebis",
+      "La bufflonne"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -244,175 +244,175 @@
     "question": "Avec le lait de quel animal le pélardon est-il fabriqué ?",
     "choices": [
       "La chèvre",
-      "La tortue",
-      "Le manchot",
-      "Le kangourou"
+      "La vache",
+      "La brebis",
+      "La bufflonne"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0589",
     "question": "Avec le lait de quel animal le pont-l'évêque est-il fabriqué ?",
     "choices": [
-      "Le kangourou",
       "La vache",
       "La chèvre",
-      "Le serpent"
+      "La brebis",
+      "La bufflonne"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0534",
     "question": "Combien y a-t-il de fois 1/3 dans le nombre 3 ?",
     "choices": [
-      "0",
-      "1",
-      "2",
-      "9"
+      "7",
+      "8",
+      "9",
+      "10"
     ],
-    "answer": 3,
+    "answer": 2,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0522",
     "question": "Combien y a-t-il de fois 1/4 dans le nombre 4 ?",
     "choices": [
-      "1789",
-      "1914",
-      "1945",
-      "16"
+      "14",
+      "15",
+      "16",
+      "17"
     ],
-    "answer": 3,
+    "answer": 2,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0517",
     "question": "Comment s'appelle \"Le Médecin malgré lui\" dans la pièce de Molière ?",
     "choices": [
-      "Charlotte",
       "Sganarelle",
-      "Hawkins",
-      "Springfield"
+      "Géronte",
+      "Léandre",
+      "Lucas"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0493",
     "question": "Comment s'appelle le médecin malgré lui dans la pièce du même nom de Molière ?",
     "choices": [
-      "Camille",
-      "Hawkins",
-      "Alexandre",
-      "Sganarelle"
+      "Sganarelle",
+      "Géronte",
+      "Léandre",
+      "Lucas"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0520",
     "question": "D'après l'étymologie du mot, de quel animal provient le bifteck ?",
     "choices": [
-      "Le manchot",
-      "Le boeuf",
-      "Le renard",
-      "Le requin"
+      "Le bœuf",
+      "Le porc",
+      "Le veau",
+      "Le mouton"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0558",
     "question": "Dans \"Boule et Bill\", quel animal est Caroline ?",
     "choices": [
-      "L’aigle",
       "Une tortue",
-      "Le dauphin",
-      "Le serpent"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0587",
     "question": "Dans \"Les bronzés font du ski\", quel animal est au fond d'une bouteille ?",
     "choices": [
-      "Le chat",
-      "Le bœuf",
-      "Le lion",
-      "Un crapaud"
+      "Un crapaud",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0510",
     "question": "Dans l'émission \"L'Ile aux enfants\", quel animal est Léonard ?",
     "choices": [
-      "La chèvre",
-      "La girafe",
       "Un renard",
-      "L’éléphant"
+      "Un chat",
+      "Un chien",
+      "Un lapin"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0524",
     "question": "Dans la gueule de quel animal se jette-t-on quand on court un danger ?",
     "choices": [
-      "L’éléphant",
       "Le loup",
-      "Le manchot",
-      "Le kangourou"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -420,111 +420,111 @@
     "question": "Dans la mythologie grecque, quel animal a une toison d'or ?",
     "choices": [
       "Un bélier ailé",
-      "Le chien",
-      "Le hibou",
-      "L’éléphant"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0584",
     "question": "Dans les années 1970, quel animal était Colargol ?",
     "choices": [
-      "Le chien",
-      "Le cheval",
-      "Le cochon",
-      "Un ours"
+      "Un ours",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0506",
     "question": "Dans quel organe sensoriel du corps humain se situe la cornée ?",
     "choices": [
-      "L’estomac",
-      "Le poumon",
-      "La bouche",
-      "Dans l'oeil"
+      "L’œil",
+      "Le cerveau",
+      "L’oreille",
+      "L’estomac"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0540",
     "question": "Dans quelle partie du corps humain est situé l'os pariétal ?",
     "choices": [
-      "L’estomac",
-      "L’oreille",
-      "Le poumon",
-      "La tête"
+      "Le crâne",
+      "Le cerveau",
+      "L’œil",
+      "L’oreille"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0582",
     "question": "Dans quelle partie du corps humain est situé le métatarse ?",
     "choices": [
-      "La main",
-      "La peau",
-      "Le foie",
-      "Le pied"
+      "Le pied",
+      "Le cerveau",
+      "L’œil",
+      "L’oreille"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0560",
     "question": "Dans quelle partie du corps humain l'hypothalamus se trouve-t-il ?",
     "choices": [
-      "La bouche",
-      "Le nez",
       "Le cerveau",
-      "Le poumon"
+      "L’œil",
+      "L’oreille",
+      "L’estomac"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0569",
     "question": "Dans quelle partie du corps humain le métatarse est-il situé ?",
     "choices": [
-      "La main",
-      "La peau",
-      "Le foie",
-      "Le pied"
+      "Le pied",
+      "Le cerveau",
+      "L’œil",
+      "L’oreille"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -532,47 +532,47 @@
     "question": "Dans quelle partie du corps humain se situe le quadriceps ?",
     "choices": [
       "La cuisse",
-      "Le crâne",
-      "Le fémur",
-      "Le tibia"
+      "Le cerveau",
+      "L’œil",
+      "L’oreille"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0528",
     "question": "De combien d'anneaux la planète Mercure est-elle entourée ?",
     "choices": [
-      "0",
-      "1",
-      "2",
-      "Aucun"
+      "Aucun",
+      "Un anneau",
+      "Deux anneaux",
+      "Trois anneaux"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0588",
     "question": "De combien de nombres disposent les candidats pour \"Le compte est bon\" ?",
     "choices": [
-      "0",
-      "1",
-      "2",
-      "6"
+      "6",
+      "5",
+      "7",
+      "8"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -580,287 +580,287 @@
     "question": "De quel animal Agnès annonce-t-elle la mort dans \"L'Ecole des femmes\" ?",
     "choices": [
       "Le petit chat",
-      "Le manchot",
-      "Le chat",
-      "Le bœuf"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0571",
     "question": "De quel animal la bave n'atteint-elle pas la blanche colombe ?",
     "choices": [
-      "Le kangourou",
-      "Le manchot",
       "Le crapaud",
-      "La chèvre"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0516",
     "question": "De quel animal la hase est-elle la femelle ?",
     "choices": [
-      "Le kangourou",
-      "Le serpent",
-      "La baleine",
-      "Lièvre ou lapin de garenne"
+      "Le lièvre",
+      "Le lapin",
+      "Le chevreuil",
+      "Le blaireau"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0595",
     "question": "De quel animal le cabri est-il le petit ?",
     "choices": [
-      "Le chat",
-      "Le bœuf",
-      "Le lion",
-      "La chèvre"
+      "La chèvre",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0549",
     "question": "De quel animal le Sphinx de Gizeh en Egypte a-t-il le corps ?",
     "choices": [
-      "L’éléphant",
-      "La tortue",
       "Un lion",
-      "Le kangourou"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0576",
     "question": "De quel animal mange-t-on la poitrine en dégustant des rillons ?",
     "choices": [
-      "Le cheval",
-      "Le cochon",
       "Le porc",
-      "Le kangourou"
+      "Le bœuf",
+      "Le veau",
+      "Le mouton"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0507",
     "question": "De quel animal mangez-vous la poitrine en dégustant du bacon ?",
     "choices": [
-      "Le chien",
-      "Le hibou",
-      "Le lapin",
-      "Du porc"
+      "Le porc",
+      "Le bœuf",
+      "Le veau",
+      "Le mouton"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0491",
     "question": "De quel animal mangez-vous la viande en dégustant un chateaubriand ?",
     "choices": [
-      "La chèvre",
-      "La girafe",
-      "La tortue",
-      "Le boeuf"
+      "Le bœuf",
+      "Le porc",
+      "Le veau",
+      "Le mouton"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0547",
     "question": "De quel animal provient l'aloyau que vous sert votre boucher ?",
     "choices": [
-      "Le cheval",
-      "Le cochon",
-      "Le boeuf",
-      "La baleine"
+      "Le bœuf",
+      "Le porc",
+      "Le veau",
+      "Le mouton"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0553",
     "question": "En géométrie, combien de côtés possède un losange ?",
     "choices": [
+      "2",
+      "3",
       "4",
-      "1789",
-      "1914",
-      "1945"
+      "5"
     ],
-    "answer": 0,
+    "answer": 2,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0581",
     "question": "En géométrie, combien de côtés un trapèze compte-t-il ?",
     "choices": [
-      "0",
-      "1",
       "2",
-      "4"
+      "3",
+      "4",
+      "5"
     ],
-    "answer": 3,
+    "answer": 2,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0585",
     "question": "En géométrie, combien un hexagone a-t-il d'angles ?",
     "choices": [
+      "4",
+      "5",
       "6",
-      "10",
-      "12",
-      "15"
+      "7"
     ],
-    "answer": 0,
+    "answer": 2,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0544",
     "question": "En géométrie, par combien de points du cercle le diamètre passe-t-il ?",
     "choices": [
-      "1789",
-      "1914",
-      "1 000",
-      "2"
+      "0",
+      "1",
+      "2",
+      "3"
     ],
-    "answer": 3,
+    "answer": 2,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0508",
     "question": "En géométrie, quel nom porte 1 portion de cercle délimitée par deux points ?",
     "choices": [
-      "Gontran",
-      "Valmont",
-      "Camille",
-      "Arc"
+      "Arc",
+      "Une corde",
+      "Un secteur",
+      "Un segment"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0523",
     "question": "En quel animal Guillaume Canet se déguise-t-il dans \"Mon idole\" ?",
     "choices": [
-      "L’éléphant",
-      "Le chat",
-      "Le bœuf",
-      "En lapin"
+      "En lapin",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0562",
     "question": "En quel animal Zeus transforma-t-il sa maîtresse Io ?",
     "choices": [
-      "L’éléphant",
-      "Le perroquet",
-      "Le crocodile",
-      "En génisse"
+      "En génisse",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0545",
     "question": "Entre 4 et 44, combien de nombres entiers sont des multiples de 7 ?",
     "choices": [
+      "4",
+      "5",
       "6",
-      "1789",
-      "1914",
-      "1945"
+      "7"
     ],
-    "answer": 0,
+    "answer": 2,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0513",
     "question": "Entre 7 et 27, combien de nombres entiers sont des multiples de 6 ?",
     "choices": [
+      "1",
+      "2",
       "3",
-      "1 000",
-      "10",
-      "12"
+      "4"
     ],
-    "answer": 0,
+    "answer": 2,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -868,63 +868,63 @@
     "question": "Quand un agriculteur élève un pré-salé, de quel animal s'agit-il ?",
     "choices": [
       "Un mouton",
-      "Le renard",
-      "Le requin",
-      "L’éléphant"
+      "Le bœuf",
+      "Le porc",
+      "Le veau"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0574",
     "question": "Quel animal a inspiré le fameux bonnet qu'on mettait sur la tête des cancres ?",
     "choices": [
-      "L’éléphant",
-      "Le perroquet",
       "L'âne",
-      "Le crocodile"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0499",
     "question": "Quel animal africain a donné son nom à une pièce d'Eugène Ionesco ?",
     "choices": [
-      "Le chien",
-      "Le hibou",
-      "Le lapin",
-      "Le rhinocéros"
+      "Le rhinocéros",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0504",
     "question": "Quel animal andin de la famille des camélidés est élevé pour sa laine ?",
     "choices": [
-      "L’aigle",
-      "Le serpent",
-      "Le kangourou",
-      "Le lama"
+      "Le lama",
+      "La vache",
+      "La chèvre",
+      "La brebis"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -932,31 +932,31 @@
     "question": "Quel animal cornu est dit \"futé\" quand il conseille les automobilistes ?",
     "choices": [
       "Le bison (\"Bison Futé\")",
-      "L’aigle",
-      "Le serpent",
-      "Le kangourou"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0531",
     "question": "Quel animal domestique est le briard ?",
     "choices": [
-      "Le chien",
-      "Le hibou",
-      "Le lapin",
-      "Un chien"
+      "Un chien",
+      "Un chat",
+      "Un renard",
+      "Un lapin"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -964,15 +964,15 @@
     "question": "Quel animal enragé fait peur à Jean- Marie Bigard dans un de ses sketchs ?",
     "choices": [
       "Une chauve-souris",
-      "Le dauphin",
-      "Le chat",
-      "Le bœuf"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -980,31 +980,31 @@
     "question": "Quel animal est \"au poing\" dans le titre d'un roman d'Hervé Bazin ?",
     "choices": [
       "Une vipère",
-      "La chèvre",
-      "La girafe",
-      "La baleine"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0594",
     "question": "Quel animal est Azraël dans la bande dessinée \"Les Schtroumpfs\" ?",
     "choices": [
-      "Le manchot",
-      "Le dauphin",
       "Un chat",
-      "La tortue"
+      "Un chien",
+      "Un renard",
+      "Un lapin"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1012,255 +1012,255 @@
     "question": "Quel animal est Bouba dans le dessin animé japonais des années 1980 ?",
     "choices": [
       "Un ourson",
-      "Le chat",
-      "Le bœuf",
-      "La baleine"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0519",
     "question": "Quel animal est Croc-Blanc dans le roman de Jack London ?",
     "choices": [
-      "L’éléphant",
-      "Le chien",
-      "Le hibou",
-      "Un chien-loup"
+      "Un chien-loup",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0550",
     "question": "Quel animal est Franklin, le héros de dessin animé pour enfants ?",
     "choices": [
-      "La baleine",
-      "Le renard",
-      "Le requin",
-      "Une tortue"
+      "Une tortue",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0533",
     "question": "Quel animal est Gai-Luron, le personnage dessiné par Gotlib ?",
     "choices": [
-      "Le manchot",
-      "Le renard",
-      "Le requin",
-      "Un chien"
+      "Un chien",
+      "Un chat",
+      "Un renard",
+      "Un lapin"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0570",
     "question": "Quel animal est Gripsou, le milliardaire rival de Picsou ?",
     "choices": [
-      "L’aigle",
       "Un canard",
-      "Le dauphin",
-      "La chèvre"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0532",
     "question": "Quel animal est Gromit dans le dessin animé \"Wallace et Gromit\" ?",
     "choices": [
-      "La chèvre",
-      "La girafe",
-      "La tortue",
-      "Un chien"
+      "Un chien",
+      "Un chat",
+      "Un renard",
+      "Un lapin"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0536",
     "question": "Quel animal est la rascasse ?",
     "choices": [
-      "La tortue",
       "Un poisson",
-      "Le chien",
-      "Le hibou"
+      "Un crustacé",
+      "Un mollusque",
+      "Un amphibien"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0530",
     "question": "Quel animal est la tanche ?",
     "choices": [
-      "Le dauphin",
       "Un poisson",
-      "Le chat",
-      "Le bœuf"
+      "Un crustacé",
+      "Un mollusque",
+      "Un amphibien"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0512",
     "question": "Quel animal est le congre ?",
     "choices": [
-      "Le manchot",
-      "Le dauphin",
-      "Le kangourou",
-      "Un poisson"
+      "Un poisson",
+      "Un crustacé",
+      "Un mollusque",
+      "Un amphibien"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0541",
     "question": "Quel animal est le gibbon ?",
     "choices": [
-      "Le chien",
-      "Le hibou",
-      "Le lapin",
-      "Un singe"
+      "Un singe",
+      "Un lémurien",
+      "Un marsupial",
+      "Un félin"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0548",
     "question": "Quel animal est le macaque ?",
     "choices": [
-      "Le dauphin",
       "Un singe",
-      "Le perroquet",
-      "Le crocodile"
+      "Un lémurien",
+      "Un marsupial",
+      "Un félin"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0492",
     "question": "Quel animal est le mandrill ?",
     "choices": [
-      "Le chat",
-      "Le bœuf",
-      "Le lion",
-      "Un singe"
+      "Un singe",
+      "Un lémurien",
+      "Un marsupial",
+      "Un félin"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0554",
     "question": "Quel animal est le personnage de dessin animé Fievel ?",
     "choices": [
-      "Le cheval",
-      "Le manchot",
       "Une souris",
-      "Le dauphin"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0591",
     "question": "Quel animal est le prince Jean dans \"Robin des bois\" en 1974 ?",
     "choices": [
-      "Le dauphin",
       "Un lion",
-      "Le perroquet",
-      "Le crocodile"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0563",
     "question": "Quel animal est le sapajou ?",
     "choices": [
-      "Le manchot",
       "Un singe",
-      "La chèvre",
-      "La girafe"
+      "Un lémurien",
+      "Un marsupial",
+      "Un félin"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0590",
     "question": "Quel animal est miss Peggy dans le \"Muppet Show\" ?",
     "choices": [
-      "La tortue",
-      "L’éléphant",
-      "Une cochonne",
-      "Le chat"
+      "Un cochon",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1268,31 +1268,31 @@
     "question": "Quel animal est Pan-Pan dans \"Bambi\" ?",
     "choices": [
       "Un lapin",
-      "Le chat",
-      "Le bœuf",
-      "Le lion"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0543",
     "question": "Quel animal était autrefois appelé goupil ?",
     "choices": [
-      "Le dauphin",
-      "Le cheval",
       "Le renard",
-      "Le kangourou"
+      "Un chat",
+      "Un chien",
+      "Un lapin"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1300,63 +1300,63 @@
     "question": "Quel animal était François Mitterrand dans \"Le Bébête Show\" ?",
     "choices": [
       "Une grenouille",
-      "Le perroquet",
-      "Le renard",
-      "Le requin"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0497",
     "question": "Quel animal était Georges Marchais dans le \"Bébête Show\" ?",
     "choices": [
-      "Le chien",
-      "Le hibou",
-      "Le lapin",
-      "Un cochon"
+      "Un cochon",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0567",
     "question": "Quel animal était Jacques Chirac dans le \"Bébête Show\" ?",
     "choices": [
-      "Le dauphin",
       "Un aigle",
-      "La chèvre",
-      "La girafe"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0556",
     "question": "Quel animal était prénommé Sahara dans le \"Club Dorothée\" ?",
     "choices": [
-      "Le dauphin",
-      "Le serpent",
       "Un dromadaire",
-      "Le kangourou"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1364,79 +1364,79 @@
     "question": "Quel animal était Raymond Barre dans le \"Bébête Show\" ?",
     "choices": [
       "Un ours",
-      "La chèvre",
-      "Le perroquet",
-      "Le crocodile"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0593",
     "question": "Quel animal figure sur les pièces allemandes de 1 euro ?",
     "choices": [
-      "Le cheval",
-      "Le cochon",
-      "Le serpent",
-      "Un aigle"
+      "Un aigle",
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0546",
     "question": "Quel animal hennit ?",
     "choices": [
-      "Le chien",
-      "Le hibou",
       "Le cheval",
-      "Le manchot"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0509",
     "question": "Quel animal le Petit Prince apprivoise-t-il ?",
     "choices": [
-      "Le dauphin",
-      "Le serpent",
       "Le renard",
-      "La chèvre"
+      "Un chat",
+      "Un chien",
+      "Un lapin"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0526",
     "question": "Quel animal monstrueux était Cerbère dans la mythologie grecque ?",
     "choices": [
-      "Le cheval",
-      "Le cochon",
-      "Le serpent",
-      "Un chien"
+      "Un chien",
+      "Un chat",
+      "Un renard",
+      "Un lapin"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1444,31 +1444,31 @@
     "question": "Quel animal Panurge jette-t-il à l'eau dans l'oeuvre de François Rabelais ?",
     "choices": [
       "Un mouton",
-      "Le perroquet",
-      "Le chat",
-      "Le bœuf"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0551",
     "question": "Quel animal Pavlov a-t-il fait saliver pour élaborer sa fameuse théorie ?",
     "choices": [
-      "La baleine",
-      "La chèvre",
-      "La girafe",
-      "Un chien"
+      "Un chien",
+      "Un chat",
+      "Un renard",
+      "Un lapin"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1476,15 +1476,15 @@
     "question": "Quel animal peut-on avoir \"au plafond\" quand on a l'esprit dérangé ?",
     "choices": [
       "Une araignée",
-      "Le dauphin",
-      "Le renard",
-      "Le requin"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1492,175 +1492,175 @@
     "question": "Quel animal pond des oeufs d'or dans une fable de Jean de La Fontaine ?",
     "choices": [
       "La poule",
-      "La chèvre",
-      "La girafe",
-      "La baleine"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0505",
-    "question": "Quel animal porte un nom signifiant littéralement : \"cheval courbé\" ?",
+    "question": "Quel poisson marin se reconnaît à sa tête évoquant celle d’un cheval ?",
     "choices": [
-      "L'hippocampe",
-      "Le chat",
-      "La tortue",
-      "Le manchot"
+      "L’hippocampe",
+      "Le poisson-pipe",
+      "Le dragon de mer",
+      "Le poisson-trompette"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0568",
     "question": "Quel animal produit le lait dont on fait le livarot ?",
     "choices": [
-      "Le renard",
-      "Le requin",
       "La vache",
-      "La baleine"
+      "La chèvre",
+      "La brebis",
+      "La bufflonne"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0596",
     "question": "Quel nom d'animal désigne aussi un portemanteau ?",
     "choices": [
-      "Scotland Yard",
-      "Sherlock Holmes",
       "Le perroquet",
-      "Peter Parker"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0572",
-    "question": "Quel nom d'animal porte l'encadré où figure l'équipe d'un jounal ?",
+    "question": "Quel nom d'animal porte l'encadré où figure l'équipe d'un journal ?",
     "choices": [
-      "Peter Parker",
-      "Perceval",
       "L'ours",
-      "Central Perk"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0511",
     "question": "Quel nom porte un nombre qui n'est divisible que par 1 et lui-même ?",
     "choices": [
-      "La Méduse",
       "Nombre premier",
-      "Walter White",
-      "Arsène Lupin"
+      "Nombre entier",
+      "Nombre rationnel",
+      "Nombre composé"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0586",
     "question": "Quel organe du corps humain peut être atteint d'une otite ?",
     "choices": [
-      "La bouche",
-      "Le cerveau",
-      "Le poumon",
-      "L'oreille"
+      "L’oreille",
+      "Le nez",
+      "La gorge",
+      "L’œil"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0557",
     "question": "Quelle profession est concernée par le serment d'Hippocrate ?",
     "choices": [
-      "Vétérinaire",
-      "Journaliste",
-      "Cuisinier",
-      "Médecin"
+      "Médecin",
+      "Pharmacien",
+      "Avocat",
+      "Architecte"
     ],
-    "answer": 3,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0515",
     "question": "Qui est choisi par la Fée bleue pour devenir la conscience de Pinocchio ?",
     "choices": [
-      "David Bowie",
-      "Alfred Hitchcock",
       "Jiminy Criquet",
-      "Édith Piaf"
+      "Figaro",
+      "Grand Coquin",
+      "Gédéon"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0503",
     "question": "Selon Bigard, par quel animal a-t-on 1 chance sur 10 millions d'être mordu?",
     "choices": [
-      "Le cheval",
-      "Le kangourou",
       "Une chauve-souris",
-      "L’éléphant"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "archive-0514",
     "question": "Selon l'expression, comme quel animal arrive-t-on dans un jeu de quilles ?",
     "choices": [
-      "Le serpent",
       "Un chien",
-      "La chèvre",
-      "Le chien"
+      "Un chat",
+      "Un renard",
+      "Un lapin"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Sciences",
     "difficulty": "easy",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1668,15 +1668,15 @@
     "question": "Selon le proverbe, quel animal veut-on noyer en l'accusant d'avoir la rage ?",
     "choices": [
       "Son chien",
-      "Le chat",
-      "Le bœuf",
-      "Le lion"
+      "Un chat",
+      "Un renard",
+      "Un lapin"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "hard",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -1684,15 +1684,15 @@
     "question": "Selon le titre d'une nouvelle d'Alphonse Daudet, à quel animal est associé \"Monsieur Seguin\" ?",
     "choices": [
       "La chèvre",
-      "L’éléphant",
-      "L’aigle",
-      "Le kangourou"
+      "Un chat",
+      "Un chien",
+      "Un renard"
     ],
     "answer": 0,
     "category": "Sciences",
     "difficulty": "medium",
     "origin": "Le Grand Quiz - dB Animation",
-    "review": "stable-filtered",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   }
 ]

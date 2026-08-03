@@ -3,32 +3,32 @@
     "id": "modern-047",
     "question": "Dans Animal Crossing, quel animal est Tom Nook ?",
     "choices": [
-      "Un renard",
       "Un tanuki",
+      "Un renard",
       "Un chat",
       "Un hibou"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "modern-006",
     "question": "Dans Les Sims, comment s’appelle la monnaie ?",
     "choices": [
-      "Clochettes",
       "Simflouz",
+      "Clochettes",
       "Crédits",
       "Rubis"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -44,23 +44,23 @@
     "category": "Gaming",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "modern-004",
     "question": "Dans Minecraft, quel monstre vert explose près du joueur ?",
     "choices": [
-      "Zombie",
       "Creeper",
+      "Zombie",
       "Enderman",
       "Slime"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -76,7 +76,7 @@
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -92,7 +92,7 @@
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -108,7 +108,7 @@
     "category": "Gaming",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -124,7 +124,7 @@
     "category": "Gaming",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -140,39 +140,39 @@
     "category": "Gaming",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "modern-008",
     "question": "Dans quelle saga incarne-t-on souvent l’Assassin face aux Templiers ?",
     "choices": [
-      "Far Cry",
       "Assassin’s Creed",
+      "Far Cry",
       "Uncharted",
       "Watch Dogs"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "modern-001",
     "question": "Dans quelle saga trouve-t-on le royaume d’Hyrule ?",
     "choices": [
+      "The Legend of Zelda",
       "Final Fantasy",
       "Minecraft",
-      "The Legend of Zelda",
       "Pokémon"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Gaming",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -188,23 +188,23 @@
     "category": "Gaming",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "modern-003",
     "question": "Quel hérisson bleu est la mascotte de Sega ?",
     "choices": [
-      "Crash",
       "Sonic",
+      "Crash",
       "Spyro",
       "Rayman"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -220,7 +220,7 @@
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -236,7 +236,7 @@
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -252,55 +252,55 @@
     "category": "Gaming",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "modern-048",
     "question": "Quel personnage de Nintendo est le frère de Mario ?",
     "choices": [
-      "Wario",
       "Luigi",
+      "Wario",
       "Yoshi",
       "Toad"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Gaming",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "modern-009",
     "question": "Quel plombier moustachu porte généralement une casquette rouge ?",
     "choices": [
+      "Mario",
       "Luigi",
       "Wario",
-      "Mario",
       "Toad"
     ],
-    "answer": 2,
+    "answer": 0,
     "category": "Gaming",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "modern-002",
-    "question": "Quel studio a créé la série Mario ?",
+    "question": "Quelle entreprise est à l’origine de la série Mario ?",
     "choices": [
-      "Sega",
       "Nintendo",
+      "Sega",
       "Sony",
       "Capcom"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -316,7 +316,7 @@
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -332,39 +332,39 @@
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "modern-010",
     "question": "Quelle console portable de Nintendo possède deux écrans ?",
     "choices": [
-      "PSP",
       "Nintendo DS",
+      "PSP",
       "Game Gear",
       "Switch Lite"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
     "id": "modern-005",
     "question": "Quelle créature jaune accompagne Sacha dans Pokémon ?",
     "choices": [
-      "Kirby",
       "Pikachu",
+      "Kirby",
       "Sonic",
       "Yoshi"
     ],
-    "answer": 1,
+    "answer": 0,
     "category": "Gaming",
     "difficulty": "easy",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   },
   {
@@ -380,7 +380,7 @@
     "category": "Gaming",
     "difficulty": "medium",
     "origin": "Le Dernier Neurone",
-    "review": "editorial",
+    "review": "editorial-2026-08",
     "validation": "a_valider"
   }
 ]

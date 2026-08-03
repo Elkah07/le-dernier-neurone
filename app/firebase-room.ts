@@ -5,8 +5,8 @@ import { getAuth, signInAnonymously } from "firebase/auth";
 import { getDatabase, get, onValue, ref, runTransaction } from "firebase/database";
 import { allQuestions, qualificationQuestions, themeQuestions } from "./question-bank";
 
-export type Player = { id: string; name: string; color: string; ready: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number; joinedAt: string };
-export type Room = { id: string; code: string; status: string; phase: string; hostPlayerId: string; round: number; turnIndex: number; currentTheme: string | null; currentQuestionIndex: number; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: Player[]; answerKeys?: Record<string, boolean>; estimateSubmissions?: Record<string, number>; qualificationQuestionIds?: string[]; finalQuestionIds?: string[]; themeQuestionStarts?: Record<string, number> };
+export type Player = { id: string; name: string; color: string; ready: boolean; isAnimator?: boolean; isLocal?: boolean; score: number; qualificationAnswered: number; qualificationMs: number; estimate: number | null; categoryScore: number; categoryAnswered: number; finalScore: number; joinedAt: string };
+export type Room = { id: string; code: string; status: string; phase: string; hostPlayerId: string; animatorMode?: boolean; deviceMode?: "single" | "multiple"; round: number; turnIndex: number; currentTheme: string | null; currentQuestionIndex: number; phaseStartedAt: string | null; usedThemes: string[]; selectedCases: number[]; activeCase: number | null; activePlayerId: string | null; qualifiedIds: string[]; finalistIds: string[]; players: Player[]; pendingAnswer?: { playerId: string; text: string; phase: "category" | "final" } | null; answerKeys?: Record<string, boolean>; estimateSubmissions?: Record<string, number>; qualificationQuestionIds?: string[]; finalQuestionIds?: string[]; themeQuestionStarts?: Record<string, number> };
 
 const firebaseConfig = {
   apiKey: "AIzaSyBSSUy5ee9ntIK0-NGlGsnK4RAW31S8bxA",
@@ -37,6 +37,8 @@ function makeCode() {
 function makePlayer(name: string, color: string, ready = false): Player {
   return { id: crypto.randomUUID(), name: name.trim().slice(0, 12).toUpperCase(), color, ready, score: 0, qualificationAnswered: 0, qualificationMs: 0, estimate: null, categoryScore: 0, categoryAnswered: 0, finalScore: 0, joinedAt: new Date().toISOString() };
 }
+
+function competitors(room: Room) { return room.players.filter(player => !player.isAnimator); }
 
 function shuffledQuestionIds(count: number, excluded: string[] = []) {
   const excludedIds = new Set(excluded);
@@ -91,7 +93,8 @@ function normalize(room: Room): Room {
   room.answerKeys ||= {};
   room.estimateSubmissions ||= {};
   room.currentQuestionIndex ||= 0;
-  const ranked = [...room.players].sort((a,b) => b.score-a.score || a.qualificationMs-b.qualificationMs || a.joinedAt.localeCompare(b.joinedAt));
+  room.pendingAnswer ??= null;
+  const ranked = competitors(room).sort((a,b) => b.score-a.score || a.qualificationMs-b.qualificationMs || a.joinedAt.localeCompare(b.joinedAt));
   const qualified = ranked.slice(0, Math.min(3, ranked.length));
   const finalists = [...qualified].sort((a,b) => b.categoryScore-a.categoryScore || b.score-a.score || a.qualificationMs-b.qualificationMs).slice(0,2);
   room.qualifiedIds = qualified.map(p => p.id);
@@ -101,13 +104,14 @@ function normalize(room: Room): Room {
   return room;
 }
 
-export async function createRoom(name: string) {
+export async function createRoom(name: string, options: { animatorMode?: boolean; deviceMode?: "single" | "multiple" } = {}) {
   await ensureAuth();
   if (!name.trim()) throw new Error("Pseudo obligatoire");
   for (let attempt=0; attempt<8; attempt++) {
     const code=makeCode(); const player=makePlayer(name,"#8b5cf6",true);
+    player.isAnimator=Boolean(options.animatorMode);
     const qualificationQuestionIds = shuffledQuestionIds(20);
-    const room: Room = normalize({ id: crypto.randomUUID(), code, status:"lobby", phase:"lobby", hostPlayerId:player.id, round:1, turnIndex:0, currentTheme:null, currentQuestionIndex:0, phaseStartedAt:null, usedThemes:[], selectedCases:[], activeCase:null, activePlayerId:null, qualifiedIds:[], finalistIds:[], players:[player], answerKeys:{}, estimateSubmissions:{}, qualificationQuestionIds, finalQuestionIds:shuffledQuestionIds(12, qualificationQuestionIds), themeQuestionStarts:randomThemeStarts() });
+    const room: Room = normalize({ id: crypto.randomUUID(), code, status:"lobby", phase:"lobby", hostPlayerId:player.id, animatorMode:Boolean(options.animatorMode), deviceMode:options.deviceMode || "multiple", round:1, turnIndex:0, currentTheme:null, currentQuestionIndex:0, phaseStartedAt:null, usedThemes:[], selectedCases:[], activeCase:null, activePlayerId:null, qualifiedIds:[], finalistIds:[], players:[player], pendingAnswer:null, answerKeys:{}, estimateSubmissions:{}, qualificationQuestionIds, finalQuestionIds:shuffledQuestionIds(12, qualificationQuestionIds), themeQuestionStarts:randomThemeStarts() });
     const result=await runTransaction(ref(database,`rooms/${code}`), current => current === null ? room : undefined, { applyLocally:false });
     if (result.committed) return { room, playerId:player.id };
   }
@@ -157,7 +161,7 @@ export async function subscribeRoom(code: string, callback: (room: Room | null) 
   return onValue(ref(database,`rooms/${code.trim().toUpperCase()}`), snapshot => callback(snapshot.exists()?normalize(snapshot.val() as Room):null));
 }
 
-type Payload = { questionIndex?:number; answerIndex?:number; elapsedMs?:number; estimate?:number; theme?:string; caseIndex?:number; targetPlayerId?:string };
+type Payload = { questionIndex?:number; answerIndex?:number; answerText?:string; correct?:boolean; elapsedMs?:number; estimate?:number; theme?:string; caseIndex?:number; targetPlayerId?:string; name?:string };
 
 export async function roomAction(code: string, playerId: string, action: string, payload: Payload = {}) {
   await ensureAuth(); let failure="";
@@ -167,21 +171,28 @@ export async function roomAction(code: string, playerId: string, action: string,
     if (!player) { failure="Joueur introuvable"; return; }
     const fail=(message:string)=>{ failure=message; return undefined; };
     if (action==="ready") player.ready=!player.ready;
+    else if(action==="add-local-player") {
+      if(room.hostPlayerId!==player.id || !room.animatorMode || room.deviceMode!=="single") return fail("Action réservée à l’animateur sur un seul téléphone");
+      const name=(payload.name||"").trim(); if(!name) return fail("Prénom obligatoire"); if(competitors(room).length>=12) return fail("Le salon est complet");
+      const local=makePlayer(name,["#22d3ee","#f97316","#ec4899","#84cc16"][competitors(room).length%4],true); local.isLocal=true; room.players.push(local);
+    }
     else if (action==="start") {
       if (room.hostPlayerId!==player.id) return fail("Seul l’hôte peut lancer");
-      if (room.players.length<2) return fail("Il faut au moins 2 joueurs");
-      if (room.players.some(p=>!p.ready)) return fail("Tous les joueurs ne sont pas prêts");
+      if (competitors(room).length<2) return fail("Il faut au moins 2 candidats");
+      if (competitors(room).some(p=>!p.ready)) return fail("Tous les candidats ne sont pas prêts");
       Object.assign(room,{status:"playing",phase:"qualification",turnIndex:0,round:1,usedThemes:[],selectedCases:[],activeCase:null,answerKeys:{},estimateSubmissions:{},phaseStartedAt:new Date().toISOString()});
-      room.players.forEach(p=>Object.assign(p,{score:0,qualificationAnswered:0,qualificationMs:0,estimate:null,categoryScore:0,categoryAnswered:0,finalScore:0}));
+      room.players.forEach(p=>Object.assign(p,{score:0,qualificationAnswered:0,qualificationMs:0,estimate:null,categoryScore:0,categoryAnswered:0,finalScore:0})); room.pendingAnswer=null;
     } else if (action==="qualification-answer") {
-      const i=payload.questionIndex??-1; if(room.phase!=="qualification") return fail("Les qualifications sont terminées");
-      if(i!==player.qualificationAnswered||i<0||i>=20) return fail("Réponse déjà reçue ou question invalide");
-      player.qualificationAnswered++; player.qualificationMs+=Math.max(0,payload.elapsedMs||0); if(payload.answerIndex===roomQualificationQuestion(room,i).answer) player.score++;
-      if(room.players.length > 0 && room.players.every(p=>p.qualificationAnswered>=20)) { room.phase="estimate"; room.phaseStartedAt=new Date().toISOString(); }
+      const answering=payload.targetPlayerId && room.animatorMode && room.hostPlayerId===player.id ? room.players.find(p=>p.id===payload.targetPlayerId && p.isLocal) : player;
+      if(!answering || answering.isAnimator) return fail("Candidat invalide"); const i=payload.questionIndex??-1; if(room.phase!=="qualification") return fail("Les qualifications sont terminées");
+      if(i!==answering.qualificationAnswered||i<0||i>=20) return fail("Réponse déjà reçue ou question invalide");
+      answering.qualificationAnswered++; answering.qualificationMs+=Math.max(0,payload.elapsedMs||0); if(payload.answerIndex===roomQualificationQuestion(room,i).answer) answering.score++;
+      if(competitors(room).length > 0 && competitors(room).every(p=>p.qualificationAnswered>=20)) { room.phase="estimate"; room.phaseStartedAt=new Date().toISOString(); }
     } else if(action==="estimate") {
-      if(room.phase!=="estimate"||!room.qualifiedIds.includes(player.id)) return fail("Estimation indisponible");
-      player.estimate=Math.max(0,Math.round(payload.estimate||0));
-      room.estimateSubmissions![player.id]=player.estimate;
+      const estimating=payload.targetPlayerId && room.animatorMode && room.hostPlayerId===player.id ? room.players.find(p=>p.id===payload.targetPlayerId && p.isLocal) : player;
+      if(!estimating||room.phase!=="estimate"||!room.qualifiedIds.includes(estimating.id)) return fail("Estimation indisponible");
+      estimating.estimate=Math.max(0,Math.round(payload.estimate||0));
+      room.estimateSubmissions![estimating.id]=estimating.estimate;
       const qualified=room.players.filter(p=>room.qualifiedIds.includes(p.id));
       if(qualified.every(p=>Object.prototype.hasOwnProperty.call(room.estimateSubmissions,p.id))){ const ordered=[...qualified].sort((a,b)=>Math.abs(room.estimateSubmissions![a.id]-384400)-Math.abs(room.estimateSubmissions![b.id]-384400)); room.phase="category-select"; room.turnIndex=room.qualifiedIds.indexOf(ordered[0].id); room.phaseStartedAt=new Date().toISOString(); }
     } else if(action==="sync-estimate") {
@@ -190,28 +201,36 @@ export async function roomAction(code: string, playerId: string, action: string,
       for(const candidate of qualified) if(candidate.estimate!==null && candidate.estimate!==undefined) room.estimateSubmissions![candidate.id]=candidate.estimate;
       if(qualified.length>0 && qualified.every(candidate=>Object.prototype.hasOwnProperty.call(room.estimateSubmissions,candidate.id))){ const ordered=[...qualified].sort((a,b)=>Math.abs(room.estimateSubmissions![a.id]-384400)-Math.abs(room.estimateSubmissions![b.id]-384400)); room.phase="category-select"; room.turnIndex=room.qualifiedIds.indexOf(ordered[0].id); room.phaseStartedAt=new Date().toISOString(); }
     } else if(action==="choose-theme") {
-      if(room.phase!=="category-select"||room.activePlayerId!==player.id||!payload.theme||!themeQuestions[payload.theme]?.length||room.usedThemes.includes(payload.theme)) return fail("Ce thème ne peut pas être choisi");
+      if(room.phase!=="category-select"||(!room.animatorMode&&room.activePlayerId!==player.id)||(room.animatorMode&&room.hostPlayerId!==player.id)||!payload.theme||!themeQuestions[payload.theme]?.length||room.usedThemes.includes(payload.theme)) return fail("Ce thème ne peut pas être choisi");
       room.phase="category-playing"; room.currentTheme=payload.theme; room.currentQuestionIndex=0; room.usedThemes.push(payload.theme); room.phaseStartedAt=new Date().toISOString();
     } else if(action==="category-answer") {
-      if(room.phase!=="category-playing"||room.activePlayerId!==player.id||!room.currentTheme) return fail("Ce n’est pas ton tour");
-      const i=payload.questionIndex??-1; const key=`category:${room.turnIndex}:${player.id}:${i}`; const question=roomThemeQuestion(room,room.currentTheme,i);
-      if(i!==room.currentQuestionIndex||i<0||!question) return fail("Question invalide"); if(room.answerKeys![key]) return fail("Réponse déjà reçue"); room.answerKeys![key]=true;
-      player.categoryAnswered++; if(payload.answerIndex===question.answer) player.categoryScore++; room.currentQuestionIndex++;
+      const answering=payload.targetPlayerId && room.animatorMode && room.hostPlayerId===player.id ? room.players.find(p=>p.id===payload.targetPlayerId && p.isLocal) : player;
+      if(!answering||room.phase!=="category-playing"||room.activePlayerId!==answering.id||!room.currentTheme) return fail("Ce n’est pas ton tour");
+      const i=payload.questionIndex??-1; const key=`category:${room.turnIndex}:${answering.id}:${i}`; const question=roomThemeQuestion(room,room.currentTheme,i);
+      if(i!==room.currentQuestionIndex||i<0||!question) return fail("Question invalide"); if(room.answerKeys![key]||room.pendingAnswer) return fail("Réponse déjà reçue");
+      if(room.animatorMode) room.pendingAnswer={playerId:answering.id,text:(payload.answerText||"").trim(),phase:"category"};
+      else { const clean=(text:string)=>text.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,""); room.answerKeys![key]=true; answering.categoryAnswered++; if(clean(payload.answerText||"")===clean(question.choices[question.answer])) answering.categoryScore++; room.currentQuestionIndex++; }
+    } else if(action==="answer-verdict") {
+      if(!room.animatorMode||room.hostPlayerId!==player.id||!room.pendingAnswer) return fail("Aucune réponse à valider"); const answering=room.players.find(p=>p.id===room.pendingAnswer!.playerId); if(!answering) return fail("Candidat introuvable");
+      if(room.pendingAnswer.phase==="category") { const key=`category:${room.turnIndex}:${answering.id}:${room.currentQuestionIndex}`; room.answerKeys![key]=true; answering.categoryAnswered++; if(payload.correct) answering.categoryScore++; room.currentQuestionIndex++; }
+      else { const points=room.activeCase!%4===0?3:room.activeCase!%3===0?2:1; if(payload.correct) answering.finalScore+=points; room.turnIndex++; room.activeCase=null; if(room.turnIndex>=12){room.phase="finished";room.status="finished";}else room.phase="final-pick"; }
+      room.pendingAnswer=null; room.phaseStartedAt=new Date().toISOString();
     } else if(action==="category-pass") {
-      if(room.phase!=="category-playing"||room.activePlayerId!==player.id||!room.currentTheme) return fail("Ce n’est pas ton tour");
+      if(room.phase!=="category-playing"||(!room.animatorMode&&room.activePlayerId!==player.id)||(room.animatorMode&&room.hostPlayerId!==player.id)||!room.currentTheme) return fail("Ce n’est pas ton tour");
       if(room.currentQuestionIndex>=themeQuestions[room.currentTheme].length) return fail("Toutes les questions ont été jouées"); room.currentQuestionIndex++;
     } else if(action==="end-category") {
-      if(room.phase!=="category-playing"||room.activePlayerId!==player.id) return fail("Ce n’est pas ton tour");
+      if(room.phase!=="category-playing"||(!room.animatorMode&&room.activePlayerId!==player.id)||(room.animatorMode&&room.hostPlayerId!==player.id)) return fail("Ce n’est pas ton tour");
       const next=room.turnIndex+1,total=room.qualifiedIds.length*2; room.turnIndex=next; room.currentTheme=null; room.currentQuestionIndex=0; room.phaseStartedAt=new Date().toISOString();
       if(next>=total){room.phase="final-intro";room.turnIndex=0;room.round=1;}else{room.phase="category-select";room.round=Math.floor(next/room.qualifiedIds.length)+1;}
     } else if(action==="start-final") {
-      if(room.phase!=="final-intro"||!room.finalistIds.includes(player.id)) return fail("Finale indisponible"); room.phase="final-pick";room.turnIndex=0;room.phaseStartedAt=new Date().toISOString();
+      if(room.phase!=="final-intro"||(!room.animatorMode&&!room.finalistIds.includes(player.id))||(room.animatorMode&&room.hostPlayerId!==player.id)) return fail("Finale indisponible"); room.phase="final-pick";room.turnIndex=0;room.phaseStartedAt=new Date().toISOString();
     } else if(action==="choose-case") {
-      const i=payload.caseIndex??-1;if(room.phase!=="final-pick"||room.activePlayerId!==player.id||i<0||i>=16||room.selectedCases.includes(i)) return fail("Cette case n’est pas disponible");room.phase="final-answer";room.activeCase=i;room.selectedCases.push(i);room.phaseStartedAt=new Date().toISOString();
+      const i=payload.caseIndex??-1;if(room.phase!=="final-pick"||(!room.animatorMode&&room.activePlayerId!==player.id)||(room.animatorMode&&room.hostPlayerId!==player.id)||i<0||i>=16||room.selectedCases.includes(i)) return fail("Cette case n’est pas disponible");room.phase="final-answer";room.activeCase=i;room.selectedCases.push(i);room.phaseStartedAt=new Date().toISOString();
     } else if(action==="final-answer") {
-      if(room.phase!=="final-answer"||room.activePlayerId!==player.id||room.activeCase===null) return fail("Ce n’est pas ton tour");
-      const i=room.turnIndex%12,points=room.activeCase%4===0?3:room.activeCase%3===0?2:1;if(payload.answerIndex===roomFinalQuestion(room,i).answer)player.finalScore+=points;
-      room.turnIndex++;room.activeCase=null;room.phaseStartedAt=new Date().toISOString();if(room.turnIndex>=12){room.phase="finished";room.status="finished";}else room.phase="final-pick";
+      const answering=payload.targetPlayerId && room.animatorMode && room.hostPlayerId===player.id ? room.players.find(p=>p.id===payload.targetPlayerId && p.isLocal) : player;
+      if(!answering||room.phase!=="final-answer"||room.activePlayerId!==answering.id||room.activeCase===null) return fail("Ce n’est pas ton tour");
+      if(room.animatorMode) { if(room.pendingAnswer) return fail("Réponse déjà reçue"); room.pendingAnswer={playerId:answering.id,text:(payload.answerText||"").trim(),phase:"final"}; }
+      else { const expected=roomFinalQuestion(room,room.turnIndex%12).choices[roomFinalQuestion(room,room.turnIndex%12).answer]; const clean=(text:string)=>text.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,""); const points=room.activeCase%4===0?3:room.activeCase%3===0?2:1;if(clean(payload.answerText||"")===clean(expected))player.finalScore+=points; room.turnIndex++;room.activeCase=null;room.phaseStartedAt=new Date().toISOString();if(room.turnIndex>=12){room.phase="finished";room.status="finished";}else room.phase="final-pick"; }
     } else if(action==="kick") {
       if(room.hostPlayerId!==player.id) return fail("Seul l’hôte peut exclure un joueur");
       if(!payload.targetPlayerId || payload.targetPlayerId===player.id) return fail("Joueur invalide");

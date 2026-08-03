@@ -104,6 +104,10 @@ export default function Game() {
   const [playerId, setPlayerId] = useState("");
   const [roomError, setRoomError] = useState("");
   const [roomLoading, setRoomLoading] = useState(false);
+  const [animatorMode, setAnimatorMode] = useState(false);
+  const [deviceMode, setDeviceMode] = useState<"single" | "multiple">("multiple");
+  const [localPlayerName, setLocalPlayerName] = useState("");
+  const [openSoloAnswer, setOpenSoloAnswer] = useState("");
   const [auditCategory, setAuditCategory] = useState("Tous les thèmes");
   const [auditIndex, setAuditIndex] = useState(0);
   const [reportReason, setReportReason] = useState("Mauvaises réponses incohérentes");
@@ -175,10 +179,11 @@ export default function Game() {
     URL.revokeObjectURL(url);
   }
 
-  async function roomAction(action: "create" | "join" | "ready" | "start" | "leave" | "kick", targetPlayerId?: string) {
+  async function roomAction(action: "create" | "join" | "ready" | "start" | "leave" | "kick" | "add-local-player", targetPlayerId?: string) {
     setRoomLoading(true); setRoomError("");
     try {
-      const data = action === "create" ? await createRoom(name) : action === "join" ? await joinRoom(roomCode,name) : { room: await updateRoom(room!.code,playerId,action,{targetPlayerId}), playerId };
+      const data = action === "create" ? await createRoom(name,{animatorMode,deviceMode}) : action === "join" ? await joinRoom(roomCode,name) : { room: await updateRoom(room!.code,playerId,action,action === "add-local-player" ? {name:localPlayerName} : {targetPlayerId}), playerId };
+      if(action === "add-local-player") setLocalPlayerName("");
       if (action === "leave") {
         window.localStorage.removeItem("ldn-room-code"); window.localStorage.removeItem("ldn-player-id");
         setRoom(null); setPlayerId(""); setRoomCode(""); reset(); setScreen("home");
@@ -216,6 +221,12 @@ export default function Game() {
     }
     next();
   }
+  function normalizeAnswer(value:string){return value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"")}
+  function answerOpenSolo() {
+    if(!current||!openSoloAnswer.trim())return;
+    if(normalizeAnswer(openSoloAnswer)===normalizeAnswer(current.choices[current.answer])) setSpeedScore(v=>v+1);
+    setOpenSoloAnswer(""); next();
+  }
   function chooseTheme(value: string) {
     setTheme(value); setUsed(v => [...v, value]); setIndex(0); setSpeedScore(0); setTime(90); setScreen("speed");
   }
@@ -236,6 +247,12 @@ export default function Game() {
     const turn = finalTurn + 1;
     setFinalTurn(turn);
     if (turn === 12) setTimeout(() => setScreen("victory"), 250);
+  }
+  function answerFinalOpen() {
+    if(finalTurn%2!==0||!openSoloAnswer.trim())return;
+    const q=questions[(19-finalTurn)%20]; const points=(activeCase??1)%4===0?3:(activeCase??1)%3===0?2:1;
+    if(normalizeAnswer(openSoloAnswer)===normalizeAnswer(q.choices[q.answer]))setFinalScore(v=>v+points);
+    setOpenSoloAnswer("");setActiveCase(null);const turn=finalTurn+1;setFinalTurn(turn);if(turn===12)setTimeout(()=>setScreen("victory"),250);
   }
 
   return <main className={`game ${screen === "home" ? "is-home" : ""}`}>
@@ -271,6 +288,7 @@ export default function Game() {
       <p className="eyebrow">{screen === "createRoom" ? "NOUVEAU SALON" : "REJOINDRE"}</p>
       <h1>{screen === "createRoom" ? "Crée ton pupitre" : "Entre dans l’arène"}</h1>
       <label>TON PSEUDO<input value={name} maxLength={12} onChange={e => setName(e.target.value.toUpperCase())} /></label>
+      {screen === "createRoom" && <div className="room-options"><label className="toggle-row"><input type="checkbox" checked={animatorMode} onChange={event=>setAnimatorMode(event.target.checked)}/><span><b>MODE ANIMATEUR</b><small>Tu pilotes la partie sans participer au classement.</small></span></label>{animatorMode&&<div className="device-choice"><button type="button" className={deviceMode==="multiple"?"selected":""} onClick={()=>setDeviceMode("multiple")}><b>PLUSIEURS TÉLÉPHONES</b><small>Les candidats rejoignent avec le code.</small></button><button type="button" className={deviceMode==="single"?"selected":""} onClick={()=>setDeviceMode("single")}><b>UN SEUL TÉLÉPHONE</b><small>Tu ajoutes les candidats et fais circuler l’appareil.</small></button></div>}</div>}
       {screen === "joinRoom" && <label>CODE DE LA PARTIE<input className="code-input" value={roomCode} inputMode="text" autoCapitalize="characters" placeholder="ABC123" onChange={e => setRoomCode(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g,"").slice(0,6))} /></label>}
       {roomError && <div className="room-error">{roomError}</div>}
       <button className="primary" disabled={roomLoading || !name.trim() || (screen === "joinRoom" && roomCode.length !== 6)} onClick={() => roomAction(screen === "createRoom" ? "create" : "join")}>{roomLoading ? "CONNEXION…" : screen === "createRoom" ? "CRÉER LE SALON" : "REJOINDRE LE SALON"}</button>
@@ -281,13 +299,15 @@ export default function Game() {
       <p className="eyebrow">SALON PRIVÉ</p><h1>Prêts à jouer ?</h1>
       <div className="room-code"><small>CODE À PARTAGER</small><b>{room.code}</b><button onClick={() => navigator.clipboard?.writeText(room.code)}>COPIER</button></div>
       <div className="lobby-count"><span>{room.players.length}/12 joueurs</span><small>Minimum 2 pour commencer</small></div>
+      {room.animatorMode&&<div className="animator-badge">🎙️ {room.deviceMode==="single"?"ANIMATEUR · UN TÉLÉPHONE":"ANIMATEUR · PLUSIEURS TÉLÉPHONES"}</div>}
       <div className="players-list">{room.players.map((player) => <div key={player.id} className={player.ready ? "ready" : ""}>
         <span className="player-avatar" style={{background:player.color}}>{player.name[0]}</span><b>{player.name}{player.id === room.hostPlayerId && <small> HÔTE</small>}</b><em>{player.ready ? "PRÊT ✓" : "EN ATTENTE"}</em>
         {playerId === room.hostPlayerId && player.id !== playerId && <button className="kick-player" disabled={roomLoading} onClick={() => roomAction("kick", player.id)}>VIRER</button>}
       </div>)}</div>
+      {playerId===room.hostPlayerId&&room.animatorMode&&room.deviceMode==="single"&&<div className="local-player-form"><input value={localPlayerName} maxLength={12} placeholder="PRÉNOM DU CANDIDAT" onChange={event=>setLocalPlayerName(event.target.value.toUpperCase())}/><button disabled={!localPlayerName.trim()||roomLoading} onClick={()=>roomAction("add-local-player")}>AJOUTER</button></div>}
       {roomError && <div className="room-error">{roomError}</div>}
       {playerId === room.hostPlayerId
-        ? <button className="primary" disabled={roomLoading || room.players.length < 2 || room.players.some(p => !p.ready)} onClick={() => roomAction("start")}>LANCER LA PARTIE</button>
+        ? <button className="primary" disabled={roomLoading || room.players.filter(p=>!p.isAnimator).length < 2 || room.players.filter(p=>!p.isAnimator).some(p => !p.ready)} onClick={() => roomAction("start")}>LANCER LA PARTIE</button>
         : <button className={room.players.find(p => p.id === playerId)?.ready ? "secondary ready-button" : "primary"} disabled={roomLoading} onClick={() => roomAction("ready")}>{room.players.find(p => p.id === playerId)?.ready ? "JE NE SUIS PLUS PRÊT" : "JE SUIS PRÊT"}</button>}
       <p className="waiting-note">{playerId === room.hostPlayerId ? "Le bouton s’active lorsque tout le monde est prêt." : "La partie démarrera automatiquement quand l’hôte la lancera."}</p>
       <button className="leave-room" disabled={roomLoading} onClick={() => roomAction("leave")}>{playerId === room.hostPlayerId ? "FERMER LE SALON" : "QUITTER LE SALON"}</button>
@@ -336,7 +356,7 @@ export default function Game() {
 
     {screen === "speed" && <section className="quiz">
       <div className="round"><span>{theme.toUpperCase()}</span><b>TOUR {round}/2</b></div><div className="clock">{time}<small>SEC</small></div>
-      <div className="question speed"><h2>{current.q}</h2><Answers question={current} onAnswer={answer} /><button className="pass" onClick={next}>PASSER ↗</button></div>
+      <div className="question speed"><small>RÉPONSE OUVERTE</small><h2>{current.q}</h2><div className="open-answer"><input value={openSoloAnswer} placeholder="TA RÉPONSE" onChange={event=>setOpenSoloAnswer(event.target.value)} onKeyDown={event=>{if(event.key==="Enter")answerOpenSolo()}}/><button className="primary" disabled={!openSoloAnswer.trim()} onClick={answerOpenSolo}>VALIDER</button></div><button className="pass" onClick={()=>{setOpenSoloAnswer("");next()}}>PASSER ↗</button></div>
       <div className="live"><b>{speedScore}</b><span>bonnes réponses</span></div>
     </section>}
 
@@ -362,7 +382,7 @@ export default function Game() {
         <button disabled={cases.includes(i) || finalTurn % 2 !== 0} className={`${i%4===0?"mystery":""} ${cases.includes(i)?"taken":""}`} key={i} onClick={() => chooseCase(i)}>{cases.includes(i)?<><b>PRISE</b><small>INDISPONIBLE</small></>:i%4===0?"?":<><span>{["🎬","🌍","♫","🎮","🍴","✦"][i%6]}</span><small>{i%3===0?"2 PTS":"1 PT"}</small></>}</button>)}</div>
       : aiPicking
         ? <div className="question final-question ai-choice"><small>CASE CHOISIE PAR NOA</small><div className="ai-case">{activeCase%4===0?"?":"✦"}</div><h2>Noa répond à sa question…</h2><p>Cette case est maintenant retirée de la grille.</p></div>
-        : <div className="question final-question"><small>{activeCase%4===0?"CASE MYSTÈRE · 3 POINTS":"QUESTION FINALE"}</small><h2>{questions[(19-finalTurn)%20].q}</h2><Answers question={questions[(19-finalTurn)%20]} onAnswer={answerFinal} /></div>}
+        : <div className="question final-question"><small>{activeCase%4===0?"CASE MYSTÈRE · 3 POINTS":"QUESTION FINALE"}</small><h2>{questions[(19-finalTurn)%20].q}</h2><div className="open-answer"><input value={openSoloAnswer} placeholder="TA RÉPONSE" onChange={event=>setOpenSoloAnswer(event.target.value)} onKeyDown={event=>{if(event.key==="Enter")answerFinalOpen()}}/><button className="primary" disabled={!openSoloAnswer.trim()} onClick={answerFinalOpen}>VALIDER</button></div></div>}
     </section>}
 
     {screen === "victory" && <section className="ceremony">
